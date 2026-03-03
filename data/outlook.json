@@ -1,0 +1,46 @@
+{
+  "short": {
+    "period": "24-48 Hour",
+    "threat_level": 5,
+    "trend": "escalating",
+    "assessment": "Active conflict Day 4. US-Iran war ongoing with no ceasefire framework. Trump has stated 'the big wave hasn't even happened' — further escalation expected. UAE air defenses performing at ~95% intercept rate but consuming ~43 ballistic missiles/day. UAE and Qatar have requested emergency US interceptor resupply; reports of US 'stonewalling' these requests. Hormuz declared closed by IRGC. Next 48 hours: additional Iranian missile salvos almost certain; possible escalation to desalination/power grid targeting.",
+    "key_drivers": [
+      "Trump 'big wave' statement signals imminent US escalation",
+      "UAE interceptor depletion window: ~7-10 days at current rate",
+      "Hezbollah second front active — Israel ground invasion authorized",
+      "Hormuz closed — war-risk insurance expires Mar 5",
+      "No ceasefire framework; Oman/Turkey mediation nascent"
+    ],
+    "last_updated": "2026-03-03T18:00:00Z"
+  },
+  "medium": {
+    "period": "7-Day",
+    "threat_level": 5,
+    "trend": "escalating",
+    "assessment": "Assessment period through approximately March 10. Conflict expected to intensify per US statements. Critical variable: UAE interceptor depletion (Bloomberg assessment: ~1 week at current rate). If THAAD/PAC-3 stocks exhaust without resupply, intercept rate degrades from 95% to ~80%, increasing civilian casualty rate ~4x. Houthis expected to resume Red Sea operations. Proxy escalation (Hezbollah/Houthis/Iraqi militias) likely to widen theater. Earliest realistic ceasefire window is Nowruz (Mar 20). Gulf co-belligerency decision point: if attacks continue, UAE/Saudi may join offensive operations.",
+    "key_drivers": [
+      "Interceptor depletion critical window Mar 7-10",
+      "War-risk insurance expiry Mar 5 — Hormuz permanently commercial-closed",
+      "IAEA Board session ends Mar 7 — nuclear safety conclusions",
+      "Houthi Red Sea resumption likely within 7-14 days",
+      "Gulf co-belligerency decision approaching if attacks continue",
+      "Possible Iran escalation to desalination/power grid targeting"
+    ],
+    "last_updated": "2026-03-03T18:00:00Z"
+  },
+  "long": {
+    "period": "30-Day",
+    "threat_level": 4,
+    "trend": "stable",
+    "assessment": "30-day outlook (through early April) depends heavily on whether ceasefire framework emerges around Nowruz (March 20). Best-case: Nowruz provides face-saving off-ramp; Iranian Supreme Leadership succession stabilizes; conflict winds down to LOW-MODERATE. Worst-case: Interceptors depleted, Gulf states join offensive, Iran escalates to civilian infrastructure (desalination, power grid), new Supreme Leader adopts hardline posture. New Supreme Leader likely named by early April — determines Iran's long-term war/peace posture. Brent crude projected $100+/bbl sustained. Conflict duration per US estimate: 4-5 weeks total.",
+    "key_drivers": [
+      "Nowruz Mar 20 — best realistic ceasefire window",
+      "New Supreme Leader appointment (early April) — war/peace posture determinant",
+      "US resupply decision for Gulf air defense — critical variable",
+      "Iran interceptor production/import capacity",
+      "Hezbollah second front trajectory — Lebanon ground war escalation risk",
+      "Domestic stability in Iran post-Khamenei succession crisis"
+    ],
+    "last_updated": "2026-03-03T18:00:00Z"
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "indicator": "Airspace Closure / NOTAM Activity",
+    "status": "MET",
+    "time_met": "2026-02-28T00:00:00Z",
+    "notes": "UAE, Qatar, Bahrain, Kuwait FIRs severely disrupted. DXB <20% capacity; 12,000+ flights cancelled. Only Oman Muscat FIR remains open in Gulf. Multiple NOTAMs active across region.",
+    "last_updated": "2026-03-03T18:00:00Z"
+  },
+  {
+    "id": 2,
+    "indicator": "Land Border Closures (2+ simultaneous)",
+    "status": "MET",
+    "time_met": "2026-02-28T00:00:00Z",
+    "notes": "Multiple Iran land borders closed/restricted. Saudi-Yemen crossings closed (conflict). Saudi-Iraq restricted (militia activity). UAE-Saudi route active but NOT RECOMMENDED due to Eastern Province strikes.",
+    "last_updated": "2026-03-03T18:00:00Z"
+  },
+  {
+    "id": 3,
+    "indicator": "Strait of Hormuz Full Closure",
+    "status": "MET",
+    "time_met": "2026-03-02T00:00:00Z",
+    "notes": "IRGC declared Strait 'closed' Mar 2. Near-zero commercial maritime traffic. Indiscriminate area denial ops in Gulf of Oman. Tanker struck off Musandam (4 injured). 20% of global oil supply blocked. War-risk insurance expires Mar 5 — commercial shipping impossible after.",
+    "last_updated": "2026-03-03T18:00:00Z"
+  },
+  {
+    "id": 4,
+    "indicator": "BM Stockpile Depletion Risk",
+    "status": "WATCH",
+    "time_met": null,
+    "notes": "Bloomberg (Mar 2): UAE projected to exhaust interceptors within ~1 week at current rate. UAE officially denies. US reportedly stonewalling resupply requests. PAC-3 ~$4M/interceptor; THAAD ~$12M/interceptor. Critical window: Mar 7-10. See BM Tracker section for daily stats.",
+    "last_updated": "2026-03-03T18:00:00Z"
+  },
+  {
+    "id": 5,
+    "indicator": "Proxy Escalation (Lebanon/Yemen/Iraq)",
+    "status": "MET",
+    "time_met": "2026-03-02T00:00:00Z",
+    "notes": "Hezbollah opened second front vs Israel Mar 2; Israel ground invasion of Lebanon authorized. Houthis signaled Red Sea attack resumption (not yet executed). Iraqi Shia militias active; 6 US service members KIA in Kuwait. Multi-front theater expanding.",
+    "last_updated": "2026-03-03T18:00:00Z"
+  },
+  {
+    "id": 6,
+    "indicator": "Nuclear Program Escalation (IAEA)",
+    "status": "WATCH",
+    "time_met": null,
+    "notes": "IAEA Board session ongoing through Mar 7. Active conflict complicates monitoring access. Barakah reactor (UAE) flagged as low-probability but catastrophic risk. Iranian nuclear facilities potentially in US/Israeli strike queue.",
+    "last_updated": "2026-03-03T18:00:00Z"
+  },
+  {
+    "id": 7,
+    "indicator": "Domestic Unrest — UAE",
+    "status": "WATCH",
+    "time_met": null,
+    "notes": "No reported civil unrest. Government maintaining order. Foreign nationals (20,000+ stranded) showing signs of panic-buying and evacuation pressure. Monitor for labor/expat community breakdown.",
+    "last_updated": "2026-03-03T18:00:00Z"
+  },
+  {
+    "id": 8,
+    "indicator": "Domestic Unrest — Saudi Arabia",
+    "status": "UNMET",
+    "time_met": null,
+    "notes": "No reported civil unrest. Government maintaining information control. Eastern Province population (near energy targets) under stress. No protest activity reported.",
+    "last_updated": "2026-03-03T18:00:00Z"
+  },
+  {
+    "id": 9,
+    "indicator": "Domestic Unrest — Oman",
+    "status": "UNMET",
+    "time_met": null,
+    "notes": "Stable. Muscat unaffected by strikes. Population calm. Serving as regional evacuation hub. No protest or civil disturbance activity.",
+    "last_updated": "2026-03-03T18:00:00Z"
+  },
+  {
+    "id": 10,
+    "indicator": "Domestic Unrest — Bahrain",
+    "status": "WATCH",
+    "time_met": null,
+    "notes": "Bahrain hosts US 5th Fleet (NSA Bahrain). Residential tower struck by drone Mar 1 (Era Views Towers, Manama — video confirmed). Shia population (majority) historically sympathetic to Iran. Monitor for unrest capitalizing on strikes.",
+    "last_updated": "2026-03-03T18:00:00Z"
+  },
+  {
+    "id": 11,
+    "indicator": "Cyber Operation Attribution",
+    "status": "WATCH",
+    "time_met": null,
+    "notes": "AWS data center fire Mar 2 (cause under investigation). GPS spoofing/jamming active across Gulf region. Iranian cyber units historically target critical infrastructure during kinetic escalation. No confirmed major attribution yet.",
+    "last_updated": "2026-03-03T18:00:00Z"
+  }
+]

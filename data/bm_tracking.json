@@ -1,0 +1,71 @@
+{
+  "note": "Daily figures are estimates based on 4-day totals from OSINT reporting. Per-day breakdown unavailable; distribution assumed approximately equal. Update daily_log with confirmed announced figures as available.",
+  "daily_log": [
+    {
+      "day": 1,
+      "date": "2026-02-28",
+      "label": "Op Epic Fury — Opening Salvo",
+      "bm_announced": 44,
+      "drones_announced": 173,
+      "cm_announced": 2,
+      "bm_intercepted": 40,
+      "notes": "Day 1 opening salvo. DXB Terminal 3 struck. Al Dhafra, Al Udeid, Ali Al Salem targeted. ~est. from 4-day totals.",
+      "confirmed": false
+    },
+    {
+      "day": 2,
+      "date": "2026-03-01",
+      "label": "Civilian Infrastructure Enters Target Set",
+      "bm_announced": 44,
+      "drones_announced": 172,
+      "cm_announced": 2,
+      "bm_intercepted": 41,
+      "notes": "First residential building struck (Dubai). Shopping mall hit (Sharjah). Hotels targeted. ~est. from 4-day totals.",
+      "confirmed": false
+    },
+    {
+      "day": 3,
+      "date": "2026-03-02",
+      "label": "Energy Infrastructure + Hormuz Closure",
+      "bm_announced": 43,
+      "drones_announced": 172,
+      "cm_announced": 2,
+      "bm_intercepted": 41,
+      "notes": "Ras Tanura (Saudi, 550k b/d) shut down. Mussafah ADNOC terminal struck. IRGC declared Hormuz closed. Hezbollah second front opened. ~est. from 4-day totals.",
+      "confirmed": false
+    },
+    {
+      "day": 4,
+      "date": "2026-03-03",
+      "label": "Embassy Strike + Continued Salvos",
+      "bm_announced": 43,
+      "drones_announced": 172,
+      "cm_announced": 2,
+      "bm_intercepted": 39,
+      "notes": "US Embassy Riyadh directly struck. Fujairah oil facility fire. Duqm second fuel tank. 3 flights diverted from Dubai. ~est. from 4-day totals.",
+      "confirmed": false
+    }
+  ],
+  "totals": {
+    "ballistic_missiles": 174,
+    "drones": 689,
+    "cruise_missiles": 8,
+    "total_projectiles": 871,
+    "days_tracked": 4
+  },
+  "averages": {
+    "bm_per_day": 43.5,
+    "drones_per_day": 172.3,
+    "total_per_day": 217.8
+  },
+  "depletion": {
+    "uae_intercept_rate_pct": 95,
+    "uae_intercept_rate_degraded_pct": 80,
+    "uae_depletion_window": "Mar 7-10",
+    "uae_resupply_status": "Requested — US reportedly stonewalling",
+    "bloomberg_assessment": "~1 week to depletion at current rate (Bloomberg, Mar 2)",
+    "uae_official_position": "Officially denies depletion concern; claims 'robust strategic stockpile'",
+    "impact_if_degraded": "If intercept rate drops 95% → 80%: ~8-9 BM impacts/day in populated areas vs current ~2/day (~4x civilian casualty increase)",
+    "last_updated": "2026-03-03T18:00:00Z"
+  }
+}

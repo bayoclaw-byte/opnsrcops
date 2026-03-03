@@ -1,0 +1,750 @@
+/* ── Iran AOR Dashboard — Dark Ops Theme ── */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #0d1117;
+  --panel:     #161b22;
+  --panel2:    #1c2128;
+  --border:    #30363d;
+  --accent:    #f0a500;
+  --accent2:   #d4920a;
+  --red:       #f85149;
+  --amber:     #e3b341;
+  --green:     #3fb950;
+  --grey:      #8b949e;
+  --blue:      #58a6ff;
+  --text:      #e6edf3;
+  --text-dim:  #8b949e;
+  --font:      'JetBrains Mono', 'Share Tech Mono', monospace;
+}
+
+html { font-size: 14px; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* ── Classification Banner ── */
+#class-banner {
+  background: #1a1200;
+  border-bottom: 2px solid var(--accent);
+  text-align: center;
+  padding: 4px 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--accent);
+}
+
+/* ── Header ── */
+#main-header {
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+#main-header h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  text-shadow: 0 0 20px rgba(240,165,0,0.3);
+}
+
+#main-header h1 span {
+  color: var(--text-dim);
+  font-weight: 400;
+  font-size: 0.8rem;
+  display: block;
+  letter-spacing: 0.05em;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#utc-clock {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--blue);
+  letter-spacing: 0.05em;
+}
+#utc-clock::before { content: "UTC "; color: var(--text-dim); font-size: 0.7rem; }
+
+#last-updated {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+#last-updated strong { color: var(--text); }
+
+#save-status {
+  font-size: 0.7rem;
+  color: var(--green);
+  min-width: 120px;
+  text-align: right;
+}
+
+.btn-reset {
+  background: transparent;
+  border: 1px solid var(--red);
+  color: var(--red);
+  font-family: var(--font);
+  font-size: 0.7rem;
+  padding: 4px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  letter-spacing: 0.05em;
+  transition: background 0.15s;
+}
+.btn-reset:hover { background: rgba(248,81,73,0.15); }
+
+/* ── Layout ── */
+#dashboard {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ── Section Wrapper ── */
+.section-wrap { display: flex; flex-direction: column; gap: 0; }
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.section-header h2 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text);
+  border-left: 3px solid var(--accent);
+  padding-left: 10px;
+}
+
+.section-header .badge {
+  background: var(--panel2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 2px 8px;
+  font-size: 0.68rem;
+  color: var(--text-dim);
+}
+
+/* ── Panel ── */
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* ── Tables ── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+}
+
+thead th {
+  background: var(--panel2);
+  border-bottom: 1px solid var(--border);
+  padding: 8px 12px;
+  text-align: left;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background 0.1s;
+}
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: rgba(255,255,255,0.02); }
+
+tbody td {
+  padding: 9px 12px;
+  vertical-align: middle;
+}
+
+td.num {
+  color: var(--text-dim);
+  font-size: 0.7rem;
+  width: 36px;
+}
+
+/* ── Status Pills ── */
+.status-pill {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.status-MET      { background: rgba(248,81,73,0.18);  color: var(--red);   border: 1px solid rgba(248,81,73,0.4);  }
+.status-WATCH    { background: rgba(227,179,65,0.18); color: var(--amber); border: 1px solid rgba(227,179,65,0.4); }
+.status-UNMET    { background: rgba(63,185,80,0.15);  color: var(--green); border: 1px solid rgba(63,185,80,0.35); }
+.status-OPEN     { background: rgba(63,185,80,0.15);  color: var(--green); border: 1px solid rgba(63,185,80,0.35); }
+.status-RESTRICTED { background: rgba(227,179,65,0.18); color: var(--amber); border: 1px solid rgba(227,179,65,0.4); }
+.status-CLOSED   { background: rgba(248,81,73,0.18);  color: var(--red);   border: 1px solid rgba(248,81,73,0.4);  }
+.status-UNKNOWN  { background: rgba(139,148,158,0.15); color: var(--grey); border: 1px solid rgba(139,148,158,0.3);}
+
+/* ── Action Buttons ── */
+.btn-edit {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-family: var(--font);
+  font-size: 0.65rem;
+  padding: 3px 8px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.15s;
+}
+.btn-edit:hover { border-color: var(--accent); color: var(--accent); }
+
+.btn-save {
+  background: var(--accent);
+  border: none;
+  color: #000;
+  font-family: var(--font);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background 0.15s;
+}
+.btn-save:hover { background: var(--accent2); }
+
+.btn-cancel {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-family: var(--font);
+  font-size: 0.65rem;
+  padding: 3px 8px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.btn-cancel:hover { border-color: var(--grey); color: var(--text); }
+
+/* ── Inline Edit Inputs ── */
+.edit-row td { background: rgba(240,165,0,0.04); border-top: 1px solid var(--accent2) !important; border-bottom: 1px solid var(--accent2) !important; }
+
+input.edit-input, select.edit-select, textarea.edit-textarea {
+  background: var(--bg);
+  border: 1px solid var(--accent2);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 0.75rem;
+  padding: 4px 6px;
+  border-radius: 3px;
+  width: 100%;
+  outline: none;
+}
+input.edit-input:focus, select.edit-select:focus, textarea.edit-textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(240,165,0,0.12);
+}
+textarea.edit-textarea { resize: vertical; min-height: 52px; }
+
+/* ── I&W Aggregate ── */
+#iw-aggregate {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 16px;
+  background: var(--panel2);
+  border-bottom: 1px solid var(--border);
+}
+
+.agg-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.72rem;
+}
+.agg-count {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.agg-met   { color: var(--red); }
+.agg-watch { color: var(--amber); }
+.agg-unmet { color: var(--green); }
+.agg-div   { color: var(--border); }
+
+/* ── Airport Grid ── */
+#airports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.airport-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 14px;
+  position: relative;
+  transition: border-color 0.15s;
+}
+.airport-card:hover { border-color: var(--accent2); }
+
+.airport-card .icao {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+}
+.airport-card .iata {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  margin-left: 4px;
+}
+.airport-card .airport-name {
+  font-size: 0.72rem;
+  color: var(--text);
+  margin: 2px 0 6px;
+  font-weight: 500;
+}
+.airport-card .airport-city {
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+.airport-card .airport-status { margin-bottom: 8px; }
+.airport-card .airport-notes {
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+
+.card-edit-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.airport-edit-form {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* ── Borders Table — grouped ── */
+.country-group td.country-label {
+  background: var(--panel2);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding: 6px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── Outlook Panels ── */
+#outlook-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  #outlook-grid { grid-template-columns: 1fr; }
+}
+
+.outlook-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.outlook-card .outlook-header {
+  background: var(--panel2);
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.outlook-card .outlook-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text);
+  border-left: 3px solid var(--accent);
+  padding-left: 8px;
+}
+
+.outlook-card .outlook-body { padding: 14px; }
+
+/* Threat Level */
+.threat-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.threat-label {
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  min-width: 80px;
+}
+
+.threat-selector {
+  display: flex;
+  gap: 4px;
+}
+
+.threat-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--panel2);
+  color: var(--text-dim);
+  font-family: var(--font);
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.threat-btn.active-1 { background: rgba(63,185,80,0.25);   color: var(--green); border-color: var(--green); }
+.threat-btn.active-2 { background: rgba(63,185,80,0.15);   color: #7ee787;      border-color: #7ee787; }
+.threat-btn.active-3 { background: rgba(227,179,65,0.2);   color: var(--amber); border-color: var(--amber); }
+.threat-btn.active-4 { background: rgba(248,81,73,0.15);   color: #ff7b72;      border-color: #ff7b72; }
+.threat-btn.active-5 { background: rgba(248,81,73,0.25);   color: var(--red);   border-color: var(--red); }
+.threat-btn:hover { border-color: var(--accent); }
+
+.threat-text {
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+.tl-1 { color: var(--green); }
+.tl-2 { color: #7ee787; }
+.tl-3 { color: var(--amber); }
+.tl-4 { color: #ff7b72; }
+.tl-5 { color: var(--red); }
+
+/* Trend */
+.trend-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.trend-indicator {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+.trend-escalating { color: var(--red); }
+.trend-stable     { color: var(--amber); }
+.trend-deescalating { color: var(--green); }
+
+.trend-label-text {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+
+/* Assessment */
+.outlook-section-label {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+
+.outlook-assessment {
+  font-size: 0.72rem;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+.outlook-drivers {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  list-style: none;
+  padding: 0;
+  margin-top: 4px;
+}
+.outlook-drivers li {
+  padding: 2px 0 2px 14px;
+  position: relative;
+  line-height: 1.4;
+}
+.outlook-drivers li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 0.6rem;
+  top: 4px;
+}
+
+.outlook-footer {
+  font-size: 0.62rem;
+  color: var(--text-dim);
+  margin-top: 10px;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+
+/* Trend selector in edit mode */
+.trend-select-group { display: flex; gap: 6px; }
+.trend-select-btn {
+  flex: 1;
+  padding: 4px;
+  font-family: var(--font);
+  font-size: 0.65rem;
+  background: var(--panel2);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+}
+.trend-select-btn.selected-escalating { border-color: var(--red);   color: var(--red);   background: rgba(248,81,73,0.12); }
+.trend-select-btn.selected-stable     { border-color: var(--amber); color: var(--amber); background: rgba(227,179,65,0.12); }
+.trend-select-btn.selected-deescalating { border-color: var(--green); color: var(--green); background: rgba(63,185,80,0.12); }
+
+/* ── Spinners / toasts ── */
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--panel2);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--green);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 0.75rem;
+  padding: 10px 16px;
+  border-radius: 4px;
+  z-index: 9999;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.25s;
+  pointer-events: none;
+}
+.toast.show { opacity: 1; transform: translateY(0); }
+.toast.error { border-left-color: var(--red); }
+
+/* ── Notes cell truncation ── */
+.notes-cell {
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text-dim);
+  font-size: 0.72rem;
+}
+.notes-cell:hover { white-space: normal; overflow: visible; }
+
+/* ── Row action buttons group ── */
+.btn-group { display: flex; gap: 4px; }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  #main-header { flex-direction: column; align-items: flex-start; }
+  #airports-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+  table { font-size: 0.7rem; }
+  thead th, tbody td { padding: 7px 8px; }
+  .notes-cell { max-width: 160px; }
+}
+
+/* ── Loading overlay ── */
+#loading {
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  font-size: 0.8rem;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+}
+#loading.hidden { display: none; }
+
+/* ── Airport country grouping ── */
+.airport-country-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--amber);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 12px 4px 4px 4px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 8px;
+}
+
+.airport-country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+/* ── BM Tracker ── */
+.bm-totals-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background: rgba(240,165,0,0.06);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.bm-total-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.bm-total-num {
+  font-size: 1.6rem;
+  font-weight: 900;
+  font-family: 'JetBrains Mono', monospace;
+  line-height: 1;
+}
+
+.bm-total-label {
+  font-size: 0.6rem;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.bm-total-div {
+  color: var(--text-dim);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.bm-total-sep {
+  width: 1px;
+  height: 40px;
+  background: var(--border);
+  margin: 0 8px;
+}
+
+.bm-red   { color: var(--red); }
+.bm-amber { color: var(--amber); }
+.bm-avg   { color: #7dd3fc; }
+.bm-total-all { color: #f0a500; }
+
+#bm-daily-table th { font-size: 0.65rem; }
+#bm-daily-table td { font-size: 0.72rem; vertical-align: middle; }
+
+/* ── Depletion panel ── */
+.depletion-panel {
+  background: rgba(226,61,45,0.07);
+  border: 1px solid rgba(226,61,45,0.3);
+  border-radius: 6px;
+  padding: 14px 16px;
+  margin-top: 8px;
+}
+
+.depletion-header {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--red);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.depletion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.dep-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.dep-label {
+  font-size: 0.58rem;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.dep-val {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.dep-watch  { color: var(--amber); }
+.dep-alert  { color: var(--red); }
+
+.dep-note {
+  font-size: 0.7rem;
+  color: var(--text-secondary, #8b9196);
+  margin-top: 6px;
+  line-height: 1.4;
+  border-top: 1px solid rgba(226,61,45,0.15);
+  padding-top: 6px;
+}
+
+.dep-impact {
+  color: var(--red);
+  font-weight: 500;
+}

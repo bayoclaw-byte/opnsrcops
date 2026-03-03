@@ -1,0 +1,102 @@
+[
+  {
+    "country": "UAE → Oman (RECOMMENDED EVAC ROUTE)",
+    "crossings": [
+      {
+        "name": "Mezyad / Buraimi",
+        "status": "OPEN",
+        "notes": "PRIMARY EVAC ROUTE. ~2hr from Dubai. Multiple crossing points. Security delays. E66 highway intact. Best option."
+      },
+      {
+        "name": "Al Wajajah (Hatta)",
+        "status": "OPEN",
+        "notes": "Alt route via Hatta mountains. ~5-6hr to Muscat. Scenic/mountainous — slower."
+      },
+      {
+        "name": "Khatmat Malaha",
+        "status": "OPEN",
+        "notes": "Eastern coastal route. Dibba crossing. Good alternative to Mezyad."
+      },
+      {
+        "name": "Al Rawdah",
+        "status": "OPEN",
+        "notes": "Opened Feb 26. Additional capacity. Less congested than Mezyad currently."
+      }
+    ]
+  },
+  {
+    "country": "UAE → Saudi Arabia (NOT RECOMMENDED)",
+    "crossings": [
+      {
+        "name": "Al Ghuwaifat / Silaa",
+        "status": "RESTRICTED",
+        "notes": "NOT RECOMMENDED. ~1,100km / 10-12hr to Riyadh. Transits 250km Gulf coast near active energy targets. Riyadh under direct attack. Use only if Oman route unavailable."
+      }
+    ]
+  },
+  {
+    "country": "Oman → Saudi Arabia",
+    "crossings": [
+      {
+        "name": "Al Wajba (Haima area)",
+        "status": "OPEN",
+        "notes": "Interior desert route. Low traffic. Operational."
+      },
+      {
+        "name": "Shaybah Desert Crossing",
+        "status": "UNKNOWN",
+        "notes": "Remote crossing. Status unconfirmed. Not recommended without verification."
+      }
+    ]
+  },
+  {
+    "country": "Saudi Arabia → Kuwait",
+    "crossings": [
+      {
+        "name": "Al Salmi / Nuwaiseeb",
+        "status": "RESTRICTED",
+        "notes": "Key US military logistics corridor. Security heightened. 6 US service members KIA in Kuwait. Monitor closely."
+      }
+    ]
+  },
+  {
+    "country": "Saudi Arabia → Jordan (Alternative Exit)",
+    "crossings": [
+      {
+        "name": "Al Hadithah / Mudawwarah",
+        "status": "OPEN",
+        "notes": "Western-friendly corridor. Viable alternative evacuation route via Jordan → Amman → fly out."
+      },
+      {
+        "name": "Durra (Northern)",
+        "status": "OPEN",
+        "notes": "Northern Saudi-Jordan border. Operational."
+      }
+    ]
+  },
+  {
+    "country": "Saudi Arabia → Yemen (CLOSED — CONFLICT ZONE)",
+    "crossings": [
+      {
+        "name": "Al Wadiah / Haradh",
+        "status": "CLOSED",
+        "notes": "ACTIVE CONFLICT ZONE. Houthi proximity. DO NOT USE."
+      },
+      {
+        "name": "Sharurah (Najran)",
+        "status": "CLOSED",
+        "notes": "Military zone. Conflict active. DO NOT USE."
+      }
+    ]
+  },
+  {
+    "country": "Saudi Arabia → Iraq",
+    "crossings": [
+      {
+        "name": "Arar / Turaif",
+        "status": "RESTRICTED",
+        "notes": "Iraqi Shia militia activity in region. Border restricted. Monitor."
+      }
+    ]
+  }
+]

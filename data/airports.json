@@ -1,0 +1,89 @@
+[
+  {
+    "country": "UAE",
+    "airports": [
+      {
+        "icao": "OMDB",
+        "iata": "DXB",
+        "name": "Dubai International",
+        "city": "Dubai",
+        "status": "RESTRICTED",
+        "notes": "Struck twice (Feb 28, Mar 1 — Terminal 3). Operating at <20% capacity. Severe cancellations. Intermittent closures with incoming salvos. 20,000+ stranded.",
+        "last_updated": "2026-03-03T18:00:00Z"
+      },
+      {
+        "icao": "OMDW",
+        "iata": "DWC",
+        "name": "Al Maktoum International",
+        "city": "Dubai (South)",
+        "status": "RESTRICTED",
+        "notes": "Near Jebel Ali port (confirmed debris strike). Reduced operations. Not a reliable alternative to DXB currently.",
+        "last_updated": "2026-03-03T18:00:00Z"
+      },
+      {
+        "icao": "OMAA",
+        "iata": "AUH",
+        "name": "Abu Dhabi International (Zayed)",
+        "city": "Abu Dhabi",
+        "status": "RESTRICTED",
+        "notes": "Debris near airport perimeter (1 KIA, 7 injured). Al Salam Naval Base nearby struck. Etihad Towers damaged. Intermittent operations.",
+        "last_updated": "2026-03-03T18:00:00Z"
+      },
+      {
+        "icao": "OMSJ",
+        "iata": "SHJ",
+        "name": "Sharjah International",
+        "city": "Sharjah",
+        "status": "RESTRICTED",
+        "notes": "Warehouse fire (satellite-confirmed smoke). Mall struck nearby. Reduced operations.",
+        "last_updated": "2026-03-03T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "country": "Oman",
+    "airports": [
+      {
+        "icao": "OOMS",
+        "iata": "MCT",
+        "name": "Muscat International",
+        "city": "Muscat",
+        "status": "OPEN",
+        "notes": "ONLY MAJOR GCC AIRPORT FULLY OPERATIONAL. Primary Gulf evacuation hub. Flights to India, Europe, East Africa. UK chartering evac flights. Seat availability extremely limited — book immediately. Temporary closures possible with salvos.",
+        "last_updated": "2026-03-03T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "country": "Saudi Arabia",
+    "airports": [
+      {
+        "icao": "OERK",
+        "iata": "RUH",
+        "name": "King Khalid International",
+        "city": "Riyadh",
+        "status": "RESTRICTED",
+        "notes": "Targeted Mar 1 (intercepted). Flights paused Mar 3 after drone strikes. US Embassy struck nearby. Intermittent operations — unreliable.",
+        "last_updated": "2026-03-03T18:00:00Z"
+      },
+      {
+        "icao": "OEDF",
+        "iata": "DMM",
+        "name": "King Fahd International",
+        "city": "Dammam (Eastern Province)",
+        "status": "RESTRICTED",
+        "notes": "Eastern Province under sustained attack pressure. Ras Tanura refinery (nearby) shut down. High-value energy region. Use with extreme caution.",
+        "last_updated": "2026-03-03T18:00:00Z"
+      },
+      {
+        "icao": "OEJN",
+        "iata": "JED",
+        "name": "King Abdulaziz International",
+        "city": "Jeddah",
+        "status": "RESTRICTED",
+        "notes": "US Embassy shelter-in-place active for Jeddah. Less directly targeted than Riyadh/Eastern Province. Better option within Saudi if necessary.",
+        "last_updated": "2026-03-03T18:00:00Z"
+      }
+    ]
+  }
+]

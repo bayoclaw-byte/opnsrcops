@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GULF REGION AOR SITUATIONAL DASHBOARD</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%230d1117'/><text x='2' y='13' font-size='12' fill='%23f0a500'>⬡</text></svg>" />
+</head>
+<body>
+<div id="loading">LOADING DASHBOARD DATA…</div>
+<div class="toast" id="toast"></div>
+<div id="class-banner">⚠ UNCLASSIFIED // FOR OFFICIAL USE ONLY (FOUO) // NOT FOR PUBLIC RELEASE ⚠</div>
+
+<header id="main-header">
+  <div>
+    <h1>
+      GULF REGION AOR SITUATIONAL DASHBOARD
+      <span>UAE · OMAN · SAUDI ARABIA — ACTIVE CONFLICT MONITORING</span>
+    </h1>
+  </div>
+  <div class="header-right">
+    <div id="utc-clock">00:00:00</div>
+    <div id="last-updated">LAST UPDATED <strong>—</strong></div>
+    <div id="save-status"></div>
+    <button class="btn-reset" onclick="resetDefaults()" title="Reset all data to factory defaults">⟳ RESET</button>
+  </div>
+</header>
+
+<main id="dashboard">
+
+  <!-- ── 1. I&W Matrix ── -->
+  <section class="section-wrap">
+    <div class="section-header">
+      <h2>Indicators &amp; Warnings (I&amp;W) Matrix</h2>
+      <span class="badge" id="iw-badge">11 Indicators</span>
+    </div>
+    <div class="panel">
+      <div id="iw-aggregate"></div>
+      <div style="overflow-x:auto;">
+        <table id="iw-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Indicator</th>
+              <th>Status</th>
+              <th>Time Met (UTC)</th>
+              <th>Notes / Assessment</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="iw-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 2. BM Activity Tracker ── -->
+  <section class="section-wrap">
+    <div class="section-header">
+      <h2>Ballistic Missile &amp; Drone Activity Tracker</h2>
+      <span class="badge" id="bm-badge">Day 4</span>
+    </div>
+    <div class="panel">
+      <!-- Totals bar -->
+      <div id="bm-totals-bar"></div>
+      <!-- Daily log table -->
+      <div style="overflow-x:auto; margin-bottom:16px;">
+        <table id="bm-daily-table">
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Date</th>
+              <th>Event</th>
+              <th>BMs Announced</th>
+              <th>vs 4-Day Avg</th>
+              <th>Drones</th>
+              <th>CMs</th>
+              <th>Notes</th>
+              <th>Confirmed?</th>
+            </tr>
+          </thead>
+          <tbody id="bm-daily-tbody"></tbody>
+          <!-- Averages row -->
+          <tfoot id="bm-tfoot"></tfoot>
+        </table>
+      </div>
+      <!-- Depletion panel -->
+      <div id="bm-depletion-panel"></div>
+    </div>
+  </section>
+
+  <!-- ── 3. Airport Status ── -->
+  <section class="section-wrap">
+    <div class="section-header">
+      <h2>Airport Status — UAE / Oman / Saudi Arabia</h2>
+      <span class="badge">8 Airports</span>
+    </div>
+    <div id="airports-grid"></div>
+  </section>
+
+  <!-- ── 4. Border Status ── -->
+  <section class="section-wrap">
+    <div class="section-header">
+      <h2>Land Border &amp; Crossing Status — Gulf Region</h2>
+      <span class="badge">Key Crossings</span>
+    </div>
+    <div class="panel">
+      <div style="overflow-x:auto;">
+        <table id="borders-table">
+          <thead>
+            <tr>
+              <th>Crossing / Point</th>
+              <th>Status</th>
+              <th>Notes</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="borders-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 5. Outlook Panels ── -->
+  <section class="section-wrap">
+    <div class="section-header">
+      <h2>Regional Outlook — Gulf AOR</h2>
+      <span class="badge">24-48h · 7-Day · 30-Day</span>
+    </div>
+    <div id="outlook-grid">
+      <div class="outlook-card" id="outlook-short"></div>
+      <div class="outlook-card" id="outlook-medium"></div>
+      <div class="outlook-card" id="outlook-long"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer style="text-align:center;padding:16px;font-size:0.65rem;color:var(--text-dim);border-top:1px solid var(--border);">
+  GULF REGION AOR SITUATIONAL DASHBOARD &nbsp;|&nbsp; UNCLASSIFIED // FOUO &nbsp;|&nbsp;
+  OSINT-derived. Not for operational use without independent verification.
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
