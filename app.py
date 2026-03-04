@@ -430,6 +430,18 @@ def geo_index():
     blocks = ''.join(layer_block(*l) for l in layers)
     csv_url = f'{BASE_URL}/api/geo/gulf_aor_all_layers.csv'
 
+    # Daily strike layers (StrikeMap-derived)
+    daily_dir = os.path.join(GEO_DIR, 'strikemap_daily_r001')
+    daily_links = ''
+    if os.path.isdir(daily_dir):
+        files = sorted([f for f in os.listdir(daily_dir) if f.endswith('.geojson')], reverse=True)
+        # show most recent 10 for copy/paste
+        items = []
+        for f in files[:10]:
+            url = f"{BASE_URL}/api/geo/strikemap_daily_r001/{f}"
+            items.append(f"<div><code style=\"color:#58a6ff;font-size:.8rem\">{url}</code></div>")
+        daily_links = ''.join(items)
+
     html = f'''<!doctype html><html><head><title>Gulf AOR — GeoData</title>
     <style>
       body{{background:#0d1117;color:#c9d1d9;font-family:monospace;padding:40px;max-width:860px;margin:0 auto}}
@@ -444,6 +456,10 @@ def geo_index():
 
     <h2>LAYERS</h2>
     {blocks}
+
+    <h2>DAILY KINETIC LAYERS (STRIKEMAP-DERIVED)</h2>
+    <div class="step">Load these as separate ArcGIS layers to reduce clutter. Most recent 10 shown:</div>
+    {daily_links if daily_links else '<div class="step">(No daily files found on server)</div>'}
 
     <div style="margin-bottom:14px">
       <div style="color:#f0a500;font-weight:700;font-size:.95rem;margin-bottom:6px">All Layers Combined (CSV)</div>
