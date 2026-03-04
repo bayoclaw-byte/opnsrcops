@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GULF REGION AOR — TRAVEL</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%230d1117'/><text x='2' y='13' font-size='12' fill='%23f0a500'>⬡</text></svg>" />
+</head>
+<body>
+<div id="loading">LOADING TRAVEL DATA…</div>
+<div class="toast" id="toast"></div>
+<div id="class-banner">⚠ UNCLASSIFIED // FOR OFFICIAL USE ONLY (FOUO) // NOT FOR PUBLIC RELEASE ⚠</div>
+
+<header id="main-header">
+  <div>
+    <h1>
+      GULF REGION AOR — TRAVEL
+      <span>UAE · BAHRAIN · QATAR · SAUDI ARABIA · OMAN</span>
+    </h1>
+  </div>
+  <div class="header-right">
+    <div id="utc-clock">00:00:00</div>
+    <div id="last-updated">LAST UPDATED <strong>—</strong></div>
+    <a class="btn-nav" href="/" title="Back to dashboard">← DASHBOARD</a>
+  </div>
+</header>
+
+<div class="travel-topbar">
+  <div class="segmented">
+    <button class="seg-btn active" data-scope="macro">MACRO</button>
+    <button class="seg-btn" data-scope="uae">UAE</button>
+    <button class="seg-btn" data-scope="bahrain">BAHRAIN</button>
+    <button class="seg-btn" data-scope="qatar">QATAR</button>
+    <button class="seg-btn" data-scope="saudi">SAUDI</button>
+    <button class="seg-btn" data-scope="oman">OMAN</button>
+  </div>
+</div>
+
+<main id="dashboard">
+
+  <section class="section-wrap">
+    <div class="section-header">
+      <h2>Air (Airports) — Status</h2>
+      <span class="badge" id="air-badge">—</span>
+    </div>
+    <div id="airports-grid"></div>
+  </section>
+
+  <section class="section-wrap">
+    <div class="section-header">
+      <h2>Overland (Borders / Crossings) — Status</h2>
+      <span class="badge">Key Crossings</span>
+    </div>
+    <div class="panel">
+      <div style="overflow-x:auto;">
+        <table id="borders-table">
+          <thead>
+            <tr>
+              <th>Crossing / Point</th>
+              <th>Status</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody id="borders-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-wrap">
+    <div class="section-header">
+      <h2>Airspace — Info</h2>
+      <span class="badge">Info-only</span>
+    </div>
+    <div class="panel" id="airspace-panel">
+      <div style="color:var(--text-dim);font-size:0.8rem;">
+        Airspace is displayed as an information panel (modeled after StrikeMap’s /airspace).
+        This section is a placeholder for a structured airspace status summary.
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer style="text-align:center;padding:16px;font-size:0.65rem;color:var(--text-dim);border-top:1px solid var(--border);">
+  GULF REGION AOR TRAVEL &nbsp;|&nbsp; UNCLASSIFIED // FOUO &nbsp;|&nbsp; OSINT-derived.
+</footer>
+
+<script src="/static/travel.js"></script>
+</body>
+</html>

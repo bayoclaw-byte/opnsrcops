@@ -46,6 +46,11 @@ def index():
     return render_template('index.html')
 
 
+@app.route('/travel')
+def travel():
+    return render_template('travel.html')
+
+
 @app.route('/geo/<path:filename>')
 def serve_geo(filename):
     # Serves GeoJSON and related artifacts from data/geo as simple static files.
