@@ -37,7 +37,8 @@ pkill -f "flask run --host 127.0.0.1 --port 5050" >/dev/null 2>&1 || true
 export FLASK_APP=app.py
 export FLASK_ENV=production
 mkdir -p "$(dirname "$LOGFILE")"
-nohup python3 -m flask run --host 127.0.0.1 --port 5050 >>"$LOGFILE" 2>&1 &
+PY_BIN="${PY_BIN:-/opt/homebrew/opt/python@3.14/bin/python3.14}"
+nohup "$PY_BIN" -m flask run --host 127.0.0.1 --port 5050 >>"$LOGFILE" 2>&1 &
 NEWPID=$!
 echo "$NEWPID" > "$PIDFILE"
 
