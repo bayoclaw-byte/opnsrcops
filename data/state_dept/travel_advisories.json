@@ -1,0 +1,66 @@
+{
+  "fetched_utc": "2026-03-03T20:38:23.379969+00:00",
+  "feed_updated": "2026-03-03T20:38:10Z",
+  "countries": {
+    "Qatar": {
+      "title": "Qatar - Level 3: Reconsider Travel",
+      "level": "Level 3: Reconsider Travel",
+      "country_tag": "QA",
+      "published": "2026-03-02T00:00:00Z",
+      "updated": "2026-03-02T00:00:00Z",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/qatar-travel-advisory.html",
+      "summary_html": "<p><b>Updated to reflect the ordered departure of non-emergency U.S. government personnel and family members of government personnel on March 2. Advisory summary was updated.</b></p> <p><b>Reconsider travel to Qatar due to risk of armed conflict.</b></p> <p>On March 2, 2026, the Department of State ordered non-emergency U.S. government employees and U.S. government employee family members to leave Qatar due to threat of armed conflict.</p> <p>Out of an abundance of caution and until further notice, U.S. Embassy Doha has suspended routine consular services.&nbsp;Americans should contact <u><a adhocenable=\"false\" href=\"mailto:ACSDoha@state.gov \">ACSDoha@state.gov</a></u> in case of emergency.&nbsp;Americans in Qatar are strongly encouraged to depart now.&nbsp;</p> <p>Americans who choose not to depart at this time should prepare contingency plans should the situation deteriorate.&nbsp;<b>These alternative plans should not rely on the U.S. government for assisted departure or evacuation.</b></p> <p>Following the onset of hostilities between the United States and Iran on February 28, there has been an ongoing threat of drone and missile attacks from Iran and significant disruptions to ",
+      "country": "Qatar"
+    },
+    "Jordan": {
+      "title": "Jordan - Level 3: Reconsider Travel",
+      "level": "Level 3: Reconsider Travel",
+      "country_tag": "JO",
+      "published": "2026-03-02T00:00:00Z",
+      "updated": "2026-03-02T00:00:00Z",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/jordan-travel-advisory.html",
+      "summary_html": "<p>Updated to reflect the ordered departure of non-emergency U.S. government personnel and family members of government personnel on March 2 and the change to Level 3: Reconsider Travel due to safety risks, and to add the &#8220;other&#8221; risk indicator. Advisory summary was updated to reflect changes to U.S. embassy operations.</p> <p>Reconsider Travel to Jordan due to<b>&nbsp;terrorism</b> and <b>armed conflict</b>.</p> <p><b>Advisory Summary</b></p> <p>On March 2, 2026, the Department of State ordered non-emergency U.S. government employees and their family members to leave Jordan due to safety risks.</p> <p><b>Armed Conflict</b></p> <p>Following the onset of hostilities between the United States and Iran on February 28, there has been an ongoing threat of drone and missile attacks from Iran and significant disruptions to commercial flights.</p> <p><b>Terrorism</b></p> <p>There is a risk of terrorist violence, including terrorist attacks and other activity in Jordan. Visit the U.S. Department of State&#8217;s <a href=\"https://www.state.gov/country-reports-on-terrorism/\">country reports on terrorism</a> to learn more.</p> <p>Terrorists may attack without warning, including suc",
+      "country": "Jordan"
+    },
+    "United Arab Emirates": {
+      "title": "United Arab Emirates - Level 3: Reconsider Travel",
+      "level": "Level 3: Reconsider Travel",
+      "country_tag": "AE",
+      "published": "2026-03-02T00:00:00Z",
+      "updated": "2026-03-02T00:00:00Z",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/united-arab-emirates-travel-advisory.html",
+      "summary_html": "<p><b>Updated to&nbsp;reflect the ordered departure of non-emergency U.S. government personnel and family members of government personnel on March&nbsp;2.&nbsp;Advisory summary was updated</b>.</p> <p><b>Reconsider travel </b>to the United Arab Emirates due to<b>&nbsp;</b>the threat of <b>armed conflict </b>and <b>terrorism.</b></p> <p><b>Advisory Summary</b></p> <p>On March 2, 2026, the Department of State ordered non-emergency U.S. government employees and U.S. government family members to leave the United Arab Emirates due to the threat of armed conflict.</p> <p><b>Armed Conflict</b></p> <p>Following the onset of hostilities between the United States and Iran on February 28, there has been an ongoing threat of drone and missile attacks from Iran and significant disruptions to commercial flights. The Iranian regime has publicly stated its intention to target locations in the UAE associated with the United States.</p> <p><b>Terrorism</b></p> <p>There is a risk of terrorist violence, including terrorist attacks and other activity in the United Arab Emirates. Visit the U.S. Department of State&#8217;s <a href=\"https://www.state.gov/country-reports-on-terrorism/\">country reports on t",
+      "country": "United Arab Emirates"
+    },
+    "Iran": {
+      "title": "Iran - Level 4: Do Not Travel",
+      "level": "Level 4: Do Not Travel",
+      "country_tag": "IR",
+      "published": "2025-12-05T00:00:00Z",
+      "updated": "2025-12-05T00:00:00Z",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/iran-travel-advisory.html",
+      "summary_html": "<p><b><i>There were no changes to the advisory level or risk indicators. Advisory summary was updated.</i></b></p> <p><b>Do Not Travel</b> to <b>Iran</b> due to the risk of <b>terrorism, civil unrest, kidnapping, arbitrary arrest</b> of U.S. citizens, and <b>wrongful detention</b>. Read the entire Travel Advisory.</p> <p><b>Advisory summary</b></p> <ul> <li><b>Do not travel to Iran for any reason. U.S. citizens in Iran should leave immediately.</b></li> <li>There is no U.S. Embassy in Iran. Review our information on <a href=\"https://travel.state.gov/en/international-travel/travel-advisories/high-risk-areas.html\">Travel to High-Risk Areas</a>.</li> </ul> <p>U.S. citizens in Iran face serious dangers including <b>terrorism, civil unrest, kidnapping, arbitrary arrest,</b> and <b>wrongful detention</b>. Some U.S. nationals have been held for years on false charges, subjected to torture, and even sentenced to death.</p> <p><b>No U.S. embassy in Iran</b></p> <p>The U.S. government does not have diplomatic or consular relations with the Islamic Republic of Iran. The Swiss government, acting through its Embassy in Tehran, serves as the protecting power for United States interests in Iran.<",
+      "country": "Iran"
+    },
+    "Bahrain": {
+      "title": "Belize - Level 2: Exercise Increased Caution",
+      "level": "Level 2: Exercise Increased Caution",
+      "country_tag": "BH",
+      "published": "2024-12-30T00:00:00Z",
+      "updated": "2024-12-30T00:00:00Z",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/belizetravel-advisory.html",
+      "summary_html": "<p><b>Reissued after periodic review with minor edits.<br> <br> </b>Exercise increased caution in Belize due to<b>&nbsp;crime</b>. Some areas have increased risk. Please read the entire Travel Advisory.</p> <p><b>Country Summary</b>: Violent crime &#8211; such as sexual assault, home invasions, armed robberies, and murder &#8211; are common even during the day and in tourist areas. A significant portion of violent crime is gang related. Due to high crime, travelers are advised to exercise caution while traveling to the south side of Belize City. Local police lack the resources and training to respond effectively to serious crimes. Most crimes remain unresolved and unprosecuted.&nbsp;</p> <p>Read the&nbsp;<a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Belize.html\">country information page</a>&nbsp;for additional information on travel to Belize.</p> <p>If you decide to travel to Belize:&nbsp;</p> <ul> <li>Be aware of your surroundings.&nbsp;</li> <li>Avoid walking or driving at night.&nbsp;</li> <li>Do not physically resist any robbery attempt.&nbsp;</li> <li>Be extra vigilant when visiting banks or ATMs.&nbsp;<",
+      "country": "Bahrain"
+    },
+    "Saudi Arabia": {
+      "title": "Saudi Arabia - Level 2: Exercise Increased Caution",
+      "level": "Level 2: Exercise Increased Caution",
+      "country_tag": "SA",
+      "published": "2024-09-09T00:00:00Z",
+      "updated": "2024-09-09T00:00:00Z",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/saudi-arabia-travel-advisory.html",
+      "summary_html": "<p><b><i>Updated to reflect current security conditions and other minor edits.</i></b></p> <p>Exercise increased caution in Saudi Arabia due to&nbsp;the<b> threat of missile and drone attacks from Yemen </b>and&nbsp;<b>terrorism. </b>Some areas have increased risk. Read the entire Travel Advisory. Be aware of risks concerning<b> social media activity </b>and<b> importation of prohibited items</b>.</p> <p>Do not travel to the following locations due to the threat of&nbsp;<b>missile and drone attacks</b>&nbsp;and&nbsp;<b>terrorism</b>:</p> <ul> <li>Within 20 miles of the Saudi-Yemen border, including the city of Najran</li> <li>Qatif in the Eastern Province and its suburbs, including Awamiyah.</li> </ul> <p><b>Country Summary:</b>&nbsp;U.S. Embassy and Consulate personnel must adhere to the above travel restrictions. The U.S. government has limited ability to assist U.S. citizens in the above locations.</p> <p>The Houthis have perpetrated<b> missile and drone attacks</b>&nbsp;in Saudi Arabia. Attacks have been rare since the announcement of a truce between Saudi Arabia, the Houthi rebels, and the internationally recognized Government of Yemen. Recent Houthi attacks have focused on ve",
+      "country": "Saudi Arabia"
+    }
+  }
+}

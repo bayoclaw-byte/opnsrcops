@@ -1,0 +1,392 @@
+[
+  {
+    "id": "evt-001",
+    "ts_utc": "2026-03-03T18:12:00Z",
+    "countries": [
+      "uae"
+    ],
+    "title": "DXB Terminal 3 arrival hall struck",
+    "summary": "Precision-guided munition detonated inside the Emirates check-in hall, forcing DXB to divert inbound long-haul flights to AUH and DWC.",
+    "severity": "critical",
+    "source": "Joint AOR Sitrep 03 MAR"
+  },
+  {
+    "id": "evt-002",
+    "ts_utc": "2026-03-03T17:40:00Z",
+    "countries": [
+      "uae"
+    ],
+    "title": "DWC cargo apron cratered",
+    "summary": "Follow-on drone volley damaged two pallets of US munitions; runway 12/30 closed for FOD sweep, charter lift paused 6 hrs.",
+    "severity": "high",
+    "source": "ADF Air Mobility Log"
+  },
+  {
+    "id": "evt-003",
+    "ts_utc": "2026-03-03T16:55:00Z",
+    "countries": [
+      "saudi"
+    ],
+    "title": "Ras Tanura crude loading halted",
+    "summary": "Anti-ship missile impact on VLCC manifold set off fire-suppression release; Aramco suspends outbound flows pending blast-door repairs.",
+    "severity": "high",
+    "source": "Aramco Port Advisory"
+  },
+  {
+    "id": "evt-004",
+    "ts_utc": "2026-03-03T16:15:00Z",
+    "countries": [
+      "saudi"
+    ],
+    "title": "US Embassy Riyadh struck by rockets",
+    "summary": "Five 240mm rockets detonated along northern perimeter; chancery shelter-in-place extended, consular services offline 48 hrs.",
+    "severity": "critical",
+    "source": "Embassy Emergency Action Committee"
+  },
+  {
+    "id": "evt-005",
+    "ts_utc": "2026-03-03T15:45:00Z",
+    "countries": [
+      "bahrain"
+    ],
+    "title": "Manama financial district roadblocks",
+    "summary": "Youth coalitions erected burning barricades along Al Fateh Highway after 5th Fleet convoy sighted; riot police deployed LRAD.",
+    "severity": "medium",
+    "source": "BahMin Interior Flash"
+  },
+  {
+    "id": "evt-006",
+    "ts_utc": "2026-03-03T15:10:00Z",
+    "countries": [
+      "bahrain"
+    ],
+    "title": "US 5th Fleet pier access curtailed",
+    "summary": "Base commander limited pier access to mission-essential crews while Iraqi proxy cells probed perimeter with commercial drones.",
+    "severity": "high",
+    "source": "NAVCENT Force Protection"
+  },
+  {
+    "id": "evt-007",
+    "ts_utc": "2026-03-03T14:55:00Z",
+    "countries": [
+      "macro"
+    ],
+    "title": "Strait of Hormuz declared closed to commercial traffic",
+    "summary": "Joint Maritime Command laid smart mines along the inbound lane; insurers now treating all transits as constructive total loss.",
+    "severity": "critical",
+    "source": "GCC Maritime Notice 06-26"
+  },
+  {
+    "id": "evt-008",
+    "ts_utc": "2026-03-03T14:20:00Z",
+    "countries": [
+      "macro"
+    ],
+    "title": "Ballistic missile expenditure spikes",
+    "summary": "Day 5 salvo fired 34 BM-25s toward UAE + KSA, doubling the first four-day average and driving projected depletion inside 9 days.",
+    "severity": "high",
+    "source": "CFACC Counterfire Cell"
+  },
+  {
+    "id": "evt-009",
+    "ts_utc": "2026-03-03T13:45:00Z",
+    "countries": [
+      "uae",
+      "saudi"
+    ],
+    "title": "NEOM supply convoys diverted south",
+    "summary": "Saudi logistics directorate rerouted heavy transporters via Haradh to avoid long-range fire arcs covering the coast road.",
+    "severity": "medium",
+    "source": "MOD Joint Logistics Update"
+  },
+  {
+    "id": "evt-010",
+    "ts_utc": "2026-03-03T13:10:00Z",
+    "countries": [
+      "macro"
+    ],
+    "title": "Duqm fuel tank farm hit",
+    "summary": "Iranian Shahed-238 struck an Omani staging tank feeding coalition refuelers, trimming available jet-A uplift for UAE sorties.",
+    "severity": "medium",
+    "source": "Coalition Sustainment FRAGO 112"
+  },
+  {
+    "id": "evt-grok-001",
+    "ts_utc": "2026-03-03T19:30:00Z",
+    "countries": [
+      "uae"
+    ],
+    "severity": "medium",
+    "title": "Drone strike near US Consulate, Dubai",
+    "summary": "Drone caused contained fire near US Consulate in Dubai. No injuries. Conflict day 4.",
+    "source": "Reuters"
+  },
+  {
+    "id": "evt-grok-002",
+    "ts_utc": "2026-03-03T06:00:00Z",
+    "countries": [
+      "saudi"
+    ],
+    "severity": "medium",
+    "title": "Two drones struck US Embassy compound, Riyadh",
+    "summary": "Limited fire, minor structural damage, no casualties reported.",
+    "source": "Al Jazeera"
+  },
+  {
+    "id": "evt-grok-003",
+    "ts_utc": "2026-03-03T04:00:00Z",
+    "countries": [
+      "bahrain"
+    ],
+    "severity": "high",
+    "title": "IRGC drones and missiles targeted Sheikh Isa Air Base",
+    "summary": "Dawn strike on US airbase near Sheikh Isa. Bahrain activated air defenses. Details on damage withheld.",
+    "source": "Al Jazeera / IRGC"
+  },
+  {
+    "id": "evt-grok-004",
+    "ts_utc": "2026-03-03T02:00:00Z",
+    "countries": [
+      "oman"
+    ],
+    "severity": "medium",
+    "title": "Drone strike on fuel tanks, Duqm commercial port (second in 48h)",
+    "summary": "Multiple drones hit fuel tanks at Duqm port. Damage contained, zero casualties. Second strike on same facility within 48 hours.",
+    "source": "Oman News Agency / Reuters"
+  },
+  {
+    "id": "evt-grok-005",
+    "ts_utc": "2026-03-03T00:00:00Z",
+    "countries": [
+      "uae",
+      "bahrain",
+      "saudi",
+      "macro"
+    ],
+    "severity": "high",
+    "title": "US State Dept orders departure of non-emergency personnel from six Gulf states",
+    "summary": "Non-emergency USG personnel and families ordered to depart UAE, Bahrain, Kuwait, Qatar, Oman, Saudi Arabia.",
+    "source": "US State Department / NBC / CBS"
+  },
+  {
+    "id": "evt-grok-006",
+    "ts_utc": "2026-03-02T14:00:00Z",
+    "countries": [
+      "macro"
+    ],
+    "severity": "critical",
+    "title": "QatarEnergy halts LNG production \u2014 force majeure declared",
+    "summary": "Iranian strikes on Ras Laffan and Mesaieed forced complete halt of LNG production (~20% of global supply). Force majeure declared.",
+    "source": "QatarEnergy / NYT"
+  },
+  {
+    "id": "evt-grok-007",
+    "ts_utc": "2026-03-02T10:00:00Z",
+    "countries": [
+      "saudi"
+    ],
+    "severity": "high",
+    "title": "Ras Tanura refinery offline \u2014 drone debris fire",
+    "summary": "Fire from intercepted drone debris shut operations at Ras Tanura refinery, Saudi Aramco's largest domestic facility.",
+    "source": "Saudi authorities / Al Arabiya"
+  },
+  {
+    "id": "evt-uae-001",
+    "ts_utc": "2026-03-03T12:00:00Z",
+    "countries": [
+      "uae"
+    ],
+    "severity": "high",
+    "title": "Jebel Ali Port berth fire + power station complex struck",
+    "summary": "Drone debris caused berth fire at Jebel Ali Port. Jebel Ali power station complex (includes desalination) also struck. ADNOC facilities under threat.",
+    "source": "UAE monitoring / Grok report"
+  },
+  {
+    "id": "evt-uae-002",
+    "ts_utc": "2026-03-03T10:00:00Z",
+    "countries": [
+      "uae"
+    ],
+    "severity": "medium",
+    "title": "UAE schools closed; panic buying reported across emirates",
+    "summary": "Government-ordered school closures. Supermarket and fuel station queues reported. No protests. Evacuation flights for nationals resumed on limited basis.",
+    "source": "UAE monitoring / Grok report"
+  },
+  {
+    "id": "evt-sa-001",
+    "ts_utc": "2026-03-03T10:00:00Z",
+    "countries": [
+      "saudi"
+    ],
+    "severity": "high",
+    "title": "US Consulate issues shelter-in-place \u2014 imminent missile/UAV threat over Dhahran",
+    "summary": "US Embassy and Consulates in Saudi Arabia issued security alert Mar 3. Shelter on lowest floor away from windows. Avoid the consulate. Saudi forces at full alert status.",
+    "source": "US Embassy Saudi Arabia / TBS News"
+  },
+  {
+    "id": "evt-sa-002",
+    "ts_utc": "2026-03-03T08:00:00Z",
+    "countries": [
+      "saudi"
+    ],
+    "severity": "high",
+    "title": "Aramco rerouting crude exports via Yanbu/Red Sea \u2014 Hormuz bypass activated",
+    "summary": "Saudi Aramco actively rerouting crude via East-West Pipeline (Abqaiq\u2192Yanbu, 5-7M bpd capacity). Buyers instructed to load at Yanbu to circumvent Hormuz closure. No production cuts.",
+    "source": "Reuters / Bloomberg"
+  },
+  {
+    "id": "evt-sa-003",
+    "ts_utc": "2026-03-02T10:00:00Z",
+    "countries": [
+      "saudi"
+    ],
+    "severity": "high",
+    "title": "Ras Tanura refinery shut for assessment \u2014 two drones intercepted, debris fire",
+    "summary": "Two Iranian-linked drones intercepted near Ras Tanura. Debris caused contained fire. Refinery (550,000 bpd) temporarily shut. No injuries, no structural damage. Abqaiq unaffected and operational.",
+    "source": "Reuters / Bloomberg / SPA"
+  },
+  {
+    "id": "evt-mar3-001",
+    "ts_utc": "2026-03-03T18:00:00Z",
+    "countries": [
+      "uae"
+    ],
+    "category": "strike",
+    "title": "US Consulate Dubai struck by Iranian drone",
+    "summary": "Iranian drone struck US Consulate Dubai \u2014 fire in parking lot and chancellery. All personnel accounted for. Significant diplomatic escalation as Iranian weapons reach US sovereign territory.",
+    "severity": "critical",
+    "source": "AOR Sitrep Mar 3 2026"
+  },
+  {
+    "id": "evt-mar3-002",
+    "ts_utc": "2026-03-03T14:00:00Z",
+    "countries": [
+      "saudi"
+    ],
+    "category": "strike",
+    "title": "US Embassy Riyadh struck by 2 Iranian drones",
+    "summary": "Two Iranian drones struck US Embassy compound in Riyadh. Limited fire; minor material damage. Building was relatively empty at time of strike. Diplomatic Quarter targeted.",
+    "severity": "high",
+    "source": "AOR Sitrep Mar 3 2026"
+  },
+  {
+    "id": "evt-mar3-003",
+    "ts_utc": "2026-03-02T06:00:00Z",
+    "countries": [
+      "qatar"
+    ],
+    "category": "infrastructure",
+    "title": "QatarEnergy force majeure \u2014 ALL LNG production halted",
+    "summary": "QatarEnergy declared force majeure and halted all LNG production at Ras Laffan and Mesaieed (Mar 2). Expanded to all downstream products Mar 3: urea, polymers, methanol, aluminum. 20% of global LNG supply now offline. Dutch/British wholesale gas +50-52%; Asian LNG +39%.",
+    "severity": "critical",
+    "source": "AOR Sitrep Mar 3 2026"
+  },
+  {
+    "id": "evt-mar3-004",
+    "ts_utc": "2026-03-02T12:00:00Z",
+    "countries": [
+      "qatar"
+    ],
+    "category": "military",
+    "title": "Qatar Air Force shoots down 2 Iranian SU-24 bombers",
+    "summary": "Qatar Air Force intercepted and shot down 2 Iranian SU-24 bomber aircraft heading for Doha \u2014 first Gulf state to shoot down Iranian military aircraft in this conflict. Significant escalation in rules of engagement.",
+    "severity": "critical",
+    "source": "AOR Sitrep Mar 3 2026"
+  },
+  {
+    "id": "evt-mar3-005",
+    "ts_utc": "2026-03-02T08:00:00Z",
+    "countries": [
+      "regional"
+    ],
+    "category": "escalation",
+    "title": "Hezbollah opens Lebanon front \u2014 rockets at Haifa, Israel authorizes ground incursion",
+    "summary": "Hezbollah launched rockets and drone swarms at Ramat David airbase near Haifa \u2014 first cross-border attack since Nov 2024 ceasefire. Israel launched massive airstrikes on Beirut suburbs (52+ killed, 154 wounded) and authorized ground incursion into southern Lebanon. Conflict now multi-front.",
+    "severity": "high",
+    "source": "AOR Sitrep Mar 3 2026"
+  },
+  {
+    "id": "evt-mar3-006",
+    "ts_utc": "2026-03-03T00:00:00Z",
+    "countries": [
+      "regional"
+    ],
+    "category": "strike",
+    "title": "Iranian drone strikes RAF Akrotiri, Cyprus \u2014 conflict reaches European territory",
+    "summary": "Iranian drone struck RAF Akrotiri sovereign base area in Cyprus. Conflict has now expanded beyond the Middle East to European territory. Significant NATO implications.",
+    "severity": "high",
+    "source": "AOR Sitrep Mar 3 2026"
+  },
+  {
+    "id": "evt-mar3-007",
+    "ts_utc": "2026-03-02T02:00:00Z",
+    "countries": [
+      "bahrain"
+    ],
+    "category": "strike",
+    "title": "MT Stena Imperative struck by Iranian missile at Mina Salman Port, Bahrain",
+    "summary": "US oil tanker MT Stena Imperative struck by Iranian missile at Mina Salman Port, Bahrain (~02:00 UTC Mar 2). Vessel ablaze. 1 worker killed by debris. Direct strike on vessel within port perimeter.",
+    "severity": "critical",
+    "source": "AOR Sitrep Mar 3 2026"
+  },
+  {
+    "id": "evt-mar3-008",
+    "ts_utc": "2026-03-02T10:00:00Z",
+    "countries": [
+      "bahrain"
+    ],
+    "category": "military",
+    "title": "US 5th Fleet HQ Juffair evacuated \u2014 NAVCENT declares area unsafe",
+    "summary": "US 5th Fleet headquarters at Juffair evacuated after NAVCENT assessed area 'no longer safe for US personnel.' Radar dome took direct Shahed hit. Entire district evacuated \u2014 major loss of US naval command presence in Gulf.",
+    "severity": "high",
+    "source": "AOR Sitrep Mar 3 2026"
+  },
+  {
+    "id": "evt-mar3-009",
+    "ts_utc": "2026-03-03T10:00:00Z",
+    "countries": [
+      "oman"
+    ],
+    "category": "strike",
+    "title": "Duqm Port struck second time \u2014 fuel storage tank hit, port suspended",
+    "summary": "Duqm Port struck for second time (Mar 3). Fuel storage tank hit; no casualties. Port operations suspended. Duqm served as backup logistics hub outside Hormuz \u2014 now also offline.",
+    "severity": "medium",
+    "source": "AOR Sitrep Mar 3 2026"
+  },
+  {
+    "id": "evt-mar3-010",
+    "ts_utc": "2026-03-03T08:00:00Z",
+    "countries": [
+      "oman"
+    ],
+    "category": "strike",
+    "title": "MKD VYOM container vessel struck by drone boat 52nm from Muscat \u2014 1 Indian killed",
+    "summary": "MKD VYOM container vessel struck by kamikaze drone boat approximately 52 nautical miles from Muscat. 1 Indian crew member killed \u2014 first Indian national casualty of the conflict. Illustrates threat extends well beyond Hormuz.",
+    "severity": "high",
+    "source": "AOR Sitrep Mar 3 2026"
+  },
+  {
+    "id": "evt-mar3-011",
+    "ts_utc": "2026-03-02T14:00:00Z",
+    "countries": [
+      "saudi"
+    ],
+    "category": "infrastructure",
+    "title": "Ras Tanura oil refinery (550k bbl/day) targeted \u2014 operations halted",
+    "summary": "Ras Tanura oil refinery (550,000 bbl/day capacity) targeted by 5 drones Mar 2. Two debris impacts within perimeter; fire started. Operations halted as precaution. Brent crude $81-84/bbl (+15-20%). Analysts warn $100/bbl if disruptions persist; $120+ if sustained 3+ weeks.",
+    "severity": "high",
+    "source": "AOR Sitrep Mar 3 2026"
+  },
+  {
+    "id": "evt-mar3-012",
+    "ts_utc": "2026-03-02T18:00:00Z",
+    "countries": [
+      "regional"
+    ],
+    "category": "maritime",
+    "title": "Strait of Hormuz effectively closed \u2014 150+ tankers at anchor, all major lines suspended",
+    "summary": "IRGC declared Strait of Hormuz 'closed' Mar 2. 150+ tankers now at anchor in Gulf. All major shipping lines suspended transits: Maersk, MSC, Hapag-Lloyd, CMA CGM, COSCO. Marine war risk insurance withdrawn effective Mar 5. GPS jamming affected 1,100+ ships in 24hrs.",
+    "severity": "critical",
+    "source": "AOR Sitrep Mar 3 2026"
+  }
+]

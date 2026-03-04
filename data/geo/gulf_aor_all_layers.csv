@@ -1,0 +1,47 @@
+layer,name,full_name,longitude,latitude,status,notes,country,last_updated
+airport,DXB,Dubai International,55.3657,25.2532,OBSTRUCTED,Emirates suspended until 23:59 Mar 4. Repatriation and select departures priority. Gradual commercial increase possible ,UAE,2026-03-03T23:15:00Z
+airport,DWC,Al Maktoum International,55.1607,24.8963,OBSTRUCTED,Cargo focus. Limited flights resuming since Mar 2. Same restrictions as DXB.,UAE,2026-03-03T23:15:00Z
+airport,AUH,Abu Dhabi International (Zayed),54.6511,24.433,OBSTRUCTED,Etihad select departures only. Full commercial paused until ~Mar 5 afternoon. Partial ops since Mar 2.,UAE,2026-03-03T23:15:00Z
+airport,SHJ,Sharjah International,55.5173,25.3285,OBSTRUCTED,Air Arabia curtailed. Limited schedule resuming.,UAE,2026-03-03T23:15:00Z
+airport,MCT,Muscat International,58.2844,23.5932,OPEN,Regional cancellations only (DXB/BAH/DOH/DMM/KWI through Mar 6). Some delays. Diversions and bus links accepted. Most ot,Oman,2026-03-03T23:15:00Z
+airport,RUH,King Khalid International,46.6988,24.9576,OPEN,Rerouting hub. Check for delays. Some flights to affected Gulf destinations canceled.,Saudi Arabia,2026-03-03T23:15:00Z
+airport,DMM,King Fahd International,49.7979,26.4712,OPEN,Domestic strong. Affected routes to UAE/Qatar/Kuwait canceled.,Saudi Arabia,2026-03-03T23:15:00Z
+airport,JED,King Abdulaziz International,39.1565,21.6796,OPEN,Pilgrimage and international focus. Some cancellations but many departures operating.,Saudi Arabia,2026-03-03T23:15:00Z
+airport,BAH,Bahrain International Airport,50.6336,26.2708,CLOSED,All Gulf Air suspended. Operations halted due to airspace closure. No timeline. Monitor BCAA.,Bahrain,2026-03-03T23:15:00Z
+airport,DOH,Hamad International Airport,51.608,25.2731,CLOSED,Qatar Airways all operations suspended. Airspace closure. Next update expected 09:00 Mar 4. Limited humanitarian/state f,Qatar,2026-03-03T23:15:00Z
+airport,HOF,Al-Ahsa International Airport,49.4852,25.2853,OPEN,Small domestic-focused airport. No reported disruptions. Normal limited schedule (mostly domestic Saudi routes).,Saudi Arabia,2026-03-03T23:15:00Z
+airport,KWI,Kuwait International Airport,47.9689,29.2267,CLOSED,Fully closed to commercial flights. No reopening timeline. Monitor DGCA Kuwait.,Kuwait,2026-03-03T23:15:00Z
+border_crossing,Mezyad/Buraimi,UAE/Oman,55.84687168377245,24.021812227583276,OPEN,"Open and in use. Reports mention people crossing UAE–Oman borders, including in the Al Ain/Buraimi area, with new/additi",UAE,2026-03-04T21:06:23.844414+00:00
+border_crossing,Al Wajajah (Hatta),UAE/Oman,56.20296716905119,24.806071180679215,OPEN,"Open, though with very slow traffic and long delays (e.g., 2–6+ hours reported in some cases). Guides/updates from late ",UAE,2026-03-04T21:06:23.844414+00:00
+border_crossing,Khatmat Malaha,UAE/Oman,56.35,25.4833,OPEN,"No specific closure reports. General UAE–Oman land borders remain functional for rerouting (buses/private cars), though ",UAE,2026-03-04T21:06:23.844414+00:00
+border_crossing,Al Ghuwaifat/Silaa,UAE/Saudi,51.597167,24.121668,OPEN,Open and actively used. Etihad Rail ran exceptional passenger train services from Al Ghuwaifat (Saudi side) to Abu Dhabi,UAE,2026-03-04T21:06:23.844414+00:00
+border_crossing,Al Hadithah (Mudawwarah),Saudi/Jordan,36.0833,29.85,CLOSED,Nothing reported; assumed open. Last Note: 4March26.,Saudi Arabia,2026-03-04T21:06:23.844414+00:00
+border_crossing,Al Salmi / Nuwaiseeb,Saudi/Kuwait,46.659479,29.092778,OPEN,Nothing reported; assumed open. No closure noted.,Saudi Arabia,2026-03-04T21:06:23.844414+00:00
+border_crossing,Al Wadiah,Saudi/Yemen,47.25,17.5333,CLOSED,Open and operating normally. Recent reports (incl. aid trucks crossing in Jan 2026 and confirmations of regular operatio,Saudi Arabia,2026-03-04T21:06:23.844414+00:00
+border_crossing,Sharurah,Saudi/Yemen,47.1167,17.4667,OPEN,No closure reported; limited activity; assumed open. No closure; near Al Wadiah and part of the same region—operations a,Saudi Arabia,2026-03-04T21:06:23.844414+00:00
+border_crossing,Arar,Saudi/Iraq,41.0167,30.9833,OPEN,"No current closure from recent events; past temporary shutdowns (e.g., 2025 for smuggling) but reopened for trade. Last ",Saudi Arabia,2026-03-04T21:06:23.844414+00:00
+border_crossing,King Fahd Causeway,Bahrain/Saudi,50.325317,26.183932,OPEN,Open / operational. Authorities confirmed smooth traffic and full capacity in both directions as of 4March26. Earlier un,Bahrain,2026-03-04T21:06:23.844414+00:00
+border_crossing,Al Khajif,Kuwait/Saudi,48.396685,28.536265,OPEN,No specific info on closure. Last Note: 4March26.,Saudi Arabia,2026-03-04T21:06:23.844414+00:00
+border_crossing,Umm Al Zamool,Saudi/Oman,55.52631839454615,22.21199524977998,OPEN,No closure reported; aligns with open Saudi–Oman borders.,Saudi,2026-03-04T21:06:23.844414+00:00
+border_crossing,Al Wagan,UAE/Oman,55.577052992276876,23.631641170737222,OPEN,No specific mentions of closure; falls under the general pattern of UAE–Oman borders staying open but congested. Last No,UAE,2026-03-04T21:06:23.844414+00:00
+border_crossing,Khatm Al Skikla,UAE/Oman,55.95663880345391,24.216155695994416,OPEN,"No closure reported; similar to other Oman crossings, likely open with delays. Last Note: 4March26.
+
+Oman: new paperwork",UAE,2026-03-04T21:06:23.844414+00:00
+border_crossing,Hamasa,UAE/Oman,55.76988648128553,24.233134143701626,OPEN,"No specific closure info; part of the operational UAE–Oman network.
+
+Oman: new paperwork process is in place on the Oman",UAE,2026-03-04T21:06:23.844414+00:00
+border_crossing,Al Ain Border Post,UAE/Oman,55.767408067545,24.26192126800685,OPEN,"Open. Refers to the general Al Ain area crossings (e.g., Mezyad/Buraimi)—open. Last Note: 4March26.
+
+Oman: new paperwork",UAE,2026-03-04T21:06:23.844414+00:00
+border_crossing,Tamouh Diplomatic Center,UAE/Oman,56.36483915571083,24.978323186352142,OPEN,"Limited info, but no reports of closure; diplomatic channels may have specific access.
+
+Oman: new paperwork process is i",UAE,2026-03-04T21:06:23.844414+00:00
+strike,evt-grok-001,"Drone strike near US Consulate, Dubai",55.3076,25.2394,MEDIUM,Drone caused contained fire near US Consulate in Dubai. No injuries. Conflict day 4.,uae,2026-03-03T19:30:00Z
+strike,evt-grok-002,"Two drones struck US Embassy compound, Riyadh",46.7219,24.6877,MEDIUM,"Limited fire, minor structural damage, no casualties reported.",saudi,2026-03-03T06:00:00Z
+strike,evt-grok-003,IRGC drones and missiles targeted Sheikh Isa Air Base,50.5572,25.9183,HIGH,Dawn strike on US airbase near Sheikh Isa. Bahrain activated air defenses. Details on damage withheld.,bahrain,2026-03-03T04:00:00Z
+strike,evt-grok-004,"Drone strike on fuel tanks, Duqm commercial port (second in 48h)",57.7,19.6667,MEDIUM,"Multiple drones hit fuel tanks at Duqm port. Damage contained, zero casualties. Second strike on same facility within 48",oman,2026-03-03T02:00:00Z
+strike,evt-grok-006,QatarEnergy halts LNG production — force majeure declared,51.55,25.9,CRITICAL,Iranian strikes on Ras Laffan and Mesaieed forced complete halt of LNG production (~20% of global supply). Force majeure,macro,2026-03-02T14:00:00Z
+strike,evt-grok-007,Ras Tanura refinery offline — drone debris fire,50.16,26.65,HIGH,"Fire from intercepted drone debris shut operations at Ras Tanura refinery, Saudi Aramco's largest domestic facility.",saudi,2026-03-02T10:00:00Z
+strike,evt-uae-001,Jebel Ali Port berth fire + power station complex struck,55.0719,25.0027,HIGH,Drone debris caused berth fire at Jebel Ali Port. Jebel Ali power station complex (includes desalination) also struck. A,uae,2026-03-03T12:00:00Z
+strike,evt-sa-002,Aramco rerouting crude exports via Yanbu/Red Sea — Hormuz bypass activated,39.1,24.0833,HIGH,"Saudi Aramco actively rerouting crude via East-West Pipeline (Abqaiq→Yanbu, 5-7M bpd capacity). Buyers instructed to loa",saudi,2026-03-03T08:00:00Z
+strike,evt-sa-003,"Ras Tanura refinery shut for assessment — two drones intercepted, debris fire",50.16,26.65,HIGH,"Two Iranian-linked drones intercepted near Ras Tanura. Debris caused contained fire. Refinery (550,000 bpd) temporarily ",saudi,2026-03-02T10:00:00Z

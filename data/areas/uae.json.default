@@ -1,0 +1,91 @@
+{
+  "slug": "uae",
+  "country": "United Arab Emirates",
+  "key_points": [
+    "DXB long-haul arrivals diverted to AUH/DWC for battle-damage repair; terminal access restricted to military lift.",
+    "Emirati SAM batteries holding final PAC-3 stocks in reserve; shoot-look-shoot posture now standard outside Abu Dhabi.",
+    "Critical logistics flowing via Fujairah + Duqm staging; Oman escort approvals required every 6 hours.",
+    "Private sector evacuation flights paused; government-directed charters only."
+  ],
+  "airports": [
+    {
+      "icao": "OMDB",
+      "iata": "DXB",
+      "name": "Dubai International",
+      "city": "Dubai",
+      "status": "DEGRADED",
+      "notes": "Terminal 3 arrival hall offline; limited departures via Concourse A only"
+    },
+    {
+      "icao": "OMDW",
+      "iata": "DWC",
+      "name": "Al Maktoum Intl (DWC)",
+      "city": "Dubai South",
+      "status": "OPEN",
+      "notes": "Primary diversion field; cargo apron crater patched, runway checks ongoing"
+    },
+    {
+      "icao": "OMAA",
+      "iata": "AUH",
+      "name": "Abu Dhabi International",
+      "city": "Abu Dhabi",
+      "status": "OPEN",
+      "notes": "Handling DXB diverts; priority for gov/mil sorties"
+    },
+    {
+      "icao": "OMSJ",
+      "iata": "SHJ",
+      "name": "Sharjah International",
+      "city": "Sharjah",
+      "status": "WATCH",
+      "notes": "Night ops limited after nearby rocket barrage"
+    }
+  ],
+  "borders": [
+    {
+      "name": "Ghuwaifat / Al Batha (KSA)",
+      "status": "CONGESTED",
+      "notes": "Commercial convoys stacking 14km; priority lane reserved for SAM reloads"
+    },
+    {
+      "name": "Hatta / Al Wajajah (Oman)",
+      "status": "OPEN",
+      "notes": "Used for relief supplies and medevac shuttles"
+    }
+  ],
+  "domestic_unrest": {
+    "status": "LOW",
+    "notes": "Population largely compliant; disinformation spikes but no mass protests"
+  },
+  "energy_infra": {
+    "status": "WATCH",
+    "notes": "Jebel Ali tank farms on heightened alert; LNG exports continue under naval escort"
+  },
+  "evac_routes": [
+    {
+      "id": "uae-r1",
+      "label": "Dubai → Muscat",
+      "drive_time": "5–6 hrs",
+      "risk": "MODERATE",
+      "via": "Al Ain / Mezyad",
+      "crossings": ["Mezyad/Buraimi", "Hatta / Al Wajajah (Oman)"],
+      "destination_airport_iata": "MCT",
+      "destination_airport_name": "Muscat International",
+      "destination_airport_icao": "OOMS",
+      "notes": "MCT operating normally as of 03 MAR. Only Gulf FIR currently open to commercial traffic."
+    },
+    {
+      "id": "uae-r2",
+      "label": "Dubai → Riyadh",
+      "drive_time": "10–12 hrs",
+      "risk": "HIGH",
+      "via": "Al Ghuwaifat",
+      "crossings": ["Ghuwaifat / Al Batha (KSA)"],
+      "destination_airport_iata": "RUH",
+      "destination_airport_name": "King Khalid International",
+      "destination_airport_icao": "OERK",
+      "notes": "Riyadh under direct rocket attack as of 03 MAR 16:15Z. Route follows 250km Gulf coast road adjacent to active energy strike targets."
+    }
+  ],
+  "last_updated": "2026-03-03T18:05:00Z"
+}

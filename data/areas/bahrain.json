@@ -1,0 +1,91 @@
+{
+  "slug": "bahrain",
+  "country": "Bahrain",
+  "key_points": [
+    "73 missiles and 91 drones intercepted since Feb 28; multiple weapons penetrated defenses",
+    "5th Fleet HQ Juffair: radar dome direct Shahed hit; NAVCENT evacuated entire district \u2014 area assessed 'no longer safe for US personnel'",
+    "MT Stena Imperative (US oil tanker) struck by Iranian missile at Mina Salman Port Mar 2 ~02:00 UTC; ablaze; 1 worker killed",
+    "Residential towers in Hoora (Era View Tower) and Seef commercial district took direct drone hits. Crowne Plaza Hotel struck.",
+    "BAH airport drone hit causing material damage (terminal pre-evacuated)",
+    "1 confirmed death, 4+ injuries from Iranian strikes. No US/UK military casualties confirmed.",
+    "Civil unrest: Shia protests erupting in Sitra Island Mar 3; GCC Peninsula Shield Force units reportedly entering from Saudi Arabia \u2014 echoing 2011 precedent",
+    "King Fahd Causeway: status uncertain. Was OPEN Mar 1; unconfirmed drone strike and security cordon reports Mar 2-3. Military movements across causeway.",
+    "US Embassy Manama CLOSED. Non-emergency personnel ordered depart. Warning that hotels may be targets.",
+    "Most dangerous Gulf location: compound threat of Iranian strikes + Shia unrest + small island nation + import dependency via closed Strait"
+  ],
+  "airports": [
+    {
+      "icao": "OBBI",
+      "iata": "BAH",
+      "name": "Bahrain International",
+      "city": "Muharraq",
+      "status": "WATCH",
+      "notes": "Terminal open; security pauses during protest surges"
+    }
+  ],
+  "borders": [
+    {
+      "name": "King Fahd Causeway (Saudi Arabia)",
+      "status": "RESTRICTED",
+      "notes": "Limited to force protection convoys; civilian passage intermittent during unrest"
+    }
+  ],
+  "domestic_unrest": {
+    "status": "LOW",
+    "notes": "Shia majority population, historically volatile. No active unrest reported since conflict began.",
+    "last_updated": "2026-03-03T21:00:00Z"
+  },
+  "energy_infra": {
+    "status": "N/A",
+    "notes": "Refining minimal; reliant on Saudi feedstock via causeway pipeline"
+  },
+  "evac_routes": [
+    {
+      "id": "bhr-r1",
+      "label": "Manama \u2192 Saudi Arabia",
+      "drive_time": "30 min to border",
+      "risk": "MODERATE",
+      "via": "King Fahd Causeway",
+      "crossings": [
+        "King Fahd Causeway (Saudi Arabia)"
+      ],
+      "destination_airport_iata": "DMM",
+      "destination_airport_name": "King Fahd International",
+      "destination_airport_icao": "OEDF",
+      "notes": "Only ground exit from Bahrain. Causeway currently restricted to force protection convoys; civilian passage intermittent. Once in Saudi, follow Saudi ground routes for onward movement."
+    }
+  ],
+  "last_updated": "2026-03-03T22:00:00Z",
+  "iw_matrix": [
+    {
+      "indicator": "Airspace / NOTAM Posture",
+      "status": "MET",
+      "notes": "BAH: obstructed, adjusted schedules. Regional airspace closures affecting routing."
+    },
+    {
+      "indicator": "US Military Facility Targeting",
+      "status": "MET",
+      "notes": "Sheikh Isa Air Base struck by IRGC drones and missiles Mar 3 04:00Z. NSA Bahrain (5th Fleet HQ) on heightened alert."
+    },
+    {
+      "indicator": "Ballistic Missile / Drone Threat",
+      "status": "MET",
+      "notes": "Direct IRGC strike on US airbase. Bahrain air defenses activated. Details on damage withheld."
+    },
+    {
+      "indicator": "Domestic Unrest",
+      "status": "LOW",
+      "notes": "Shia majority population \u2014 historically sensitive. No active unrest reported since conflict began."
+    },
+    {
+      "indicator": "5th Fleet / Naval Posture",
+      "status": "WATCH",
+      "notes": "NSA Bahrain is primary US naval HQ. Heightened security posture. Ordered departure of non-emergency USG personnel."
+    },
+    {
+      "indicator": "Energy Infrastructure",
+      "status": "WATCH",
+      "notes": "No direct Bahrain energy strikes confirmed. Regional disruptions (Qatar LNG, Ras Tanura) affect supply chain."
+    }
+  ]
+}

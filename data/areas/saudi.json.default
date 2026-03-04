@@ -1,0 +1,110 @@
+{
+  "slug": "saudi",
+  "country": "Saudi Arabia",
+  "key_points": [
+    "US Embassy Riyadh + diplomatic quarter under shelter-in-place; rocket harassment ongoing as of 03 MAR 16:15Z.",
+    "Eastern Province oil infrastructure absorbing successive strikes; Ras Tanura crude loading paused pending manifold repairs.",
+    "NEOM + northern projects supply-starved; convoys rerouted south via Haradh to remain outside coastal fire arcs.",
+    "Interior Ministry elevated posture in Dammam/Jubail after proxy ISR elements observed mapping police stations."
+  ],
+  "airports": [
+    {
+      "icao": "OERK",
+      "iata": "RUH",
+      "name": "King Khalid International",
+      "city": "Riyadh",
+      "status": "WATCH",
+      "notes": "Shelter-in-place lifts in waves; diplomatic departures only"
+    },
+    {
+      "icao": "OEDF",
+      "iata": "DMM",
+      "name": "King Fahd International",
+      "city": "Dammam",
+      "status": "DEGRADED",
+      "notes": "Eastern Province rockets forcing runway inspections before dawn ops"
+    },
+    {
+      "icao": "OEJN",
+      "iata": "JED",
+      "name": "King Abdulaziz International",
+      "city": "Jeddah",
+      "status": "OPEN",
+      "notes": "West-coast hub; MOD priority lane active"
+    }
+  ],
+  "borders": [
+    {
+      "name": "King Fahd Causeway (Bahrain)",
+      "status": "RESTRICTED",
+      "notes": "Limited to force protection convoys during unrest"
+    },
+    {
+      "name": "Al Khafji (Kuwait)",
+      "status": "OPEN",
+      "notes": "Throughput steady; used for coalition sustainment"
+    },
+    {
+      "name": "Al Hadithah / Mudawwarah (Jordan)",
+      "status": "OPEN",
+      "notes": "Humanitarian lane plus ammo resupply convoys"
+    },
+    {
+      "name": "Al Salmi / Nuwaiseeb (Kuwait)",
+      "status": "OPEN",
+      "notes": "Northern exit corridor; monitor for convoy prioritization"
+    },
+    {
+      "name": "Yemen crossings (all)",
+      "status": "CLOSED",
+      "notes": "All crossings closed; active conflict both sides of border"
+    }
+  ],
+  "domestic_unrest": {
+    "status": "WATCH",
+    "notes": "Eastern Province clerics amplifying anti-government sermons; labor unrest possible if oil shutdown extends"
+  },
+  "energy_infra": {
+    "status": "DEGRADED",
+    "notes": "Ras Tanura + Abqaiq running at reduced load; offshore tanker ops paused"
+  },
+  "evac_routes": [
+    {
+      "id": "ksa-r1",
+      "label": "Riyadh → Amman",
+      "drive_time": "~10 hrs",
+      "risk": "LOW-MODERATE",
+      "via": "Al Hadithah / Mudawwarah",
+      "crossings": ["Al Hadithah / Mudawwarah (Jordan)"],
+      "destination_airport_iata": "AMM",
+      "destination_airport_name": "Queen Alia International",
+      "destination_airport_icao": "OJAI",
+      "notes": "Jordan FIR open for commercial traffic as of 03 MAR. Fuel stops sparse north of Tabuk — top off in Ha'il or Tabuk."
+    },
+    {
+      "id": "ksa-r2",
+      "label": "Riyadh → Kuwait City",
+      "drive_time": "~4 hrs",
+      "risk": "MODERATE",
+      "via": "Al Salmi / Nuwaiseeb",
+      "crossings": ["Al Salmi / Nuwaiseeb (Kuwait)"],
+      "destination_airport_iata": "KWI",
+      "destination_airport_name": "Kuwait International",
+      "destination_airport_icao": "OKBK",
+      "notes": "6 US KIA in Kuwait as of 03 MAR. Shortest route from Riyadh; crossing currently open."
+    },
+    {
+      "id": "ksa-r3",
+      "label": "→ Yemen (any crossing)",
+      "drive_time": "N/A",
+      "risk": "CRITICAL",
+      "via": "N/A",
+      "crossings": ["Yemen crossings (all)"],
+      "destination_airport_iata": null,
+      "destination_airport_name": "No functioning civilian airport",
+      "destination_airport_icao": null,
+      "notes": "All Yemen crossings CLOSED as of 03 MAR. Active multi-front conflict; no consular support available."
+    }
+  ],
+  "last_updated": "2026-03-03T17:55:00Z"
+}

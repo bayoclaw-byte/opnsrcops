@@ -1,0 +1,254 @@
+{% extends "base.html" %}
+{% block title %}Admin — Gulf AOR{% endblock %}
+{% block content %}
+<div class="admin-wrap">
+  <div class="admin-header">
+    <h1>⚙ ADMIN CONSOLE</h1>
+    <span class="admin-sub">Status overrides · Event ingest · Border control</span>
+  </div>
+
+  <div id="admin-toast" class="admin-toast" style="display:none"></div>
+
+  <!-- ── AIRPORTS ─────────────────────────────────────────────────────────── -->
+  <section class="admin-section">
+    <h2>✈ Airport Status</h2>
+    <table class="admin-table" id="airport-table">
+      <thead><tr>
+        <th>IATA</th><th>Country</th><th>Status</th>
+        <th>Airspace</th><th>Intl Canceled</th><th>Dom Canceled</th>
+        <th>Notes</th><th></th>
+      </tr></thead>
+      <tbody id="airport-rows"></tbody>
+    </table>
+  </section>
+
+  <!-- ── BORDER CROSSINGS ──────────────────────────────────────────────────── -->
+  <section class="admin-section">
+    <h2>🛂 Border Crossings</h2>
+    <table class="admin-table" id="border-table">
+      <thead><tr>
+        <th>Crossing</th><th>Countries</th><th>Status</th><th>Notes</th><th></th>
+      </tr></thead>
+      <tbody id="border-rows"></tbody>
+    </table>
+  </section>
+
+  <!-- ── NEW EVENT ─────────────────────────────────────────────────────────── -->
+  <section class="admin-section">
+    <h2>📡 Add Event</h2>
+    <form id="event-form" class="admin-form" onsubmit="submitEvent(event)">
+      <div class="admin-form-row">
+        <label>Title</label>
+        <input type="text" id="ev-title" placeholder="Short headline" required />
+      </div>
+      <div class="admin-form-row">
+        <label>Summary</label>
+        <textarea id="ev-summary" rows="3" placeholder="Full details…"></textarea>
+      </div>
+      <div class="admin-form-row3">
+        <div>
+          <label>Country</label>
+          <select id="ev-country">
+            <option>UAE</option><option>Saudi Arabia</option><option>Bahrain</option>
+            <option>Qatar</option><option>Oman</option><option>Kuwait</option>
+            <option>Regional</option><option>Iran</option><option>Israel</option>
+          </select>
+        </div>
+        <div>
+          <label>Category</label>
+          <select id="ev-category">
+            <option value="strike">Strike</option>
+            <option value="military">Military</option>
+            <option value="infrastructure">Infrastructure</option>
+            <option value="maritime">Maritime</option>
+            <option value="diplomatic">Diplomatic</option>
+            <option value="escalation">Escalation</option>
+            <option value="logistics">Logistics</option>
+            <option value="civil">Civil Unrest</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div>
+          <label>Severity</label>
+          <select id="ev-severity">
+            <option value="CRITICAL">CRITICAL</option>
+            <option value="HIGH">HIGH</option>
+            <option value="MEDIUM" selected>MEDIUM</option>
+            <option value="LOW">LOW</option>
+          </select>
+        </div>
+      </div>
+      <div class="admin-form-row">
+        <label>Source (optional)</label>
+        <input type="text" id="ev-source" placeholder="e.g. S2 Underground, Flightradar24, OSINT" />
+      </div>
+      <button type="submit" class="admin-btn primary">Submit Event</button>
+    </form>
+  </section>
+
+  <!-- ── MACRO I&W ──────────────────────────────────────────────────────────── -->
+  <section class="admin-section">
+    <h2>📊 Macro I&amp;W Indicators</h2>
+    <table class="admin-table">
+      <thead><tr><th>Indicator</th><th>Status</th><th>Notes</th><th></th></tr></thead>
+      <tbody id="iw-rows"></tbody>
+    </table>
+  </section>
+
+</div>
+
+<script>
+const AP_STATUS  = ['OPEN','OBSTRUCTED','CLOSED'];
+const BR_STATUS  = ['OPEN','RESTRICTED','CLOSED'];
+const IW_STATUS  = ['MET','WATCH','UNMET'];
+
+function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+function toast(msg, ok=true) {
+  const t = document.getElementById('admin-toast');
+  t.textContent = msg;
+  t.className = 'admin-toast ' + (ok ? 'toast-ok' : 'toast-err');
+  t.style.display = 'block';
+  setTimeout(() => t.style.display = 'none', 3500);
+}
+
+function selectHtml(opts, val, cls) {
+  return `<select class="admin-select ${cls}">` +
+    opts.map(o => `<option${o===val?' selected':''}>${o}</option>`).join('') +
+    '</select>';
+}
+
+// ── Airports ────────────────────────────────────────────────────────────────
+async function loadAirports() {
+  const res  = await fetch('/api/data');
+  const data = await res.json();
+  const tbody = document.getElementById('airport-rows');
+  const rows = [];
+  (data.airports || []).forEach(group => {
+    (group.airports || []).forEach(ap => {
+      rows.push(`<tr data-iata="${esc(ap.iata)}">
+        <td><strong>${esc(ap.iata)}</strong><br><span class="admin-dim">${esc(ap.icao||'')}</span></td>
+        <td>${esc(ap.country||'')}</td>
+        <td>${selectHtml(AP_STATUS, ap.status, 'ap-status-sel')}</td>
+        <td><input class="admin-input ap-airspace" value="${esc(ap.airspace||'')}" /></td>
+        <td><input class="admin-input ap-intl" value="${esc(ap.intl_canceled||'')}" /></td>
+        <td><input class="admin-input ap-dom"  value="${esc(ap.domestic_canceled||'')}" /></td>
+        <td><input class="admin-input ap-notes" value="${esc(ap.notes||'')}" /></td>
+        <td><button class="admin-btn save-ap-btn" onclick="saveAirport(this)">Save</button></td>
+      </tr>`);
+    });
+  });
+  tbody.innerHTML = rows.join('');
+}
+
+async function saveAirport(btn) {
+  const row     = btn.closest('tr');
+  const iata    = row.dataset.iata;
+  const status  = row.querySelector('.ap-status-sel').value;
+  const airspace= row.querySelector('.ap-airspace').value;
+  const intlC   = row.querySelector('.ap-intl').value;
+  const domC    = row.querySelector('.ap-dom').value;
+  const notes   = row.querySelector('.ap-notes').value;
+
+  const res = await fetch(`/api/admin/airport/${iata}`, {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({status, airspace, intl_canceled: intlC, domestic_canceled: domC, notes})
+  });
+  const d = await res.json();
+  if (d.ok) toast(`✅ ${iata} → ${status}`);
+  else      toast(`❌ ${iata}: ${d.error}`, false);
+}
+
+// ── Borders ─────────────────────────────────────────────────────────────────
+async function loadBorders() {
+  const res  = await fetch('/api/data');
+  const data = await res.json();
+  const tbody = document.getElementById('border-rows');
+  const rows = [];
+  (data.borders || []).forEach(group => {
+    (group.crossings || []).forEach(cr => {
+      const crName = cr.crossing || cr.name || '';
+      rows.push(`<tr data-crossing="${esc(crName)}">
+        <td><strong>${esc(crName)}</strong></td>
+        <td class="admin-dim">${esc(cr.pair || group.country||'')}</td>
+        <td>${selectHtml(BR_STATUS, cr.status, 'br-status-sel')}</td>
+        <td><input class="admin-input br-notes" value="${esc(cr.notes||'')}" /></td>
+        <td><button class="admin-btn save-br-btn" onclick="saveBorder(this)">Save</button></td>
+      </tr>`);
+    });
+  });
+  tbody.innerHTML = rows.join('');
+}
+
+async function saveBorder(btn) {
+  const row      = btn.closest('tr');
+  const crossing = row.dataset.crossing;
+  const status   = row.querySelector('.br-status-sel').value;
+  const notes    = row.querySelector('.br-notes').value;
+
+  const res = await fetch('/api/admin/border', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({crossing, status, notes})
+  });
+  const d = await res.json();
+  if (d.ok) toast(`✅ ${crossing} → ${status}`);
+  else      toast(`❌ ${d.error}`, false);
+}
+
+// ── Events ──────────────────────────────────────────────────────────────────
+async function submitEvent(e) {
+  e.preventDefault();
+  const body = {
+    title:    document.getElementById('ev-title').value,
+    summary:  document.getElementById('ev-summary').value,
+    country:  document.getElementById('ev-country').value,
+    category: document.getElementById('ev-category').value,
+    severity: document.getElementById('ev-severity').value,
+    source:   document.getElementById('ev-source').value,
+  };
+  const res = await fetch('/api/admin/event', {
+    method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body)
+  });
+  const d = await res.json();
+  if (d.ok) {
+    toast(`✅ Event added: ${body.title}`);
+    document.getElementById('event-form').reset();
+  } else toast(`❌ ${d.error}`, false);
+}
+
+// ── Macro I&W ────────────────────────────────────────────────────────────────
+async function loadIW() {
+  const res  = await fetch('/api/macro');
+  const data = await res.json();
+  const tbody = document.getElementById('iw-rows');
+  tbody.innerHTML = (data.macro_indicators||[]).map(ind => `
+    <tr data-id="${esc(ind.id||ind.slug||'')}">
+      <td><strong>${esc(ind.name||'')}</strong></td>
+      <td>${selectHtml(IW_STATUS, ind.status, 'iw-status-sel')}</td>
+      <td><input class="admin-input iw-notes" value="${esc(ind.notes||'')}" /></td>
+      <td><button class="admin-btn" onclick="saveIW(this)">Save</button></td>
+    </tr>`).join('');
+}
+
+async function saveIW(btn) {
+  const row    = btn.closest('tr');
+  const id     = row.dataset.id;
+  const status = row.querySelector('.iw-status-sel').value;
+  const notes  = row.querySelector('.iw-notes').value;
+  const res = await fetch(`/api/admin/iw/${id}`, {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({status, notes})
+  });
+  const d = await res.json();
+  if (d.ok) toast(`✅ ${id} → ${status}`);
+  else      toast(`❌ ${d.error}`, false);
+}
+
+// ── Init ─────────────────────────────────────────────────────────────────────
+loadAirports();
+loadBorders();
+loadIW();
+</script>
+{% endblock %}

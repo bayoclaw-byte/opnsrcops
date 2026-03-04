@@ -1,0 +1,99 @@
+{
+  "type": "uniqueValue",
+  "field": "status",
+  "defaultSymbol": {
+    "type": "esriSMS",
+    "style": "esriSMSCircle",
+    "color": [
+      139,
+      148,
+      158,
+      255
+    ],
+    "size": 10,
+    "outline": {
+      "color": [
+        255,
+        255,
+        255,
+        100
+      ],
+      "width": 1
+    }
+  },
+  "defaultLabel": "Unknown",
+  "uniqueValueInfos": [
+    {
+      "value": "OPEN",
+      "label": "Open",
+      "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+          46,
+          160,
+          67,
+          255
+        ],
+        "size": 12,
+        "outline": {
+          "color": [
+            255,
+            255,
+            255,
+            180
+          ],
+          "width": 1.5
+        }
+      }
+    },
+    {
+      "value": "OBSTRUCTED",
+      "label": "Obstructed",
+      "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+          240,
+          165,
+          0,
+          255
+        ],
+        "size": 12,
+        "outline": {
+          "color": [
+            255,
+            255,
+            255,
+            180
+          ],
+          "width": 1.5
+        }
+      }
+    },
+    {
+      "value": "CLOSED",
+      "label": "Closed",
+      "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSX",
+        "color": [
+          248,
+          81,
+          73,
+          255
+        ],
+        "size": 14,
+        "outline": {
+          "color": [
+            255,
+            255,
+            255,
+            180
+          ],
+          "width": 1.5
+        }
+      }
+    }
+  ]
+}

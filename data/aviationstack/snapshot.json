@@ -1,0 +1,227 @@
+{
+  "fetched_utc": "2026-03-03T20:32:29.742686Z",
+  "airports": {
+    "DXB": {
+      "meta": {
+        "iata": "DXB",
+        "icao": "OMDB",
+        "name": "Dubai International",
+        "country": "UAE"
+      },
+      "active_departures": 2,
+      "sample_flights": [
+        {
+          "flight": "5X271",
+          "airline": "UPS Airlines",
+          "dest": "CGN",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T22:30:00+00:00"
+        },
+        {
+          "flight": "EK506",
+          "airline": "Emirates",
+          "dest": "BOM",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T09:25:00+00:00"
+        }
+      ],
+      "raw_error": null
+    },
+    "AUH": {
+      "meta": {
+        "iata": "AUH",
+        "icao": "OMAA",
+        "name": "Abu Dhabi International",
+        "country": "UAE"
+      },
+      "active_departures": 0,
+      "sample_flights": [],
+      "raw_error": null
+    },
+    "DWC": {
+      "meta": {
+        "iata": "DWC",
+        "icao": "OMDW",
+        "name": "Al Maktoum International",
+        "country": "UAE"
+      },
+      "active_departures": 1,
+      "sample_flights": [
+        {
+          "flight": "7L428",
+          "airline": "Silk Way West",
+          "dest": "GYD",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T02:00:00+00:00"
+        }
+      ],
+      "raw_error": null
+    },
+    "SHJ": {
+      "meta": {
+        "iata": "SHJ",
+        "icao": "OMSJ",
+        "name": "Sharjah International",
+        "country": "UAE"
+      },
+      "active_departures": 0,
+      "sample_flights": [],
+      "raw_error": null
+    },
+    "MCT": {
+      "meta": {
+        "iata": "MCT",
+        "icao": "OOMS",
+        "name": "Muscat International",
+        "country": "Oman"
+      },
+      "active_departures": 5,
+      "sample_flights": [
+        {
+          "flight": "ET3773",
+          "airline": "Ethiopian Airlines",
+          "dest": "MAD",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T16:05:00+00:00"
+        },
+        {
+          "flight": "WY699",
+          "airline": "Oman Air",
+          "dest": "TIF",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T13:30:00+00:00"
+        },
+        {
+          "flight": "OV5093",
+          "airline": "SalamAir",
+          "dest": "UKH",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T11:30:00+00:00"
+        }
+      ],
+      "raw_error": null
+    },
+    "SLL": {
+      "meta": {
+        "iata": "SLL",
+        "icao": "OOSA",
+        "name": "Salalah Airport",
+        "country": "Oman"
+      },
+      "active_departures": 0,
+      "sample_flights": [],
+      "raw_error": null
+    },
+    "BAH": {
+      "meta": {
+        "iata": "BAH",
+        "icao": "OBBI",
+        "name": "Bahrain International",
+        "country": "Bahrain"
+      },
+      "active_departures": 0,
+      "sample_flights": [],
+      "raw_error": null
+    },
+    "RUH": {
+      "meta": {
+        "iata": "RUH",
+        "icao": "OERK",
+        "name": "King Khalid Intl (Riyadh)",
+        "country": "Saudi"
+      },
+      "active_departures": 87,
+      "sample_flights": [
+        {
+          "flight": "BS382",
+          "airline": "US-Bangla Airlines",
+          "dest": "DAC",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T18:15:00+00:00"
+        },
+        {
+          "flight": "SV1091",
+          "airline": "Saudia",
+          "dest": "JED",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T22:30:00+00:00"
+        },
+        {
+          "flight": "SV1051",
+          "airline": "Saudia",
+          "dest": "JED",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T22:00:00+00:00"
+        }
+      ],
+      "raw_error": null
+    },
+    "DMM": {
+      "meta": {
+        "iata": "DMM",
+        "icao": "OEDF",
+        "name": "King Fahd Intl (Dammam)",
+        "country": "Saudi"
+      },
+      "active_departures": 9,
+      "sample_flights": [
+        {
+          "flight": "SV117",
+          "airline": "Saudia",
+          "dest": "LHR",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T16:25:00+00:00"
+        },
+        {
+          "flight": "XY711",
+          "airline": "flynas",
+          "dest": "TIF",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T16:15:00+00:00"
+        },
+        {
+          "flight": "GF5864",
+          "airline": "Gulf Air",
+          "dest": "TIF",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T16:15:00+00:00"
+        }
+      ],
+      "raw_error": null
+    },
+    "JED": {
+      "meta": {
+        "iata": "JED",
+        "icao": "OEJN",
+        "name": "King Abdulaziz (Jeddah)",
+        "country": "Saudi"
+      },
+      "active_departures": 115,
+      "sample_flights": [
+        {
+          "flight": "MH4773",
+          "airline": "Malaysia Airlines",
+          "dest": "CAI",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T22:20:00+00:00"
+        },
+        {
+          "flight": "GA9665",
+          "airline": "Garuda Indonesia",
+          "dest": "CAI",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T22:20:00+00:00"
+        },
+        {
+          "flight": "SM476",
+          "airline": "Air Cairo",
+          "dest": "CAI",
+          "status": "active",
+          "dep_scheduled": "2026-03-03T23:15:00+00:00"
+        }
+      ],
+      "raw_error": null
+    }
+  },
+  "errors": []
+}

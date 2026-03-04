@@ -4,68 +4,87 @@
     {
       "day": 1,
       "date": "2026-02-28",
-      "label": "Op Epic Fury — Opening Salvo",
-      "bm_announced": 44,
-      "drones_announced": 173,
-      "cm_announced": 2,
-      "bm_intercepted": 40,
-      "notes": "Day 1 opening salvo. DXB Terminal 3 struck. Al Dhafra, Al Udeid, Ali Al Salem targeted. ~est. from 4-day totals.",
-      "confirmed": false
+      "bm_announced": 344,
+      "drones_announced": 513,
+      "cm_announced": 0,
+      "label": "Day 1 \u2014 Op Epic Fury opens",
+      "notes": "UAE 137 BM+209 dr, Bahrain 45 BM+9 dr, Qatar 65 BM+12 dr, Kuwait 97 BM+283 dr. Long War Journal / Critical Threats.",
+      "confirmed": true,
+      "intercept_rate_pct": null
     },
     {
       "day": 2,
       "date": "2026-03-01",
-      "label": "Civilian Infrastructure Enters Target Set",
-      "bm_announced": 44,
-      "drones_announced": 172,
+      "bm_announced": 28,
+      "drones_announced": 468,
       "cm_announced": 2,
-      "bm_intercepted": 41,
-      "notes": "First residential building struck (Dubai). Shopping mall hit (Sharjah). Hotels targeted. ~est. from 4-day totals.",
-      "confirmed": false
+      "label": "Day 2 \u2014 drone surge",
+      "notes": "UAE 28 BM+332 dr+2 CM, Bahrain 136 dr. CNN / Critical Threats.",
+      "confirmed": true,
+      "intercept_rate_pct": null
     },
     {
       "day": 3,
       "date": "2026-03-02",
-      "label": "Energy Infrastructure + Hormuz Closure",
-      "bm_announced": 43,
-      "drones_announced": 172,
-      "cm_announced": 2,
-      "bm_intercepted": 41,
-      "notes": "Ras Tanura (Saudi, 550k b/d) shut down. Mussafah ADNOC terminal struck. IRGC declared Hormuz closed. Hezbollah second front opened. ~est. from 4-day totals.",
-      "confirmed": false
+      "bm_announced": 9,
+      "drones_announced": 150,
+      "cm_announced": 6,
+      "label": "Day 3 \u2014 Hormuz closure",
+      "notes": "Estimated: UAE cumulative increase 9 BM+148 dr+6 CM, single strikes Bahrain/Qatar. Unconfirmed.",
+      "confirmed": false,
+      "intercept_rate_pct": null
     },
     {
       "day": 4,
       "date": "2026-03-03",
-      "label": "Embassy Strike + Continued Salvos",
-      "bm_announced": 43,
-      "drones_announced": 172,
-      "cm_announced": 2,
-      "bm_intercepted": 39,
-      "notes": "US Embassy Riyadh directly struck. Fujairah oil facility fire. Duqm second fuel tank. 3 flights diverted from Dubai. ~est. from 4-day totals.",
-      "confirmed": false
+      "bm_announced": 13,
+      "drones_announced": 123,
+      "cm_announced": 0,
+      "label": "Day 4 \u2014 Sheikh Isa / consulate strikes",
+      "notes": "UAE MoD confirmed 11 BM+123 dr intercepted Mar 3. Saudi: 2 BM (embassy+refinery). Partially confirmed.",
+      "confirmed": false,
+      "intercept_rate_pct": 92
     }
   ],
   "totals": {
-    "ballistic_missiles": 174,
-    "drones": 689,
+    "ballistic_missiles": 394,
+    "drones": 1254,
     "cruise_missiles": 8,
-    "total_projectiles": 871,
+    "total_projectiles": 1656,
     "days_tracked": 4
   },
   "averages": {
-    "bm_per_day": 43.5,
-    "drones_per_day": 172.3,
-    "total_per_day": 217.8
+    "bm_per_day": 98.5,
+    "drones_per_day": 313.5,
+    "total_per_day": 414.0
   },
   "depletion": {
-    "uae_intercept_rate_pct": 95,
+    "uae_intercept_rate_pct": 93,
     "uae_intercept_rate_degraded_pct": 80,
-    "uae_depletion_window": "Mar 7-10",
-    "uae_resupply_status": "Requested — US reportedly stonewalling",
+    "uae_depletion_window": "Sufficient \u2014 US resupply reported",
+    "uae_resupply_status": "Likely resupplied by US; Bloomberg window Mar 7-10 may be extended",
     "bloomberg_assessment": "~1 week to depletion at current rate (Bloomberg, Mar 2)",
     "uae_official_position": "Officially denies depletion concern; claims 'robust strategic stockpile'",
-    "impact_if_degraded": "If intercept rate drops 95% → 80%: ~8-9 BM impacts/day in populated areas vs current ~2/day (~4x civilian casualty increase)",
-    "last_updated": "2026-03-03T18:00:00Z"
+    "impact_if_degraded": "If intercept rate drops 95% \u2192 80%: ~8-9 BM impacts/day in populated areas vs current ~2/day (~4x civilian casualty increase)",
+    "last_updated": "2026-03-03T21:30:00Z",
+    "notes": "186 BMs confirmed fired (cumulative). Bloomberg window Mar 7-10 still operative. Intercept rate holding at ~92%."
+  },
+  "intercept_stats": {
+    "missiles_fired": 186,
+    "missiles_neutralized": 172,
+    "missiles_through": 14,
+    "drones_fired": 812,
+    "drones_neutralized": 755,
+    "drones_through": 57,
+    "intercept_rate_missiles_pct": 92.5,
+    "intercept_rate_drones_pct": 93.0,
+    "casualties": {
+      "kia": 3,
+      "kia_note": "Pakistani, Nepali, Bangladeshi nationals",
+      "injuries": 68,
+      "injuries_note": "Minor injuries, many during interceptions"
+    },
+    "source": "UAE Ministry of Defense / Grok report 2026-03-03",
+    "as_of": "2026-03-03T21:30:00Z"
   }
 }

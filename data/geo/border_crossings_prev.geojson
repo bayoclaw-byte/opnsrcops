@@ -1,0 +1,415 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gulf AOR Border Crossings",
+  "description": "Land border crossing status as of 2026-03-03",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.84687168377245,
+          24.021812227583276
+        ]
+      },
+      "properties": {
+        "name": "Mezyad/Buraimi",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "Popular crossing near Al Ain; operational per recent 2026 travel guides.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.20296716905119,
+          24.806071180679215
+        ]
+      },
+      "properties": {
+        "name": "Al Wajajah (Hatta)",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "Open but border traffic very slow due to regional situation and increased use.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "~10min delay (1.2x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.35,
+          25.4833
+        ]
+      },
+      "properties": {
+        "name": "Khatmat Malaha",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "Active for routes to northern/central Oman; standard procedures.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.597167,
+          24.121668
+        ]
+      },
+      "properties": {
+        "name": "Al Ghuwaifat/Silaa",
+        "border_pair": "UAE/Saudi",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "Actively utilized; Etihad Rail passenger trials to border station amid airspace issues.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "~12min delay (1.2x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0833,
+          29.85
+        ]
+      },
+      "properties": {
+        "name": "Al Hadithah (Mudawwarah)",
+        "border_pair": "Saudi/Jordan",
+        "country_group": "Saudi Arabia",
+        "status": "CLOSED",
+        "notes": "Major land port connecting Saudi to Jordan; no closures reported.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 3,
+        "traffic_note": "No route returned by Directions API",
+        "marker_color": "#f85149",
+        "icon_type": "circle-red",
+        "status_label": "Closed",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.659479,
+          29.092778
+        ]
+      },
+      "properties": {
+        "name": "Al Salmi / Nuwaiseeb",
+        "border_pair": "Saudi/Kuwait",
+        "country_group": "Saudi Arabia",
+        "status": "OPEN",
+        "notes": "Operational with recent security activity at Nuwaiseeb checkpoint.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.25,
+          17.5333
+        ]
+      },
+      "properties": {
+        "name": "Al Wadiah",
+        "border_pair": "Saudi/Yemen",
+        "country_group": "Saudi Arabia",
+        "status": "CLOSED",
+        "notes": "Sole crossing; operations continuing but high security, limited access due to Yemen conflict.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 3,
+        "traffic_note": "No route returned by Directions API",
+        "marker_color": "#f85149",
+        "icon_type": "circle-red",
+        "status_label": "Closed",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.1167,
+          17.4667
+        ]
+      },
+      "properties": {
+        "name": "Sharurah",
+        "border_pair": "Saudi/Yemen",
+        "country_group": "Saudi Arabia",
+        "status": "OPEN",
+        "notes": "Border operations active but restricted. Area near Al Wadiah crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#f85149",
+        "icon_type": "circle-red",
+        "status_label": "Closed",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0167,
+          30.9833
+        ]
+      },
+      "properties": {
+        "name": "Arar",
+        "border_pair": "Saudi/Iraq",
+        "country_group": "Saudi Arabia",
+        "status": "OPEN",
+        "notes": "Facilitating transit visas for Iraqi citizens returning home as of March 2, 2026.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.325317,
+          26.183932
+        ]
+      },
+      "properties": {
+        "name": "King Fahd Causeway",
+        "border_pair": "Bahrain/Saudi",
+        "country_group": "Bahrain",
+        "status": "OPEN",
+        "notes": "Fully operational with smooth traffic; normal processing despite regional tensions.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.396685,
+          28.536265
+        ]
+      },
+      "properties": {
+        "name": "Al Khajif",
+        "border_pair": "Kuwait/Saudi",
+        "country_group": "Saudi Arabia",
+        "status": "OPEN",
+        "notes": "Kuwait/Saudi crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "~7min delay (1.2x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.52631839454615,
+          22.21199524977998
+        ]
+      },
+      "properties": {
+        "name": "Umm Al Zamool",
+        "border_pair": "Saudi/Oman",
+        "country_group": "Saudi",
+        "status": "OPEN",
+        "notes": "Saudi/Oman crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.577052992276876,
+          23.631641170737222
+        ]
+      },
+      "properties": {
+        "name": "Al Wagan",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "UAE/Oman crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.95663880345391,
+          24.216155695994416
+        ]
+      },
+      "properties": {
+        "name": "Khatm Al Skikla",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "UAE/Oman crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.76988648128553,
+          24.233134143701626
+        ]
+      },
+      "properties": {
+        "name": "Hamasa",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "UAE/Oman crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "~6min delay (1.2x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.767408067545,
+          24.26192126800685
+        ]
+      },
+      "properties": {
+        "name": "Al Ain Border Post",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "UAE/Oman crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "~5min delay (1.2x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36483915571083,
+          24.978323186352142
+        ]
+      },
+      "properties": {
+        "name": "Tamouh Diplomatic Center",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "UAE/Oman crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "status_code": 1,
+        "traffic_note": "~4min delay (1.2x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    }
+  ]
+}

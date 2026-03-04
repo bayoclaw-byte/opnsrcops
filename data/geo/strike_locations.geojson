@@ -1,0 +1,250 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gulf AOR Strike Locations",
+  "description": "Confirmed and reported strike events 2026-02-28 to 2026-03-03",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.3076,
+          25.2394
+        ]
+      },
+      "properties": {
+        "id": "evt-grok-001",
+        "timestamp_utc": "2026-03-03T19:30:00Z",
+        "title": "Drone strike near US Consulate, Dubai",
+        "summary": "Drone caused contained fire near US Consulate in Dubai. No injuries. Conflict day 4.",
+        "severity": "medium",
+        "severity_code": 2,
+        "countries": "uae",
+        "location_name": "US Consulate Dubai",
+        "source": "Reuters",
+        "marker_color": "#d29922",
+        "icon_type": "diamond-yellow",
+        "severity_label": "Moderate",
+        "layer_type": "strike",
+        "status": "MEDIUM",
+        "status_code": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.7219,
+          24.6877
+        ]
+      },
+      "properties": {
+        "id": "evt-grok-002",
+        "timestamp_utc": "2026-03-03T06:00:00Z",
+        "title": "Two drones struck US Embassy compound, Riyadh",
+        "summary": "Limited fire, minor structural damage, no casualties reported.",
+        "severity": "medium",
+        "severity_code": 2,
+        "countries": "saudi",
+        "location_name": "US Embassy Riyadh",
+        "source": "Al Jazeera",
+        "marker_color": "#d29922",
+        "icon_type": "diamond-yellow",
+        "severity_label": "Moderate",
+        "layer_type": "strike",
+        "status": "MEDIUM",
+        "status_code": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.5572,
+          25.9183
+        ]
+      },
+      "properties": {
+        "id": "evt-grok-003",
+        "timestamp_utc": "2026-03-03T04:00:00Z",
+        "title": "IRGC drones and missiles targeted Sheikh Isa Air Base",
+        "summary": "Dawn strike on US airbase near Sheikh Isa. Bahrain activated air defenses. Details on damage withheld.",
+        "severity": "high",
+        "severity_code": 3,
+        "countries": "bahrain",
+        "location_name": "Sheikh Isa Air Base, Bahrain",
+        "source": "Al Jazeera / IRGC",
+        "marker_color": "#f0a500",
+        "icon_type": "diamond-amber",
+        "severity_label": "High",
+        "layer_type": "strike",
+        "status": "HIGH",
+        "status_code": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.7,
+          19.6667
+        ]
+      },
+      "properties": {
+        "id": "evt-grok-004",
+        "timestamp_utc": "2026-03-03T02:00:00Z",
+        "title": "Drone strike on fuel tanks, Duqm commercial port (second in 48h)",
+        "summary": "Multiple drones hit fuel tanks at Duqm port. Damage contained, zero casualties. Second strike on same facility within 48 hours.",
+        "severity": "medium",
+        "severity_code": 2,
+        "countries": "oman",
+        "location_name": "Duqm Commercial Port, Oman",
+        "source": "Oman News Agency / Reuters",
+        "marker_color": "#d29922",
+        "icon_type": "diamond-yellow",
+        "severity_label": "Moderate",
+        "layer_type": "strike",
+        "status": "MEDIUM",
+        "status_code": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.55,
+          25.9
+        ]
+      },
+      "properties": {
+        "id": "evt-grok-006",
+        "timestamp_utc": "2026-03-02T14:00:00Z",
+        "title": "QatarEnergy halts LNG production \u2014 force majeure declared",
+        "summary": "Iranian strikes on Ras Laffan and Mesaieed forced complete halt of LNG production (~20% of global supply). Force majeure declared.",
+        "severity": "critical",
+        "severity_code": 4,
+        "countries": "macro",
+        "location_name": "Ras Laffan / Mesaieed, Qatar",
+        "source": "QatarEnergy / NYT",
+        "marker_color": "#f85149",
+        "icon_type": "diamond-red",
+        "severity_label": "Critical",
+        "layer_type": "strike",
+        "status": "CRITICAL",
+        "status_code": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.16,
+          26.65
+        ]
+      },
+      "properties": {
+        "id": "evt-grok-007",
+        "timestamp_utc": "2026-03-02T10:00:00Z",
+        "title": "Ras Tanura refinery offline \u2014 drone debris fire",
+        "summary": "Fire from intercepted drone debris shut operations at Ras Tanura refinery, Saudi Aramco's largest domestic facility.",
+        "severity": "high",
+        "severity_code": 3,
+        "countries": "saudi",
+        "location_name": "Ras Tanura Refinery, Saudi Arabia",
+        "source": "Saudi authorities / Al Arabiya",
+        "marker_color": "#f0a500",
+        "icon_type": "diamond-amber",
+        "severity_label": "High",
+        "layer_type": "strike",
+        "status": "HIGH",
+        "status_code": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.0719,
+          25.0027
+        ]
+      },
+      "properties": {
+        "id": "evt-uae-001",
+        "timestamp_utc": "2026-03-03T12:00:00Z",
+        "title": "Jebel Ali Port berth fire + power station complex struck",
+        "summary": "Drone debris caused berth fire at Jebel Ali Port. Jebel Ali power station complex (includes desalination) also struck. ADNOC facilities under threat.",
+        "severity": "high",
+        "severity_code": 3,
+        "countries": "uae",
+        "location_name": "Jebel Ali Port / Power Station, UAE",
+        "source": "UAE monitoring / Grok report",
+        "marker_color": "#f0a500",
+        "icon_type": "diamond-amber",
+        "severity_label": "High",
+        "layer_type": "strike",
+        "status": "HIGH",
+        "status_code": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.1,
+          24.0833
+        ]
+      },
+      "properties": {
+        "id": "evt-sa-002",
+        "timestamp_utc": "2026-03-03T08:00:00Z",
+        "title": "Aramco rerouting crude exports via Yanbu/Red Sea \u2014 Hormuz bypass activated",
+        "summary": "Saudi Aramco actively rerouting crude via East-West Pipeline (Abqaiq\u2192Yanbu, 5-7M bpd capacity). Buyers instructed to load at Yanbu to circumvent Hormuz closure. No production cuts.",
+        "severity": "high",
+        "severity_code": 3,
+        "countries": "saudi",
+        "location_name": "Yanbu / Red Sea rerouting node",
+        "source": "Reuters / Bloomberg",
+        "marker_color": "#f0a500",
+        "icon_type": "diamond-amber",
+        "severity_label": "High",
+        "layer_type": "strike",
+        "status": "HIGH",
+        "status_code": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.16,
+          26.65
+        ]
+      },
+      "properties": {
+        "id": "evt-sa-003",
+        "timestamp_utc": "2026-03-02T10:00:00Z",
+        "title": "Ras Tanura refinery shut for assessment \u2014 two drones intercepted, debris fire",
+        "summary": "Two Iranian-linked drones intercepted near Ras Tanura. Debris caused contained fire. Refinery (550,000 bpd) temporarily shut. No injuries, no structural damage. Abqaiq unaffected and operational.",
+        "severity": "high",
+        "severity_code": 3,
+        "countries": "saudi",
+        "location_name": "Ras Tanura Refinery (drone intercept)",
+        "source": "Reuters / Bloomberg / SPA",
+        "marker_color": "#f0a500",
+        "icon_type": "diamond-amber",
+        "severity_label": "High",
+        "layer_type": "strike",
+        "status": "HIGH",
+        "status_code": 3
+      }
+    }
+  ]
+}

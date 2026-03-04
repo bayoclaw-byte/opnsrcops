@@ -1,0 +1,415 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gulf AOR Border Crossings",
+  "description": "Land border crossing status as of 2026-03-03",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.84687168377245,
+          24.021812227583276
+        ]
+      },
+      "properties": {
+        "name": "Mezyad/Buraimi",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "Open and in use. Reports mention people crossing UAE\u2013Oman borders, including in the Al Ain/Buraimi area, with new/additional corridors like Al Rawdah (related to Buraimi) helping relieve congestion. No closure reported. Last Note: 4March26.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.20296716905119,
+          24.806071180679215
+        ]
+      },
+      "properties": {
+        "name": "Al Wajajah (Hatta)",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "Open, though with very slow traffic and long delays (e.g., 2\u20136+ hours reported in some cases). Guides/updates from late Feb/early Mar 2026 confirm it\u2019s operational for road travel to Oman, despite regional issues. Last Note: 4March26.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "~6min delay (1.1x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.35,
+          25.4833
+        ]
+      },
+      "properties": {
+        "name": "Khatmat Malaha",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "No specific closure reports. General UAE\u2013Oman land borders remain functional for rerouting (buses/private cars), though processing is slow. Last Note: 4March26.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.597167,
+          24.121668
+        ]
+      },
+      "properties": {
+        "name": "Al Ghuwaifat/Silaa",
+        "border_pair": "UAE/Saudi",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "Open and actively used. Etihad Rail ran exceptional passenger train services from Al Ghuwaifat (Saudi side) to Abu Dhabi to help stranded passengers return amid airspace issues\u2014no indications of closure.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "~13min delay (1.2x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0833,
+          29.85
+        ]
+      },
+      "properties": {
+        "name": "Al Hadithah (Mudawwarah)",
+        "border_pair": "Saudi/Jordan",
+        "country_group": "Saudi Arabia",
+        "status": "CLOSED",
+        "notes": "Nothing reported; assumed open. Last Note: 4March26.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 3,
+        "traffic_note": "No route returned by Directions API",
+        "marker_color": "#f85149",
+        "icon_type": "circle-red",
+        "status_label": "Closed",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.659479,
+          29.092778
+        ]
+      },
+      "properties": {
+        "name": "Al Salmi / Nuwaiseeb",
+        "border_pair": "Saudi/Kuwait",
+        "country_group": "Saudi Arabia",
+        "status": "OPEN",
+        "notes": "Nothing reported; assumed open. No closure noted.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "~3min delay (1.1x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.25,
+          17.5333
+        ]
+      },
+      "properties": {
+        "name": "Al Wadiah",
+        "border_pair": "Saudi/Yemen",
+        "country_group": "Saudi Arabia",
+        "status": "CLOSED",
+        "notes": "Open and operating normally. Recent reports (incl. aid trucks crossing in Jan 2026 and confirmations of regular operations) indicate it remains the main active Saudi\u2013Yemen land link. Last Note: 4March26.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 3,
+        "traffic_note": "No route returned by Directions API",
+        "marker_color": "#f85149",
+        "icon_type": "circle-red",
+        "status_label": "Closed",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.1167,
+          17.4667
+        ]
+      },
+      "properties": {
+        "name": "Sharurah",
+        "border_pair": "Saudi/Yemen",
+        "country_group": "Saudi Arabia",
+        "status": "OPEN",
+        "notes": "No closure reported; limited activity; assumed open. No closure; near Al Wadiah and part of the same region\u2014operations appear normal. Last Note: 4March26.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#f85149",
+        "icon_type": "circle-red",
+        "status_label": "Closed",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0167,
+          30.9833
+        ]
+      },
+      "properties": {
+        "name": "Arar",
+        "border_pair": "Saudi/Iraq",
+        "country_group": "Saudi Arabia",
+        "status": "OPEN",
+        "notes": "No current closure from recent events; past temporary shutdowns (e.g., 2025 for smuggling) but reopened for trade. Last Note: 4March26.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.325317,
+          26.183932
+        ]
+      },
+      "properties": {
+        "name": "King Fahd Causeway",
+        "border_pair": "Bahrain/Saudi",
+        "country_group": "Bahrain",
+        "status": "OPEN",
+        "notes": "Open / operational. Authorities confirmed smooth traffic and full capacity in both directions as of 4March26. Earlier unconfirmed reports of temporary closure/incidents (e.g., alleged drone activity) were not verified/were debunked. Some advisories warn against use due to threats, but current status is open and normal.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.396685,
+          28.536265
+        ]
+      },
+      "properties": {
+        "name": "Al Khajif",
+        "border_pair": "Kuwait/Saudi",
+        "country_group": "Saudi Arabia",
+        "status": "OPEN",
+        "notes": "No specific info on closure. Last Note: 4March26.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "~8min delay (1.2x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.52631839454615,
+          22.21199524977998
+        ]
+      },
+      "properties": {
+        "name": "Umm Al Zamool",
+        "border_pair": "Saudi/Oman",
+        "country_group": "Saudi",
+        "status": "OPEN",
+        "notes": "No closure reported; aligns with open Saudi\u2013Oman borders.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.577052992276876,
+          23.631641170737222
+        ]
+      },
+      "properties": {
+        "name": "Al Wagan",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "No specific mentions of closure; falls under the general pattern of UAE\u2013Oman borders staying open but congested. Last Note: 4March26.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.95663880345391,
+          24.216155695994416
+        ]
+      },
+      "properties": {
+        "name": "Khatm Al Skikla",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "No closure reported; similar to other Oman crossings, likely open with delays. Last Note: 4March26.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "Normal flow",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.76988648128553,
+          24.233134143701626
+        ]
+      },
+      "properties": {
+        "name": "Hamasa",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "No specific closure info; part of the operational UAE\u2013Oman network.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "~6min delay (1.2x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.767408067545,
+          24.26192126800685
+        ]
+      },
+      "properties": {
+        "name": "Al Ain Border Post",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "Open. Refers to the general Al Ain area crossings (e.g., Mezyad/Buraimi)\u2014open. Last Note: 4March26.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "~5min delay (1.2x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36483915571083,
+          24.978323186352142
+        ]
+      },
+      "properties": {
+        "name": "Tamouh Diplomatic Center",
+        "border_pair": "UAE/Oman",
+        "country_group": "UAE",
+        "status": "OPEN",
+        "notes": "Limited info, but no reports of closure; diplomatic channels may have specific access.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
+        "last_updated": "2026-03-04T21:06:23.844414+00:00",
+        "status_code": 1,
+        "traffic_note": "~3min delay (1.1x normal)",
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "border_crossing"
+      }
+    }
+  ]
+}

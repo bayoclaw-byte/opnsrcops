@@ -1,0 +1,421 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gulf AOR Airports",
+  "description": "Airport status as of 2026-03-03",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.3657,
+          25.2532
+        ]
+      },
+      "properties": {
+        "iata": "DXB",
+        "icao": "OMDB",
+        "name": "Dubai International",
+        "country": "UAE",
+        "status": "OBSTRUCTED",
+        "notes": "Emirates suspended until 23:59 Mar 4. Repatriation and select departures priority. Gradual commercial increase possible Mar 4\u20135. Do not go to airport unless contacted by airline.",
+        "last_updated": "2026-03-03T23:15:00Z",
+        "status_code": 2,
+        "marker_color": "#f0a500",
+        "icon_type": "circle-amber",
+        "status_label": "Obstructed",
+        "layer_type": "airport",
+        "traffic_note": "",
+        "airspace": "Restricted / Partial",
+        "all_canceled": false,
+        "live_flights": 0,
+        "live_callsigns": "",
+        "live_checked_utc": "2026-03-04T20:58:48.758376+00:00",
+        "intl_canceled": "Yes (most)",
+        "domestic_canceled": "No (limited)",
+        "marker-color": "#f0a500",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.1607,
+          24.8963
+        ]
+      },
+      "properties": {
+        "iata": "DWC",
+        "icao": "OMDW",
+        "name": "Al Maktoum International",
+        "country": "UAE",
+        "status": "OBSTRUCTED",
+        "notes": "Cargo focus. Limited flights resuming since Mar 2. Same restrictions as DXB.",
+        "last_updated": "2026-03-03T23:15:00Z",
+        "status_code": 2,
+        "marker_color": "#f0a500",
+        "icon_type": "circle-amber",
+        "status_label": "Obstructed",
+        "layer_type": "airport",
+        "traffic_note": "",
+        "airspace": "Restricted / Partial",
+        "all_canceled": false,
+        "live_flights": 0,
+        "live_callsigns": "",
+        "live_checked_utc": "2026-03-04T20:58:48.758376+00:00",
+        "intl_canceled": "Yes (most)",
+        "domestic_canceled": "No (limited)",
+        "marker-color": "#f0a500",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6511,
+          24.433
+        ]
+      },
+      "properties": {
+        "iata": "AUH",
+        "icao": "OMAA",
+        "name": "Abu Dhabi International (Zayed)",
+        "country": "UAE",
+        "status": "OBSTRUCTED",
+        "notes": "Etihad select departures only. Full commercial paused until ~Mar 5 afternoon. Partial ops since Mar 2.",
+        "last_updated": "2026-03-03T23:15:00Z",
+        "status_code": 2,
+        "marker_color": "#f0a500",
+        "icon_type": "circle-amber",
+        "status_label": "Obstructed",
+        "layer_type": "airport",
+        "traffic_note": "",
+        "airspace": "Restricted / Partial",
+        "all_canceled": false,
+        "live_flights": 0,
+        "live_callsigns": "",
+        "live_checked_utc": "2026-03-04T20:58:48.758376+00:00",
+        "intl_canceled": "Yes (most)",
+        "domestic_canceled": "No (limited)",
+        "marker-color": "#f0a500",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.5173,
+          25.3285
+        ]
+      },
+      "properties": {
+        "iata": "SHJ",
+        "icao": "OMSJ",
+        "name": "Sharjah International",
+        "country": "UAE",
+        "status": "OBSTRUCTED",
+        "notes": "Air Arabia curtailed. Limited schedule resuming.",
+        "last_updated": "2026-03-03T23:15:00Z",
+        "status_code": 2,
+        "marker_color": "#f0a500",
+        "icon_type": "circle-amber",
+        "status_label": "Obstructed",
+        "layer_type": "airport",
+        "traffic_note": "",
+        "airspace": "Restricted / Partial",
+        "all_canceled": false,
+        "live_flights": 0,
+        "live_callsigns": "",
+        "live_checked_utc": "2026-03-04T20:58:48.758376+00:00",
+        "intl_canceled": "Yes (most)",
+        "domestic_canceled": "No (limited)",
+        "marker-color": "#f0a500",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.2844,
+          23.5932
+        ]
+      },
+      "properties": {
+        "iata": "MCT",
+        "icao": "OOMS",
+        "name": "Muscat International",
+        "country": "Oman",
+        "status": "OPEN",
+        "notes": "Regional cancellations only (DXB/BAH/DOH/DMM/KWI through Mar 6). Some delays. Diversions and bus links accepted. Most other flights operating.",
+        "last_updated": "2026-03-03T23:15:00Z",
+        "status_code": 1,
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "airport",
+        "traffic_note": "",
+        "airspace": "Open",
+        "all_canceled": false,
+        "live_flights": 0,
+        "live_callsigns": "",
+        "live_checked_utc": "2026-03-04T20:58:48.758376+00:00",
+        "intl_canceled": "No (regional only)",
+        "domestic_canceled": "No",
+        "marker-color": "#2ea043",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6988,
+          24.9576
+        ]
+      },
+      "properties": {
+        "iata": "RUH",
+        "icao": "OERK",
+        "name": "King Khalid International",
+        "country": "Saudi Arabia",
+        "status": "OPEN",
+        "notes": "Rerouting hub. Check for delays. Some flights to affected Gulf destinations canceled.",
+        "last_updated": "2026-03-03T23:15:00Z",
+        "status_code": 1,
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "airport",
+        "traffic_note": "",
+        "airspace": "Open (partial routes)",
+        "all_canceled": false,
+        "live_flights": 0,
+        "live_callsigns": "",
+        "live_checked_utc": "2026-03-04T20:58:48.758376+00:00",
+        "intl_canceled": "No (route-dependent)",
+        "domestic_canceled": "No",
+        "marker-color": "#2ea043",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.7979,
+          26.4712
+        ]
+      },
+      "properties": {
+        "iata": "DMM",
+        "icao": "OEDF",
+        "name": "King Fahd International",
+        "country": "Saudi Arabia",
+        "status": "OPEN",
+        "notes": "Domestic strong. Affected routes to UAE/Qatar/Kuwait canceled.",
+        "last_updated": "2026-03-03T23:15:00Z",
+        "status_code": 1,
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "airport",
+        "traffic_note": "",
+        "airspace": "Open (partial routes)",
+        "all_canceled": false,
+        "live_flights": 0,
+        "live_callsigns": "",
+        "live_checked_utc": "2026-03-04T20:58:48.758376+00:00",
+        "intl_canceled": "No (route-dependent)",
+        "domestic_canceled": "No",
+        "marker-color": "#2ea043",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.1565,
+          21.6796
+        ]
+      },
+      "properties": {
+        "iata": "JED",
+        "icao": "OEJN",
+        "name": "King Abdulaziz International",
+        "country": "Saudi Arabia",
+        "status": "OPEN",
+        "notes": "Pilgrimage and international focus. Some cancellations but many departures operating.",
+        "last_updated": "2026-03-03T23:15:00Z",
+        "status_code": 1,
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "layer_type": "airport",
+        "traffic_note": "",
+        "airspace": "Open (partial routes)",
+        "all_canceled": false,
+        "live_flights": 0,
+        "live_callsigns": "",
+        "live_checked_utc": "2026-03-04T20:58:48.758376+00:00",
+        "intl_canceled": "No (route-dependent)",
+        "domestic_canceled": "No",
+        "marker-color": "#2ea043",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.6336,
+          26.2708
+        ]
+      },
+      "properties": {
+        "iata": "BAH",
+        "icao": "OBBI",
+        "name": "Bahrain International Airport",
+        "country": "Bahrain",
+        "status": "CLOSED",
+        "notes": "All Gulf Air suspended. Operations halted due to airspace closure. No timeline. Monitor BCAA.",
+        "last_updated": "2026-03-03T23:15:00Z",
+        "status_code": 3,
+        "marker_color": "#f85149",
+        "icon_type": "circle-red",
+        "status_label": "Closed",
+        "layer_type": "airport",
+        "traffic_note": "",
+        "airspace": "Fully Closed",
+        "all_canceled": true,
+        "live_flights": 0,
+        "live_callsigns": "",
+        "live_checked_utc": "2026-03-04T20:58:48.758376+00:00",
+        "intl_canceled": "Yes",
+        "domestic_canceled": "Yes",
+        "marker-color": "#f85149",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.608,
+          25.2731
+        ]
+      },
+      "properties": {
+        "iata": "DOH",
+        "icao": "OTBD",
+        "name": "Hamad International Airport",
+        "country": "Qatar",
+        "status": "CLOSED",
+        "airspace": "Fully Closed",
+        "all_canceled": true,
+        "notes": "Qatar Airways all operations suspended. Airspace closure. Next update expected 09:00 Mar 4. Limited humanitarian/state flights only. Do not travel to airport without confirmation.",
+        "status_code": 3,
+        "marker_color": "#f85149",
+        "icon_type": "circle-red",
+        "status_label": "Closed",
+        "live_flights": 0,
+        "live_callsigns": "",
+        "live_checked_utc": "2026-03-04T20:58:48.758376+00:00",
+        "last_updated": "2026-03-03T23:15:00Z",
+        "intl_canceled": "Yes",
+        "domestic_canceled": "Yes",
+        "marker-color": "#f85149",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.4852,
+          25.2853
+        ]
+      },
+      "properties": {
+        "iata": "HOF",
+        "icao": "OEAH",
+        "name": "Al-Ahsa International Airport",
+        "country": "Saudi Arabia",
+        "status": "OPEN",
+        "airspace": "Open",
+        "all_canceled": false,
+        "notes": "Small domestic-focused airport. No reported disruptions. Normal limited schedule (mostly domestic Saudi routes).",
+        "status_code": 1,
+        "marker_color": "#2ea043",
+        "icon_type": "circle-green",
+        "status_label": "Open",
+        "live_flights": 0,
+        "live_callsigns": "",
+        "live_checked_utc": "2026-03-04T20:58:48.758376+00:00",
+        "last_updated": "2026-03-03T23:15:00Z",
+        "intl_canceled": "No",
+        "domestic_canceled": "No",
+        "marker-color": "#2ea043",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.9689,
+          29.2267
+        ]
+      },
+      "properties": {
+        "iata": "KWI",
+        "icao": "OKBK",
+        "name": "Kuwait International Airport",
+        "country": "Kuwait",
+        "status": "CLOSED",
+        "airspace": "Fully Closed",
+        "intl_canceled": "Yes",
+        "domestic_canceled": "Yes",
+        "all_canceled": true,
+        "notes": "Fully closed to commercial flights. No reopening timeline. Monitor DGCA Kuwait.",
+        "status_code": 3,
+        "marker_color": "#f85149",
+        "icon_type": "circle-red",
+        "status_label": "Closed",
+        "live_flights": 0,
+        "live_callsigns": "",
+        "live_checked_utc": "2026-03-04T20:58:48.758376+00:00",
+        "last_updated": "2026-03-03T23:15:00Z",
+        "marker-color": "#f85149",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    }
+  ]
+}

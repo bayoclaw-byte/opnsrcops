@@ -1,0 +1,165 @@
+{
+  "slug": "saudi",
+  "country": "Saudi Arabia",
+  "key_points": [
+    "No confirmed casualties in Saudi Arabia \u2014 extensive air defense experience from years of Houthi attacks; deep Patriot/THAAD inventory",
+    "Ras Tanura refinery (550,000 bbl/day) targeted Mar 2 by 5 drones; 2 debris hits within perimeter; fire started; operations halted. Juaymah LPG terminal also offline since Feb 23 (pre-conflict structural collapse).",
+    "US Embassy Riyadh struck by 2 Iranian drones Mar 3; limited fire, minor material damage; Diplomatic Quarter targeted",
+    "King Khalid International Airport (RUH) and Prince Sultan Air Base (Al-Kharj) targeted Mar 1; Saudi intercepted 5 drones near air base",
+    "Brent crude $81-84/bbl (+15-20% from pre-conflict). Analysts warn $100/bbl if disruptions persist; $120+ if sustained 3+ weeks.",
+    "Saudi retains East-West pipeline routing oil to Yanbu (Red Sea), bypassing Hormuz",
+    "IndiGo ran 10 dedicated evacuation flights from JED to India Mar 3. 58,000+ Indonesian pilgrims stranded during Ramadan.",
+    "Houthis have NOT launched confirmed attacks on Saudi Arabia but announced resumption of Red Sea shipping attacks and strikes on Israel",
+    "Crown Prince MBS reportedly vowed military force against further Iranian incursions"
+  ],
+  "airports": [
+    {
+      "icao": "OERK",
+      "iata": "RUH",
+      "name": "King Khalid International",
+      "city": "Riyadh",
+      "status": "WATCH",
+      "notes": "Shelter-in-place lifts in waves; diplomatic departures only"
+    },
+    {
+      "icao": "OEDF",
+      "iata": "DMM",
+      "name": "King Fahd International",
+      "city": "Dammam",
+      "status": "DEGRADED",
+      "notes": "Eastern Province rockets forcing runway inspections before dawn ops"
+    },
+    {
+      "icao": "OEJN",
+      "iata": "JED",
+      "name": "King Abdulaziz International",
+      "city": "Jeddah",
+      "status": "OPEN",
+      "notes": "West-coast hub; MOD priority lane active"
+    }
+  ],
+  "borders": [
+    {
+      "name": "King Fahd Causeway (Bahrain)",
+      "status": "RESTRICTED",
+      "notes": "Limited to force protection convoys during unrest"
+    },
+    {
+      "name": "Al Khafji (Kuwait)",
+      "status": "OPEN",
+      "notes": "Throughput steady; used for coalition sustainment"
+    },
+    {
+      "name": "Al Hadithah / Mudawwarah (Jordan)",
+      "status": "OPEN",
+      "notes": "Humanitarian lane plus ammo resupply convoys"
+    },
+    {
+      "name": "Al Salmi / Nuwaiseeb (Kuwait)",
+      "status": "OPEN",
+      "notes": "Northern exit corridor; monitor for convoy prioritization"
+    },
+    {
+      "name": "Yemen crossings (all)",
+      "status": "CLOSED",
+      "notes": "All crossings closed; active conflict both sides of border"
+    }
+  ],
+  "domestic_unrest": {
+    "status": "UNMET",
+    "notes": "Zero reports of protests, demonstrations, or instability. Eastern Province Shia population calm \u2014 economic interdependence self-restraining. Official messaging emphasizes national unity. Contrast: protests reported in Pakistan, Iran.",
+    "last_updated": "2026-03-03T21:30:00Z"
+  },
+  "energy_infra": {
+    "status": "MET",
+    "notes": "Ras Tanura refinery (550,000 bpd) shut for assessment; local supply unaffected. Abqaiq OPERATIONAL. East-West Pipeline active, Aramco rerouting exports via Yanbu/Red Sea. No forced production cuts. Output >10M bpd.",
+    "last_updated": "2026-03-03T21:30:00Z"
+  },
+  "evac_routes": [
+    {
+      "id": "ksa-r1",
+      "label": "Riyadh \u2192 Amman",
+      "drive_time": "~10 hrs",
+      "risk": "LOW-MODERATE",
+      "via": "Al Hadithah / Mudawwarah",
+      "crossings": [
+        "Al Hadithah / Mudawwarah (Jordan)"
+      ],
+      "destination_airport_iata": "AMM",
+      "destination_airport_name": "Queen Alia International",
+      "destination_airport_icao": "OJAI",
+      "notes": "Jordan FIR open for commercial traffic as of 03 MAR. Fuel stops sparse north of Tabuk \u2014 top off in Ha'il or Tabuk."
+    },
+    {
+      "id": "ksa-r2",
+      "label": "Riyadh \u2192 Kuwait City",
+      "drive_time": "~4 hrs",
+      "risk": "MODERATE",
+      "via": "Al Salmi / Nuwaiseeb",
+      "crossings": [
+        "Al Salmi / Nuwaiseeb (Kuwait)"
+      ],
+      "destination_airport_iata": "KWI",
+      "destination_airport_name": "Kuwait International",
+      "destination_airport_icao": "OKBK",
+      "notes": "6 US KIA in Kuwait as of 03 MAR. Shortest route from Riyadh; crossing currently open."
+    },
+    {
+      "id": "ksa-r3",
+      "label": "\u2192 Yemen (any crossing)",
+      "drive_time": "N/A",
+      "risk": "CRITICAL",
+      "via": "N/A",
+      "crossings": [
+        "Yemen crossings (all)"
+      ],
+      "destination_airport_iata": null,
+      "destination_airport_name": "No functioning civilian airport",
+      "destination_airport_icao": null,
+      "notes": "All Yemen crossings CLOSED as of 03 MAR. Active multi-front conflict; no consular support available."
+    }
+  ],
+  "last_updated": "2026-03-03T22:00:00Z",
+  "export_logistics": {
+    "status": "ADAPTED",
+    "notes": "Aramco rerouting crude via East-West Pipeline (Abqaiq\u2192Yanbu, 5-7M bpd) to Red Sea. Buyers of Arab Light instructed to load at Yanbu. Hormuz bypass active.",
+    "last_updated": "2026-03-03T21:30:00Z"
+  },
+  "iw_matrix": [
+    {
+      "indicator": "Airspace / NOTAM Posture",
+      "status": "MET",
+      "notes": "RUH/DMM: obstructed. JED: open. US Consulate shelter-in-place issued for Dhahran."
+    },
+    {
+      "indicator": "Ballistic Missile Threat",
+      "status": "MET",
+      "notes": "Two drones struck US Embassy Riyadh Mar 3 06:00Z. Eastern Province on full alert. Saudi armed forces at maximum readiness."
+    },
+    {
+      "indicator": "Energy Infrastructure",
+      "status": "MET",
+      "notes": "Ras Tanura refinery (550,000 bpd) shut for assessment. Abqaiq OPERATIONAL. East-West Pipeline active \u2014 Aramco rerouting via Yanbu."
+    },
+    {
+      "indicator": "Export Logistics",
+      "status": "WATCH",
+      "notes": "Aramco bypassing Hormuz via East-West Pipeline to Yanbu/Red Sea. Production >10M bpd with no forced cuts."
+    },
+    {
+      "indicator": "US Facility Targeting",
+      "status": "MET",
+      "notes": "US Embassy Riyadh struck (two drones, Mar 3). US Consulate Dhahran: imminent threat warning issued."
+    },
+    {
+      "indicator": "Domestic Unrest",
+      "status": "UNMET",
+      "notes": "Zero protests or instability. Public life continues normally. Eastern Province Shia population calm."
+    },
+    {
+      "indicator": "Proxy / Houthi Threat",
+      "status": "WATCH",
+      "notes": "Al Wadiah / Sharurah border area under pressure from Yemen side. Houthis signaling Red Sea escalation."
+    }
+  ]
+}

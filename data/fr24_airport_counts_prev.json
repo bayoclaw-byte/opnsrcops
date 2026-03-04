@@ -1,0 +1,20 @@
+{
+  "last_scan_utc": "2026-03-04T06:28:44.493955+00:00",
+  "counts": {
+    "DXB": 0,
+    "AUH": 0,
+    "DWC": 0,
+    "SHJ": 0,
+    "BAH": 0,
+    "MCT": 0,
+    "RUH": 0,
+    "DMM": 0,
+    "JED": 0,
+    "HOF": 0,
+    "DOH": 0,
+    "KWI": 0
+  },
+  "unattributed": 2,
+  "total_gulf_flights": 2,
+  "reopen_iata": []
+}

@@ -1,0 +1,123 @@
+{
+  "type": "uniqueValue",
+  "field": "severity",
+  "defaultSymbol": {
+    "type": "esriSMS",
+    "style": "esriSMSDiamond",
+    "color": [
+      139,
+      148,
+      158,
+      255
+    ],
+    "size": 10,
+    "outline": {
+      "color": [
+        255,
+        255,
+        255,
+        100
+      ],
+      "width": 1
+    }
+  },
+  "defaultLabel": "Unknown",
+  "uniqueValueInfos": [
+    {
+      "value": "critical",
+      "label": "Critical",
+      "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "color": [
+          248,
+          81,
+          73,
+          255
+        ],
+        "size": 18,
+        "outline": {
+          "color": [
+            255,
+            255,
+            255,
+            200
+          ],
+          "width": 1.5
+        }
+      }
+    },
+    {
+      "value": "high",
+      "label": "High",
+      "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "color": [
+          240,
+          165,
+          0,
+          255
+        ],
+        "size": 14,
+        "outline": {
+          "color": [
+            255,
+            255,
+            255,
+            200
+          ],
+          "width": 1.5
+        }
+      }
+    },
+    {
+      "value": "medium",
+      "label": "Moderate",
+      "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "color": [
+          210,
+          153,
+          34,
+          255
+        ],
+        "size": 12,
+        "outline": {
+          "color": [
+            255,
+            255,
+            255,
+            180
+          ],
+          "width": 1
+        }
+      }
+    },
+    {
+      "value": "low",
+      "label": "Low",
+      "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "color": [
+          46,
+          160,
+          67,
+          255
+        ],
+        "size": 10,
+        "outline": {
+          "color": [
+            255,
+            255,
+            255,
+            180
+          ],
+          "width": 1
+        }
+      }
+    }
+  ]
+}

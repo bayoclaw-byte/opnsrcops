@@ -1,0 +1,153 @@
+[
+  {
+    "country": "UAE",
+    "crossings": [
+      {
+        "crossing": "Mezyad/Buraimi",
+        "pair": "UAE/Oman",
+        "status": "OPEN",
+        "notes": "Popular crossing near Al Ain; operational per recent 2026 travel guides.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "Normal flow"
+      },
+      {
+        "crossing": "Al Wajajah (Hatta)",
+        "pair": "UAE/Oman",
+        "status": "OPEN",
+        "notes": "Safest corridor in region. Multiple country evacuation buses using this route. Security-related delays. Dubai to Muscat ~4-5 hours. Avoid Dibba/Tibat crossings (Musandam \u2014 Strait of Hormuz area extremely dangerous).",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "~10min delay (1.2x normal)"
+      },
+      {
+        "crossing": "Khatmat Malaha",
+        "pair": "UAE/Oman",
+        "status": "OPEN",
+        "notes": "Active for routes to northern/central Oman; standard procedures.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "Normal flow"
+      },
+      {
+        "crossing": "Al Ghuwaifat/Silaa",
+        "pair": "UAE/Saudi",
+        "status": "OPEN",
+        "notes": "Active. Abu Dhabi to border ~300km/3hrs. Saudi Eastern Province is active target zone \u2014 assess HIGH RISK at destination.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "~12min delay (1.2x normal)"
+      },
+      {
+        "crossing": "Al Wagan",
+        "pair": "UAE/Oman",
+        "status": "OPEN",
+        "notes": "UAE/Oman crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "Normal flow"
+      },
+      {
+        "crossing": "Khatm Al Skikla",
+        "pair": "UAE/Oman",
+        "status": "OPEN",
+        "notes": "UAE/Oman crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "Normal flow"
+      },
+      {
+        "crossing": "Hamasa",
+        "pair": "UAE/Oman",
+        "status": "OPEN",
+        "notes": "UAE/Oman crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "~6min delay (1.2x normal)"
+      },
+      {
+        "crossing": "Al Ain Border Post",
+        "pair": "UAE/Oman",
+        "status": "OPEN",
+        "notes": "UAE/Oman crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "~5min delay (1.2x normal)"
+      },
+      {
+        "crossing": "Tamouh Diplomatic Center",
+        "pair": "UAE/Oman",
+        "status": "OPEN",
+        "notes": "UAE/Oman crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "~4min delay (1.2x normal)"
+      }
+    ]
+  },
+  {
+    "country": "Saudi Arabia",
+    "crossings": [
+      {
+        "crossing": "Al Hadithah (Mudawwarah)",
+        "pair": "Saudi/Jordan",
+        "status": "CLOSED",
+        "notes": "Major land port connecting Saudi to Jordan; no closures reported.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "No route returned by Directions API"
+      },
+      {
+        "crossing": "Al Salmi / Nuwaiseeb",
+        "pair": "Saudi/Kuwait",
+        "status": "OPEN",
+        "notes": "Operational with recent security activity at Nuwaiseeb checkpoint. Salmi crossing coords confirmed.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "Normal flow"
+      },
+      {
+        "crossing": "Al Wadiah",
+        "pair": "Saudi/Yemen",
+        "status": "CLOSED",
+        "notes": "Sole crossing; operations continuing but high security, limited access due to Yemen conflict.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "No route returned by Directions API"
+      },
+      {
+        "crossing": "Sharurah",
+        "pair": "Saudi/Yemen",
+        "status": "OPEN",
+        "notes": "Border operations active but restricted. Area near Al Wadiah crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "Normal flow"
+      },
+      {
+        "crossing": "Arar",
+        "pair": "Saudi/Iraq",
+        "status": "OPEN",
+        "notes": "Facilitating transit visas for Iraqi citizens returning home as of March 2, 2026.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "Normal flow"
+      },
+      {
+        "crossing": "Al Khajif",
+        "pair": "Kuwait/Saudi",
+        "status": "OPEN",
+        "notes": "Kuwait/Saudi crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "~7min delay (1.2x normal)"
+      },
+      {
+        "crossing": "Umm Al Zamool",
+        "pair": "Saudi/Oman",
+        "status": "OPEN",
+        "notes": "Saudi/Oman crossing.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "Normal flow"
+      }
+    ]
+  },
+  {
+    "country": "Bahrain",
+    "crossings": [
+      {
+        "crossing": "King Fahd Causeway",
+        "pair": "Bahrain/Saudi",
+        "status": "OPEN",
+        "notes": "Unconfirmed reports of drone strike and security cordon as of Mar 3. Was confirmed OPEN Mar 1. Peninsula Shield Force military movement reported across causeway. Assess extremely high risk for civilian use. Do not use for civilian evacuation.",
+        "last_updated": "2026-03-04T08:06:21.185579+00:00",
+        "traffic_note": "Normal flow"
+      }
+    ]
+  }
+]

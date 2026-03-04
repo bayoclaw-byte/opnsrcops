@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "slug": "airspace",
+    "name": "Airspace / NOTAM posture",
+    "status": "MET",
+    "description": "UAE + KSA air defense corridors operating, but extended-range arrivals now require tanker drags and slot control.",
+    "notes": "Qatar Airways, Emirates, Etihad suspended or severely curtailed. ~20,000 stranded in UAE, ~8,000 in Qatar. Airspace effectively restricted across Gulf.",
+    "last_updated": "2026-03-03T21:00:00Z"
+  },
+  {
+    "id": 2,
+    "slug": "land-borders",
+    "name": "Land borders & convoy flows",
+    "status": "WATCH",
+    "description": "Saudi eastern road network absorbing diverted UAE cargo, but Haradh crossing at 60% of rated throughput.",
+    "notes": "Kuwait and Qatar crossings remain open though scanners throttled to 50%; Jordan-Saudi corridor MET for allied sustainment missions.",
+    "last_updated": "2026-03-03T17:30:00Z"
+  },
+  {
+    "id": 3,
+    "slug": "hormuz",
+    "name": "Strait of Hormuz maritime picture",
+    "status": "MET",
+    "description": "Inbound shipping halted; insurers classifying all transits as constructive total loss after smart-mine declaration.",
+    "notes": "IRGC declared Strait 'closed' Mar 2. 150+ tankers at anchor. All major shipping lines suspended transits. Marine war risk insurance withdrawn effective Mar 5. GPS jamming affected 1,100+ ships in 24hrs.",
+    "last_updated": "2026-03-03T22:00:00Z"
+  },
+  {
+    "id": 4,
+    "slug": "bm-depletion",
+    "name": "Ballistic missile depletion risk",
+    "status": "MET",
+    "description": "Day 5 salvo doubled baseline; interceptor burn rate now projects UAE Patriot depletion inside 9 days without emergency resupply.",
+    "notes": "UAE: ~7 days at current rate. Qatar: possibly 4 days. All Gulf states have 'shot several years of production in days' per former US official. US resupply request reportedly rebuffed.",
+    "last_updated": "2026-03-03T22:00:00Z"
+  },
+  {
+    "id": 5,
+    "slug": "proxy-escalation",
+    "name": "Proxy escalation cycle",
+    "status": "MET",
+    "description": "Iraqi militia expeditionary elements now in Manama + Dammam running ISR for rocket teams.",
+    "notes": "Hezbollah opened Lebanon front Mar 2 (rockets at Haifa, Israel ground incursion authorized). Iraqi militia coalition claimed 16 operations Feb 28. Houthi resumption of Red Sea attacks announced but not yet executed.",
+    "last_updated": "2026-03-03T22:00:00Z"
+  },
+  {
+    "id": 6,
+    "slug": "nuclear-watch",
+    "name": "Nuclear watch posture",
+    "status": "UNMET",
+    "description": "IAEA monitoring continues though inspectors staged to Kuwait; no breakout indicators beyond elevated rhetoric.",
+    "notes": "IR-6 cascades still declared offline; ISR verifying Natanz power signatures daily.",
+    "last_updated": "2026-03-03T15:50:00Z"
+  },
+  {
+    "id": 7,
+    "slug": "cyber",
+    "name": "Cyber destabilization watch",
+    "status": "WATCH",
+    "description": "Coordinated wiper campaigns hitting Saudi municipal services; SCADA networks hardened but OT teams on 12-hour rotations.",
+    "notes": "Aramco ICS segmentation holding; Dubai utilities seeing credential-spray attempts from IRGC-linked clusters.",
+    "last_updated": "2026-03-03T15:25:00Z"
+  },
+  {
+    "id": 8,
+    "slug": "regional-widening",
+    "name": "Regional widening / multi-front escalation",
+    "status": "MET",
+    "description": "Conflict spreading beyond Gulf to Lebanon, Iraq proxy networks, and now European territory (RAF Akrotiri).",
+    "notes": "RAF Akrotiri Cyprus struck. Lebanon front opened. Iraqi militia escalation. Houthi resumption announced. Gulf states considering offensive action against Iranian launch sites.",
+    "last_updated": "2026-03-03T22:00:00Z"
+  }
+]

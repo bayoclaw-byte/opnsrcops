@@ -1,0 +1,30 @@
+{
+  "slug": "oman",
+  "name": "Oman",
+  "country": "OM",
+  "key_points": [
+    "ONLY GCC country not directly targeted by Iran \u2014 Tehran preserving neutral mediator status",
+    "Duqm Port struck twice (Mar 1: 1 expat injured; Mar 3: fuel storage tank hit); port SUSPENDED. Salalah Port also suspended under security restrictions.",
+    "Tanker Skylight attacked near Khasab (Musandam); MKD VYOM struck by kamikaze drone boat 52nm from Muscat \u2014 1 Indian crew member killed",
+    "MCT airspace remains OPEN \u2014 sole Gulf state in this position; primary regional evacuation hub",
+    "Multiple countries routing evacuations through Oman: UK charter flights Muscat; Germany aircraft; Ireland/Italy/Armenia bus transfers UAE\u2192Oman",
+    "Strait of Hormuz effectively closed \u2014 150+ tankers at anchor; IRGC declared strait 'closed' Mar 2",
+    "Oman FM Al-Busaidi: 'off-ramps are available \u2014 let's use them'; mediation channel suspended but not dead",
+    "Avoid Dibba/Tibat crossings to Musandam \u2014 Strait of Hormuz area extremely dangerous",
+    "UAE-Oman land border is safest evacuation corridor in region; Dubai to Muscat ~4-5 hours; expect security delays",
+    "Supply chain vulnerability: Oman import-dependent; Duqm (backup port outside Hormuz) now suspended"
+  ],
+  "airports": [],
+  "borders": [],
+  "domestic_unrest": {
+    "level": "LOW",
+    "notes": "No domestic unrest. Oman maintaining neutral diplomatic stance."
+  },
+  "energy_infra": {
+    "status": "WATCH",
+    "notes": "Not a major producer. Port infrastructure disrupted (Duqm, Salalah suspended)."
+  },
+  "evac_routes": [],
+  "iw_matrix": [],
+  "last_updated": "2026-03-03T22:00:00Z"
+}

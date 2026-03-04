@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+{% block title %}{{ area_name }} — Gulf AOR{% endblock %}
+{% block content %}
+
+<div id="country-wrap" data-slug="{{ area_slug }}">
+
+  <!-- Country header bar -->
+  <div class="country-hero">
+    <div class="country-hero-left">
+      <h2 id="country-title">{{ area_name }}</h2>
+      <div id="country-updated" class="country-updated">Loading…</div>
+    </div>
+    <div class="country-hero-right" id="country-status-pills">
+      <!-- filled by JS -->
+    </div>
+  </div>
+
+  <!-- ── 1. I&W Matrix ─────────────────────────────────────────────────── -->
+  <section class="section-wrap">
+    <div class="section-header">
+      <h2>Indications &amp; Warnings</h2>
+      <span class="col-badge" id="iw-country-count">—</span>
+    </div>
+    <div class="panel">
+      <table id="iw-country-table" class="iw-matrix-table">
+        <thead>
+          <tr>
+            <th style="width:34%">Indicator</th>
+            <th style="width:14%;text-align:center">Status</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody id="iw-country-tbody">
+          <tr><td colspan="3" class="feed-loading">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ── 2. State Dept Advisory ────────────────────────────────────────── -->
+  <section class="section-wrap" id="state-dept-country-section">
+    <div class="section-header">
+      <h2>U.S. State Dept Travel Advisory</h2>
+    </div>
+    <div id="state-dept-country-card" class="state-dept-country-card">
+      <div class="feed-loading">Loading…</div>
+    </div>
+  </section>
+
+  <!-- ── 3. Key Points ─────────────────────────────────────────────────── -->
+  <section class="section-wrap">
+    <div class="section-header">
+      <h2>Key Points</h2>
+    </div>
+    <div class="panel">
+      <ul id="key-points-list" class="key-points-list">
+        <li class="feed-loading">Loading…</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── 4. Airports + Borders ─────────────────────────────────────────── -->
+  <div class="country-cols">
+
+    <section class="country-col">
+      <div class="section-header">
+        <h2>Airports</h2>
+        <span class="badge" id="ap-status-badge">—</span>
+      </div>
+      <div id="country-airports" class="country-airport-grid">
+        <div class="feed-loading">Loading…</div>
+      </div>
+    </section>
+
+    <section class="country-col">
+      <div class="section-header">
+        <h2>Borders &amp; Crossings</h2>
+        <span class="badge" id="border-status-badge">—</span>
+      </div>
+      <div class="panel">
+        <table id="country-borders-table">
+          <thead>
+            <tr><th>Crossing</th><th>Status</th><th>Notes</th></tr>
+          </thead>
+          <tbody id="country-borders-tbody">
+            <tr><td colspan="3" class="feed-loading">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </div><!-- /country-cols -->
+
+  <!-- ── 5. Status cards ───────────────────────────────────────────────── -->
+  <div class="status-row-grid">
+    <section class="status-row-card">
+      <div class="status-row-label">Domestic Unrest</div>
+      <div id="unrest-status"></div>
+      <div id="unrest-notes" class="status-row-notes"></div>
+    </section>
+    <section class="status-row-card">
+      <div class="status-row-label">Energy Infrastructure</div>
+      <div id="energy-status"></div>
+      <div id="energy-notes" class="status-row-notes"></div>
+    </section>
+    <section class="status-row-card" id="water-card" style="display:none">
+      <div class="status-row-label">Water Infrastructure</div>
+      <div id="water-status"></div>
+      <div id="water-notes" class="status-row-notes"></div>
+    </section>
+  </div>
+
+  <!-- ── 6. Ground Routes ──────────────────────────────────────────────── -->
+  <section class="section-wrap" id="evac-section">
+    <div class="section-header">
+      <h2>Ground Routes</h2>
+      <span class="badge" id="airports-ops-badge">—</span>
+    </div>
+    <div id="evac-routes-grid" class="evac-routes-grid">
+      <div class="feed-loading">Loading…</div>
+    </div>
+  </section>
+
+  <!-- ── 7. Recent Activity ────────────────────────────────────────────── -->
+  <section class="section-wrap">
+    <div class="section-header">
+      <h2>Recent Activity</h2>
+      <span class="badge" id="country-activity-count">—</span>
+    </div>
+    <div id="country-activity-feed" class="activity-feed">
+      <div class="feed-loading">Loading…</div>
+    </div>
+  </section>
+
+</div><!-- /country-wrap -->
+
+{% endblock %}

@@ -1,0 +1,151 @@
+{
+  "slug": "uae",
+  "country": "United Arab Emirates",
+  "key_points": [
+    "186 ballistic missiles fired at UAE (172 intercepted, 1 landed on territory, 13 fell into sea); 812 drones (755 intercepted, 57 struck within country)",
+    "3 foreign nationals killed (Pakistani, Nepali, Bangladeshi); 58-70 injured across multiple nationalities",
+    "DXB Terminal 3 struck ~01:30 Mar 1; 4 staff injured. Fairmont Hotel Palm Jumeirah hit by drone (major fire). Burj Al Arab facade damaged by interception fragments.",
+    "US Consulate Dubai struck Mar 3 \u2014 fire in parking lot and chancellery; all personnel accounted for",
+    "Jebel Ali Port fire from debris; DP World briefly suspended then resumed. AWS data center fire caused cloud-service disruptions.",
+    "Al Dhafra Air Base and Al Minhad Air Base (RAF/Australian forces) both targeted",
+    "Interceptor depletion projected ~7 days at current consumption rate. UAE has THAAD, Patriot PAC-3, Pantsir-S1, Cheongung II, Skynight.",
+    "~20,000 passengers stranded; 80%+ of Dubai flights cancelled. Emirates suspended until 23:59 Mar 4. EASA advised European carriers to avoid UAE airspace.",
+    "Panic buying Mar 1 widespread; shelves restocked by Mar 3. Price controls imposed by Ministry of Economy.",
+    "US State Dept Level 3 Reconsider Travel; non-emergency staff ordered depart Mar 2; DEPART NOW advisory Mar 3"
+  ],
+  "airports": [
+    {
+      "icao": "OMDB",
+      "iata": "DXB",
+      "name": "Dubai International",
+      "city": "Dubai",
+      "status": "DEGRADED",
+      "notes": "Terminal 3 arrival hall offline; limited departures via Concourse A only"
+    },
+    {
+      "icao": "OMDW",
+      "iata": "DWC",
+      "name": "Al Maktoum Intl (DWC)",
+      "city": "Dubai South",
+      "status": "OPEN",
+      "notes": "Primary diversion field; cargo apron crater patched, runway checks ongoing"
+    },
+    {
+      "icao": "OMAA",
+      "iata": "AUH",
+      "name": "Abu Dhabi International",
+      "city": "Abu Dhabi",
+      "status": "OPEN",
+      "notes": "Handling DXB diverts; priority for gov/mil sorties"
+    },
+    {
+      "icao": "OMSJ",
+      "iata": "SHJ",
+      "name": "Sharjah International",
+      "city": "Sharjah",
+      "status": "WATCH",
+      "notes": "Night ops limited after nearby rocket barrage"
+    }
+  ],
+  "borders": [
+    {
+      "name": "Ghuwaifat / Al Batha (KSA)",
+      "status": "CONGESTED",
+      "notes": "Commercial convoys stacking 14km; priority lane reserved for SAM reloads"
+    },
+    {
+      "name": "Hatta / Al Wajajah (Oman)",
+      "status": "OPEN",
+      "notes": "Used for relief supplies and medevac shuttles"
+    }
+  ],
+  "domestic_unrest": {
+    "status": "WATCH",
+    "notes": "Panic buying, school closures, stranded travelers. No protests or mass exodus. Govt messaging reassuring market stability.",
+    "last_updated": "2026-03-03T21:00:00Z"
+  },
+  "energy_infra": {
+    "status": "MET",
+    "notes": "Drone strike on Jebel Ali Port \u2014 berth fire from debris. ADNOC facilities under threat. Jebel Ali power station complex struck (includes desalination capability).",
+    "last_updated": "2026-03-03T21:00:00Z"
+  },
+  "evac_routes": [
+    {
+      "id": "uae-r1",
+      "label": "Dubai \u2192 Muscat",
+      "drive_time": "5\u20136 hrs",
+      "risk": "MODERATE",
+      "via": "Al Ain / Mezyad",
+      "crossings": [
+        "Mezyad/Buraimi",
+        "Hatta / Al Wajajah (Oman)"
+      ],
+      "destination_airport_iata": "MCT",
+      "destination_airport_name": "Muscat International",
+      "destination_airport_icao": "OOMS",
+      "notes": "MCT operating normally as of 03 MAR. Only Gulf FIR currently open to commercial traffic."
+    },
+    {
+      "id": "uae-r2",
+      "label": "Dubai \u2192 Riyadh",
+      "drive_time": "10\u201312 hrs",
+      "risk": "HIGH",
+      "via": "Al Ghuwaifat",
+      "crossings": [
+        "Ghuwaifat / Al Batha (KSA)"
+      ],
+      "destination_airport_iata": "RUH",
+      "destination_airport_name": "King Khalid International",
+      "destination_airport_icao": "OERK",
+      "notes": "Riyadh under direct rocket attack as of 03 MAR 16:15Z. Route follows 250km Gulf coast road adjacent to active energy strike targets."
+    }
+  ],
+  "last_updated": "2026-03-03T22:00:00Z",
+  "water_infra": {
+    "status": "MET",
+    "notes": "Jebel Ali power station complex (desalination-linked) struck. Experts warn of uninhabitable conditions if grid and water infra severely damaged. No confirmed water supply disruption yet.",
+    "last_updated": "2026-03-03T21:00:00Z"
+  },
+  "iw_matrix": [
+    {
+      "indicator": "Airspace / NOTAM Posture",
+      "status": "MET",
+      "notes": "DXB/AUH/DWC/SHJ: obstructed. Evacuation flights resumed on limited basis. ~20,000 passengers stranded."
+    },
+    {
+      "indicator": "Ballistic Missile Threat",
+      "status": "MET",
+      "notes": "186 BMs fired cumulative. UAE MoD: 11 BMs + 123 drones intercepted Mar 3 alone. Intercept rate 92.5%."
+    },
+    {
+      "indicator": "Drone / UAV Threat",
+      "status": "MET",
+      "notes": "812 drones fired cumulative; 755 intercepted (93%). Jebel Ali port, Dubai consulate, AUH perimeter struck."
+    },
+    {
+      "indicator": "Energy Infrastructure",
+      "status": "MET",
+      "notes": "Jebel Ali Port berth fire. Jebel Ali power station struck (desalination-linked). ADNOC under threat."
+    },
+    {
+      "indicator": "Water / Desalination Risk",
+      "status": "MET",
+      "notes": "Jebel Ali power station complex struck. No confirmed water supply disruption. Experts warn uninhabitable conditions if infra severely damaged."
+    },
+    {
+      "indicator": "Domestic Unrest",
+      "status": "WATCH",
+      "notes": "Panic buying, school closures, stranded travelers. No protests or mass exodus."
+    },
+    {
+      "indicator": "US Facility Targeting",
+      "status": "MET",
+      "notes": "Dubai US Consulate struck Mar 3 19:30Z \u2014 contained fire, no injuries. US personnel ordered to depart."
+    },
+    {
+      "indicator": "Intercept Degradation Risk",
+      "status": "WATCH",
+      "notes": "Bloomberg depletion window Mar 7\u201310. US resupply reportedly blocked. Intercept rate holding at 92\u201393%."
+    }
+  ]
+}

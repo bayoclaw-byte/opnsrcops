@@ -1,0 +1,50 @@
+{
+  "slug": "bahrain",
+  "country": "Bahrain",
+  "key_points": [
+    "Interior Ministry placed Manama business district under rolling curfew; unrest cells targeting police patrols nightly.",
+    "US 5th Fleet tightened pier access; logistics convoys facing sporadic IED threats en route from the causeway.",
+    "Shia opposition networks amplifying Iranian messaging; calls for shutdown of Sunni-led ministries.",
+    "Financial district staff sheltering in place; banking operations shifting to Dubai backup systems."
+  ],
+  "airports": [
+    {
+      "icao": "OBBI",
+      "iata": "BAH",
+      "name": "Bahrain International",
+      "city": "Muharraq",
+      "status": "WATCH",
+      "notes": "Terminal open; security pauses during protest surges"
+    }
+  ],
+  "borders": [
+    {
+      "name": "King Fahd Causeway (Saudi Arabia)",
+      "status": "RESTRICTED",
+      "notes": "Limited to force protection convoys; civilian passage intermittent during unrest"
+    }
+  ],
+  "domestic_unrest": {
+    "status": "WATCH",
+    "notes": "Youth coalitions staging nightly roadblocks around Manama; LRAD deployed 03 MAR"
+  },
+  "energy_infra": {
+    "status": "N/A",
+    "notes": "Refining minimal; reliant on Saudi feedstock via causeway pipeline"
+  },
+  "evac_routes": [
+    {
+      "id": "bhr-r1",
+      "label": "Manama → Saudi Arabia",
+      "drive_time": "30 min to border",
+      "risk": "MODERATE",
+      "via": "King Fahd Causeway",
+      "crossings": ["King Fahd Causeway (Saudi Arabia)"],
+      "destination_airport_iata": "DMM",
+      "destination_airport_name": "King Fahd International",
+      "destination_airport_icao": "OEDF",
+      "notes": "Only ground exit from Bahrain. Causeway currently restricted to force protection convoys; civilian passage intermittent. Once in Saudi, follow Saudi ground routes for onward movement."
+    }
+  ],
+  "last_updated": "2026-03-03T17:40:00Z"
+}

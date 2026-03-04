@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cmt-1772569554757",
+    "ts_utc": "2026-03-03T20:25:54.757957+00:00",
+    "page": "test",
+    "area": "",
+    "name": "system",
+    "contact": "",
+    "text": "Comment system test \u2014 if you see this in Telegram, notifications are working."
+  },
+  {
+    "id": "cmt-1772569596206",
+    "ts_utc": "2026-03-03T20:26:36.206701+00:00",
+    "page": "country",
+    "area": "saudi",
+    "name": "Bayo",
+    "contact": "no",
+    "text": "Testing infrastructure"
+  }
+]

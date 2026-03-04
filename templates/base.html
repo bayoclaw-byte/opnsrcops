@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}Gulf AOR Dashboard{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="/static/style.css?v=1772585039" />
+  <script type="module" src="https://js.arcgis.com/5.0/embeddable-components/"></script>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='3' fill='%230d1117'/%3E%3Cpolygon points='16,4 28,22 4,22' fill='none' stroke='%23f0a500' stroke-width='2'/%3E%3C/svg%3E" />
+</head>
+<body data-page="{{ page|default('landing') }}" data-area="{{ area_slug|default('') }}">
+
+  {% if page == 'landing' %}<div id="loading">LOADING AOR PICTURE…</div>{% endif %}
+  <div id="toast" class="toast"></div>
+
+
+  <header class="site-header">
+    <div class="title-block">
+      <h1>GULF AOR OPERATIONAL PICTURE</h1>
+      <p>UAE · Saudi Arabia · Bahrain — Active Conflict Monitoring</p>
+    </div>
+    <div class="header-meta">
+      <div id="utc-clock">UTC --:--:--</div>
+      <div id="page-refresh">Status: loading…</div>
+    </div>
+    <nav class="main-nav" aria-label="Area navigation">
+      <a href="/"        class="nav-link {% if page == 'landing' %}active{% endif %}">◈ Macro</a>
+      <a href="/uae"     class="nav-link {% if area_slug == 'uae' %}active{% endif %}">UAE</a>
+      <a href="/saudi"   class="nav-link {% if area_slug == 'saudi' %}active{% endif %}">Saudi</a>
+      <a href="/bahrain" class="nav-link {% if area_slug == 'bahrain' %}active{% endif %}">Bahrain</a>
+      <a href="/admin"   class="nav-link nav-admin {% if page == 'admin' %}active{% endif %}">⚙ Admin</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- ── Comment Widget ─────────────────────────────────────────────────── -->
+  <section id="comment-dock" class="comment-widget" aria-label="Change request form">
+    <div class="comment-title">Please put any changes that need to be reflected here:</div>
+    <form id="comment-form" autocomplete="off">
+      <div class="comment-row">
+        <label>
+          <span>Point of contact</span>
+          <input type="text" name="name" placeholder="Name / team" />
+        </label>
+        <label>
+          <span>Contact</span>
+          <input type="text" name="contact" placeholder="Signal / email / DSN" />
+        </label>
+      </div>
+      <label class="comment-textarea">
+        <span>Change request</span>
+        <textarea name="text" rows="3" placeholder="Describe the update needed" required></textarea>
+      </label>
+      <input type="hidden" name="page"  value="{{ page|default('landing') }}" />
+      <input type="hidden" name="area"  value="{{ area_slug|default('') }}" />
+      <button type="submit">Submit to Bayo</button>
+    </form>
+    <div id="comment-status" class="comment-status"></div>
+  </section>
+
+  <footer class="site-footer">
+    Gulf AOR Dashboard &nbsp;·&nbsp; OSINT-derived &nbsp;·&nbsp; Validate all data with independent sources before operational use.
+  </footer>
+
+  <script src="/static/app.js?v=1772585039" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "slug": "qatar",
+  "name": "Qatar",
+  "country": "QA",
+  "key_points": [
+    "98 of 101 ballistic missiles intercepted; 24 of 39 drones intercepted; 2 Iranian SU-24 aircraft shot down Mar 2",
+    "No fatalities; 16 injured by shrapnel/debris",
+    "QatarEnergy declared force majeure Mar 2; ALL LNG production halted at Ras Laffan and Mesaieed; expanded to all downstream products Mar 3; 20% of global LNG supply offline",
+    "Dutch/British wholesale gas +50-52%; Asian LNG +39% following halt",
+    "DOH closed 4 consecutive days; Qatar Airways all flights suspended; 8,000 stranded; next update expected 09:00 Mar 4",
+    "Hamad International Airport targeted by Iranian missiles \u2014 all intercepted",
+    "QRF water tank at Mesaieed power plant and QatarEnergy Ras Laffan facility struck by drones",
+    "Qatar Patriot interceptor sustainability: Bloomberg reported 4-day depletion timeline (Qatar denied, called report 'deeply irresponsible')",
+    "Qatar-Saudi border (Salwa/Abu Samra) likely open under enhanced security \u2014 critical for food imports",
+    "No panic buying reported; Ministry of Commerce took strategic actions for supply availability; Qatar's 2017 blockade preparations provide resilience"
+  ],
+  "airports": [],
+  "borders": [],
+  "domestic_unrest": {
+    "level": "LOW",
+    "notes": "No significant unrest reported; population compliance with government guidance."
+  },
+  "energy_infra": {
+    "status": "CRITICAL",
+    "notes": "ALL LNG production halted \u2014 force majeure declared. 20% of global supply offline."
+  },
+  "evac_routes": [],
+  "iw_matrix": [],
+  "last_updated": "2026-03-03T22:00:00Z"
+}

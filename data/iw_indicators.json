@@ -20,7 +20,7 @@
     "indicator": "Strait of Hormuz Full Closure",
     "status": "MET",
     "time_met": "2026-03-02T00:00:00Z",
-    "notes": "IRGC declared Strait 'closed' Mar 2. Near-zero commercial maritime traffic. Indiscriminate area denial ops in Gulf of Oman. Tanker struck off Musandam (4 injured). 20% of global oil supply blocked. War-risk insurance expires Mar 5 — commercial shipping impossible after.",
+    "notes": "IRGC declared Strait 'closed' Mar 2. Near-zero commercial maritime traffic. Indiscriminate area denial ops in Gulf of Oman. Tanker struck off Musandam (4 injured). 20% of global oil supply blocked. War-risk insurance expires Mar 5 \u2014 commercial shipping impossible after.",
     "last_updated": "2026-03-03T18:00:00Z"
   },
   {
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "indicator": "Domestic Unrest — UAE",
+    "indicator": "Domestic Unrest \u2014 UAE",
     "status": "WATCH",
     "time_met": null,
     "notes": "No reported civil unrest. Government maintaining order. Foreign nationals (20,000+ stranded) showing signs of panic-buying and evacuation pressure. Monitor for labor/expat community breakdown.",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "indicator": "Domestic Unrest — Saudi Arabia",
+    "indicator": "Domestic Unrest \u2014 Saudi Arabia",
     "status": "UNMET",
     "time_met": null,
     "notes": "No reported civil unrest. Government maintaining information control. Eastern Province population (near energy targets) under stress. No protest activity reported.",
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "indicator": "Domestic Unrest — Oman",
+    "indicator": "Domestic Unrest \u2014 Oman",
     "status": "UNMET",
     "time_met": null,
     "notes": "Stable. Muscat unaffected by strikes. Population calm. Serving as regional evacuation hub. No protest or civil disturbance activity.",
@@ -73,10 +73,10 @@
   },
   {
     "id": 10,
-    "indicator": "Domestic Unrest — Bahrain",
+    "indicator": "Domestic Unrest \u2014 Bahrain",
     "status": "WATCH",
     "time_met": null,
-    "notes": "Bahrain hosts US 5th Fleet (NSA Bahrain). Residential tower struck by drone Mar 1 (Era Views Towers, Manama — video confirmed). Shia population (majority) historically sympathetic to Iran. Monitor for unrest capitalizing on strikes.",
+    "notes": "Bahrain hosts US 5th Fleet (NSA Bahrain). Residential tower struck by drone Mar 1 (Era Views Towers, Manama \u2014 video confirmed). Shia population (majority) historically sympathetic to Iran. Monitor for unrest capitalizing on strikes.",
     "last_updated": "2026-03-03T18:00:00Z"
   },
   {

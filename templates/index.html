@@ -1,148 +1,165 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GULF REGION AOR SITUATIONAL DASHBOARD</title>
-  <link rel="stylesheet" href="/static/style.css" />
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%230d1117'/><text x='2' y='13' font-size='12' fill='%23f0a500'>⬡</text></svg>" />
-</head>
-<body>
-<div id="loading">LOADING DASHBOARD DATA…</div>
-<div class="toast" id="toast"></div>
-<div id="class-banner">⚠ UNCLASSIFIED // FOR OFFICIAL USE ONLY (FOUO) // NOT FOR PUBLIC RELEASE ⚠</div>
+{% extends "base.html" %}
+{% block title %}Gulf AOR — Macro Picture{% endblock %}
+{% block content %}
 
-<header id="main-header">
-  <div>
-    <h1>
-      GULF REGION AOR SITUATIONAL DASHBOARD
-      <span>UAE · OMAN · SAUDI ARABIA — ACTIVE CONFLICT MONITORING</span>
-    </h1>
+<!-- ── Map + Two-column below ───────────────────────────────────────────── -->
+<section class="map-section">
+  <div class="map-wrap">
+    <div class="map-header">
+      <span class="section-eyebrow">Gulf Area of Responsibility</span>
+      <span class="map-hint">Select a country for detailed view</span>
+    </div>
+
+    <!-- ArcGIS embedded map + country nav buttons -->
+    <div class="arcgis-map-container">
+      <arcgis-embedded-map
+        id="aor-arcgis-map"
+        style="height:520px;width:100%;"
+        item-id="0b058b9c6a00491c87c145417b9e5f0d"
+        theme="dark"
+        center="55.380094064280605,28.55276212632569"
+        scale="9244648.868618"
+        portal-url="https://bayo09.maps.arcgis.com">
+      </arcgis-embedded-map>
+
+      <!-- Country nav button bar — anchored bottom of map -->
+      <div class="map-nav-bar">
+        <a class="map-nav-btn" href="/uae">UAE</a>
+        <a class="map-nav-btn" href="/saudi">SAUDI ARABIA</a>
+        <a class="map-nav-btn" href="/bahrain">BAHRAIN</a>
+      </div>
+
+    </div><!-- /arcgis-map-container -->
+  </div><!-- /map-wrap -->
+</section><!-- /map-section -->
+
+<!-- ── Map Legend ────────────────────────────────────────────────────────── -->
+<div class="map-legend">
+
+  <!-- Border Crossings -->
+  <div class="legend-col">
+    <div class="legend-heading">Border Crossings</div>
+    <div class="legend-item">
+      <svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="12" fill="#2ea043"/><circle cx="13" cy="13" r="11" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/><text x="13" y="18" text-anchor="middle" font-size="12" fill="#000">🚗</text></svg>
+      OPEN
+    </div>
+    <div class="legend-item">
+      <svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="12" fill="#f85149"/><circle cx="13" cy="13" r="11" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/><text x="13" y="18" text-anchor="middle" font-size="12" fill="#000">🚗</text></svg>
+      CLOSED
+    </div>
   </div>
-  <div class="header-right">
-    <div id="utc-clock">00:00:00</div>
-    <div id="last-updated">LAST UPDATED <strong>—</strong></div>
-    <div id="save-status"></div>
-    <a class="btn-nav" href="/travel" title="Travel status (Air/Overland)">✈︎🛣 TRAVEL</a>
-    <button class="btn-reset" onclick="resetDefaults()" title="Reset all data to factory defaults">⟳ RESET</button>
+
+  <!-- Strikes -->
+  <div class="legend-col">
+    <div class="legend-heading">Kinetic Events</div>
+    <div class="legend-item">
+      <svg width="26" height="26" viewBox="0 0 26 26">
+        <defs>
+          <radialGradient id="lgUS" cx="50%" cy="50%" r="50%">
+            <stop offset="0%"   stop-color="#fff"     stop-opacity="1"/>
+            <stop offset="30%"  stop-color="#58a6ff"  stop-opacity="0.95"/>
+            <stop offset="100%" stop-color="#0d419d"  stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle cx="13" cy="13" r="12" fill="url(#lgUS)"/>
+      </svg>
+      US / ISR Strike
+    </div>
+    <div class="legend-item">
+      <svg width="26" height="26" viewBox="0 0 26 26">
+        <defs>
+          <radialGradient id="lgIR" cx="50%" cy="50%" r="50%">
+            <stop offset="0%"   stop-color="#fff"     stop-opacity="1"/>
+            <stop offset="30%"  stop-color="#f85149"  stop-opacity="0.95"/>
+            <stop offset="100%" stop-color="#8b0000"  stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle cx="13" cy="13" r="12" fill="url(#lgIR)"/>
+      </svg>
+      Iranian Strike
+    </div>
   </div>
-</header>
 
-<main id="dashboard">
+  <!-- Airports -->
+  <div class="legend-col">
+    <div class="legend-heading">Airports</div>
+    <div class="legend-item">
+      <svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="12" fill="#2ea043"/><circle cx="13" cy="13" r="11" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/><text x="13" y="18" text-anchor="middle" font-size="13" fill="#000">✈</text></svg>
+      OPEN
+    </div>
+    <div class="legend-item">
+      <svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="12" fill="#e3b341"/><circle cx="13" cy="13" r="11" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/><text x="13" y="18" text-anchor="middle" font-size="13" fill="#000">✈</text></svg>
+      OBSTRUCTED
+    </div>
+    <div class="legend-item">
+      <svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="12" fill="#f85149"/><circle cx="13" cy="13" r="11" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/><text x="13" y="18" text-anchor="middle" font-size="13" fill="#000">✈</text></svg>
+      CLOSED
+    </div>
+  </div>
 
-  <!-- ── 1. I&W Matrix ── -->
-  <section class="section-wrap">
-    <div class="section-header">
-      <h2>Indicators &amp; Warnings (I&amp;W) Matrix</h2>
-      <span class="badge" id="iw-badge">11 Indicators</span>
-    </div>
-    <div class="panel">
-      <div id="iw-aggregate"></div>
-      <div style="overflow-x:auto;">
-        <table id="iw-table">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Indicator</th>
-              <th>Status</th>
-              <th>Time Met (UTC)</th>
-              <th>Notes / Assessment</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody id="iw-tbody"></tbody>
-        </table>
-      </div>
-    </div>
-  </section>
+</div>
 
-  <!-- ── 2. BM Activity Tracker ── -->
-  <section class="section-wrap">
-    <div class="section-header">
-      <h2>Ballistic Missile &amp; Drone Activity Tracker</h2>
-      <span class="badge" id="bm-badge">Day 4</span>
+<!-- ── State Dept Travel Advisories strip ───────────────────────────────── -->
+<section class="section-wrap" id="state-dept-section">
+  <div class="section-header">
+    <h2>U.S. State Dept Travel Advisories</h2>
+    <span class="col-badge" id="state-dept-updated">—</span>
+  </div>
+  <div id="state-dept-strip" class="state-dept-strip">
+    <div class="feed-loading">Loading…</div>
+  </div>
+</section>
+
+<!-- ── Two-column panels ─────────────────────────────────────────────────── -->
+<div id="macro-cols">
+
+  <!-- LEFT: Airport Status -->
+  <section class="macro-col" id="col-airports">
+    <div class="col-header">
+      <h2>Airport Status</h2>
+      <span class="col-badge" id="airport-summary-badge">—</span>
     </div>
-    <div class="panel">
-      <!-- Totals bar -->
-      <div id="bm-totals-bar"></div>
-      <!-- Daily log table -->
-      <div style="overflow-x:auto; margin-bottom:16px;">
-        <table id="bm-daily-table">
-          <thead>
-            <tr>
-              <th>Day</th>
-              <th>Date</th>
-              <th>Event</th>
-              <th>BMs Announced</th>
-              <th>vs 4-Day Avg</th>
-              <th>Drones</th>
-              <th>CMs</th>
-              <th>Notes</th>
-              <th>Confirmed?</th>
-            </tr>
-          </thead>
-          <tbody id="bm-daily-tbody"></tbody>
-          <!-- Averages row -->
-          <tfoot id="bm-tfoot"></tfoot>
-        </table>
-      </div>
-      <!-- Depletion panel -->
-      <div id="bm-depletion-panel"></div>
+    <div id="landing-airports" class="landing-airports">
+      <div class="feed-loading">Loading…</div>
     </div>
   </section>
 
-  <!-- ── 3. Airport Status ── -->
-  <section class="section-wrap">
-    <div class="section-header">
-      <h2>Airport Status — UAE / Oman / Saudi Arabia</h2>
-      <span class="badge">8 Airports</span>
+  <!-- RIGHT: I&W -->
+  <section class="macro-col" id="col-iw">
+    <div class="col-header">
+      <h2>Indications &amp; Warnings</h2>
+      <span class="col-badge" id="iw-macro-count">—</span>
     </div>
-    <div id="airports-grid"></div>
-  </section>
-
-  <!-- ── 4. Border Status ── -->
-  <section class="section-wrap">
-    <div class="section-header">
-      <h2>Land Border &amp; Crossing Status — Gulf Region</h2>
-      <span class="badge">Key Crossings</span>
-    </div>
-    <div class="panel">
-      <div style="overflow-x:auto;">
-        <table id="borders-table">
-          <thead>
-            <tr>
-              <th>Crossing / Point</th>
-              <th>Status</th>
-              <th>Notes</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody id="borders-tbody"></tbody>
-        </table>
-      </div>
+    <div id="iw-macro-list" class="iw-macro-list">
+      <div class="feed-loading">Loading…</div>
     </div>
   </section>
 
-  <!-- ── 5. Outlook Panels ── -->
-  <section class="section-wrap">
-    <div class="section-header">
-      <h2>Regional Outlook — Gulf AOR</h2>
-      <span class="badge">24-48h · 7-Day · 30-Day</span>
+</div><!-- /macro-cols -->
+
+<!-- ── BM Tracker (macro) ────────────────────────────────────────────────── -->
+<section class="section-wrap" id="bm-section">
+  <div class="section-header">
+    <h2>Ballistic Missile &amp; Drone Activity Tracker</h2>
+    <span class="badge" id="bm-badge">—</span>
+  </div>
+  <div class="panel">
+    <div id="bm-totals-bar"></div>
+    <div style="overflow-x:auto;margin-bottom:16px;">
+      <table id="bm-daily-table">
+        <thead>
+          <tr>
+            <th>Day</th><th>Date</th><th>Event</th>
+            <th>BMs</th><th>vs 4-day avg</th>
+            <th>Drones</th><th>CMs</th><th>Notes</th><th>Conf.</th>
+          </tr>
+        </thead>
+        <tbody id="bm-daily-tbody"></tbody>
+        <tfoot id="bm-tfoot"></tfoot>
+      </table>
     </div>
-    <div id="outlook-grid">
-      <div class="outlook-card" id="outlook-short"></div>
-      <div class="outlook-card" id="outlook-medium"></div>
-      <div class="outlook-card" id="outlook-long"></div>
-    </div>
-  </section>
+    <div id="bm-depletion-panel"></div>
+  </div>
+</section>
 
-</main>
-
-<footer style="text-align:center;padding:16px;font-size:0.65rem;color:var(--text-dim);border-top:1px solid var(--border);">
-  GULF REGION AOR SITUATIONAL DASHBOARD &nbsp;|&nbsp; UNCLASSIFIED // FOUO &nbsp;|&nbsp;
-  OSINT-derived. Not for operational use without independent verification.
-</footer>
-
-<script src="/static/app.js"></script>
-</body>
-</html>
+{% endblock %}
