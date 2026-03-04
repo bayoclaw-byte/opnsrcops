@@ -206,6 +206,22 @@ def api_comment():
 
 
 # ── Legacy API: full data bundle (backward compat) ────────────────────────────
+@app.route('/api/version', methods=['GET'])
+def api_version():
+    """Return a small version stamp so we can verify what code/data is live behind the tunnel."""
+    import subprocess
+    try:
+        commit = subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD'], cwd=BASE_DIR, text=True).strip()
+    except Exception:
+        commit = None
+    return jsonify({
+        'ok': True,
+        'commit': commit,
+        'server_time_utc': datetime.now(timezone.utc).isoformat(),
+        'tunnel_ingress': 'gulf.opnsrcops.com -> 127.0.0.1:5050',
+    })
+
+
 @app.route('/api/data', methods=['GET'])
 def get_all_data():
     return jsonify({
