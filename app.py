@@ -1,12 +1,13 @@
 import json
 import os
 from datetime import datetime, timezone
-from flask import Flask, jsonify, request, render_template, abort
+from flask import Flask, jsonify, request, render_template, abort, send_from_directory
 
 app = Flask(__name__)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
+GEO_DIR = os.path.join(DATA_DIR, 'geo')
 
 DATA_FILES = {
     'indicators':   os.path.join(DATA_DIR, 'iw_indicators.json'),
@@ -43,6 +44,13 @@ ensure_defaults()
 @app.route('/')
 def index():
     return render_template('index.html')
+
+
+@app.route('/geo/<path:filename>')
+def serve_geo(filename):
+    # Serves GeoJSON and related artifacts from data/geo as simple static files.
+    # Example: /geo/strikemap_incidents_filtered_deduped_r001.geojson
+    return send_from_directory(GEO_DIR, filename, mimetype='application/geo+json')
 
 
 @app.route('/api/data', methods=['GET'])
