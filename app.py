@@ -373,6 +373,8 @@ def serve_geo(filename):
         # StrikeMap-derived layers (combined)
         'strikemap_incidents_filtered_deduped.geojson',
         'strikemap_incidents_filtered_deduped_r001.geojson',
+        'strikemap_master_strikes_against_iran_r001.geojson',
+        'strikemap_master_iran_outbound_kinetic_r001.geojson',
     }
 
     allowed = False
