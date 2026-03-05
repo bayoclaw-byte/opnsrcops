@@ -24,7 +24,10 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "OPEN",
+        "flow_code": 1,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -48,7 +51,11 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_note": "Manual override: expected multi-hour delays per operator estimate",
+        "flow_status": "CONGESTED",
+        "flow_code": 2,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -72,7 +79,10 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "OPEN",
+        "flow_code": 1,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -96,7 +106,11 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_note": "Manual override: expected multi-hour delays per operator estimate",
+        "flow_status": "CONGESTED",
+        "flow_code": 2,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -120,7 +134,10 @@
         "marker_color": "#f85149",
         "icon_type": "circle-red",
         "status_label": "Closed",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "CLOSED",
+        "flow_code": 3,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -144,7 +161,10 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "OPEN",
+        "flow_code": 1,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -168,7 +188,10 @@
         "marker_color": "#f85149",
         "icon_type": "circle-red",
         "status_label": "Closed",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "CLOSED",
+        "flow_code": 3,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -192,7 +215,10 @@
         "marker_color": "#f85149",
         "icon_type": "circle-red",
         "status_label": "Closed",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "OPEN",
+        "flow_code": 1,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -216,7 +242,10 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "OPEN",
+        "flow_code": 1,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -240,7 +269,11 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_note": "Manual override: expected multi-hour delays per operator estimate",
+        "flow_status": "CONGESTED",
+        "flow_code": 2,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -264,7 +297,10 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "OPEN",
+        "flow_code": 1,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -288,7 +324,11 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_note": "Manual override: expected multi-hour delays per operator estimate",
+        "flow_status": "CONGESTED",
+        "flow_code": 2,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -312,7 +352,10 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "OPEN",
+        "flow_code": 1,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -336,7 +379,10 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "OPEN",
+        "flow_code": 1,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -360,7 +406,10 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "OPEN",
+        "flow_code": 1,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -384,7 +433,10 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "OPEN",
+        "flow_code": 1,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     },
     {
@@ -408,7 +460,10 @@
         "marker_color": "#2ea043",
         "icon_type": "circle-green",
         "status_label": "Open",
-        "layer_type": "border_crossing"
+        "layer_type": "border_crossing",
+        "flow_status": "OPEN",
+        "flow_code": 1,
+        "flow_last_updated": "2026-03-05T19:30:29.068970+00:00"
       }
     }
   ]
