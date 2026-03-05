@@ -38,6 +38,8 @@ PAIR_BEARING = {
     'Saudi/Yemen': (180, 'Saudi',  'Yemen'),
     'Saudi/Iraq':  (0,   'Saudi',  'Iraq'),
     'Bahrain/Saudi':(270,'Bahrain','Saudi'),
+    'Saudi/Qatar':   (90,  'Saudi',  'Qatar'),
+    'Qatar/Saudi':   (270, 'Qatar',  'Saudi'),
 }
 
 
