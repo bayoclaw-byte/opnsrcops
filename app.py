@@ -375,6 +375,9 @@ def serve_geo(filename):
         'strikemap_incidents_filtered_deduped_r001.geojson',
         'strikemap_master_strikes_against_iran_r001.geojson',
         'strikemap_master_iran_outbound_kinetic_r001.geojson',
+        # ArcGIS Experience-derived layers (deduped against local strike DB)
+        'idf_lebanon_2026_03_04_deduped.geojson',
+        'iranian_attacks_2026_deduped.geojson',
     }
 
     allowed = False
@@ -410,6 +413,8 @@ def geo_index():
         ('border_crossings.geojson', 'Border Crossings', 'renderer_status.json',  'status field → OPEN/RESTRICTED/CLOSED — refreshed every 30min via Google Directions API'),
         ('strike_locations.geojson', 'Strike Locations', 'renderer_strikes.json', 'severity field → CRITICAL/HIGH/MEDIUM/LOW'),
         ('strikemap_incidents_filtered_deduped_r001.geojson', 'Kinetic Events (StrikeMap-derived, filtered/deduped)', 'renderer_strikes.json', 'Daily files available under /api/geo/strikemap_daily_r001/ (toggle by day in ArcGIS).'),
+        ('idf_lebanon_2026_03_04_deduped.geojson', 'IDF Strikes in Lebanon (Automated) — 4 Mar (deduped vs local DB)', 'renderer_strikes.json', 'Source: ArcGIS Experience layer Lebanon_Israeli_Strikes_04MARCH_XYTableToPoint/FeatureServer/0'),
+        ('iranian_attacks_2026_deduped.geojson', 'Iranian Attacks in 2026 (deduped vs local DB)', 'renderer_strikes.json', 'Source: ArcGIS Experience layer IranianAttack2026/FeatureServer/0'),
     ]
 
     def layer_block(fname, title, renderer, note):
