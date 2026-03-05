@@ -13,6 +13,37 @@
     "Panic buying Mar 1 widespread; shelves restocked by Mar 3. Price controls imposed by Ministry of Economy.",
     "US State Dept Level 3 Reconsider Travel; non-emergency staff ordered depart Mar 2; DEPART NOW advisory Mar 3"
   ],
+  "situation_last_updated": "2026-03-05T00:00:00Z",
+  "situation_assessment": [
+    {
+      "category": "Current Threat",
+      "assessment": "HIGH. The UAE continues to face periodic Iranian missile and drone attacks, primarily targeting US and coalition military infrastructure such as Al Dhafra Air Base. Air defense systems are intercepting the majority of inbound threats, though several projectiles and debris impacts have caused casualties and infrastructure damage."
+    },
+    {
+      "category": "Threat Trend",
+      "assessment": "STABLE TO INCREASING. Iranian launch tempo has slowed overall but remains capable of periodic strikes. If the conflict continues, interceptor stockpiles across Gulf states will gradually be consumed, increasing the probability of successful missile impacts."
+    },
+    {
+      "category": "Primary Drivers of Risk",
+      "assessment": "Presence of US military facilities, proximity to major regional logistics hubs, continued Iranian retaliation against coalition partners, and potential proxy escalation in the region."
+    },
+    {
+      "category": "Significant Activity (Last 24 hrs)",
+      "assessment": "Continued interceptions of missiles and drones across the UAE. Aviation disruption continues with reduced flight operations and airspace management restrictions."
+    },
+    {
+      "category": "24–48 Hour Outlook",
+      "assessment": "Continued missile and drone interceptions are likely. Aviation disruptions will persist and may worsen if additional strikes occur near airport infrastructure."
+    },
+    {
+      "category": "10 Day Outlook",
+      "assessment": "Sustained intermittent missile threats likely. If interceptor inventories decline or Iranian proxies activate additional fronts, risk to infrastructure and civilian areas could increase."
+    },
+    {
+      "category": "Air Travel",
+      "assessment": "DXB: OPEN – Partial operations. DWC: OBSTRUCTED. AUH: OPEN – Partial operations. SHJ: OPEN – Partial operations. Flight schedules remain unstable with significant cancellations and repatriation flights."
+    }
+  ],
   "airports": [
     {
       "icao": "OMDB",

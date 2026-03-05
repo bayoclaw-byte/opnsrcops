@@ -26,6 +26,7 @@ AIRPORT_COORDS = {
     'JED': (21.6796, 39.1565), 'HOF': (25.2853, 49.4852),
     'DOH': (25.2731, 51.6080),
     'KWI': (29.2267, 47.9689),
+    'BEY': (33.8209, 35.4884),
 }
 CAPTURE_RADIUS_DEG = 0.5   # ~55km — attribute flight to airport if within this
 

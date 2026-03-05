@@ -333,6 +333,7 @@ async function initCountry() {
     renderIWMatrix(data.iw_matrix || []);
     renderStateDeptCountry(data.state_dept);
     renderKeyPoints(data.area.key_points);
+    renderSituationUpdate(data.area);
     renderCountryAirports(data.area.airports);
     renderCountryBorders(data.area.borders);
     renderStatusCards(data.area);
@@ -404,6 +405,39 @@ function renderKeyPoints(points) {
     return;
   }
   el.innerHTML = points.map(p => `<li>${escHtml(p)}</li>`).join('');
+}
+
+function renderSituationUpdate(area) {
+  const panel = document.getElementById('country-situation-panel');
+  const badge = document.getElementById('situation-updated-badge');
+  if (!panel) return;
+
+  const rows = area?.situation_assessment || [];
+  const updated = area?.situation_last_updated || area?.last_updated;
+  if (badge) badge.textContent = updated ? `Updated: ${formatTs(updated)}` : '—';
+
+  if (!rows.length) {
+    panel.innerHTML = '<div class="feed-empty">No situation update yet for this country.</div>';
+    return;
+  }
+
+  panel.innerHTML = `
+    <table style="width:100%;border-collapse:collapse">
+      <thead>
+        <tr>
+          <th style="text-align:left;padding:8px;border-bottom:1px solid #30363d;width:34%">Category</th>
+          <th style="text-align:left;padding:8px;border-bottom:1px solid #30363d">Assessment</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rows.map(r => `
+          <tr>
+            <td style="vertical-align:top;padding:8px;border-bottom:1px solid #21262d;font-weight:600">${escHtml(r.category || '')}</td>
+            <td style="vertical-align:top;padding:8px;border-bottom:1px solid #21262d">${escHtml(r.assessment || '')}</td>
+          </tr>`).join('')}
+      </tbody>
+    </table>
+  `;
 }
 
 function renderCountryAirports(airports) {
