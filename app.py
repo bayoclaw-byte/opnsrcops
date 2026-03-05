@@ -25,7 +25,7 @@ DATA_FILES = {
     'state_dept':        os.path.join(DATA_DIR, 'state_dept', 'travel_advisories.json'),
 }
 
-AREA_SLUGS = ['uae', 'saudi', 'bahrain', 'qatar', 'oman', 'kuwait']
+AREA_SLUGS = ['uae', 'saudi', 'bahrain', 'qatar', 'oman', 'kuwait', 'lebanon']
 
 AREA_FILES = {
     slug: os.path.join(AREAS_DIR, f'{slug}.json')
@@ -42,6 +42,7 @@ AREA_DISPLAY = {
     'qatar':  'Qatar',
     'oman':   'Oman',
     'kuwait': 'Kuwait',
+    'lebanon': 'Lebanon',
 }
 
 
@@ -134,6 +135,12 @@ def page_oman():
 def page_kuwait():
     return render_template('country.html', page='country', area_slug='kuwait',
                            area_name=AREA_DISPLAY['kuwait'])
+
+
+@app.route('/lebanon')
+def page_lebanon():
+    return render_template('country.html', page='country', area_slug='lebanon',
+                           area_name=AREA_DISPLAY['lebanon'])
 
 
 @app.route('/admin')

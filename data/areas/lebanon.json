@@ -1,0 +1,73 @@
+{
+  "slug": "lebanon",
+  "country": "Lebanon",
+  "key_points": [
+    "Lebanon is an active combat zone; kinetic activity and displacement are ongoing.",
+    "BEY remains partially operational but schedules are unstable and risk is elevated.",
+    "Overland exits are likely to be congested; conditions can change rapidly."
+  ],
+  "situation_last_updated": "2026-03-05T00:00:00Z",
+  "situation_assessment": [
+    {
+      "category": "Current Threat",
+      "assessment": "EXTREME. Lebanon is now an active combat zone with Israeli ground forces operating in southern Lebanon and ongoing airstrikes across the country."
+    },
+    {
+      "category": "Threat Trend",
+      "assessment": "RAPIDLY ESCALATING. Military operations continue expanding geographically."
+    },
+    {
+      "category": "Primary Drivers of Risk",
+      "assessment": "Hezbollah participation in the war, Israeli military operations, and the collapse of the previous ceasefire agreement."
+    },
+    {
+      "category": "Significant Activity (Last 24 hrs)",
+      "assessment": "Israeli airstrikes continued across Beirut suburbs and southern Lebanon, with additional displacement of civilians."
+    },
+    {
+      "category": "24–48 Hour Outlook",
+      "assessment": "Continued airstrikes and ground operations expected. Infrastructure and transportation nodes remain vulnerable to targeting."
+    },
+    {
+      "category": "10 Day Outlook",
+      "assessment": "Israeli operations could expand further north as Israel attempts to degrade Hezbollah’s operational capability while Iranian forces remain engaged elsewhere."
+    },
+    {
+      "category": "Air Travel",
+      "assessment": "BEY: OPEN with partial operations. Middle East Airlines remains the primary carrier operating limited flights."
+    },
+    {
+      "category": "Ground Travel",
+      "assessment": "Border crossings into Syria remain open but extremely congested, with long delays and significant refugee movement."
+    }
+  ],
+  "airports": [
+    {
+      "icao": "OLBA",
+      "iata": "BEY",
+      "name": "Beirut Rafic Hariri International",
+      "city": "Beirut",
+      "status": "OPEN",
+      "notes": "OPEN with partial operations; MEA remains primary limited carrier."
+    }
+  ],
+  "borders": [
+    {
+      "name": "Overland routes to Syria",
+      "status": "OPEN",
+      "notes": "Open but extremely congested; significant displacement/traffic."
+    }
+  ],
+  "domestic_unrest": {
+    "status": "HIGH",
+    "notes": "Active conflict zone; displacement and security environment highly volatile.",
+    "last_updated": "2026-03-05T00:00:00Z"
+  },
+  "energy_infra": {
+    "status": "WATCH",
+    "notes": "Infrastructure and transportation nodes vulnerable; outages possible.",
+    "last_updated": "2026-03-05T00:00:00Z"
+  },
+  "evac_routes": [],
+  "last_updated": "2026-03-05T00:00:00Z"
+}
