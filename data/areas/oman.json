@@ -1,30 +1,73 @@
 {
   "slug": "oman",
-  "name": "Oman",
-  "country": "OM",
+  "country": "Oman",
   "key_points": [
-    "ONLY GCC country not directly targeted by Iran \u2014 Tehran preserving neutral mediator status",
-    "Duqm Port struck twice (Mar 1: 1 expat injured; Mar 3: fuel storage tank hit); port SUSPENDED. Salalah Port also suspended under security restrictions.",
-    "Tanker Skylight attacked near Khasab (Musandam); MKD VYOM struck by kamikaze drone boat 52nm from Muscat \u2014 1 Indian crew member killed",
-    "MCT airspace remains OPEN \u2014 sole Gulf state in this position; primary regional evacuation hub",
-    "Multiple countries routing evacuations through Oman: UK charter flights Muscat; Germany aircraft; Ireland/Italy/Armenia bus transfers UAE\u2192Oman",
-    "Strait of Hormuz effectively closed \u2014 150+ tankers at anchor; IRGC declared strait 'closed' Mar 2",
-    "Oman FM Al-Busaidi: 'off-ramps are available \u2014 let's use them'; mediation channel suspended but not dead",
-    "Avoid Dibba/Tibat crossings to Musandam \u2014 Strait of Hormuz area extremely dangerous",
-    "UAE-Oman land border is safest evacuation corridor in region; Dubai to Muscat ~4-5 hours; expect security delays",
-    "Supply chain vulnerability: Oman import-dependent; Duqm (backup port outside Hormuz) now suspended"
+    "Oman has not been a primary strike target, but remains strategically important as an evacuation/diversion hub.",
+    "Muscat (MCT) remains open and is being used for diversions and evacuation routing.",
+    "UAE–Oman land border remains a key evacuation corridor; processing delays and congestion possible."
   ],
-  "airports": [],
-  "borders": [],
+  "situation_last_updated": "2026-03-05T00:00:00Z",
+  "situation_assessment": [
+    {
+      "category": "Current Threat",
+      "assessment": "MODERATE. Oman has not been a primary strike target but remains strategically important due to its airspace and evacuation role."
+    },
+    {
+      "category": "Threat Trend",
+      "assessment": "STABLE but vulnerable if the conflict expands or the Houthis escalate operations in the region."
+    },
+    {
+      "category": "Primary Drivers of Risk",
+      "assessment": "Strategic location near the Strait of Hormuz and role as a primary evacuation aviation hub."
+    },
+    {
+      "category": "Significant Activity (Last 24 hrs)",
+      "assessment": "Increased aviation traffic as airlines reroute through Muscat."
+    },
+    {
+      "category": "24–48 Hour Outlook",
+      "assessment": "Muscat expected to remain a primary evacuation hub."
+    },
+    {
+      "category": "10 Day Outlook",
+      "assessment": "If Iranian proxies escalate operations in the Red Sea or Gulf of Oman, Oman could face indirect disruptions."
+    },
+    {
+      "category": "Air Travel",
+      "assessment": "MCT: OPEN with partial operations. Muscat currently serves as a key evacuation and diversion airport."
+    },
+    {
+      "category": "Ground Travel",
+      "assessment": "Crossings with the UAE remain open but congestion is increasing as travelers move toward Muscat."
+    }
+  ],
+  "airports": [
+    {
+      "icao": "OOMS",
+      "iata": "MCT",
+      "name": "Muscat International",
+      "city": "Muscat",
+      "status": "OPEN",
+      "notes": "OPEN with partial operations; key evacuation/diversion hub."
+    }
+  ],
+  "borders": [
+    {
+      "name": "UAE–Oman land crossings",
+      "status": "OPEN",
+      "notes": "Primary ground evacuation corridor; congestion increasing."
+    }
+  ],
   "domestic_unrest": {
-    "level": "LOW",
-    "notes": "No domestic unrest. Oman maintaining neutral diplomatic stance."
+    "status": "LOW",
+    "notes": "No significant unrest reported.",
+    "last_updated": "2026-03-05T00:00:00Z"
   },
   "energy_infra": {
     "status": "WATCH",
-    "notes": "Not a major producer. Port infrastructure disrupted (Duqm, Salalah suspended)."
+    "notes": "Indirect disruption risk via shipping/port security and regional escalation.",
+    "last_updated": "2026-03-05T00:00:00Z"
   },
   "evac_routes": [],
-  "iw_matrix": [],
-  "last_updated": "2026-03-03T22:00:00Z"
+  "last_updated": "2026-03-05T00:00:00Z"
 }

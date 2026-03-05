@@ -1,0 +1,72 @@
+{
+  "slug": "kuwait",
+  "country": "Kuwait",
+  "key_points": [
+    "Kuwait hosts multiple US military facilities and remains exposed to regional strike risk.",
+    "Overland routes into Saudi Arabia are the primary evacuation option if aviation remains constrained."
+  ],
+  "situation_last_updated": "2026-03-05T00:00:00Z",
+  "situation_assessment": [
+    {
+      "category": "Current Threat",
+      "assessment": "HIGH. Kuwait hosts multiple US military facilities and has experienced drone strikes targeting military infrastructure."
+    },
+    {
+      "category": "Threat Trend",
+      "assessment": "STABLE. Continued Iranian retaliation against US military facilities remains likely."
+    },
+    {
+      "category": "Primary Drivers of Risk",
+      "assessment": "US military presence and geographic proximity to Iraq and Iran."
+    },
+    {
+      "category": "Significant Activity (Last 24 hrs)",
+      "assessment": "Drone attacks targeting US facilities and continued security alerts."
+    },
+    {
+      "category": "24–48 Hour Outlook",
+      "assessment": "Continued threat of drone or missile attacks targeting military facilities."
+    },
+    {
+      "category": "10 Day Outlook",
+      "assessment": "Kuwait will likely remain a persistent target if US military operations continue."
+    },
+    {
+      "category": "Air Travel",
+      "assessment": "KWI: CLOSED due to infrastructure damage and security restrictions."
+    },
+    {
+      "category": "Ground Travel",
+      "assessment": "Overland travel into Saudi Arabia remains the primary evacuation option."
+    }
+  ],
+  "airports": [
+    {
+      "icao": "OKBK",
+      "iata": "KWI",
+      "name": "Kuwait International Airport",
+      "city": "Kuwait City",
+      "status": "CLOSED",
+      "notes": "Closed due to infrastructure damage / security restrictions (per operator assessment)."
+    }
+  ],
+  "borders": [
+    {
+      "name": "Saudi Arabia land border",
+      "status": "OPEN",
+      "notes": "Primary overland evacuation route; congestion possible."
+    }
+  ],
+  "domestic_unrest": {
+    "status": "LOW",
+    "notes": "No widespread unrest reported; elevated security posture.",
+    "last_updated": "2026-03-05T00:00:00Z"
+  },
+  "energy_infra": {
+    "status": "WATCH",
+    "notes": "Key infrastructure risk tied to regional escalation and base targeting.",
+    "last_updated": "2026-03-05T00:00:00Z"
+  },
+  "evac_routes": [],
+  "last_updated": "2026-03-05T00:00:00Z"
+}
