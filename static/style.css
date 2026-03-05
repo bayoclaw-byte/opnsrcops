@@ -262,6 +262,8 @@ td.num { color: var(--text-dim); font-size: 0.7rem; width: 36px; }
 .status-RESTRICTED  { background: rgba(227,179,65,0.18);  color: var(--amber); border: 1px solid rgba(227,179,65,0.4); }
 .status-OBSTRUCTED  { background: rgba(227,179,65,0.18);  color: var(--amber); border: 1px solid rgba(227,179,65,0.4); }
 .status-CLOSED      { background: rgba(248,81,73,0.18);   color: var(--red);   border: 1px solid rgba(248,81,73,0.4); }
+.status-OPERATIONAL { background: rgba(63,185,80,0.15);   color: var(--green); border: 1px solid rgba(63,185,80,0.35); }
+.status-NON-OPERATIONAL { background: rgba(248,81,73,0.18); color: var(--red); border: 1px solid rgba(248,81,73,0.4); }
 .status-UNKNOWN    { background: rgba(139,148,158,0.15); color: var(--grey);  border: 1px solid rgba(139,148,158,0.3); }
 .status-DEGRADED   { background: rgba(248,81,73,0.12);   color: #ff9a94;      border: 1px solid rgba(248,81,73,0.3); }
 .status-CONGESTED  { background: rgba(227,179,65,0.12);  color: #f0c04a;      border: 1px solid rgba(227,179,65,0.3); }

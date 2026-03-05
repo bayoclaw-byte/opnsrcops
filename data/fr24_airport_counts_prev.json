@@ -1,5 +1,5 @@
 {
-  "last_scan_utc": "2026-03-04T06:28:44.493955+00:00",
+  "last_scan_utc": "2026-03-05T23:43:57.877787+00:00",
   "counts": {
     "DXB": 0,
     "AUH": 0,
@@ -12,7 +12,8 @@
     "JED": 0,
     "HOF": 0,
     "DOH": 0,
-    "KWI": 0
+    "KWI": 0,
+    "BEY": 0
   },
   "unattributed": 2,
   "total_gulf_flights": 2,

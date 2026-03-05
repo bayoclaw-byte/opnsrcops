@@ -73,16 +73,14 @@ function renderLandingAirports(airportGroups, fr24Meta) {
 
   // Summary badge
   const all = airportGroups.flatMap(g => g.airports || []);
-  const open   = all.filter(a => a.status === 'OPEN').length;
-  const obstr  = all.filter(a => a.status === 'OBSTRUCTED').length;
-  const closed = all.filter(a => a.status === 'CLOSED').length;
+  const op   = all.filter(a => a.status === 'OPERATIONAL').length;
+  const nop  = all.filter(a => a.status === 'NON-OPERATIONAL').length;
   if (badgeEl) badgeEl.innerHTML =
-    `<span style="color:var(--green)">${open} OPEN</span> &nbsp;` +
-    `<span style="color:var(--amber)">${obstr} OBSTR</span> &nbsp;` +
-    `<span style="color:var(--red)">${closed} CLOSED</span>`;
+    `<span style="color:var(--green)">${op} OPERATIONAL</span> &nbsp;` +
+    `<span style="color:var(--red)">${nop} NON-OPERATIONAL</span>`;
 
-  const STATUS_ICON = { OPEN:'🟢', OBSTRUCTED:'🟡', CLOSED:'🔴' };
-  const STATUS_COLOR = { OPEN:'var(--green)', OBSTRUCTED:'var(--amber)', CLOSED:'var(--red)' };
+  const STATUS_ICON = { 'OPERATIONAL':'🟢', 'NON-OPERATIONAL':'🔴' };
+  const STATUS_COLOR = { 'OPERATIONAL':'var(--green)', 'NON-OPERATIONAL':'var(--red)' };
 
   // FR24 scan metadata bar
   let metaBar = '';
@@ -431,16 +429,15 @@ function renderKeyPointsTable(area) {
   const airports = area?.airports || [];
   const airStatus = (() => {
     if (!airports.length) return 'UNKNOWN';
-    const anyClosed = airports.some(a => a.status === 'CLOSED');
     const allCanceled = airports.every(a => a.all_canceled === true);
-    if (anyClosed) return 'CLOSED';
+    const anyOperational = airports.some(a => a.status === 'OPERATIONAL');
     if (allCanceled) return 'NO FLIGHTS';
-    return 'PARTIAL';
+    return anyOperational ? 'OPERATIONAL' : 'NON-OPERATIONAL';
   })();
   const airNotes = airports.length
     ? airports.map(a => {
-        const op = a.all_canceled ? 'No flights' : 'Partial ops';
-        return `${a.iata}: ${a.status}${a.status === 'OPEN' ? ` (${op})` : ''}`;
+        const op = a.all_canceled ? 'No flights' : 'Operational';
+        return `${a.iata}: ${a.status} (${op})`;
       }).join(' · ')
     : '';
 
@@ -523,9 +520,8 @@ function renderCountryAirports(airports) {
   const badge = document.getElementById('ap-status-badge');
   if (!grid) return;
 
-  const open = airports.filter(a =>
-    a.status === 'OPEN' || a.status === 'WATCH' || a.status === 'DEGRADED').length;
-  const closed = airports.filter(a => a.status === 'CLOSED').length;
+  const open = airports.filter(a => a.status === 'OPERATIONAL').length;
+  const closed = airports.filter(a => a.status === 'NON-OPERATIONAL').length;
 
   if (badge) badge.textContent =
     `${open} operational · ${closed} closed of ${airports.length}`;
