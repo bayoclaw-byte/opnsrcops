@@ -11,31 +11,31 @@ airport,BAH,Bahrain International Airport,50.6336,26.2708,CLOSED,All Gulf Air su
 airport,DOH,Hamad International Airport,51.608,25.2731,CLOSED,Qatar Airways all operations suspended. Airspace closure. Next update expected 09:00 Mar 4. Limited humanitarian/state f,Qatar,2026-03-03T23:15:00Z
 airport,HOF,Al-Ahsa International Airport,49.4852,25.2853,OPEN,Small domestic-focused airport. No reported disruptions. Normal limited schedule (mostly domestic Saudi routes).,Saudi Arabia,2026-03-03T23:15:00Z
 airport,KWI,Kuwait International Airport,47.9689,29.2267,CLOSED,Fully closed to commercial flights. No reopening timeline. Monitor DGCA Kuwait.,Kuwait,2026-03-03T23:15:00Z
-border_crossing,Mezyad/Buraimi,UAE/Oman,55.84687168377245,24.021812227583276,OPEN,"Open and in use. Reports mention people crossing UAE–Oman borders, including in the Al Ain/Buraimi area, with new/additi",UAE,2026-03-05T18:36:26.285677+00:00
-border_crossing,Al Wajajah (Hatta),UAE/Oman,56.20296716905119,24.806071180679215,OPEN,"Open, though with very slow traffic and long delays (e.g., 2–6+ hours reported in some cases). Guides/updates from late ",UAE,2026-03-05T18:36:26.285677+00:00
-border_crossing,Khatmat Malaha,UAE/Oman,56.35,25.4833,OPEN,"No specific closure reports. General UAE–Oman land borders remain functional for rerouting (buses/private cars), though ",UAE,2026-03-05T18:36:26.285677+00:00
-border_crossing,Al Ghuwaifat/Silaa,UAE/Saudi,51.597167,24.121668,OPEN,Open and actively used. Etihad Rail ran exceptional passenger train services from Al Ghuwaifat (Saudi side) to Abu Dhabi,UAE,2026-03-05T18:36:26.285677+00:00
-border_crossing,Al Hadithah (Mudawwarah),Saudi/Jordan,36.0833,29.85,CLOSED,Nothing reported; assumed open. Last Note: 4March26.,Saudi Arabia,2026-03-05T18:36:26.285677+00:00
-border_crossing,Al Salmi / Nuwaiseeb,Saudi/Kuwait,46.659479,29.092778,OPEN,Nothing reported; assumed open. No closure noted.,Saudi Arabia,2026-03-05T18:36:26.285677+00:00
-border_crossing,Al Wadiah,Saudi/Yemen,47.25,17.5333,CLOSED,Open and operating normally. Recent reports (incl. aid trucks crossing in Jan 2026 and confirmations of regular operatio,Saudi Arabia,2026-03-05T18:36:26.285677+00:00
-border_crossing,Sharurah,Saudi/Yemen,47.1167,17.4667,OPEN,No closure reported; limited activity; assumed open. No closure; near Al Wadiah and part of the same region—operations a,Saudi Arabia,2026-03-05T18:36:26.285677+00:00
-border_crossing,Arar,Saudi/Iraq,41.0167,30.9833,OPEN,"No current closure from recent events; past temporary shutdowns (e.g., 2025 for smuggling) but reopened for trade. Last ",Saudi Arabia,2026-03-05T18:36:26.285677+00:00
-border_crossing,King Fahd Causeway,Bahrain/Saudi,50.325317,26.183932,OPEN,Open / operational. Authorities confirmed smooth traffic and full capacity in both directions as of 4March26. Earlier un,Bahrain,2026-03-05T18:36:26.285677+00:00
-border_crossing,Al Khajif,Kuwait/Saudi,48.396685,28.536265,OPEN,No specific info on closure. Last Note: 4March26.,Saudi Arabia,2026-03-05T18:36:26.285677+00:00
-border_crossing,Umm Al Zamool,Saudi/Oman,55.52631839454615,22.21199524977998,OPEN,No closure reported; aligns with open Saudi–Oman borders.,Saudi,2026-03-05T18:36:26.285677+00:00
-border_crossing,Al Wagan,UAE/Oman,55.577052992276876,23.631641170737222,OPEN,No specific mentions of closure; falls under the general pattern of UAE–Oman borders staying open but congested. Last No,UAE,2026-03-05T18:36:26.285677+00:00
+border_crossing,Mezyad/Buraimi,UAE/Oman,55.84687168377245,24.021812227583276,OPEN,"Open and in use. Reports mention people crossing UAE–Oman borders, including in the Al Ain/Buraimi area, with new/additi",UAE,2026-03-05T19:20:22.227033+00:00
+border_crossing,Al Wajajah (Hatta),UAE/Oman,56.20296716905119,24.806071180679215,OPEN,"Open, though with very slow traffic and long delays (e.g., 2–6+ hours reported in some cases). Guides/updates from late ",UAE,2026-03-05T19:20:22.227033+00:00
+border_crossing,Khatmat Malaha,UAE/Oman,56.35,25.4833,OPEN,"No specific closure reports. General UAE–Oman land borders remain functional for rerouting (buses/private cars), though ",UAE,2026-03-05T19:20:22.227033+00:00
+border_crossing,Al Ghuwaifat/Silaa,UAE/Saudi,51.597167,24.121668,OPEN,Open and actively used. Etihad Rail ran exceptional passenger train services from Al Ghuwaifat (Saudi side) to Abu Dhabi,UAE,2026-03-05T19:20:22.227033+00:00
+border_crossing,Al Hadithah (Mudawwarah),Saudi/Jordan,36.0833,29.85,CLOSED,Nothing reported; assumed open. Last Note: 4March26.,Saudi Arabia,2026-03-05T19:20:22.227033+00:00
+border_crossing,Al Salmi / Nuwaiseeb,Saudi/Kuwait,46.659479,29.092778,OPEN,Nothing reported; assumed open. No closure noted.,Saudi Arabia,2026-03-05T19:20:22.227033+00:00
+border_crossing,Al Wadiah,Saudi/Yemen,47.25,17.5333,CLOSED,Open and operating normally. Recent reports (incl. aid trucks crossing in Jan 2026 and confirmations of regular operatio,Saudi Arabia,2026-03-05T19:20:22.227033+00:00
+border_crossing,Sharurah,Saudi/Yemen,47.1167,17.4667,OPEN,No closure reported; limited activity; assumed open. No closure; near Al Wadiah and part of the same region—operations a,Saudi Arabia,2026-03-05T19:20:22.227033+00:00
+border_crossing,Arar,Saudi/Iraq,41.0167,30.9833,OPEN,"No current closure from recent events; past temporary shutdowns (e.g., 2025 for smuggling) but reopened for trade. Last ",Saudi Arabia,2026-03-05T19:20:22.227033+00:00
+border_crossing,King Fahd Causeway,Bahrain/Saudi,50.325317,26.183932,OPEN,Open / operational. Authorities confirmed smooth traffic and full capacity in both directions as of 4March26. Earlier un,Bahrain,2026-03-05T19:20:22.227033+00:00
+border_crossing,Al Khajif,Kuwait/Saudi,48.396685,28.536265,OPEN,No specific info on closure. Last Note: 4March26.,Saudi Arabia,2026-03-05T19:20:22.227033+00:00
+border_crossing,Umm Al Zamool,Saudi/Oman,55.52631839454615,22.21199524977998,OPEN,No closure reported; aligns with open Saudi–Oman borders.,Saudi,2026-03-05T19:20:22.227033+00:00
+border_crossing,Al Wagan,UAE/Oman,55.577052992276876,23.631641170737222,OPEN,No specific mentions of closure; falls under the general pattern of UAE–Oman borders staying open but congested. Last No,UAE,2026-03-05T19:20:22.227033+00:00
 border_crossing,Khatm Al Skikla,UAE/Oman,55.95663880345391,24.216155695994416,OPEN,"No closure reported; similar to other Oman crossings, likely open with delays. Last Note: 4March26.
 
-Oman: new paperwork",UAE,2026-03-05T18:36:26.285677+00:00
+Oman: new paperwork",UAE,2026-03-05T19:20:22.227033+00:00
 border_crossing,Hamasa,UAE/Oman,55.76988648128553,24.233134143701626,OPEN,"No specific closure info; part of the operational UAE–Oman network.
 
-Oman: new paperwork process is in place on the Oman",UAE,2026-03-05T18:36:26.285677+00:00
+Oman: new paperwork process is in place on the Oman",UAE,2026-03-05T19:20:22.227033+00:00
 border_crossing,Al Ain Border Post,UAE/Oman,55.767408067545,24.26192126800685,OPEN,"Open. Refers to the general Al Ain area crossings (e.g., Mezyad/Buraimi)—open. Last Note: 4March26.
 
-Oman: new paperwork",UAE,2026-03-05T18:36:26.285677+00:00
+Oman: new paperwork",UAE,2026-03-05T19:20:22.227033+00:00
 border_crossing,Tamouh Diplomatic Center,UAE/Oman,56.36483915571083,24.978323186352142,OPEN,"Limited info, but no reports of closure; diplomatic channels may have specific access.
 
-Oman: new paperwork process is i",UAE,2026-03-05T18:36:26.285677+00:00
+Oman: new paperwork process is i",UAE,2026-03-05T19:20:22.227033+00:00
 strike,evt-grok-001,"Drone strike near US Consulate, Dubai",55.3076,25.2394,MEDIUM,Drone caused contained fire near US Consulate in Dubai. No injuries. Conflict day 4.,uae,2026-03-03T19:30:00Z
 strike,evt-grok-002,"Two drones struck US Embassy compound, Riyadh",46.7219,24.6877,MEDIUM,"Limited fire, minor structural damage, no casualties reported.",saudi,2026-03-03T06:00:00Z
 strike,evt-grok-003,IRGC drones and missiles targeted Sheikh Isa Air Base,50.5572,25.9183,HIGH,Dawn strike on US airbase near Sheikh Isa. Bahrain activated air defenses. Details on damage withheld.,bahrain,2026-03-03T04:00:00Z

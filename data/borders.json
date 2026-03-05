@@ -7,7 +7,7 @@
         "pair": "UAE/Oman",
         "status": "OPEN",
         "notes": "Open and in use. Reports mention people crossing UAE\u2013Oman borders, including in the Al Ain/Buraimi area, with new/additional corridors like Al Rawdah (related to Buraimi) helping relieve congestion. No closure reported. Last Note: 4March26.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
         "traffic_note": "Normal flow"
       },
       {
@@ -15,7 +15,7 @@
         "pair": "UAE/Oman",
         "status": "OPEN",
         "notes": "Open, though with very slow traffic and long delays (e.g., 2\u20136+ hours reported in some cases). Guides/updates from late Feb/early Mar 2026 confirm it\u2019s operational for road travel to Oman, despite regional issues. Last Note: 4March26.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
         "traffic_note": "~7min delay (1.1x normal)"
       },
       {
@@ -23,7 +23,7 @@
         "pair": "UAE/Oman",
         "status": "OPEN",
         "notes": "No specific closure reports. General UAE\u2013Oman land borders remain functional for rerouting (buses/private cars), though processing is slow. Last Note: 4March26.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
         "traffic_note": "Normal flow"
       },
       {
@@ -31,15 +31,15 @@
         "pair": "UAE/Saudi",
         "status": "OPEN",
         "notes": "Open and actively used. Etihad Rail ran exceptional passenger train services from Al Ghuwaifat (Saudi side) to Abu Dhabi to help stranded passengers return amid airspace issues\u2014no indications of closure.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
-        "traffic_note": "~15min delay (1.2x normal)"
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
+        "traffic_note": "~17min delay (1.2x normal)"
       },
       {
         "crossing": "Al Wagan",
         "pair": "UAE/Oman",
         "status": "OPEN",
         "notes": "No specific mentions of closure; falls under the general pattern of UAE\u2013Oman borders staying open but congested. Last Note: 4March26.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
         "traffic_note": "Normal flow"
       },
       {
@@ -47,7 +47,7 @@
         "pair": "UAE/Oman",
         "status": "OPEN",
         "notes": "No closure reported; similar to other Oman crossings, likely open with delays. Last Note: 4March26.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
         "traffic_note": "Normal flow"
       },
       {
@@ -55,24 +55,24 @@
         "pair": "UAE/Oman",
         "status": "OPEN",
         "notes": "No specific closure info; part of the operational UAE\u2013Oman network.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
-        "traffic_note": "~9min delay (1.3x normal)"
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
+        "traffic_note": "~8min delay (1.3x normal)"
       },
       {
         "crossing": "Al Ain Border Post",
         "pair": "UAE/Oman",
         "status": "OPEN",
         "notes": "Open. Refers to the general Al Ain area crossings (e.g., Mezyad/Buraimi)\u2014open. Last Note: 4March26.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
-        "traffic_note": "~11min delay (1.3x normal)"
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
+        "traffic_note": "~9min delay (1.3x normal)"
       },
       {
         "crossing": "Tamouh Diplomatic Center",
         "pair": "UAE/Oman",
         "status": "OPEN",
         "notes": "Limited info, but no reports of closure; diplomatic channels may have specific access.\n\nOman: new paperwork process is in place on the Oman side, increasing delays. Recommend planning 12+ hours at UAE\u2013Oman crossings due to congestion, increased security, and processing timelines.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
-        "traffic_note": "~7min delay (1.3x normal)"
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
+        "traffic_note": "~7min delay (1.4x normal)"
       }
     ]
   },
@@ -84,7 +84,7 @@
         "pair": "Saudi/Jordan",
         "status": "CLOSED",
         "notes": "Nothing reported; assumed open. Last Note: 4March26.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
         "traffic_note": "No route returned by Directions API"
       },
       {
@@ -92,15 +92,15 @@
         "pair": "Saudi/Kuwait",
         "status": "OPEN",
         "notes": "Nothing reported; assumed open. No closure noted.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
-        "traffic_note": "~3min delay (1.1x normal)"
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
+        "traffic_note": "~5min delay (1.1x normal)"
       },
       {
         "crossing": "Al Wadiah",
         "pair": "Saudi/Yemen",
         "status": "CLOSED",
         "notes": "Open and operating normally. Recent reports (incl. aid trucks crossing in Jan 2026 and confirmations of regular operations) indicate it remains the main active Saudi\u2013Yemen land link. Last Note: 4March26.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
         "traffic_note": "No route returned by Directions API"
       },
       {
@@ -108,7 +108,7 @@
         "pair": "Saudi/Yemen",
         "status": "OPEN",
         "notes": "No closure reported; limited activity; assumed open. No closure; near Al Wadiah and part of the same region\u2014operations appear normal. Last Note: 4March26.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
         "traffic_note": "Normal flow"
       },
       {
@@ -116,7 +116,7 @@
         "pair": "Saudi/Iraq",
         "status": "OPEN",
         "notes": "No current closure from recent events; past temporary shutdowns (e.g., 2025 for smuggling) but reopened for trade. Last Note: 4March26.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
         "traffic_note": "Normal flow"
       },
       {
@@ -124,15 +124,15 @@
         "pair": "Kuwait/Saudi",
         "status": "OPEN",
         "notes": "No specific info on closure. Last Note: 4March26.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
-        "traffic_note": "~8min delay (1.2x normal)"
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
+        "traffic_note": "~13min delay (1.4x normal)"
       },
       {
         "crossing": "Umm Al Zamool",
         "pair": "Saudi/Oman",
         "status": "OPEN",
         "notes": "No closure reported; aligns with open Saudi\u2013Oman borders.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
         "traffic_note": "Normal flow"
       }
     ]
@@ -145,7 +145,7 @@
         "pair": "Bahrain/Saudi",
         "status": "OPEN",
         "notes": "Open / operational. Authorities confirmed smooth traffic and full capacity in both directions as of 4March26. Earlier unconfirmed reports of temporary closure/incidents (e.g., alleged drone activity) were not verified/were debunked. Some advisories warn against use due to threats, but current status is open and normal.",
-        "last_updated": "2026-03-05T18:36:26.285677+00:00",
+        "last_updated": "2026-03-05T19:20:22.227033+00:00",
         "traffic_note": "Normal flow"
       }
     ]
