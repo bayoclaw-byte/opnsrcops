@@ -13,6 +13,41 @@
     "US Embassy Manama CLOSED. Non-emergency personnel ordered depart. Warning that hotels may be targets.",
     "Most dangerous Gulf location: compound threat of Iranian strikes + Shia unrest + small island nation + import dependency via closed Strait"
   ],
+  "situation_last_updated": "2026-03-05T00:00:00Z",
+  "situation_assessment": [
+    {
+      "category": "Current Threat",
+      "assessment": "HIGH. Bahrain hosts the US Fifth Fleet headquarters and has experienced missile and drone activity targeting military infrastructure."
+    },
+    {
+      "category": "Threat Trend",
+      "assessment": "STABLE. Bahrain remains a strategic target due to its military significance."
+    },
+    {
+      "category": "Primary Drivers of Risk",
+      "assessment": "Presence of US naval headquarters, proximity to Iranian territory, and strategic maritime importance."
+    },
+    {
+      "category": "Significant Activity (Last 24 hrs)",
+      "assessment": "Continued missile interception activity and elevated security posture across military installations."
+    },
+    {
+      "category": "24–48 Hour Outlook",
+      "assessment": "Continued missile threat against military infrastructure."
+    },
+    {
+      "category": "10 Day Outlook",
+      "assessment": "Risk remains elevated while US naval operations continue in the region."
+    },
+    {
+      "category": "Air Travel",
+      "assessment": "BAH: OPEN but flights canceled."
+    },
+    {
+      "category": "Ground Travel",
+      "assessment": "King Fahd Causeway remains operational but heavily congested."
+    }
+  ],
   "airports": [
     {
       "icao": "OBBI",

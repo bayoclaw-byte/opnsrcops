@@ -12,6 +12,41 @@
     "Houthis have NOT launched confirmed attacks on Saudi Arabia but announced resumption of Red Sea shipping attacks and strikes on Israel",
     "Crown Prince MBS reportedly vowed military force against further Iranian incursions"
   ],
+  "situation_last_updated": "2026-03-05T00:00:00Z",
+  "situation_assessment": [
+    {
+      "category": "Current Threat",
+      "assessment": "HIGH. Iranian drones and missiles continue targeting energy infrastructure and military facilities, particularly in the Eastern Province."
+    },
+    {
+      "category": "Threat Trend",
+      "assessment": "INCREASING. If Iranian proxies such as the Houthis enter the conflict, Saudi Arabia may face attacks from both the north and south simultaneously."
+    },
+    {
+      "category": "Primary Drivers of Risk",
+      "assessment": "Strategic energy infrastructure, US diplomatic and military presence, and proximity to Houthi missile launch areas in Yemen."
+    },
+    {
+      "category": "Significant Activity (Last 24 hrs)",
+      "assessment": "Continued interception of drones and missiles. Security posture across military installations and diplomatic facilities remains elevated."
+    },
+    {
+      "category": "24–48 Hour Outlook",
+      "assessment": "Missile and drone threats likely to continue. Energy infrastructure and military facilities remain primary targets."
+    },
+    {
+      "category": "10 Day Outlook",
+      "assessment": "If Houthis enter the conflict, missile threats could extend deeper into Saudi territory, including Jeddah and Riyadh."
+    },
+    {
+      "category": "Air Travel",
+      "assessment": "RUH, JED, DMM, and HOF all OPEN with partial operations. Jeddah remains one of the most viable aviation exit hubs for the region."
+    },
+    {
+      "category": "Ground Travel",
+      "assessment": "Land crossings remain operational but congestion is increasing due to regional evacuation traffic."
+    }
+  ],
   "airports": [
     {
       "icao": "OERK",
