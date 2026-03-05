@@ -2,16 +2,10 @@
   "slug": "bahrain",
   "country": "Bahrain",
   "key_points": [
-    "73 missiles and 91 drones intercepted since Feb 28; multiple weapons penetrated defenses",
-    "5th Fleet HQ Juffair: radar dome direct Shahed hit; NAVCENT evacuated entire district \u2014 area assessed 'no longer safe for US personnel'",
-    "MT Stena Imperative (US oil tanker) struck by Iranian missile at Mina Salman Port Mar 2 ~02:00 UTC; ablaze; 1 worker killed",
-    "Residential towers in Hoora (Era View Tower) and Seef commercial district took direct drone hits. Crowne Plaza Hotel struck.",
-    "BAH airport drone hit causing material damage (terminal pre-evacuated)",
-    "1 confirmed death, 4+ injuries from Iranian strikes. No US/UK military casualties confirmed.",
-    "Civil unrest: Shia protests erupting in Sitra Island Mar 3; GCC Peninsula Shield Force units reportedly entering from Saudi Arabia \u2014 echoing 2011 precedent",
-    "King Fahd Causeway: status uncertain. Was OPEN Mar 1; unconfirmed drone strike and security cordon reports Mar 2-3. Military movements across causeway.",
-    "US Embassy Manama CLOSED. Non-emergency personnel ordered depart. Warning that hotels may be targets.",
-    "Most dangerous Gulf location: compound threat of Iranian strikes + Shia unrest + small island nation + import dependency via closed Strait"
+    "Threat: HIGH. Bahrain hosts the US Fifth Fleet headquarters and has experienced missile and drone activity targeting military infrastructure.",
+    "Trend: STABLE. Bahrain remains a strategic target due to its military significance.",
+    "Air Travel: BAH: OPEN but flights canceled.",
+    "Ground Travel: King Fahd Causeway remains operational but heavily congested."
   ],
   "situation_last_updated": "2026-03-05T00:00:00Z",
   "situation_assessment": [
@@ -77,7 +71,7 @@
   "evac_routes": [
     {
       "id": "bhr-r1",
-      "label": "Manama \u2192 Saudi Arabia",
+      "label": "Manama → Saudi Arabia",
       "drive_time": "30 min to border",
       "risk": "MODERATE",
       "via": "King Fahd Causeway",
@@ -110,7 +104,7 @@
     {
       "indicator": "Domestic Unrest",
       "status": "LOW",
-      "notes": "Shia majority population \u2014 historically sensitive. No active unrest reported since conflict began."
+      "notes": "Shia majority population — historically sensitive. No active unrest reported since conflict began."
     },
     {
       "indicator": "5th Fleet / Naval Posture",

@@ -2,15 +2,10 @@
   "slug": "saudi",
   "country": "Saudi Arabia",
   "key_points": [
-    "No confirmed casualties in Saudi Arabia \u2014 extensive air defense experience from years of Houthi attacks; deep Patriot/THAAD inventory",
-    "Ras Tanura refinery (550,000 bbl/day) targeted Mar 2 by 5 drones; 2 debris hits within perimeter; fire started; operations halted. Juaymah LPG terminal also offline since Feb 23 (pre-conflict structural collapse).",
-    "US Embassy Riyadh struck by 2 Iranian drones Mar 3; limited fire, minor material damage; Diplomatic Quarter targeted",
-    "King Khalid International Airport (RUH) and Prince Sultan Air Base (Al-Kharj) targeted Mar 1; Saudi intercepted 5 drones near air base",
-    "Brent crude $81-84/bbl (+15-20% from pre-conflict). Analysts warn $100/bbl if disruptions persist; $120+ if sustained 3+ weeks.",
-    "Saudi retains East-West pipeline routing oil to Yanbu (Red Sea), bypassing Hormuz",
-    "IndiGo ran 10 dedicated evacuation flights from JED to India Mar 3. 58,000+ Indonesian pilgrims stranded during Ramadan.",
-    "Houthis have NOT launched confirmed attacks on Saudi Arabia but announced resumption of Red Sea shipping attacks and strikes on Israel",
-    "Crown Prince MBS reportedly vowed military force against further Iranian incursions"
+    "Threat: HIGH. Iranian drones and missiles continue targeting energy infrastructure and military facilities, particularly in the Eastern Province.",
+    "Trend: INCREASING. If Iranian proxies such as the Houthis enter the conflict, Saudi Arabia may face attacks from both the north and south simultaneously.",
+    "Air Travel: RUH, JED, DMM, and HOF all OPEN with partial operations. Jeddah remains one of the most viable aviation exit hubs for the region.",
+    "Ground Travel: Land crossings remain operational but congestion is increasing due to regional evacuation traffic."
   ],
   "situation_last_updated": "2026-03-05T00:00:00Z",
   "situation_assessment": [
@@ -102,7 +97,7 @@
   ],
   "domestic_unrest": {
     "status": "UNMET",
-    "notes": "Zero reports of protests, demonstrations, or instability. Eastern Province Shia population calm \u2014 economic interdependence self-restraining. Official messaging emphasizes national unity. Contrast: protests reported in Pakistan, Iran.",
+    "notes": "Zero reports of protests, demonstrations, or instability. Eastern Province Shia population calm — economic interdependence self-restraining. Official messaging emphasizes national unity. Contrast: protests reported in Pakistan, Iran.",
     "last_updated": "2026-03-03T21:30:00Z"
   },
   "energy_infra": {
@@ -113,7 +108,7 @@
   "evac_routes": [
     {
       "id": "ksa-r1",
-      "label": "Riyadh \u2192 Amman",
+      "label": "Riyadh → Amman",
       "drive_time": "~10 hrs",
       "risk": "LOW-MODERATE",
       "via": "Al Hadithah / Mudawwarah",
@@ -123,11 +118,11 @@
       "destination_airport_iata": "AMM",
       "destination_airport_name": "Queen Alia International",
       "destination_airport_icao": "OJAI",
-      "notes": "Jordan FIR open for commercial traffic as of 03 MAR. Fuel stops sparse north of Tabuk \u2014 top off in Ha'il or Tabuk."
+      "notes": "Jordan FIR open for commercial traffic as of 03 MAR. Fuel stops sparse north of Tabuk — top off in Ha'il or Tabuk."
     },
     {
       "id": "ksa-r2",
-      "label": "Riyadh \u2192 Kuwait City",
+      "label": "Riyadh → Kuwait City",
       "drive_time": "~4 hrs",
       "risk": "MODERATE",
       "via": "Al Salmi / Nuwaiseeb",
@@ -141,7 +136,7 @@
     },
     {
       "id": "ksa-r3",
-      "label": "\u2192 Yemen (any crossing)",
+      "label": "→ Yemen (any crossing)",
       "drive_time": "N/A",
       "risk": "CRITICAL",
       "via": "N/A",
@@ -157,7 +152,7 @@
   "last_updated": "2026-03-03T22:00:00Z",
   "export_logistics": {
     "status": "ADAPTED",
-    "notes": "Aramco rerouting crude via East-West Pipeline (Abqaiq\u2192Yanbu, 5-7M bpd) to Red Sea. Buyers of Arab Light instructed to load at Yanbu. Hormuz bypass active.",
+    "notes": "Aramco rerouting crude via East-West Pipeline (Abqaiq→Yanbu, 5-7M bpd) to Red Sea. Buyers of Arab Light instructed to load at Yanbu. Hormuz bypass active.",
     "last_updated": "2026-03-03T21:30:00Z"
   },
   "iw_matrix": [
@@ -174,7 +169,7 @@
     {
       "indicator": "Energy Infrastructure",
       "status": "MET",
-      "notes": "Ras Tanura refinery (550,000 bpd) shut for assessment. Abqaiq OPERATIONAL. East-West Pipeline active \u2014 Aramco rerouting via Yanbu."
+      "notes": "Ras Tanura refinery (550,000 bpd) shut for assessment. Abqaiq OPERATIONAL. East-West Pipeline active — Aramco rerouting via Yanbu."
     },
     {
       "indicator": "Export Logistics",

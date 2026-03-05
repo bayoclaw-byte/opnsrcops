@@ -2,16 +2,10 @@
   "slug": "uae",
   "country": "United Arab Emirates",
   "key_points": [
-    "186 ballistic missiles fired at UAE (172 intercepted, 1 landed on territory, 13 fell into sea); 812 drones (755 intercepted, 57 struck within country)",
-    "3 foreign nationals killed (Pakistani, Nepali, Bangladeshi); 58-70 injured across multiple nationalities",
-    "DXB Terminal 3 struck ~01:30 Mar 1; 4 staff injured. Fairmont Hotel Palm Jumeirah hit by drone (major fire). Burj Al Arab facade damaged by interception fragments.",
-    "US Consulate Dubai struck Mar 3 \u2014 fire in parking lot and chancellery; all personnel accounted for",
-    "Jebel Ali Port fire from debris; DP World briefly suspended then resumed. AWS data center fire caused cloud-service disruptions.",
-    "Al Dhafra Air Base and Al Minhad Air Base (RAF/Australian forces) both targeted",
-    "Interceptor depletion projected ~7 days at current consumption rate. UAE has THAAD, Patriot PAC-3, Pantsir-S1, Cheongung II, Skynight.",
-    "~20,000 passengers stranded; 80%+ of Dubai flights cancelled. Emirates suspended until 23:59 Mar 4. EASA advised European carriers to avoid UAE airspace.",
-    "Panic buying Mar 1 widespread; shelves restocked by Mar 3. Price controls imposed by Ministry of Economy.",
-    "US State Dept Level 3 Reconsider Travel; non-emergency staff ordered depart Mar 2; DEPART NOW advisory Mar 3"
+    "Threat: HIGH. The UAE continues to face periodic Iranian missile and drone attacks, primarily targeting US and coalition military infrastructure such as Al Dhafra Air Base. Air defense systems are intercepting the majority of inbound threats, though several projectiles and debris impacts have caused casualties and infrastructure damage.",
+    "Trend: STABLE TO INCREASING. Iranian launch tempo has slowed overall but remains capable of periodic strikes. If the conflict continues, interceptor stockpiles across Gulf states will gradually be consumed, increasing the probability of successful missile impacts.",
+    "Air Travel: DXB: OPEN – Partial operations. DWC: OBSTRUCTED. AUH: OPEN – Partial operations. SHJ: OPEN – Partial operations. Flight schedules remain unstable with significant cancellations and repatriation flights.",
+    "Ground Travel: Land borders remain OPEN but congestion is increasing as travelers attempt to leave the UAE by road. Border closures remain possible with little warning if the conflict escalates."
   ],
   "situation_last_updated": "2026-03-05T00:00:00Z",
   "situation_assessment": [
@@ -101,14 +95,14 @@
   },
   "energy_infra": {
     "status": "MET",
-    "notes": "Drone strike on Jebel Ali Port \u2014 berth fire from debris. ADNOC facilities under threat. Jebel Ali power station complex struck (includes desalination capability).",
+    "notes": "Drone strike on Jebel Ali Port — berth fire from debris. ADNOC facilities under threat. Jebel Ali power station complex struck (includes desalination capability).",
     "last_updated": "2026-03-03T21:00:00Z"
   },
   "evac_routes": [
     {
       "id": "uae-r1",
-      "label": "Dubai \u2192 Muscat",
-      "drive_time": "5\u20136 hrs",
+      "label": "Dubai → Muscat",
+      "drive_time": "5–6 hrs",
       "risk": "MODERATE",
       "via": "Al Ain / Mezyad",
       "crossings": [
@@ -122,8 +116,8 @@
     },
     {
       "id": "uae-r2",
-      "label": "Dubai \u2192 Riyadh",
-      "drive_time": "10\u201312 hrs",
+      "label": "Dubai → Riyadh",
+      "drive_time": "10–12 hrs",
       "risk": "HIGH",
       "via": "Al Ghuwaifat",
       "crossings": [
@@ -175,12 +169,12 @@
     {
       "indicator": "US Facility Targeting",
       "status": "MET",
-      "notes": "Dubai US Consulate struck Mar 3 19:30Z \u2014 contained fire, no injuries. US personnel ordered to depart."
+      "notes": "Dubai US Consulate struck Mar 3 19:30Z — contained fire, no injuries. US personnel ordered to depart."
     },
     {
       "indicator": "Intercept Degradation Risk",
       "status": "WATCH",
-      "notes": "Bloomberg depletion window Mar 7\u201310. US resupply reportedly blocked. Intercept rate holding at 92\u201393%."
+      "notes": "Bloomberg depletion window Mar 7–10. US resupply reportedly blocked. Intercept rate holding at 92–93%."
     }
   ]
 }

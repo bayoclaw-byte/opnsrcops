@@ -45,6 +45,17 @@ AREA_DISPLAY = {
     'lebanon': 'Lebanon',
 }
 
+# Map area slug → country key used in airports.json / borders.json groupings
+LIVE_COUNTRY_KEY = {
+    'uae': 'UAE',
+    'saudi': 'Saudi Arabia',
+    'bahrain': 'Bahrain',
+    'qatar': 'Qatar',
+    'oman': 'Oman',
+    'kuwait': 'Kuwait',
+    'lebanon': 'Lebanon',
+}
+
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def load_json(path):
@@ -175,6 +186,32 @@ def api_area(slug):
     if slug not in AREA_SLUGS:
         abort(404, f'Unknown area: {slug}')
     area = load_json(AREA_FILES[slug])
+
+    # Ensure airports/borders shown on the country page align with the live datasets
+    live_key = LIVE_COUNTRY_KEY.get(slug, AREA_DISPLAY.get(slug, slug))
+    try:
+        airports_all = load_json(DATA_FILES['airports'])
+        grp = next((g for g in airports_all if g.get('country') == live_key), None)
+        area['airports'] = (grp or {}).get('airports', [])
+    except Exception:
+        pass
+
+    try:
+        borders_all = load_json(DATA_FILES['borders'])
+        grp = next((g for g in borders_all if g.get('country') == live_key), None)
+        crossings = (grp or {}).get('crossings', [])
+        # Convert to the shape expected by the country page renderer
+        area['borders'] = [
+            {
+                'name': c.get('crossing'),
+                'status': c.get('flow_status') or c.get('status') or 'UNKNOWN',
+                'notes': (c.get('traffic_note') or '').strip() or (c.get('notes') or '').strip(),
+            }
+            for c in crossings
+        ]
+    except Exception:
+        pass
+
     activity = load_json(DATA_FILES['activity'])
     area_activity = [
         e for e in activity

@@ -336,9 +336,7 @@ async function initCountry() {
     renderSituationUpdate(data.area);
     renderCountryAirports(data.area.airports);
     renderCountryBorders(data.area.borders);
-    renderStatusCards(data.area);
     renderEvacRoutes(data.area);
-    renderActivityFeed(data.activity, 'country-activity-feed', 'country-activity-count');
     updateRefreshLabel(data.server_time);
     hideLoading();
   } catch (e) {
@@ -384,16 +382,37 @@ function renderCountryHero(area) {
 
   const pills = document.getElementById('country-status-pills');
   if (!pills) return;
-  const unrestStatus = area.domestic_unrest?.status || 'UNKNOWN';
-  const energyStatus = area.energy_infra?.status || 'UNKNOWN';
+
+  const rows = area?.situation_assessment || [];
+  const threat = (rows.find(r => (r.category || '').toLowerCase() === 'current threat') || {}).assessment || '';
+  const trend  = (rows.find(r => (r.category || '').toLowerCase() === 'threat trend') || {}).assessment || '';
+
+  const threatWord = (threat.split(/\s|\./)[0] || '').toUpperCase();
+  const trendWord  = (trend.split(/\s|\./)[0] || '').toUpperCase();
+
+  function mapThreat(word) {
+    if (['EXTREME', 'HIGH'].includes(word)) return 'MET';
+    if (['MODERATE'].includes(word)) return 'WATCH';
+    if (['LOW'].includes(word)) return 'UNMET';
+    return 'UNKNOWN';
+  }
+  function mapTrend(word) {
+    if (['RAPIDLY', 'ESCALATING', 'INCREASING'].includes(word)) return 'WATCH';
+    if (['STABLE'].includes(word)) return 'UNMET';
+    return 'UNKNOWN';
+  }
+
+  const threatPill = mapThreat(threatWord);
+  const trendPill  = mapTrend(trendWord);
+
   pills.innerHTML = `
     <div class="hero-pill-group">
-      <span class="hero-pill-label">UNREST</span>
-      <span class="status-pill status-${unrestStatus}">${unrestStatus}</span>
+      <span class="hero-pill-label">THREAT</span>
+      <span class="status-pill status-${threatPill}">${escHtml(threatWord || '—')}</span>
     </div>
     <div class="hero-pill-group">
-      <span class="hero-pill-label">ENERGY</span>
-      <span class="status-pill status-${energyStatus}">${energyStatus}</span>
+      <span class="hero-pill-label">TREND</span>
+      <span class="status-pill status-${trendPill}">${escHtml(trendWord || '—')}</span>
     </div>`;
 }
 

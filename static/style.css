@@ -248,9 +248,9 @@ td.num { color: var(--text-dim); font-size: 0.7rem; width: 36px; }
 /* ── Status Pills ── */
 .status-pill {
   display: inline-block;
-  padding: 2px 8px;
+  padding: 1px 6px;
   border-radius: 3px;
-  font-size: 0.63rem;
+  font-size: 0.58rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
