@@ -42,6 +42,10 @@
     {
       "category": "Air Travel",
       "assessment": "DXB: OPEN – Partial operations. DWC: OBSTRUCTED. AUH: OPEN – Partial operations. SHJ: OPEN – Partial operations. Flight schedules remain unstable with significant cancellations and repatriation flights."
+    },
+    {
+      "category": "Ground Travel",
+      "assessment": "Land borders remain OPEN but congestion is increasing as travelers attempt to leave the UAE by road. Border closures remain possible with little warning if the conflict escalates."
     }
   ],
   "airports": [
