@@ -332,7 +332,7 @@ async function initCountry() {
     renderCountryHero(data.area);
     renderIWMatrix(data.iw_matrix || []);
     renderStateDeptCountry(data.state_dept);
-    renderKeyPoints(data.area.key_points);
+    renderKeyPointsTable(data.area);
     renderSituationUpdate(data.area);
     renderCountryAirports(data.area.airports);
     renderCountryBorders(data.area.borders);
@@ -416,14 +416,74 @@ function renderCountryHero(area) {
     </div>`;
 }
 
-function renderKeyPoints(points) {
-  const el = document.getElementById('key-points-list');
-  if (!el) return;
-  if (!points || !points.length) {
-    el.innerHTML = '<li class="feed-empty">No key points recorded</li>';
-    return;
-  }
-  el.innerHTML = points.map(p => `<li>${escHtml(p)}</li>`).join('');
+function renderKeyPointsTable(area) {
+  const tbody = document.getElementById('key-points-tbody');
+  if (!tbody) return;
+
+  const rows = area?.situation_assessment || [];
+  const threat = (rows.find(r => (r.category || '').toLowerCase() === 'current threat') || {}).assessment || '';
+  const trend  = (rows.find(r => (r.category || '').toLowerCase() === 'threat trend') || {}).assessment || '';
+  const drivers = (rows.find(r => (r.category || '').toLowerCase() === 'primary drivers of risk') || {}).assessment || '';
+
+  const threatWord = (threat.split(/\s|\./)[0] || '').toUpperCase();
+  const trendWord  = (trend.split(/\s|\./)[0] || '').toUpperCase();
+
+  // Air travel summary from live airports on the page
+  const airports = area?.airports || [];
+  const airStatus = (() => {
+    if (!airports.length) return 'UNKNOWN';
+    const anyClosed = airports.some(a => a.status === 'CLOSED');
+    const allCanceled = airports.every(a => a.all_canceled === true);
+    if (anyClosed) return 'CLOSED';
+    if (allCanceled) return 'NO FLIGHTS';
+    return 'PARTIAL';
+  })();
+  const airNotes = airports.length
+    ? airports.map(a => {
+        const op = a.all_canceled ? 'No flights' : 'Partial ops';
+        return `${a.iata}: ${a.status}${a.status === 'OPEN' ? ` (${op})` : ''}`;
+      }).join(' · ')
+    : '';
+
+  // Ground travel summary from live borders on the page
+  const borders = area?.borders || [];
+  const groundStatus = (() => {
+    if (!borders.length) return 'N/A';
+    if (borders.some(b => (b.status || '').toUpperCase() === 'CLOSED')) return 'CLOSED';
+    if (borders.some(b => (b.status || '').toUpperCase() === 'CONGESTED')) return 'CONGESTED';
+    return 'OPEN';
+  })();
+  const groundNotes = borders.length
+    ? borders.map(b => `${b.name}: ${b.status}`).join(' · ')
+    : 'No land borders / not tracked.';
+
+  const tableRows = [
+    { ind: 'Threat level', st: threatWord || '—', notes: threat.replace(/^\w+\.?\s*/, '') || threat },
+    { ind: 'Trend', st: trendWord || '—', notes: trend.replace(/^\w+\.?\s*/, '') || trend },
+    drivers ? { ind: 'Primary drivers', st: '—', notes: drivers } : null,
+    { ind: 'Air travel', st: airStatus, notes: airNotes },
+    { ind: 'Ground travel', st: groundStatus, notes: groundNotes },
+  ].filter(Boolean);
+
+  tbody.innerHTML = tableRows.map(r => {
+    const st = (r.st || 'UNKNOWN').toString().toUpperCase();
+    // Map non-standard values into existing pill styles
+    const pillClass = (st === 'PARTIAL') ? 'WATCH'
+      : (st === 'NO FLIGHTS') ? 'MET'
+      : (['HIGH','EXTREME'].includes(st)) ? 'MET'
+      : (st === 'MODERATE') ? 'WATCH'
+      : (st === 'STABLE') ? 'UNMET'
+      : (st === 'INCREASING') ? 'WATCH'
+      : (st === 'RAPIDLY') ? 'MET'
+      : st;
+
+    return `
+      <tr class="iw-matrix-row">
+        <td class="iw-matrix-indicator">${escHtml(r.ind)}</td>
+        <td style="text-align:center"><span class="status-pill status-${pillClass}">${escHtml(st)}</span></td>
+        <td class="iw-matrix-notes">${escHtml(r.notes || '')}</td>
+      </tr>`;
+  }).join('');
 }
 
 function renderSituationUpdate(area) {
