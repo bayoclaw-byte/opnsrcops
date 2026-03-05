@@ -38,8 +38,8 @@
         "intl_canceled": "Yes (most)",
         "domestic_canceled": "No (limited)",
         "status_code": 2,
-        "marker_color": "#f0a500",
-        "icon_type": "circle-amber",
+        "marker_color": "#f85149",
+        "icon_type": "circle-red",
         "status_label": "Obstructed"
       },
       {
@@ -214,8 +214,8 @@
         "intl_canceled": "Yes",
         "domestic_canceled": "Yes",
         "status_code": 1,
-        "marker_color": "#2ea043",
-        "icon_type": "circle-green",
+        "marker_color": "#f85149",
+        "icon_type": "circle-red",
         "status_label": "Open"
       }
     ]
@@ -241,8 +241,8 @@
         "intl_canceled": "Yes",
         "domestic_canceled": "Yes",
         "status_code": 1,
-        "marker_color": "#2ea043",
-        "icon_type": "circle-green",
+        "marker_color": "#f85149",
+        "icon_type": "circle-red",
         "status_label": "Open"
       }
     ]

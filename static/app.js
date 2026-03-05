@@ -330,7 +330,6 @@ async function initCountry() {
     const data = await res.json();
 
     renderCountryHero(data.area);
-    renderIWMatrix(data.iw_matrix || []);
     renderStateDeptCountry(data.state_dept);
     renderKeyPointsTable(data.area);
     renderSituationUpdate(data.area);
