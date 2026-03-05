@@ -378,6 +378,7 @@ def serve_geo(filename):
         # ArcGIS Experience-derived layers (deduped against local strike DB)
         'idf_lebanon_2026_03_04_deduped.geojson',
         'iranian_attacks_2026_deduped.geojson',
+        'us_bases_used_middle_east.geojson',
     }
 
     allowed = False
@@ -415,6 +416,7 @@ def geo_index():
         ('strikemap_incidents_filtered_deduped_r001.geojson', 'Kinetic Events (StrikeMap-derived, filtered/deduped)', 'renderer_strikes.json', 'Daily files available under /api/geo/strikemap_daily_r001/ (toggle by day in ArcGIS).'),
         ('idf_lebanon_2026_03_04_deduped.geojson', 'IDF Strikes in Lebanon (Automated) — 4 Mar (deduped vs local DB)', 'renderer_strikes.json', 'Source: ArcGIS Experience layer Lebanon_Israeli_Strikes_04MARCH_XYTableToPoint/FeatureServer/0'),
         ('iranian_attacks_2026_deduped.geojson', 'Iranian Attacks in 2026 (deduped vs local DB)', 'renderer_strikes.json', 'Source: ArcGIS Experience layer IranianAttack2026/FeatureServer/0'),
+        ('us_bases_used_middle_east.geojson', 'Bases used by the US in the Middle East', 'renderer_strikes.json', 'Source: ArcGIS Experience layer US_bases_in_the_Middle_East/FeatureServer/0'),
     ]
 
     def layer_block(fname, title, renderer, note):
