@@ -1,0 +1,4163 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": "2026-03-12",
+    "date": "2026-03-07",
+    "total_features": 148,
+    "total_claimed_kinetic": 206,
+    "source": "merged strikemap + liveuamap (scrubbed v1, country-tagged)"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3343,
+          25.12021
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826636",
+        "location": "Ab\u016b Nakh\u0331lah, Al Rayyan Municipality",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T22:40:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Qatari Defense Ministry: We intercepted 6 ballistic missiles, 2 fell in territorial waters and 2 others in an uninhabited area without casualties.",
+        "source_url": "https://twitter.com/ajabreaking/status/2030413295744610595",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 6,
+        "attributed_side": "uae",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.46078,
+          33.34845
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826635",
+        "location": "Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T22:38:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli warplanes launched an airstrike targeting the town of Shukin.",
+        "source_url": "https://twitter.com/kon_mowaten/status/2030412880428826817",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.46799,
+          35.57447
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826634",
+        "location": "Sulaymaniyah, Sulaymaniyah Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T22:29:00+00:00",
+        "country": "iraq",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Reuters, citing security sources: A drone struck a United Nations building in Sulaimaniyah, Iraq.",
+        "source_url": "https://twitter.com/ajabreaking/status/2030410526199541861",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4982,
+          33.83599
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826633",
+        "location": "Jabal Lubnan",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T22:27:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "hezbollah",
+        "title": "Hezbollah: We bombed the Ramla base southeast of Tel Aviv with advanced missiles",
+        "source_url": "https://twitter.com/ajabreaking/status/2030410025449996608",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "hezbollah",
+        "attribution_method": "original",
+        "original_side": "hezbollah",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.57779,
+          26.22183
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826632",
+        "location": "Manama, Bahrain",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T22:25:00+00:00",
+        "country": "bahrain",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Bahraini Interior Ministry: One person injured and damage to shops caused by missile fragments falling on a public street in the capital, Manama",
+        "source_url": "https://twitter.com/lbci_news/status/2030409620255088713",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.01526,
+          26.4923
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826630",
+        "location": "Al Qatif, Eastern Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T22:23:00+00:00",
+        "country": "saudi",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Saudi Ministry of Defense: 8 drones intercepted and destroyed after entering airspace",
+        "source_url": "https://twitter.com/ajabreaking/status/2030409017198043301",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 8,
+        "attributed_side": "saudi",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4855,
+          33.37171
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826717",
+        "location": "Nabatieh,Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T22:17:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "An Israeli airstrike targeted the town of Nabatieh al-Fawqa in the Nabatieh district.",
+        "source_url": "https://x.com/lebanondebate/status/2030407616082350133",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.48155,
+          33.39794
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826626",
+        "location": "Nabatieh,Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:45:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "A raid by a drone on Haboush",
+        "source_url": "https://x.com/kon_mowaten/status/2030399492562833895",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.51107,
+          33.84792
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826629",
+        "location": "Jabal Lubnan",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:43:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "A violent raid on Haret Hreik",
+        "source_url": "https://x.com/kataeb_Ar/status/2030398868572045580",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.51142,
+          33.85091
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826748",
+        "location": "Jabal Lubnan",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:40:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "The Israeli raid targeted the Haret Hreik area in the southern suburbs",
+        "source_url": "https://x.com/nbntweets/status/2030398134078050546",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.29049,
+          33.17422
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826628",
+        "location": "Southern Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:39:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "A new raid on the southern suburbs; 3 killed in the Jabal al-Batoum raid",
+        "source_url": "https://x.com/kon_mowaten/status/2030398012967489557",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03833,
+          26.67613
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826624",
+        "location": "Palm Beach, Florida",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:33:00+00:00",
+        "country": "unknown",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "The options Trump is weighing include a commando raid on Isfahan and other nuclear sites, according to Semafor",
+        "source_url": "https://x.com/kimlikci_954/status/2030396342153912531",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.28894,
+          33.17451
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826627",
+        "location": "Southern Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:29:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "A drone strike targeted a cafe in the town of Jabal al-Batoum, and there are casualties.",
+        "source_url": "https://x.com/kon_mowaten/status/2030395366730809783",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.51366,
+          33.85114
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826620",
+        "location": "Jabal Lubnan",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:28:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Bombing in the southern suburbs of Beirut",
+        "source_url": "https://x.com/AJABreaking/status/2030395294844608884",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.01901,
+          29.37577
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826617",
+        "location": "Kuwait City, Al Asimah Governate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:24:00+00:00",
+        "country": "kuwait",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Kuwaiti air defenses detected seven drones today, all of which were dealt with.",
+        "source_url": "https://x.com/SkyNewsArabia_B/status/2030394069323804845",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "kuwait",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.45075,
+          33.10179
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826616",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:19:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Islamic Resistance: We targeted the city of Nahariya, and an Israeli army force attempted to advance towards Maroun al-Ras, while another force attempted to advance towards Aitaroun.",
+        "source_url": "https://x.com/LBCI_NEWS/status/2030392802048180330",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03732,
+          26.67655
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826614",
+        "location": "Palm Beach, Florida",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:17:00+00:00",
+        "country": "unknown",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Trump on whether America bombed a school: Iran did it.",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2030392473973829933",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.41735,
+          33.40438
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826611",
+        "location": "Nabatiyeh",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:14:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Airstrike targets town of Sharqiyah - Nabatieh",
+        "source_url": "https://x.com/LBCI_NEWS/status/2030391692780519488",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.46764,
+          33.21717
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826608",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:08:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Extensive destruction in the neighborhoods and market of Majdal Selm as a result of Israeli airstrikes on the village",
+        "source_url": "https://x.com/AlakhbarNews/status/2030390129034945015",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2771,
+          33.29541
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826610",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T21:07:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "An Israeli drone strike targeted the outskirts of the town of Al-Abbasiya in the Tyre district.",
+        "source_url": "https://x.com/Annahar/status/2030389831830807012",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.29984,
+          35.78057
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826606",
+        "location": "Tehran, Tehran Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:51:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Tehran\u2019s Shahran oil depot is completely consumed by a massive blaze after Israeli airstrikes hit the facility tonight",
+        "source_url": "https://x.com/Osinttechnical/status/2030385765012615321",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5897,
+          33.3674
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826601",
+        "location": "Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:48:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Two Israeli airstrikes target the town of Dbayn",
+        "source_url": "https://x.com/lebanondebate/status/2030385224475930992",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.60635,
+          33.33127
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826609",
+        "location": "Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:47:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Two Israeli airstrikes target the town of Khiam in the Marjeyoun district.",
+        "source_url": "https://x.com/Annahar/status/2030384830110671036",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.16019,
+          24.78568
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826602",
+        "location": "Riyadh Province Saudi Arabia",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:47:00+00:00",
+        "country": "saudi",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Saudi Defense Ministry: Drone intercepted and destroyed east of Riyadh",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2030384939154251843",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "saudi",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.50301,
+          33.38331
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826605",
+        "location": "Nabatieh,Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:45:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Airstrikes target Kafr Rumman and Jebchit",
+        "source_url": "https://x.com/LBCI_NEWS/status/2030384319361941642",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.50721,
+          33.39169
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826599",
+        "location": "Nabatieh,Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:44:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "A drone strike targeted a motorcycle in the town of Kafr Rumman, resulting in injuries.",
+        "source_url": "https://x.com/kataeb_Ar/status/2030384152210448604",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.09264,
+          45.01168
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826600",
+        "location": "Krasnodar Krai, Russia",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:39:00+00:00",
+        "country": "unknown",
+        "event_kind": "explosion",
+        "side": "unknown",
+        "title": "Explosions were reported in Armavir",
+        "source_url": "https://t.me/supernova_plus/49271",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "unknown",
+        "attribution_method": "original",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.47073,
+          33.11587
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826604",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:38:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Air raid targets the town of Aitaroun",
+        "source_url": "https://x.com/Mulhak/status/2030382525005062275",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.46438,
+          33.37144
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826612",
+        "location": "Nabatieh,Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:34:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Four people killed in an airstrike targeting the town of Zabdin",
+        "source_url": "https://x.com/Mulhak/status/2030381632461455536",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.23377,
+          34.13428
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826621",
+        "location": "Beelbeck",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:32:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrike targets the town of Shaath in the northern Bekaa Valley.",
+        "source_url": "https://x.com/AlakhbarNews/status/2030381097477922970",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.06204,
+          33.1048
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826623",
+        "location": "Babylon Governorate, Iraq",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:24:00+00:00",
+        "country": "iraq",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "An Iraqi security source: Airstrikes targeted headquarters of an Iraqi resistance faction in the Jurf al-Nasr and al-Uwaysat areas, south of Baghdad.",
+        "source_url": "https://x.com/Qudsn_Brk/status/2030379178567061975",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.94978,
+          36.22158
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826595",
+        "location": "Erbil, Erbil Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:17:00+00:00",
+        "country": "iraq",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Air defenses are active over Erbil",
+        "source_url": "https://x.com/BarzanSadiq/status/2030377388329021467",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iraq",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.43932,
+          33.20382
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826592",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:15:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrike targets the town of Jmeijmeh in the Bint Jbeil district",
+        "source_url": "https://x.com/lebanondebate/status/2030376708503716190",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.29225,
+          35.7613
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826598",
+        "location": "Tehran, Tehran Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T20:00:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Three oil depots in the areas of Kouhak and Shahran in Tehran, and Karaj west of the capital, were targeted in Israeli fighter jet strikes, according to a source in Iran\u2019s Oil Ministry cited by Fars News",
+        "source_url": "https://x.com/FaytuksNetwork/status/2030373128195522780",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1444,
+          42.06521
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826590",
+        "location": "Mons,Wallonie",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T19:48:00+00:00",
+        "country": "unknown",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Union City MI Tornado that killed several, injured scores &amp; caused catastrophic damage has been rated EF3 (Preliminary) by the National Weather Service",
+        "source_url": "https://x.com/channel1atlanta/status/2030370138751455722",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "unknown",
+        "attribution_method": "original",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.83971,
+          50.92589
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826588",
+        "location": "Sumy,Sums'ka oblast",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T19:43:00+00:00",
+        "country": "unknown",
+        "event_kind": "explosion",
+        "side": "unknown",
+        "title": "Explosion was reported in Sumy",
+        "source_url": "https://t.me/kordonmedia/22666",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "unknown",
+        "attribution_method": "original",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.39486,
+          33.16143
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826586",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T19:31:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Two dead and one wounded in a raid in Hadatha",
+        "source_url": "https://x.com/kon_mowaten/status/2030365860662063379",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.66653,
+          49.83081
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826583",
+        "location": "Chuhuiv,Kharkiv Oblast",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T19:29:00+00:00",
+        "country": "unknown",
+        "event_kind": "explosion",
+        "side": "unknown",
+        "title": "Several explosions were reported in Chuhuiv community",
+        "source_url": "https://t.me/suspilne_kharkiv/82174",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "unknown",
+        "attribution_method": "original",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.12649,
+          36.29993
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826585",
+        "location": "Mosul, Nineveh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T19:26:00+00:00",
+        "country": "iraq",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Video: A suspected U.S. or Israeli airstrike targeting an Iraqi Shiite militia base near the city of Mosul has reportedly inflicted at least 4 casualties from the Kataib al-Imam Ali and Quwat Waad Allah armed factions",
+        "source_url": "https://x.com/IntelTweet/status/2030364364331532634",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.30477,
+          33.3656
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826579",
+        "location": "Nabatieh,Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T19:17:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrikes target the towns of Haddatha, Bint Jbeil, Qounine, Qantara, and Kawthariyat al-Ruz in southern Lebanon",
+        "source_url": "https://x.com/AlakhbarNews/status/2030362238016463297",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.1618,
+          33.1169
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826580",
+        "location": "Mehran, Ilam Province, Iran",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T19:17:00+00:00",
+        "country": "iraq",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Purported aftermath of a U.S. or Israeli airstrike in Mehran, Iran, adjacent to the Iraqi border",
+        "source_url": "https://x.com/IntelTweet/status/2030362130499752119",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.47297,
+          33.28407
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826577",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T19:16:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrike targeted the town of Adshit - Al-Qusayr, near the UNIFIL center.",
+        "source_url": "https://x.com/lebanondebate/status/2030361905114632279",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.06033,
+          32.79392
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826597",
+        "location": "Haifa District, Israel",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T19:09:00+00:00",
+        "country": "israel",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Iranian Revolutionary Guard: We struck the Haifa refinery with Khaibar missiles in retaliation for the targeting of the Tehran refinery.",
+        "source_url": "https://x.com/AJABreaking/status/2030360177321349318",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.60738,
+          33.32596
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826575",
+        "location": "Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T19:01:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "A raid and extensive search operation in the Khiam",
+        "source_url": "https://x.com/MTVLebanonNews/status/2030358085995286892",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.42271,
+          35.53657
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826571",
+        "location": "Tehran",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T18:51:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Tondgouyan Refinery has been targeted, Baqer Shahr, south of Tehran",
+        "source_url": "https://x.com/hey_itsmyturn/status/2030355678133411998",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.19832,
+          25.10554
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826570",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T18:47:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Dubai: Asian driver dies after debris from an air interception falls in Al Barsha area",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2030354678089670883",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "uae",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0148,
+          32.8245
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826569",
+        "location": "Haifa,Haifa District",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T18:09:00+00:00",
+        "country": "israel",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Barrage from Lebanon towards Haifa and the Kiryat Atar, some of the missiles were intercepted and some fell in open areas",
+        "source_url": "https://t.me/yediotnews25/120256",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.02768,
+          32.79278
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826572",
+        "location": "Haifa,Haifa District",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T18:09:00+00:00",
+        "country": "israel",
+        "event_kind": "intercept",
+        "side": "israel",
+        "title": "An aerial battle raged over Haifa and its surroundings, between Hezbollah missiles and Israeli interceptor systems. Haifa was subjected to its heaviest barrage of attacks since the start of the current war.",
+        "source_url": "https://x.com/JamalCheaib/status/2030345174920863888",
+        "source": "liveuamap",
+        "classification": "kinetic_report",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.42304,
+          33.38545
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826520",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T18:07:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Raids on the towns of Ansar, Sinai and Al-Duwayr with casualties",
+        "source_url": "https://x.com/Annahar/status/2030344696594084273",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.13944,
+          25.08024
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826518",
+        "location": "Dubai",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T17:56:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Dubai: Debris falls on the facade of a tower in the Marina following a successful aerial interception.",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2030341857591332928",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "uae",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.11635,
+          33.84849
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826525",
+        "location": "Beqaa",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T17:55:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrike on the &quot;Shaara&quot; area in the Lebanese Bekaa Valley, near the border with Syria",
+        "source_url": "https://x.com/qudsn/status/2030341494444355776",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.15077,
+          25.08941
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826524",
+        "location": "Dubai",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T17:52:00+00:00",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Smoke seen at the 23 Marina skyscraper in Dubai after being hit by debris from an interception. No injuries reported",
+        "source_url": "https://x.com/Faytuks/status/2030340924950155736",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.69577,
+          23.91044
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826521",
+        "location": "Saudi Arabia",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T16:58:00+00:00",
+        "country": "saudi",
+        "event_kind": "launch",
+        "side": "unknown",
+        "title": "The spokesperson for the Ministry of Defense of the Kingdom of Saudi Arabia: A ballistic missile fired in the direction of Prince Sultan Air Base fell in an uninhabited area.",
+        "source_url": "https://x.com/KSAEmbassySpox/status/2030327208812630398",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "unknown",
+        "attribution_method": "original",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.42421,
+          33.22507
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826519",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T16:16:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "An Israeli aggression targeted the towns of Zrarieh, Rashaf, Sawana, Kafr, Yater, Ansar, Deir Siryan and Khirbet Selm in southern Lebanon with a series of raids.",
+        "source_url": "https://x.com/Almasirahbrk/status/2030316645198029069",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.13232,
+          36.29798
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826511",
+        "location": "Nineveh Governorate, Iraq",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T16:11:00+00:00",
+        "country": "iraq",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Reuters, citing Iraqi security sources: An airstrike targeted a Popular Mobilization Forces headquarters south of Mosul.",
+        "source_url": "https://x.com/sawtelghad/status/2030315299078058381",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33237,
+          33.33371
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826522",
+        "location": "South Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T16:09:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrikes target Sarbin and Zrarieh",
+        "source_url": "https://x.com/kataeb_Ar/status/2030314835359961328",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.32431,
+          33.15051
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826508",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T16:05:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Two Israeli airstrikes targeted the towns of Ansar and Yater in southern Lebanon.",
+        "source_url": "https://x.com/sawtelghad/status/2030313916887073226",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.93561,
+          27.30128
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826506",
+        "location": "Gulf",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T16:04:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Iranian drones hit another ship in the Persian Gulf, this time off the Saudi port of Jubail. The vessels crew has mostly evacuated",
+        "source_url": "https://x.com/Osinttechnical/status/2030313766739476652",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.46318,
+          33.26856
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826490",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:54:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrikes target the towns of Qantara, Deir Siryan, and Kafr in southern Lebanon.",
+        "source_url": "https://x.com/AJABreaking/status/2030311086101000616",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.42954,
+          33.23211
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826496",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:54:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "An Israeli airstrike targeted the town of Ansar, and another airstrike targeted the town of Al-Sawana.",
+        "source_url": "https://x.com/lebanondebate/status/2030311072775737804",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.42919,
+          33.36282
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826501",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:52:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "A new raid targets the town of Jebchit",
+        "source_url": "https://x.com/OTVLebanon/status/2030310525599436962",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.52567,
+          33.32582
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826497",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:47:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "The two Israeli raids on the towns of Khirbet Selm and Arnoun targeted two health authority centers.",
+        "source_url": "https://x.com/lebanondebate/status/2030309314447937802",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.57892,
+          25.28865
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826478",
+        "location": "Doha, Doha",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:30:00+00:00",
+        "country": "uae",
+        "event_kind": "explosion",
+        "side": "unknown",
+        "title": "Reuters reported hearing an explosion in Doha",
+        "source_url": "https://x.com/IranIntlbrk/status/2030305002724434205",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "unknown",
+        "attribution_method": "original",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.38525,
+          33.33787
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826479",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:30:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Three people were injured in the Israeli airstrike that targeted the town of Breqa.",
+        "source_url": "https://x.com/lebanondebate/status/2030305192499921314",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.30422,
+          33.37057
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826482",
+        "location": "Nabatieh,Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:28:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "An Israeli airstrike targeted the town of Kawthariyat al-Ruz in the Sidon district, southern Lebanon.",
+        "source_url": "https://x.com/ShehabAgency/status/2030304576461574580",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.46747,
+          33.26958
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826484",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:27:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrike targets Qantara town, Marjeyoun district",
+        "source_url": "https://x.com/lebanondebate/status/2030304246030033014",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.59444,
+          25.90852
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826475",
+        "location": "Southern Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:24:00+00:00",
+        "country": "bahrain",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Iran's Revolutionary Guard: Our attack was in response to an American attack from the Juffair base in Bahrain on the desalination plant in Qeshm",
+        "source_url": "https://x.com/sawtelghad/status/2030303594096755159",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.58861,
+          25.91099
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826476",
+        "location": "Southern Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:24:00+00:00",
+        "country": "bahrain",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Iran's Revolutionary Guard: We targeted the US base in Juffair, Bahrain, with solid and liquid fuel missiles.",
+        "source_url": "https://x.com/AJABreaking/status/2030303531886927910",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.52429,
+          33.3284
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826481",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:22:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli raid targets Arnoun town",
+        "source_url": "https://x.com/lebanondebate/status/2030303075483680875",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.42301,
+          33.22952
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826474",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:14:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Airstrike targeted the town of Khirbet Selm",
+        "source_url": "https://x.com/nbntweets/status/2030301191100330446",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.58283,
+          24.55349
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826473",
+        "location": "Abu Dhabi, Abu Dhabi",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:12:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "us",
+        "title": "UAE air defenses are currently dealing with missile and drone threats coming from Iran. The Ministry of Defense confirms that the sounds heard in various parts of the country are the result of air defense systems intercepting ballistic missiles and fighter jets intercepting drones and cruise missile",
+        "source_url": "https://x.com/Sajwani/status/2030300581169139796",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us",
+        "attribution_method": "original",
+        "original_side": "us",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.60371,
+          26.22678
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826466",
+        "location": "Manama, Bahrain",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:03:00+00:00",
+        "country": "bahrain",
+        "event_kind": "explosion",
+        "side": "unknown",
+        "title": "Several explosions heard in Bahrain capital",
+        "source_url": "https://x.com/guyelster/status/2030298345030160427",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "unknown",
+        "attribution_method": "original",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.06346,
+          34.06096
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826468",
+        "location": "Beqaa Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T15:00:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "An airstrike targeted the outskirts of the town of Buday, west of Baalbek.",
+        "source_url": "https://x.com/kataeb_Ar/status/2030297499051741381",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.46919,
+          33.3512
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826470",
+        "location": "Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:54:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "A raid on the area between Mefdon and Shokin",
+        "source_url": "https://x.com/aljoumhouria/status/2030296024141508870",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.58674,
+          34.54886
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826464",
+        "location": "Kermanshah Province, Iran",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:52:00+00:00",
+        "country": "iraq",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Airstrikes continue to systematically destroy IRGC posts along the border with Northern Iraq. Picture of Border post at Qasr-e Shirin, Kermanshah Province, destroyed today",
+        "source_url": "https://x.com/DannyNis/status/2030295581290115387",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33152,
+          33.13369
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826471",
+        "location": "North District",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:52:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrike targets Beit Leef town",
+        "source_url": "https://x.com/AlakhbarNews/status/2030295525870759984",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.11687,
+          33.86061
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826462",
+        "location": "Baalbek-Hermel Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:50:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrikes target the town of Nabi Sheet in eastern Lebanon",
+        "source_url": "https://x.com/AlarabyTV/status/2030295140615569581",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.47657,
+          33.31879
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826460",
+        "location": "Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:43:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Aircraft launch raid on the outskirts of the town of Zawtar al-Sharqiya in southern Lebanon",
+        "source_url": "https://x.com/paldf/status/2030293205246185925",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20157,
+          33.26929
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826454",
+        "location": "Sour,South Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:38:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Heavy Israeli airstrikes target the city of Tyre in Lebanon",
+        "source_url": "https://x.com/FARED_ALHOR/status/2030292024780378290",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.47614,
+          33.34882
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826451",
+        "location": "Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:35:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Raid targeted Mefdon",
+        "source_url": "https://x.com/bintjbeilnews/status/2030291332497821966",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.52738,
+          33.16632
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826458",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:28:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Airstrike targeted the town of Mays al-Jabal",
+        "source_url": "https://x.com/nbntweets/status/2030289443995758654",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.47726,
+          33.37687
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826469",
+        "location": "Nabatieh,Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:26:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Airstrike targets the vicinity of Nabatieh.",
+        "source_url": "https://x.com/ALJADEEDNEWS/status/2030288932101902339",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4159,
+          35.68951
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826453",
+        "location": "Tehran, Tehran Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:17:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "us",
+        "title": "Iran\u2019s FM says the U.S. carried out a \u201cblatant and desperate crime\u201d by striking a freshwater desalination plant on Qeshm Island. He warned that attacks on Iran\u2019s civilian infrastructure are a dangerous escalation with grave consequences, adding that \u201cthe U.S. set this precedent, not Iran.\u201d",
+        "source_url": "https://x.com/FaytuksNetwork/status/2030286724169871440",
+        "source": "liveuamap",
+        "classification": "kinetic_report",
+        "claimed_count": 1,
+        "attributed_side": "us",
+        "attribution_method": "original",
+        "original_side": "us",
+        "scrub_version": "v1",
+        "scrub_note": "Iranian FM accused the US of striking a Qeshm desalination plant; report of single target."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.46524,
+          33.37257
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826444",
+        "location": "Nabatieh,Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:16:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Aircraft launch raid on the town of Zabdin",
+        "source_url": "https://x.com/ShehabAgency/status/2030286467675591094",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.51322,
+          34.79579
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826452",
+        "location": "Hamedan, Hamadan Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:14:00+00:00",
+        "country": "iraq",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Raids on police headquarters in Hamadan, western Iran",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2030286002955178012",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.47056,
+          33.36454
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826439",
+        "location": "Nabatieh,Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:11:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Airstrike targets the town of Zibdin - Nabatieh",
+        "source_url": "https://x.com/LBCI_NEWS/status/2030285321703661763",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.60635,
+          33.32283
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826441",
+        "location": "Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T14:03:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli artillery shelling targets the towns of Aita al-Shaab and Maroun al-Ras in southern Lebanon - Two airstrikes on the city of Khiam and a town in southern Lebanon",
+        "source_url": "https://x.com/qudsn/status/2030283122747552235",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.32963,
+          33.15137
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826442",
+        "location": "North District",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T13:59:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "An Israeli airstrike targeted the town of Yater in southern Lebanon.",
+        "source_url": "https://x.com/breakingnews_mt/status/2030282258993590307",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.58836,
+          35.75167
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826472",
+        "location": "Tehran Province, Iran",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T13:54:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "The Israel military said it had struck Imam Hossein University, an institution linked to the Iran's Revolutionary Guard",
+        "source_url": "https://x.com/IranWireEnglish/status/2030280808796201314",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.32263,
+          35.68507
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826437",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T13:52:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "The IDF says it destroyed 16 aircraft used by the IRGC Quds Force at Tehran's Mehrabad International Airport in a wave of airstrikes in Iran's capital last night. The military says that Mehrabad Airport was used by the Quds Force &quot;as a central hub for arming and funding the regime's terrorist p",
+        "source_url": "https://x.com/manniefabian/status/2030280431837253776",
+        "source": "liveuamap",
+        "classification": "kinetic_report",
+        "claimed_count": 16,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.56292,
+          33.27962
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826435",
+        "location": "Metula,North District",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T13:48:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Amid the airstrikes and escalation Hezbollah announces targeting of Israeli vehicles near Kafrkela",
+        "source_url": "https://x.com/lebanondebate/status/2030279398679535684",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.44344,
+          33.10077
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826436",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T13:42:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Two airstrikes on Bint Jbeil and Arnoun, and artillery shelling of Aita al-Shaab and Maroun al-Ras",
+        "source_url": "https://x.com/OTVLebanon/status/2030278035400728823",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.50816,
+          33.86004
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826438",
+        "location": "Jabal Lubnan",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T13:42:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "The Lebanese Ministry of Health announces that the death toll from Israeli airstrikes has risen to 294, with 1,023 others injured since last Monday",
+        "source_url": "https://x.com/AlekhbariahSY/status/2030277979335516589",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.84696,
+          28.93937
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826434",
+        "location": "Bandar Bushehr, Bushehr Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T13:31:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Air base bombed in Bushehr port, southwest Iran",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2030275170909258201",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.854,
+          28.93682
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826431",
+        "location": "Bandar Bushehr, Bushehr Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T13:29:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Massive cloud of smoke rising over the port city of Bushehr in southern Iran following American/Israeli airstrikes on Saturday afternoon",
+        "source_url": "https://x.com/Archer83Able/status/2030274615906324798",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2038,
+          33.269
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826430",
+        "location": "Sour,South Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T13:23:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Airstrikes targeted the city of Tyre",
+        "source_url": "https://x.com/Annahar/status/2030273098558120265",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.51502,
+          33.34475
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826429",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T13:22:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli drone strike on the town of Kafr Tebnit",
+        "source_url": "https://x.com/lebanondebate/status/2030272905431372174",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.47571,
+          33.4084
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826480",
+        "location": "Nabatieh,Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T13:18:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Raid targets Haboush town",
+        "source_url": "https://x.com/OTVLebanon/status/2030271856045916202",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.31555,
+          33.27115
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826428",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T13:15:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrike targeting the Ma'rakah intersection in Tyre",
+        "source_url": "https://x.com/lebanondebate/status/2030271155140014528",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.36641,
+          32.63159
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826486",
+        "location": "Najafabad, Isfahan Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T12:54:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Footage shows the bombing of the &quot;Imam Ali&quot; barracks in Najafabad, Isfahan province, Iran, by Israeli-American airstrikes. Plumes of smoke rise from the targeted site. ",
+        "source_url": "https://x.com/Alhadath_Ymn/status/2030265789568143388",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.42988,
+          33.11903
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826485",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T12:43:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Airstrikes target Bint Jbeil, southern Lebanon",
+        "source_url": "https://x.com/ShehabAgency/status/2030262966386389450",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.93353,
+          31.92837
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826449",
+        "location": "Amman,Amman Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T12:42:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Jordan: 119 Iranian missiles and drones targeted vital sites and facilities inside Jordanian territory",
+        "source_url": "https://x.com/emaratalyoum/status/2030262921188553044",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.04822,
+          36.23114
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826487",
+        "location": "Abyek, Iran, Qazvin Province, Iran",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T12:28:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "US-Israeli airstrikes target Qazvin city in Iran ",
+        "source_url": "https://x.com/AlekhbariahSY/status/2030259406672163230",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.42455,
+          24.45296
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826447",
+        "location": "Abu Dhabi - United Arab Emirates",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T12:24:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "In total UAE air defenses detected 1,305 drones and 221 ballistic missiles, successfully intercepting the vast majority.",
+        "source_url": "https://x.com/Hattpost/status/2030258230404812934",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "uae",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.41786,
+          24.45405
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826446",
+        "location": "Abu Dhabi - United Arab Emirates",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T12:21:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "UAE air defences intercept 15 ballistic missiles, 119 drones today",
+        "source_url": "https://x.com/WAMNEWS_ENG/status/2030257655068139769",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 15,
+        "attributed_side": "uae",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.47331,
+          33.32157
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826488",
+        "location": "Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T12:20:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Five people were killed in the raid on Zawtar al-Sharqiya this morning in Lebanon.",
+        "source_url": "https://x.com/rllnewsdesk/status/2030257334270701834",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.01919,
+          33.96417
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826489",
+        "location": "Bekaa",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T12:16:00+00:00",
+        "country": "oman",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Ministry of Health: Six citizens, including four children and a woman, were killed in the raid on the town of Shamshtar in the Baalbek district.",
+        "source_url": "https://x.com/LBCI_NEWS/status/2030256217898053650",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "text_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.40413,
+          33.32152
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826492",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T12:06:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Raids targeted Kafrsir, Jebchit and Arab Salim",
+        "source_url": "https://x.com/AlakhbarNews/status/2030253781296837043",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.1076,
+          33.86728
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826427",
+        "location": "Beqaa",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T12:05:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Lebanese Ministry of Health: 41 citizens killed and 40 others wounded in the total toll of the raids on Nabi Sheet and surrounding towns",
+        "source_url": "https://twitter.com/lbci_news/status/2030253596294479907",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5224,
+          33.27116
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826495",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T11:54:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli aircraft launch raids on the towns of Taybeh and Arab Salim",
+        "source_url": "https://x.com/Almasirahbrk/status/2030250759791460449",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.65514,
+          32.61719
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826493",
+        "location": "Isfahan, Isfahan Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T11:45:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Airstrike targets Mardavij area in Isfahan, central Iran",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2030248442174320886",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.59811,
+          33.38346
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826494",
+        "location": "Nabatiyeh Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T11:45:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "hezbollah",
+        "title": "Rockets fired towards Balat site Hezbollah responds to airstrikes",
+        "source_url": "https://x.com/lebanondebate/status/2030248518133096811",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "hezbollah",
+        "attribution_method": "original",
+        "original_side": "hezbollah",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.29993,
+          33.36441
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826498",
+        "location": "South Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T11:06:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Lebanese Army soldier Abdul Salam Turki was killed along with his brother and two other people as a result of an Israeli raid that targeted Kawthariyat al-Ruz in southern Lebanon this morning.",
+        "source_url": "https://x.com/AlakhbarNews/status/2030238616425816415",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.55416,
+          33.46613
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826502",
+        "location": "South Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T10:42:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "A raid on Mleikh resulted in the destruction of a house.",
+        "source_url": "https://x.com/rllnewsdesk/status/2030232681351422460",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.82582,
+          34.29256
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826500",
+        "location": "Malayer, Hamadan Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T10:25:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Airstrike targets medical center in Malayer city, western Iran",
+        "source_url": "https://x.com/AlarabyTV/status/2030228250643882203",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33066,
+          33.30674
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826499",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T10:21:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "An airstrike hit a house in the town of Al-Halousiya, near Tayr Falsayh, with a missile that did not explode",
+        "source_url": "https://x.com/rllnewsdesk/status/2030227353763229893",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.30447,
+          31.34312
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826503",
+        "location": "Gaza",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T10:01:00+00:00",
+        "country": "israel",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Warplanes launch an airstrike on Khan Younis in the southern Gaza Strip.",
+        "source_url": "https://x.com/paldf/status/2030222378014241260",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.51176,
+          24.22164
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826504",
+        "location": "Abu Dhabi - United Arab Emirates",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:59:00+00:00",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Iran's Revolutionary Guard: Our forces targeted Al Dhafra Air Base in the UAE this morning with a large number of drones.",
+        "source_url": "https://x.com/Lebanon24/status/2030221747908116990",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.9748,
+          26.52591
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826505",
+        "location": "Kish,",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:57:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Footage circulating online, which its publishers claim shows airstrikes targeting the vicinity of Kish International Airport and other locations on Kish Island in Hormozgan province, southern Iran.",
+        "source_url": "https://x.com/AsharqNews/status/2030221382059970810",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.43451,
+          33.35809
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826405",
+        "location": "Nabatiyeh Governorate, Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:34:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Footage circulating online shows some of the damage caused by an Israeli airstrike that targeted a house in the town of Jebchit in the Nabatieh district of southern Lebanon this morning, resulting in the death of six people, including four members of the same family, according to the National News A",
+        "source_url": "https://x.com/AsharqNews/status/2030215448776556751",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5176,
+          33.85761
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826404",
+        "location": "Jabal Lubnan",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:31:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Lebanese Ministry of Health: The death toll from Israeli airstrikes has risen to 217, with 798 injured, since March 2nd until Friday evening.",
+        "source_url": "https://x.com/HalabTodayTV/status/2030214839449035217",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.59157,
+          24.05982
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826403",
+        "location": "Saudi Arabia",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:28:00+00:00",
+        "country": "saudi",
+        "event_kind": "launch",
+        "side": "unknown",
+        "title": "Saudi Defense Ministry: Four drones destroyed in the Empty Quarter and two ballistic missiles launched towards Prince Sultan Air Base",
+        "source_url": "https://x.com/AlarabyTV/status/2030214014718861633",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "unknown",
+        "attribution_method": "original",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.78492,
+          32.59763
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826433",
+        "location": "Isfahan Province, Iran",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:21:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Violent raids on Isfahan, Iran",
+        "source_url": "https://x.com/qudsn/status/2030212269292822908",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.68964,
+          35.46732
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826399",
+        "location": "Pakdasht, Tehran Province, Iran",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:20:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Explosions were heard in Hamedan in western Iran, Yazd in central Iran and Pakdasht southeast of the capital Tehran, Iranian media reported on Saturday amid US-Israeli airstrikes",
+        "source_url": "https://x.com/IranIntl_En/status/2030211854929183004",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 3,
+        "attributed_side": "us_israel",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "scrub_note": "Explosions heard in Hamedan, Yazd, and Pakdasht amid US/Israeli airstrikes; counted three locales."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3353,
+          33.09727
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826509",
+        "location": "North District",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:19:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrike on Bint Jbeil, coinciding with intermittent artillery shelling of Aita al-Shaab and Aitaroun",
+        "source_url": "https://x.com/aljoumhouria/status/2030211618550775985",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.29186,
+          33.30387
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826402",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:15:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "An Israeli drone strike targeted a Rapid car in the town of Abbasiya, Hasbaya district, without causing any injuries.",
+        "source_url": "https://x.com/Lebanon24/status/2030210817908441472",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.25523,
+          32.55017
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826391",
+        "location": "El Taebah,Daraa Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:14:00+00:00",
+        "country": "jordan",
+        "event_kind": "intercept",
+        "side": "iran",
+        "title": "It is believed to be remnants from the interception of Iranian missiles. An explosive object fell in the town of Al-Taybeh in the eastern Daraa countryside",
+        "source_url": "https://x.com/HalabTodayTV/status/2030210473925148759",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.89288,
+          36.63388
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826393",
+        "location": "Erbil Governorate",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:14:00+00:00",
+        "country": "oman",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Three drones were intercepted in the Choman district, north of Erbil province, with no injuries reported.",
+        "source_url": "https://x.com/AlarabyTV/status/2030210391150932350",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iraq",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "text_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.30559,
+          31.80394
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826383",
+        "location": "Yazd, Yazd Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:06:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Bombing of Revolutionary Guard positions in Yazd",
+        "source_url": "https://x.com/MohamadAhwaze/status/2030208543836553720",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.12587,
+          33.11371
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826401",
+        "location": "North District",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:06:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli airstrike targets UNIFIL site in southern Lebanon, injuries reported among international force members",
+        "source_url": "https://x.com/AsharqNews/status/2030208476920562141",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.78811,
+          32.07546
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826400",
+        "location": "Tel Aviv-Yafo, Tel Aviv District",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T09:04:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Adraee: The Israeli army continues to intensify its strikes against the Hezbollah terrorist organization in various areas of Lebanon, targeting commanders from the Radwan Force. The Israeli army completed an additional wave of airstrikes last night in various areas of southern Lebanon and the Bekaa ",
+        "source_url": "https://x.com/rllnewsdesk/status/2030207999814337006",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.78526,
+          32.59503
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826371",
+        "location": "Isfahan Province, Iran",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T08:20:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Israeli army: We have begun a new wave of airstrikes on Tehran and Isfahan in Iran",
+        "source_url": "https://x.com/AlarabyTV/status/2030196846165954782",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.11103,
+          33.8673
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826366",
+        "location": "Beqaa",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T08:09:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "26 dead, including 3 soldiers, in Israeli raids on the town of Nabi Sheet in the Bekaa Valley, eastern Lebanon",
+        "source_url": "https://x.com/AlarabyTV/status/2030194181965013075",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.34294,
+          25.22965
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826374",
+        "location": "Dubai - United Arab Emirates",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T08:09:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "UAE Ministry of Defense: Air defenses are currently dealing with missile and drone threats coming from Iran.",
+        "source_url": "https://x.com/radioshamfm/status/2030194002021007676",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.20897,
+          27.14825
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826372",
+        "location": "Bandar Abbas",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T08:04:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Footage shows the targeting of the Iranian naval air base in Bandar Abbas by Israeli-American airstrikes, with plumes of smoke rising from the bombing site",
+        "source_url": "https://x.com/AlHadath/status/2030192915742364031",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.59369,
+          25.27422
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826342",
+        "location": "Doha, Doha",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T07:58:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Qatari Ministry of Defense: We intercepted a missile attack targeting Qatar",
+        "source_url": "https://x.com/AJABreaking/status/2030191251933241641",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "uae",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.37401,
+          25.24578
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826319",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T07:50:00+00:00",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Dubai Government Media Office: Operations at Dubai International Airport have been temporarily suspended",
+        "source_url": "https://twitter.com/skynewsarabia_b/status/2030189369563435426",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.27933,
+          33.3086
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826370",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T07:40:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "3 injuries in the raid on Burj Rahal",
+        "source_url": "https://x.com/rllnewsdesk/status/2030186891354533920",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.61405,
+          26.228814
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826303",
+        "location": "Manama, Bahrain",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T07:37:00+00:00",
+        "country": "bahrain",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Sounds of interceptions of aerial threats in Bahraini airspace",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2030186016401691001",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "bahrain",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.36732,
+          25.25153
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826298",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T07:20:00+00:00",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Emirates Airlines: All flights to and from Dubai suspended until further notice.",
+        "source_url": "https://twitter.com/ajabreaking/status/2030181683530498075",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.3426,
+          25.2655
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826299",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T07:20:00+00:00",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "UAE: another Iranian strike hit near Dubai International Airport some moments ago.  Drone engines can be heard just before impact",
+        "source_url": "https://twitter.com/thomasvlinge/status/2030181817891074434",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.82397,
+          35.7153
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826300",
+        "location": "Sulaymaniyah Governorate, Iraq",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T07:10:00+00:00",
+        "country": "iraq",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "The head of the Patriotic Union of Kurdistan party: No cross-border armed operations have been launched from Iraqi Kurdistan towards Iran.",
+        "source_url": "https://twitter.com/ajabreaking/status/2030179291737079857",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.96587,
+          22.51501
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826297",
+        "location": "Eastern Province Saudi Arabia",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T07:10:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Saudi Arabia says it intercepted and destroyed 16 drones heading toward the Shaybah oil field, one of the kingdom's largest energy sites producing about 1 million barrels in 24 hours. The defense ministry did not say where the drones came from",
+        "source_url": "https://twitter.com/clashreport/status/2030179294094164358",
+        "source": "liveuamap",
+        "classification": "kinetic_report",
+        "claimed_count": 16,
+        "attributed_side": "uae",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.27967,
+          33.31143
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826295",
+        "location": "Lebanon",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T07:00:00+00:00",
+        "country": "lebanon",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Lebanese media: Israeli airstrike on the outskirts of Burj Rahal in the Tyre district",
+        "source_url": "https://twitter.com/skynewsarabia_b/status/2030176780766826968",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.34449,
+          25.26114
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826301",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T06:23:00+00:00",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Geolocation of a photo showing smoke rising from the direction of the Dubai International Airport. ",
+        "source_url": "https://twitter.com/john_marquee/status/2030167500999250016",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.45361,
+          35.73551
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826292",
+        "location": "Tehran, Tehran Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T04:10:00+00:00",
+        "country": "iran",
+        "event_kind": "explosion",
+        "side": "iran",
+        "title": "Loud explosions heard in Qom, Karaj, and Tehran",
+        "source_url": "https://twitter.com/mohamadahwaze/status/2030132507677466983",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.22965,
+          35.73523
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22826291",
+        "location": "Tehran, Tehran Province",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T04:07:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "A new wave of airstrikes hits Tehran and spreads to cities surrounding the capital.",
+        "source_url": "https://twitter.com/mohamadahwaze/status/2030133087212880216",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.15068985581217,
+          25.08975313292488
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260307-AE-001",
+        "location": "Drone impact Dubai Marina tower top",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Dubai Marina tower top",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    }
+  ]
+}

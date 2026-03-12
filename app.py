@@ -453,8 +453,10 @@ def serve_geo(filename):
     # Allow daily files under fixed directories
     if filename.startswith('strikemap_daily_r001/') and filename.endswith('.geojson'):
         allowed = True
-    # New scrubbed strike layers (daily + gulf-only)
+    # New scrubbed strike layers (daily + gulf-only, both flat and subdirectory)
     if filename.startswith('strikes/') and filename.endswith('.geojson'):
+        allowed = True
+    if filename.startswith('strikes_') and filename.endswith('.geojson'):
         allowed = True
 
     if not allowed:

@@ -1,0 +1,1038 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": "2026-03-12",
+    "date": "2026-03-05",
+    "total_features": 35,
+    "total_claimed_kinetic": 189,
+    "source": "merged strikemap + liveuamap (scrubbed v1, country-tagged)"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.61367,
+          26.11865
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22825637",
+        "location": "Southern Governorate, Bahrain",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T16:18:00+00:00",
+        "country": "bahrain",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Bahraini Interior Ministry: Fire under control at facility in Ma'ameer area targeted in Iranian attack",
+        "source_url": "https://x.com/kon_mowaten/status/2029592503268110803",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.62122,
+          26.13958
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22825596",
+        "location": "Southern Governorate, Bahrain",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T15:34:00+00:00",
+        "country": "bahrain",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Bahrain TV: A facility in the Ma'ameer area of Manama was targeted.",
+        "source_url": "https://x.com/SkyNewsArabia_B/status/2029581259303960853",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.60251,
+          26.10876
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22825587",
+        "location": "Southern Governorate, Bahrain",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T15:14:00+00:00",
+        "country": "bahrain",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Iranian attack reportedly hit Bahrain Petroleum Company site",
+        "source_url": "https://x.com/clashreport/status/2029576359295561938",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.83259,
+          40.37749
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22825559",
+        "location": "Baku, Azerbaijan",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T13:45:00+00:00",
+        "country": "unknown",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Azerbaijan's Ministry of Defense: It has been confirmed that four Iranian drones targeted civilian infrastructure and a high school, and we demand an apology from Iran.",
+        "source_url": "https://twitter.com/skynewsarabia_b/status/2029553927201669327",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.45868,
+          39.18603
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22825549",
+        "location": "Nakhchivan,Nakhchivan Autonomous Republic",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T12:24:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Domestic and international flight operations at Nakhchivan International Airport have been temporarily suspended.",
+        "source_url": "https://t.me/operativmedia/47553",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.62961,
+          29.77535
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22825535",
+        "location": "Arabian Gulf",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T11:47:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Reuters, citing Iraqi sources: Initial assessment that an Iranian boat attacked an oil tanker off Khor al-Zubair",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2029524204832333872",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.45525,
+          39.18606
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22825482",
+        "location": "Nakhchivan,Nakhchivan Autonomous Republic",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T08:44:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "2 civilians injured in Iranian drone attack on Nakhchivan",
+        "source_url": "https://t.me/apa_az/114886",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.45937,
+          39.17757
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22825471",
+        "location": "Nakhchivan,Nakhchivan Autonomous Republic",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T08:26:00+00:00",
+        "country": "iran",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Damage to the Nakhchivan airport as result of drone strike",
+        "source_url": "https://t.me/supernova_plus/49136",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.11987,
+          29.27552
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22825431",
+        "location": "Arabian Gulf",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T06:32:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "This is a significant escalation:  @UK_MTO reports an oil tanker that was on anchor offshore Kuwait (and near Iraq too) has been hit by an explosion; oil is spilling and the tanker is tanking on water.  &quot;. There is oil in the water coming from a cargo tank",
+        "source_url": "https://twitter.com/javierblas/status/2029444938866262228",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.462000924459346,
+          25.506521038265152
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-QA-001",
+        "location": "North of Doha, Qatar",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "qatar",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Impact at unknown target north of Doha",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.921445317405535,
+          25.52878533990165
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-QA-002",
+        "location": "Off the coast, Qatar",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "qatar",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Impact off the coast east of Qatar",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.462000924459346,
+          25.506521038265152
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-QA-003",
+        "location": "Qatar",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "qatar",
+        "event_kind": "intercept",
+        "side": "qatar",
+        "attributed_side": "qatar",
+        "attribution_method": "manual",
+        "original_side": "qatar",
+        "classification": "kinetic_report",
+        "claimed_count": 14,
+        "title": "Qatar intercepted 14 ballistic missiles",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 14 BM intercepts reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.462000924459346,
+          25.506521038265152
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-QA-004",
+        "location": "Qatar",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "qatar",
+        "event_kind": "intercept",
+        "side": "qatar",
+        "attributed_side": "qatar",
+        "attribution_method": "manual",
+        "original_side": "qatar",
+        "classification": "kinetic_report",
+        "claimed_count": 4,
+        "title": "Qatar intercepted 4 drones",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 4 drone intercepts reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3796057728404,
+          24.503629604187886
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-AE-001",
+        "location": "Abu Dhabi, UAE",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Shrapnel injuries in Abu Dhabi",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 shrapnel injuries reported"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.546473890955475,
+          24.257540967042814
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-AE-002",
+        "location": "Al Dhafra Air Base, UAE",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Shrapnel injuries at Al Dhafra Air Base",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 shrapnel injuries at Al Dhafra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.53253958799803,
+          24.229914120632866
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-AE-003",
+        "location": "Al Dhafra Air Base, UAE",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile impact at Al Dhafra Air Base",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 direct missile impact at Al Dhafra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3796057728404,
+          24.503629604187886
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-AE-004",
+        "location": "UAE",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "uae",
+        "attributed_side": "uae",
+        "attribution_method": "manual",
+        "original_side": "uae",
+        "classification": "kinetic_report",
+        "claimed_count": 131,
+        "title": "UAE total: 131 drones intercepted/engaged",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 131 drones total for the day"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3796057728404,
+          24.503629604187886
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-AE-005",
+        "location": "UAE",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "uae",
+        "attributed_side": "uae",
+        "attribution_method": "manual",
+        "original_side": "uae",
+        "classification": "kinetic_report",
+        "claimed_count": 7,
+        "title": "UAE total: 7 missiles intercepted/engaged",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 7 missiles total for the day"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.0034954849512,
+          25.585343352254668
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-SA-001",
+        "location": "Eastern Saudi Arabia",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile impact, eastern Saudi Arabia (1 of 3)",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 missile 1 of 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.22309168459093,
+          26.49844078593867
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-SA-002",
+        "location": "Saudi Arabia",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile impact, Saudi Arabia (2 of 3)",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 missile 2 of 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.8488056762399,
+          24.244814690478556
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-SA-003",
+        "location": "Saudi Arabia",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile impact, Saudi Arabia (3 of 3)",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 missile 3 of 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.78724147173733,
+          24.76466271809617
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-SA-004",
+        "location": "Saudi Arabia",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact, Saudi Arabia",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 1 drone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.43457367193885,
+          24.004360613945085
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-SA-005",
+        "location": "IVO Prince Sultan Air Base, Saudi Arabia",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Impact in vicinity of Prince Sultan Air Base (PSAB)",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 impact IVO PSAB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.58670046382091,
+          26.233693418305755
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-BH-001",
+        "location": "Bahrain",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "bahrain",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone struck hotel and residential building in Bahrain",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 drone strike on hotel/residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.601252612264155,
+          26.120149564852294
+        ]
+      },
+      "properties": {
+        "event_id": "MANUAL-20260305-BH-002",
+        "location": "Bapco Refinery, Bahrain",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "bahrain",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Impact at Bapco refinery, Bahrain",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "scrub_note": "Manual entry \u2014 impact at Bapco refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.517460678033956,
+          24.24853006998029
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260305-AE-010",
+        "location": "Drone impact Al Dhafra radomes",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Al Dhafra radomes",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.523574827338926,
+          24.258639835288207
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260305-AE-011",
+        "location": "Drone impact Al Dhafra",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Al Dhafra",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.53131045401545,
+          24.34275629956103
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260305-AE-012",
+        "location": "Drone impacts (3) Abu Dhabi area",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 3,
+        "title": "Drone impacts (3) Abu Dhabi area",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.52839397255785,
+          24.345265847220045
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260305-AE-013",
+        "location": "Drone impact Abu Dhabi area",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Abu Dhabi area",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.53001424003429,
+          24.346742028493704
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260305-AE-014",
+        "location": "Drone impact Abu Dhabi area",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Abu Dhabi area",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.59525386932405,
+          24.465500445663782
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260305-AE-015",
+        "location": "Drone impact Yas Marina",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Yas Marina",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.582277083533526,
+          24.472095088999243
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260305-AE-016",
+        "location": "Interceptor debris impact Yas Marina",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Interceptor debris impact Yas Marina",
+        "weapon": "interceptor_debris",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.047757169799915,
+          25.02175576057929
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260305-AE-017",
+        "location": "Missile impact Jebel Ali Port",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile impact Jebel Ali Port",
+        "weapon": "missile",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.11397299095053,
+          25.125231745276466
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260305-AE-018",
+        "location": "Drone impact Palm Jumeirah",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Palm Jumeirah",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.11122640901056,
+          25.12328899106546
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260305-AE-019",
+        "location": "Missile impact Palm Jumeirah",
+        "date": "2026-03-05",
+        "datetime_utc": "2026-03-05T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile impact Palm Jumeirah",
+        "weapon": "missile",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    }
+  ]
+}
