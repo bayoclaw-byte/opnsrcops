@@ -5,7 +5,7 @@
     "date": "2026-03-11",
     "total_features": 197,
     "total_claimed_kinetic": 249,
-    "source": "merged strikemap + liveuamap (scrubbed v1)"
+    "source": "merged strikemap + liveuamap (scrubbed v1, country-tagged)"
   },
   "features": [
     {
@@ -106,7 +106,7 @@
         "location": "Netanya, Israel",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T23:07:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "unknown",
         "title": "A rocket fired from Lebanon fell in Netanya.",
@@ -117,7 +117,8 @@
         "attributed_side": "hezbollah",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -218,7 +219,7 @@
         "location": "Iraq",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T22:56:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Iranian television: US oil tanker targeted near Umm Qasr port in Basra, southern Iraq, by a remote-controlled speedboat",
@@ -229,7 +230,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -246,7 +248,7 @@
         "location": "Baghdad, Baghdad Governorate",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T22:52:00+00:00",
-        "country": "iraq",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "unknown",
         "title": "Iraqi ports: 31 people rescued, search continues for those missing after attack on two oil tankers",
@@ -257,7 +259,8 @@
         "attributed_side": "iran",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -331,7 +334,7 @@
         "location": "Bet Shemesh,Jerusalem District",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T22:39:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "unknown",
         "title": "Interceptions in the skies of the central Israel",
@@ -342,7 +345,8 @@
         "attributed_side": "israel",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -443,7 +447,7 @@
         "location": "South District, Israel",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T22:33:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "israel",
         "title": "Israeli military: Missile launches detected from Iran; defense systems are currently working to intercept the threat.",
@@ -454,7 +458,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -471,7 +476,7 @@
         "location": "Center District",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T22:31:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "unknown",
         "title": "Missiles coming from Iran were intercepted over Tel Aviv.",
@@ -482,7 +487,8 @@
         "attributed_side": "iran",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -499,7 +505,7 @@
         "location": "Eastern Province Saudi Arabia",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T22:31:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "unknown",
         "title": "Saudi Ministry of Defense: Drone intercepted and destroyed in the Eastern Province",
@@ -510,7 +516,8 @@
         "attributed_side": "iran",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -779,7 +786,7 @@
         "location": "Gulf",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T21:30:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "unknown",
         "title": "Reports that an oil tanker was hit in the northern Persian Gulf tonight, Iraqi media reports a massive tower of flame off the Iraqi coast",
@@ -790,7 +797,8 @@
         "attributed_side": "us_israel",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1984,7 +1992,7 @@
         "location": "Tel Aviv-Yafo, Tel Aviv District",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T19:08:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "Israeli military spokesman: We have begun a wide-ranging wave of airstrikes against Hezbollah infrastructure in Beirut's southern suburbs.",
@@ -1995,7 +2003,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2404,7 +2413,7 @@
         "location": "Birmingham, Alabama",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T17:47:00+00:00",
-        "country": "unknown",
+        "country": "oman",
         "event_kind": "strike",
         "side": "israel",
         "title": "Man injured, woman in custody after shooting at Midfield gas station",
@@ -2415,7 +2424,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "text_match"
       }
     },
     {
@@ -3076,7 +3086,7 @@
         "location": "Bandar Bushehr, Bushehr Province",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T15:39:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "unknown",
         "title": "A very heavy airstrike targeted the city of Bushehr in Iran.",
@@ -3087,7 +3097,8 @@
         "attributed_side": "us_israel",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3468,7 +3479,7 @@
         "location": "Bandar Bushehr, Bushehr Province",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T13:49:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Footage reportedly shows the aftermath of a US-Israeli airstrike on the port city of Bushehr, the capital of Iran's Bushehr Province",
@@ -3479,7 +3490,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4252,7 +4264,7 @@
         "location": "Abadan,Khuzestan Province",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T10:25:00+00:00",
-        "country": "iraq",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "Airstrikes target Iranian border areas near the town of Al-Siba, south of Basra.",
@@ -4263,7 +4275,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4672,7 +4685,7 @@
         "location": "Lamerd, Fars Province, Iran",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T07:51:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "U.S. airstrike on residential areas in Lamerd, Fars Province, Iran, which Iranian sources say killed 20 civilians. Several homes and a sports hall were hit. The missile exploded in the air near buildings, with shrapnel causing major damage",
@@ -4683,7 +4696,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5008,7 +5022,7 @@
         "location": "Tel Aviv-Yafo, Tel Aviv District",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T07:17:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "Israeli army said it targeted headquarters and weapons storage sites of Hezbollah in raids on the southern suburbs of Beirut",
@@ -5019,7 +5033,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5232,7 +5247,7 @@
         "location": "Giv'atayim, Tel Aviv District",
         "date": "2026-03-11",
         "datetime_utc": "2026-03-11T06:15:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Israeli ambulance service: 29 Israelis injured in stampede during last night's Iranian bombing raids",
@@ -5243,7 +5258,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {

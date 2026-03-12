@@ -5,7 +5,7 @@
     "date": "2026-03-01",
     "total_features": 270,
     "total_claimed_kinetic": 277,
-    "source": "merged strikemap + liveuamap (scrubbed v1)"
+    "source": "merged strikemap + liveuamap (scrubbed v1, country-tagged)"
   },
   "features": [
     {
@@ -22,7 +22,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T19:53:18Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddee\ud83c\uddf1 \u2014 A building in Tel Aviv has partially collapsed following an Iranian ballistic missile strike, according to Israeli Channel 14.",
@@ -36,7 +36,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -53,7 +54,7 @@
         "location": "Ahvaz, Iran",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T23:12:47Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "[tabzlive] \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8\u274c\ud83c\uddee\ud83c\uddf7 \u2014 US-Israeli airstrikes in Ahvaz, southwestern Iran.\n\n\u27a1\ufe0f At least four powerful explosions have been heard.",
@@ -67,7 +68,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -84,7 +86,7 @@
         "location": "Bushehr, Iran",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8\u274c\ud83c\uddee\ud83c\uddf7 \u2014 Renewed US-Israeli airstrikes in Bushehr, southwestern Iran.",
@@ -98,7 +100,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -394,7 +397,7 @@
         "location": "Abu Dhabi, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T12:31:27Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddea\u26a1\ufe0fExplosions in Port Zayed, Abu Dhabi",
@@ -408,7 +411,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -518,7 +522,7 @@
         "location": "Bushehr, Iran",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T17:16:47Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "[tabzlive] \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8\u274c\ud83c\uddee\ud83c\uddf7 \u2014 US-Israeli airstrikes in Bushehr, southwestern Iran.",
@@ -532,7 +536,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -549,7 +554,7 @@
         "location": "Bahrain",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T11:41:05Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Explosions in Bahrain",
@@ -563,7 +568,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -611,7 +617,7 @@
         "location": "Strait of Hormuz, Persian Gulf",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8\ud83c\uddec\ud83c\udde7\u2757\ufe0fThe IRGC announced that it had hit three US and British oil tankers in the Persian Gulf and the Strait of Hormuz with missi",
@@ -625,7 +631,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -673,7 +680,7 @@
         "location": "Ali Al Salem Air Base, Kuwait",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddfc\ud83c\uddee\ud83c\uddf7\u26a1- Iranian Shahed drone impact Ali Al Salem Air Base, Kuwait.",
@@ -687,7 +694,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -766,7 +774,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T07:11:52Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1A rocket fell in the settlement of \"Beit Shemesh\" near Jerusalem.",
@@ -780,7 +788,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -890,7 +899,7 @@
         "location": "Beit Shemesh, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] The moment of an Iranian ballistic missile strike on Beit Shemesh, central Israel.",
@@ -904,7 +913,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -921,7 +931,7 @@
         "location": "Bushehr, Iran",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T21:29:03Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "[rnintel] \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1- US/Israeli airstrikes against Bushehr, southern Iran.",
@@ -935,7 +945,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -983,7 +994,7 @@
         "location": "Dubai International Airport, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T10:03:25Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf7\u2694\ufe0f\ud83c\udde7\ud83c\udded\ud83c\uddf6\ud83c\udde6\ud83c\udde6\ud83c\uddea\ud83c\uddf0\ud83c\uddfc\ud83c\uddf8\ud83c\udde6 In a matter of hours, Iran imposed a total naval and air blockade of the Gulf Countries, Kuwait, Bahrain, Qa",
@@ -997,7 +1008,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1014,7 +1026,7 @@
         "location": "Beit Shemesh, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] Aerial footage reveals the scale of destruction in the settlement of Beit Shemesh, west of Jerusalem, following the Iranian missile strike.\n",
@@ -1028,7 +1040,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1045,7 +1058,7 @@
         "location": "Nevatim Air Base, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Nevatim Air Base struck \u2014 F-35 shelters targeted",
@@ -1059,7 +1072,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1200,7 +1214,7 @@
         "location": "Bahrain",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T10:27:10Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddec\ud83c\udde7\ud83c\udde8\ud83c\uddfe\ud83c\udde7\ud83c\udded\u274c\ud83c\uddee\ud83c\uddf7 \u2014 UK Defense Ministry:   \"Two missiles were launched toward Cyprus, where thousands of British troops are stationed. ",
@@ -1214,7 +1228,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "text_match"
       }
     },
     {
@@ -1324,7 +1339,7 @@
         "location": "Zargan Air Base, Ahvaz",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us_israel",
         "title": "Helicopter base destroyed at Zargan",
@@ -1338,7 +1353,8 @@
         "attributed_side": "us_israel",
         "attribution_method": "original",
         "original_side": "us_israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1355,7 +1371,7 @@
         "location": "Beit Shemesh, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Direct hit \u2014 4 killed, 15+ injured, apocalyptic scenes",
@@ -1369,7 +1385,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1386,7 +1403,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T07:42:46Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \u26a1\u26a1\ud83c\uddf5\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 The Tel Aviv Municipality reports 40 buildings damaged by Iranian missiles.\n\n@medmannews",
@@ -1400,7 +1417,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1479,7 +1497,7 @@
         "location": "Kuwait",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T11:53:57Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Explosions in Kuwait",
@@ -1493,7 +1511,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1541,7 +1560,7 @@
         "location": "Doha, Qatar",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T21:08:07Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddf6\ud83c\udde6\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 Explosions over Qatar's capital Doha.",
@@ -1555,7 +1574,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1572,7 +1592,7 @@
         "location": "Persian Gulf",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T14:40:24Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\udde6\ud83c\uddea\ud83c\uddee\ud83c\uddf7\u26a1- BREAKING: Iran has struck UAE's offshore oil platform in the Persian Gulf.",
@@ -1586,7 +1606,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1603,7 +1624,7 @@
         "location": "Rehovot, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Impact near Weizmann Institute \u2014 2 killed",
@@ -1617,7 +1638,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1634,7 +1656,7 @@
         "location": "Herzliya, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Missile strikes Herzliya tech corridor",
@@ -1648,7 +1670,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1727,7 +1750,7 @@
         "location": "Kuwait",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T12:32:23Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddf0\ud83c\uddfc\ud83c\uddee\ud83c\uddf7\u2757\ufe0fThe Kuwaiti air defense system shot down 97 ballistic missiles and 283 drones, launched from the territory of Iran.",
@@ -1741,7 +1764,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1789,7 +1813,7 @@
         "location": "Netanya, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T08:24:53Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddf8\ud83c\udde6\ud83c\uddee\ud83c\uddf1\u274c\ud83c\uddee\ud83c\uddf7 WaPo: President Trump launched strikes on Iran after a weeks-long lobbying effort by Israel and Saudi Arabia, according t",
@@ -1803,7 +1827,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1882,7 +1907,7 @@
         "location": "Ali Al Salem Air Base, Kuwait",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddfc\ud83c\uddee\ud83c\uddf7\u26a1- Iranian Shahed drone impact Ali Al Salem Air Base, Kuwait.",
@@ -1896,7 +1921,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2037,7 +2063,7 @@
         "location": "Kiryat Gat, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Missile impact near Intel fab plant",
@@ -2051,7 +2077,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2068,7 +2095,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Smoke is seen rising over Jerusalem after a reported Iranian ballistic missile impact.",
@@ -2082,7 +2109,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2130,7 +2158,7 @@
         "location": "Kuwait",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] Breaking | An Iranian drone struck a U.S. military base in Kuwait.",
@@ -2144,7 +2172,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2316,7 +2345,7 @@
         "location": "Doha, Qatar",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T13:26:49Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[QudsNen] Breaking | Explosions are being heard over the Qatari capital, Doha, following reports of intercepted U.S.\u2013Israeli missiles.",
@@ -2330,7 +2359,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2347,7 +2377,7 @@
         "location": "Zayed Port, Abu Dhabi, UAE",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \u2014\u2757\ufe0f\ud83c\uddee\ud83c\uddf7/\ud83c\udde6\ud83c\uddea/\ud83c\uddeb\ud83c\uddf7 CONFIRMED: Iran struck the French Naval Base in Abu Dhabi, located at Zayed Port\n\n@Middle_East_Spectator",
@@ -2361,7 +2391,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2378,7 +2409,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T11:59:27Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] A mass casualty event has been declared in Jerusalem following the missile impact.",
@@ -2392,7 +2423,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2440,7 +2472,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T20:45:43Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddee\ud83c\uddf1 \u2014 Iranian ballistic missile impact in Jerusalem.",
@@ -2454,7 +2486,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2657,7 +2690,7 @@
         "location": "Central Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Mass casualty event \u2014 20+ injured under rubble",
@@ -2671,7 +2704,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2750,7 +2784,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T12:11:51Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] Breaking | At least 20 Israeli settlers were injured after an Iranian missile struck the settlement of Beit Shemesh, west of occupied Jerusa",
@@ -2764,7 +2798,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2781,7 +2816,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Impact near Survey of Israel HQ",
@@ -2795,7 +2830,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2812,7 +2848,7 @@
         "location": "Jebel Ali, Dubai, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T14:32:45Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddea\u26a1\ufe0fThe moment of the Iranian drone assault on its target in Jebel Ali Port.",
@@ -2826,7 +2862,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2874,7 +2911,7 @@
         "location": "Modiin, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Shahed drone impact in residential Modiin",
@@ -2888,7 +2925,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2967,7 +3005,7 @@
         "location": "Ahvaz, Iran",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T16:43:06Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "[rnintel] \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f- Ongoing strikes conducted in Ahvaz, Southern Iran.",
@@ -2981,7 +3019,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3029,7 +3068,7 @@
         "location": "Abu Dhabi, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T18:35:58Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddeb\ud83c\uddf7\ud83c\udde6\ud83c\uddea \u2014 A hangar at a French naval base adjacent to the Emirati base was hit in a drone attack targeting the Port of Abu Dhabi, causing ",
@@ -3043,7 +3082,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3060,7 +3100,7 @@
         "location": "Burj Khalifa, Dubai, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T01:21:21Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[QudsNen] Circulating | An Iranian drone was intercepted near the Burj Khalifa in Dubai.",
@@ -3074,7 +3114,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3091,7 +3132,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T12:05:03Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] The Israeli occupation forces imposed a full lockdown on the West Bank, restricting the movement of Palestinians within cities and towns and",
@@ -3105,7 +3146,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3153,7 +3195,7 @@
         "location": "Bahrain",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T18:58:01Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddfa\ud83c\uddf8\ud83d\udcde\ud83c\uddee\ud83c\uddf1\ud83c\udde7\ud83c\udded\ud83c\udde6\ud83c\uddea \u2014 White House Press Secretary Karoline Leavitt:\nToday, President Trump has spoken with the leaders of Israel, Bahrain, a",
@@ -3167,7 +3209,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3184,7 +3227,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] Breaking | Hebrew media report a partial building collapse in Tel Aviv, central Israel, following the Iranian missile strikes.",
@@ -3198,7 +3241,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3277,7 +3321,7 @@
         "location": "Amman, Jordan",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T11:34:34Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[AMK_Mapping] More interceptions over Amman, Jordan",
@@ -3291,7 +3335,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3308,7 +3353,7 @@
         "location": "Strait of Hormuz",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T10:43:01Z",
-        "country": "",
+        "country": "oman",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7Iran is making its first, albeit tentative, attempts to disrupt shipping in the Strait of Hormuz. \n\nNear the coast of Oman, an oil ta",
@@ -3322,7 +3367,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "text_match"
       }
     },
     {
@@ -3339,7 +3385,7 @@
         "location": "Abu Dhabi, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T14:30:38Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddea\u26a1\ufe0fA rocket fell in the port of Abu Dhabi near the cruise ship Mein Schiff 4, owned by the German tourism group TUI, reported the ",
@@ -3353,7 +3399,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3370,7 +3417,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T13:47:36Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddeaFire in Dubai industrial zone after Iranian strike.",
@@ -3384,7 +3431,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3401,7 +3449,7 @@
         "location": "Ramon Air Base, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Missiles strike Ramon Air Base in Negev",
@@ -3415,7 +3463,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3432,7 +3481,7 @@
         "location": "Beersheba, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] More Iranian ballistic missile launches, this time to southern Israel.",
@@ -3446,7 +3495,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3494,7 +3544,7 @@
         "location": "Manama, Bahrain",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T22:13:43Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\udde7\ud83c\udded\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 Explosions heard in Manama, Bahrain.",
@@ -3508,7 +3558,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3525,7 +3576,7 @@
         "location": "Doha, Qatar",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T07:18:23Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] Breaking | Explosions reported in Doha, the capital of Qatar.",
@@ -3539,7 +3590,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3587,7 +3639,7 @@
         "location": "Manama, Bahrain",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T00:26:04Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] Breaking | An Iranian drone strikes Al Manama Airport in Bahrain.",
@@ -3601,7 +3653,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3649,7 +3702,7 @@
         "location": "Palmachim Air Base, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Missile defense test facility struck",
@@ -3663,7 +3716,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3711,7 +3765,7 @@
         "location": "Abu Dhabi, UAE",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddeb\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8\u274c\ud83c\uddee\ud83c\uddf7 \u2014 Possible Shahed impact at the French naval base at the Abu Dhabi port.\n\n\ud83d\udccdlocation:\n24.5204, 54.39601",
@@ -3725,7 +3779,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3866,7 +3921,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T21:24:47Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1\ufe0f- Insane footage of an Iranian missile impacting Jerusalem.",
@@ -3880,7 +3935,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4052,7 +4108,7 @@
         "location": "Tel Nof Air Base, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Drone impact at Tel Nof Air Base",
@@ -4066,7 +4122,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4083,7 +4140,7 @@
         "location": "Ali Al-Salem Air Base, Kuwait",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\uddf0\ud83c\uddfc\u26a1\ufe0fFootage of the \"Shahed-136\" strike on the Ali Al-Salem base in Kuwait",
@@ -4097,7 +4154,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4114,7 +4172,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T22:33:14Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\udde6\ud83c\uddea\ud83c\uddee\ud83c\uddf7\u26a1- BREAKING: Explosions over Dubai, the UAE.",
@@ -4128,7 +4186,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4176,7 +4235,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T21:43:53Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1\ufe0f- Insane footage of an Iranian missile impacting Jerusalem.",
@@ -4190,7 +4249,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4207,7 +4267,7 @@
         "location": "Eilat, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T04:07:07Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[IDFofficial] IDF: Following the sirens that sounded in the Arabah region regarding a hostile aircraft infiltration, a UAV launched from Iran was inte",
@@ -4221,7 +4281,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4300,7 +4361,7 @@
         "location": "Abu Dhabi, UAE",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] According to Israeli reports, an Iranian drone targeted a building housing Israelis in Abu Dhabi near one of its mission centers, injuring s",
@@ -4314,7 +4375,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4362,7 +4424,7 @@
         "location": "Bahrain",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T16:04:50Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] Breaking | Iran renews missile strikes on U.S. targets in Bahrain.",
@@ -4376,7 +4438,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4393,7 +4456,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T19:37:45Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1\ufe0f- BREAKING: A direct impact on a building in Tel Aviv caused the building to collapse, rescue crews are responding to the scene.",
@@ -4407,7 +4470,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4424,7 +4488,7 @@
         "location": "Khorramshahr, Iran",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "us",
         "title": "[intelslava] \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7The consequences of the strikes on the naval base in Khorramshahr. Visible are sunken Iranian corvettes at the piers, which didn'",
@@ -4438,7 +4502,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4455,7 +4520,7 @@
         "location": "Hatzerim Air Base, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Missiles target Hatzerim \u2014 drone pilot training base",
@@ -4469,7 +4534,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4486,7 +4552,7 @@
         "location": "Netanya, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T15:41:16Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf7\u26a1\ufe0fNetanyahu stated that Israel intends to \"intensify\" strikes on Iran in the coming days.",
@@ -4500,7 +4566,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4517,7 +4584,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T23:36:51Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddee\ud83c\uddf1\u26a1\ufe0f- More suspected drone alerts in central Israel.",
@@ -4531,7 +4598,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4548,7 +4616,7 @@
         "location": "Strait of Hormuz",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] The \"Skylight\" oil tanker is on fire after it was attacked by Iran in the Straight of Hormuz.",
@@ -4562,7 +4630,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4610,7 +4679,7 @@
         "location": "Bushehr, Iran",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T16:00:49Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "[tabzlive] \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8\u274c\ud83c\uddee\ud83c\uddf7 \u2014 US-Israeli airstrikes in Bushehr, southwestern Iran.",
@@ -4624,7 +4693,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4672,7 +4742,7 @@
         "location": "Ali Al Salem Air Base, Kuwait",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddee\ud83c\uddf7\ud83c\uddf0\ud83c\uddfc\ud83c\uddfa\ud83c\uddf8\u26a1\ufe0f \u2014 WATCH: Footage shows an Iranian drone directly impacting the American Ali Al Salem Air Base in Kuwait.",
@@ -4686,7 +4756,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4734,7 +4805,7 @@
         "location": "Strait of Hormuz",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf7\ud83d\udca5\ud83d\udea2 The IRGC claims to have struck 3 American and British oil tankers trying to exit the Persian Gulf through the Strait of Hormuz",
@@ -4748,7 +4819,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4765,7 +4837,7 @@
         "location": "Ahvaz, Iran",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T19:12:15Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "[QudsNen] Plumes of smoke rising from Abu Dhar Hospital in the Iranian city of Ahvaz following U.S.\u2013Israeli strikes.",
@@ -4779,7 +4851,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4858,7 +4931,7 @@
         "location": "Duqm, Oman",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T07:53:22Z",
-        "country": "",
+        "country": "oman",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\uddf4\ud83c\uddf2\u26a1\ufe0fTwo drones targeting the Duqm commercial port in Oman.",
@@ -4872,7 +4945,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4889,7 +4963,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T11:39:30Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] 1 impact in Tel Aviv",
@@ -4903,7 +4977,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5106,7 +5181,7 @@
         "location": "Abu Dhabi, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T13:47:26Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddea\u26a1\ufe0fExplosions in Port Zayed, Abu Dhabi",
@@ -5120,7 +5195,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5168,7 +5244,7 @@
         "location": "Eilat, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T11:44:25Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[AMK_Mapping] An interceptor was launched from Eilat, southern Israel",
@@ -5182,7 +5258,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5261,7 +5338,7 @@
         "location": "Doha, Qatar",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T10:56:51Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[AMK_Mapping] Iran is currently attacking the Qatari capital of Doha with drones. Interceptions are reported.",
@@ -5275,7 +5352,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5323,7 +5401,7 @@
         "location": "Dubai International Airport, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T09:28:33Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Iran has repeatedly hit Dubai International Airport in the UAE with Shahed-131/136 drones.",
@@ -5337,7 +5415,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5354,7 +5433,7 @@
         "location": "Zayed Port, Abu Dhabi",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "Iranian impact at Zayed Port confirmed",
@@ -5368,7 +5447,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5510,7 +5590,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T20:09:50Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\udde6\ud83c\uddea\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 Explosions in Dubai, UAE.",
@@ -5524,7 +5604,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5572,7 +5653,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T12:42:57Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddeaFire in Dubai industrial zone after Iranian strike.",
@@ -5586,7 +5667,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5603,7 +5685,7 @@
         "location": "Al Udeid perimeter, Qatar",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "Second wave of missiles at Al Udeid \u2014 runway cratered",
@@ -5617,7 +5699,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5634,7 +5717,7 @@
         "location": "Abu Dhabi, UAE",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] Breaking | Plumes of smoke rise following an Iranian attack on a U.S. naval base in Abu Dhabi.",
@@ -5648,7 +5731,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5820,7 +5904,7 @@
         "location": "Strait of Hormuz",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T10:24:17Z",
-        "country": "",
+        "country": "oman",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83d\udca5\ud83d\udea2 An oil tanker flying the flag of Palau was struck by an Iranian drone in the Strait of Hormuz an hour ago.\n\nOman\u2019s Maritime Securi",
@@ -5834,7 +5918,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "text_match"
       }
     },
     {
@@ -6069,7 +6154,7 @@
         "location": "Bahrain",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T21:44:48Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddec\ud83c\udde7\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\udde7\ud83c\udded\u26a1\ufe0f \u2014 British Prime Minister Keir Starmer:\nYesterday, Iran hit a military base in Bahrain, narrowly missing British personne",
@@ -6083,7 +6168,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6131,7 +6217,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T13:47:21Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1Smoke columns rise after a direct hit by an Iranian missile on a site in the \"Beit Shemesh\" settlement near Jerusalem, and ther",
@@ -6145,7 +6231,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6162,7 +6249,7 @@
         "location": "Sharjah, UAE",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] An Iranian Shahed-136 drone has impacted the city of Sharjah, UAE.",
@@ -6176,7 +6263,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6193,7 +6281,7 @@
         "location": "Bahrain",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T22:24:45Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\udde7\ud83c\udded\ud83c\uddee\ud83c\uddf7\u26a1- Explosions over Bahrain.",
@@ -6207,7 +6295,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6410,7 +6499,7 @@
         "location": "Bandar-e Mahshahr Petrochemical Complex, Iran",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "IRGC fuel depot at Mahshahr struck \u2014 petrochemical facility damaged",
@@ -6424,7 +6513,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6565,7 +6655,7 @@
         "location": "Bandar-e Lengeh, Iran",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "IRGCN fast boat base destroyed at Lengeh",
@@ -6579,7 +6669,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6596,7 +6687,7 @@
         "location": "Dimona area, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "iran",
         "title": "Missiles target Dimona nuclear area \u2014 all intercepted",
@@ -6610,7 +6701,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6627,7 +6719,7 @@
         "location": "Ahvaz, Iran",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T23:45:21Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "[rnintel] \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1- US/Israeli airstrikes against Ahvaz, southwest Iran.",
@@ -6641,7 +6733,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6751,7 +6844,7 @@
         "location": "Rishon LeZion, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Missile debris in Rishon LeZion \u2014 3 injured",
@@ -6765,7 +6858,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6782,7 +6876,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddea\ud83c\uddfa\ud83c\uddf8\u2757\ufe0fSix high-ranking CIA officers were killed in the UAE as a result of an Iranian strike, and two others were injured, accordi",
@@ -6796,7 +6890,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6937,7 +7032,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T10:46:32Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] The drone(s) are approaching east Jerusalem",
@@ -6951,7 +7046,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6968,7 +7064,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T12:38:32Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1\ufe0fThe moment the Iranian missile fell in the \"Beit Shemesh\" settlement, west of Jerusalem.",
@@ -6982,7 +7078,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6999,7 +7096,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T23:50:14Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddee\ud83c\uddf1\u26a1\ufe0f- More suspected drone alerts in central Israel.",
@@ -7013,7 +7110,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7123,7 +7221,7 @@
         "location": "Doha, Qatar",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "Multiple ballistic missile impacts in Doha",
@@ -7137,7 +7235,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7248,7 +7347,7 @@
         "location": "Netanya, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Ballistic missile impact in Netanya \u2014 building collapse",
@@ -7262,7 +7361,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7372,7 +7472,7 @@
         "location": "Abadan, Iran",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T23:02:56Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "us",
         "title": "[tabzlive] \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8\u274c\ud83c\uddee\ud83c\uddf7 \u2014 US-Israeli airstrikes in Abadan, southwestern Iran.",
@@ -7386,7 +7486,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7434,7 +7535,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Missile impact \u2014 mass casualty event declared",
@@ -7448,7 +7549,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7527,7 +7629,7 @@
         "location": "Tabriz, Iran",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T17:41:56Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "us",
         "title": "[CIG_telegram] \ud83d\uddfa Updated strike map.\n\nNotable new strike locations include:\n--> The French Naval Base in Abu Dhabi,\n--> Port of Duqm in Oman,\n--> Tab",
@@ -7541,7 +7643,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "text_match"
       }
     },
     {
@@ -7558,7 +7661,7 @@
         "location": "Abu Dhabi, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T14:09:44Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\ud83c\udde6\ud83c\uddeaIsraeli Broadcasting Authority: An Iranian drone hit an apartment inhabited by Israelis in Abu Dhabi.",
@@ -7572,7 +7675,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7589,7 +7693,7 @@
         "location": "Ahvaz, Iran",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T21:29:42Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "[rnintel] \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1- Airstrikes against Ahvaz, southwest Iran.",
@@ -7603,7 +7707,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7775,7 +7880,7 @@
         "location": "Shiraz, Iran",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "[rnintel] \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1- US/Israeli airstrikes on Shiraz, western Iran.",
@@ -7789,7 +7894,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7837,7 +7943,7 @@
         "location": "Sirjan IRGC Missile Base, Iran",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "Missile garrison destroyed at Sirjan",
@@ -7851,7 +7957,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7899,7 +8006,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T12:53:14Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] Breaking | In an updated toll, at least six Israeli settlers have been killed in an Iranian missile strike on the settlement of Beit Shemesh",
@@ -7913,7 +8020,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7992,7 +8100,7 @@
         "location": "Persian Gulf, UAE",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf7\u2694\ufe0f\ud83c\udde6\ud83c\uddea An Iranian drone struck an Emirati oil rig in the Persian Gulf&#33;\n\n@CIG_telegram",
@@ -8006,7 +8114,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8023,7 +8132,7 @@
         "location": "Be'er Sheva, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Missile impact in Be'er Sheva \u2014 hospital damaged",
@@ -8037,7 +8146,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8054,7 +8164,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Air defence activity seen over Dubai, which is once again being attacked by Iran.",
@@ -8068,7 +8178,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8116,7 +8227,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T23:54:19Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\udde6\ud83c\uddea\ud83c\uddee\ud83c\uddf7 - An Iranian Shahed over Dubai, UAE.",
@@ -8130,7 +8241,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8147,7 +8259,7 @@
         "location": "Ashdod, Israel",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Ballistic missile hits Ashdod port area \u2014 dock workers killed",
@@ -8161,7 +8273,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8178,7 +8291,7 @@
         "location": "Ahvaz, Iran",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T21:05:43Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "[rnintel] \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1- US/Israeli airstrikes against Ahvaz, southwest Iran.",
@@ -8192,7 +8305,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8209,7 +8323,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-01",
         "datetime_utc": "2026-03-01T11:36:58Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[AMK_Mapping] 4 explosions were just heard in Dubai, UAE. Likely interceptions.",
@@ -8223,7 +8337,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8271,7 +8386,7 @@
         "location": "Iran",
         "date": "2026-03-01",
         "datetime_utc": null,
-        "country": "",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "us",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf7\u2694\ufe0f\ud83c\uddfa\ud83c\uddf8 Iranian AD systems shot down an American MQ-9 Reaper UAV in the skies over Iran.\n\n@CIG_telegram",
@@ -8285,7 +8400,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {

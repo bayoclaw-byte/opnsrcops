@@ -1,0 +1,926 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": "2026-03-12",
+    "date": "2026-03-11",
+    "total_features": 32,
+    "total_claimed_kinetic": 85,
+    "gulf_only": true,
+    "source": "merged strikemap + liveuamap (scrubbed v1, Gulf-only)"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.34655,
+          25.20339
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828144",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T23:16:00+00:00",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Dubai Media Office: Civil Defense controls minor fire that broke out in a building after a drone attack; no injuries reported.",
+        "source_url": "https://twitter.com/alarabytv/status/2031871971500159131",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.87576,
+          32.33051
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828146",
+        "location": "Netanya, Israel",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T23:07:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "A rocket fired from Lebanon fell in Netanya.",
+        "source_url": "https://t.me/Alibk3/8785",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "hezbollah",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.80951,
+          29.58963
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828133",
+        "location": "Iraq",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T22:56:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Iranian television: US oil tanker targeted near Umm Qasr port in Basra, southern Iraq, by a remote-controlled speedboat",
+        "source_url": "https://x.com/AlarabyTV/status/2031866794894303523",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.58566,
+          29.82296
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828130",
+        "location": "Baghdad, Baghdad Governorate",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T22:52:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Iraqi ports: 31 people rescued, search continues for those missing after attack on two oil tankers",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2031865951260496132",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.92786,
+          30.02285
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828131",
+        "location": "Um Qasr,Basra Governorate",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T22:51:00+00:00",
+        "country": "kuwait",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Reuters, citing Iraqi officials: Foreign crew member killed in attack on two fuel tankers",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2031865597496119732",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.94339,
+          31.74005
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828121",
+        "location": "Bet Shemesh,Jerusalem District",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T22:39:00+00:00",
+        "country": "saudi",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Interceptions in the skies of the central Israel",
+        "source_url": "https://x.com/kann_news/status/2031862519845847279",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.34989,
+          25.20659
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828129",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T22:36:00+00:00",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Fire at the residential house in Dubai as result of drone strike",
+        "source_url": "https://t.me/supernova_plus/49453",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.32654,
+          31.3691
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828120",
+        "location": "South District, Israel",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T22:33:00+00:00",
+        "country": "saudi",
+        "event_kind": "intercept",
+        "side": "israel",
+        "title": "Israeli military: Missile launches detected from Iran; defense systems are currently working to intercept the threat.",
+        "source_url": "https://x.com/SkyNewsArabia_B/status/2031861174112063923",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.88889,
+          32.01055
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828117",
+        "location": "Center District",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T22:31:00+00:00",
+        "country": "saudi",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Missiles coming from Iran were intercepted over Tel Aviv.",
+        "source_url": "https://x.com/SkyNewsArabia_B/status/2031860566185365931",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.94111,
+          26.32091
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828119",
+        "location": "Eastern Province Saudi Arabia",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T22:31:00+00:00",
+        "country": "saudi",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Saudi Ministry of Defense: Drone intercepted and destroyed in the Eastern Province",
+        "source_url": "https://x.com/SkyNewsArabia_B/status/2031860706178711930",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.15285,
+          28.88717
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828114",
+        "location": "Kuwait",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T22:23:00+00:00",
+        "country": "kuwait",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Kuwaiti Army: Air defenses are currently intercepting missile and drone attacks",
+        "source_url": "https://twitter.com/lbci_news/status/2031858583353078091",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "kuwait",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.66621,
+          29.85445
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828101",
+        "location": "Gulf",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T21:30:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Reports that an oil tanker was hit in the northern Persian Gulf tonight, Iraqi media reports a massive tower of flame off the Iraqi coast",
+        "source_url": "https://x.com/Osinttechnical/status/2031845245038567657",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.02027,
+          29.98876
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828102",
+        "location": "Gulf",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T21:25:00+00:00",
+        "country": "kuwait",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "A tanker caught fire in the Anker Umm Qasr area, off the southern oil port of Basra.",
+        "source_url": "https://x.com/thestevennabil/status/2031844093740105841/photo/1",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.32475,
+          25.19534
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828087",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T21:14:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "iran",
+        "title": "The UAE Ministry of Defense stated that its air defenses intercepted six ballistic missiles, seven cruise missiles, and 39 drones on Wednesday. It added that &quot;since the start of the blatant Iranian aggression, UAE air defenses have intercepted 268 ballistic missiles, 15 cruise missiles, and 1,5",
+        "source_url": "https://x.com/AsharqNews/status/2031841147878846817",
+        "source": "liveuamap",
+        "classification": "kinetic_report",
+        "claimed_count": 52,
+        "attributed_side": "uae",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "scrub_note": "UAE reported intercepting 6 ballistic + 7 cruise missiles + 39 drones on Wednesday."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.625368,
+          24.006656
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828045",
+        "location": "Saudi Arabia",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T20:30:00+00:00",
+        "country": "saudi",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Saudi Ministry of Defense: Interception and destruction of 3 ballistic missiles launched towards Prince Sultan Air Base",
+        "source_url": "https://x.com/SkyNewsArabia_B/status/2031830123641782526",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 3,
+        "attributed_side": "saudi",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.58968,
+          24.0578
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828047",
+        "location": "Saudi Arabia",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T20:25:00+00:00",
+        "country": "saudi",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Saudi Arabia: Three ballistic missiles were shot down heading toward Prince Sultan Air Base. The official spokesperson for the Ministry of Defense stated that three ballistic missiles launched toward Prince Sultan Air Base were intercepted and destroyed.",
+        "source_url": "https://x.com/LucasFoxNews/status/2031828808035426334",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "saudi",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.031912,
+          29.2418
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828041",
+        "location": "Mubarak Al-Kabeer Governorate, Kuwait",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T20:23:00+00:00",
+        "country": "kuwait",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Kuwaiti Army: Air defenses are currently intercepting missile and drone attacks",
+        "source_url": "https://x.com/ALyemennow/status/2031828453348012532",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.01258,
+          29.2393
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828049",
+        "location": "Mubarak Al-Kabeer Governorate, Kuwait",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T20:19:00+00:00",
+        "country": "kuwait",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Kuwaiti air defenses are currently engaging missile and drone attacks. The General Staff of the Army notes that any explosions heard are a result of air defense systems intercepting the attacks. Everyone is urged to adhere to the safety and security instructions issued by the relevant authorities.",
+        "source_url": "https://x.com/KuwaitArmyGHQ/status/2031827426536231047",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.78752,
+          32.07487
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828074",
+        "location": "Tel Aviv-Yafo, Tel Aviv District",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T19:08:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli military spokesman: We have begun a wide-ranging wave of airstrikes against Hezbollah infrastructure in Beirut's southern suburbs.",
+        "source_url": "https://x.com/AJSyriaNowN/status/2031809478018887836",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.92793,
+          33.44727
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828009",
+        "location": "Birmingham, Alabama",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T17:47:00+00:00",
+        "country": "oman",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Man injured, woman in custody after shooting at Midfield gas station",
+        "source_url": "https://x.com/abc3340/status/2031789011207893466",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1",
+        "country_method": "text_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.16046,
+          28.90664
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827925",
+        "location": "Kuwait",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T15:41:00+00:00",
+        "country": "kuwait",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Kuwaiti Ministry of Defense: We intercepted aerial targets in the past 24 hours, destroying 7 drones, and one crashed outside the threat area.",
+        "source_url": "https://x.com/AJABreaking/status/2031757399573332027",
+        "source": "liveuamap",
+        "classification": "kinetic_report",
+        "claimed_count": 1,
+        "attributed_side": "kuwait",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.45777,
+          24.42663
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827927",
+        "location": "Abu Dhabi, Abu Dhabi",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T15:41:00+00:00",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Abu Dhabi Media Office: A fire that broke out at the old Abu Dhabi airport as a result of falling debris following a successful interception by air defenses has been brought under control. The incident did not result in any injuries.",
+        "source_url": "https://x.com/SkyNewsArabia_B/status/2031757512060678271",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.85022,
+          28.92871
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827921",
+        "location": "Bandar Bushehr, Bushehr Province",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T15:39:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "A very heavy airstrike targeted the city of Bushehr in Iran.",
+        "source_url": "https://x.com/SawtBeirut/status/2031756844398514215",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.00239,
+          16.9317
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827911",
+        "location": "Dhofar Governorate, Oman",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T15:26:00+00:00",
+        "country": "oman",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Oil storage facilities at Oman\u2019s Salalah port were struck. Oman TV reported that drones hit fuel tanks at the port",
+        "source_url": "https://x.com/FARED_ALHOR/status/2031753575047565410",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.84198,
+          28.94157
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827902",
+        "location": "Bandar Bushehr, Bushehr Province",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T13:49:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Footage reportedly shows the aftermath of a US-Israeli airstrike on the port city of Bushehr, the capital of Iran's Bushehr Province",
+        "source_url": "https://x.com/kimlikci_954/status/2031729189125071255",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.2844,
+          30.33217
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827852",
+        "location": "Abadan,Khuzestan Province",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T10:25:00+00:00",
+        "country": "kuwait",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Airstrikes target Iranian border areas near the town of Al-Siba, south of Basra.",
+        "source_url": "https://x.com/Alhadath_Brk/status/2031677990501798394",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.605912,
+          25.273898
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827833",
+        "location": "Doha, Doha",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T09:41:00+00:00",
+        "country": "qatar",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Qatari air defenses intercept targets in the skies over Doha",
+        "source_url": "https://x.com/AJABreaking/status/2031666758667354349",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "qatar",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.17984,
+          27.33337
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827815",
+        "location": "Lamerd, Fars Province, Iran",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T07:51:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "U.S. airstrike on residential areas in Lamerd, Fars Province, Iran, which Iranian sources say killed 20 civilians. Several homes and a sports hall were hit. The missile exploded in the air near buildings, with shrapnel causing major damage",
+        "source_url": "https://x.com/clashreport/status/2031639150093300068",
+        "source": "liveuamap",
+        "classification": "kinetic_report",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.37315,
+          25.24843
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827809",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T07:47:00+00:00",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Dubai Media Office: Four injured after two drones crashed near Dubai International Airport",
+        "source_url": "https://x.com/Alarabytv_BRK/status/2031638099919597803",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.78752,
+          32.07358
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827790",
+        "location": "Tel Aviv-Yafo, Tel Aviv District",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T07:17:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "Israeli army said it targeted headquarters and weapons storage sites of Hezbollah in raids on the southern suburbs of Beirut",
+        "source_url": "https://x.com/guyelster/status/2031630570153730287",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.32509,
+          25.19239
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827805",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T07:17:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "The UAE Ministry of Defense announces that its air defenses intercepted missile and drone attacks launched from Iran",
+        "source_url": "https://x.com/AlHadath/status/2031630620527415408",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.83044,
+          32.0721
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827733",
+        "location": "Giv'atayim, Tel Aviv District",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T06:15:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Israeli ambulance service: 29 Israelis injured in stampede during last night's Iranian bombing raids",
+        "source_url": "https://twitter.com/ajabreaking/status/2031614897516106234",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    }
+  ]
+}

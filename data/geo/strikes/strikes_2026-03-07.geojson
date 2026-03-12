@@ -5,7 +5,7 @@
     "date": "2026-03-07",
     "total_features": 147,
     "total_claimed_kinetic": 205,
-    "source": "merged strikemap + liveuamap (scrubbed v1)"
+    "source": "merged strikemap + liveuamap (scrubbed v1, country-tagged)"
   },
   "features": [
     {
@@ -2991,7 +2991,7 @@
         "location": "Bekaa",
         "date": "2026-03-07",
         "datetime_utc": "2026-03-07T12:16:00+00:00",
-        "country": "lebanon",
+        "country": "oman",
         "event_kind": "strike",
         "side": "unknown",
         "title": "Ministry of Health: Six citizens, including four children and a woman, were killed in the raid on the town of Shamshtar in the Baalbek district.",
@@ -3002,7 +3002,8 @@
         "attributed_side": "israel",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "text_match"
       }
     },
     {
@@ -3580,7 +3581,7 @@
         "location": "Erbil Governorate",
         "date": "2026-03-07",
         "datetime_utc": "2026-03-07T09:14:00+00:00",
-        "country": "iraq",
+        "country": "oman",
         "event_kind": "intercept",
         "side": "unknown",
         "title": "Three drones were intercepted in the Choman district, north of Erbil province, with no injuries reported.",
@@ -3591,7 +3592,8 @@
         "attributed_side": "iraq",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "text_match"
       }
     },
     {

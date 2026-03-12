@@ -1,0 +1,641 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": "2026-03-12",
+    "date": "2026-03-10",
+    "total_features": 22,
+    "total_claimed_kinetic": 311,
+    "gulf_only": true,
+    "source": "merged strikemap + liveuamap (scrubbed v1, Gulf-only)"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.566648,
+          24.062742
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827724",
+        "location": "Saudi Arabia",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T23:17:00+00:00",
+        "country": "saudi",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Saudi Ministry of Defense: Interception and destruction of 3 ballistic missiles launched towards Prince Sultan Air Base",
+        "source_url": "https://x.com/sawtelghad/status/2031509721857810442",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 3,
+        "attributed_side": "saudi",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.33247,
+          25.19689
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827716",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T21:41:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "UAE Ministry of Defense: Our air defenses dealt with a barrage of ballistic missiles coming from Iran",
+        "source_url": "https://x.com/SkyNewsArabia_B/status/2031485621504770521",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.33563,
+          24.44281
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827695",
+        "location": "Abu Dhabi, Abu Dhabi",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T21:20:00+00:00",
+        "country": "uae",
+        "event_kind": "launch",
+        "side": "unknown",
+        "title": "UAE says responding to 'barrage of ballistic missiles' from Iran ",
+        "source_url": "https://x.com/AJENews/status/2031480375638163725",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "unknown",
+        "attribution_method": "original",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.56566,
+          24.47038
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827693",
+        "location": "Abu Dhabi, Abu Dhabi",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T21:15:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "The UAE Ministry of Defense has issued an alert: We are currently dealing with a wave of ballistic missiles and drones coming from Iran. The sounds of explosions heard across the country are the result of interceptions and fighter jets.",
+        "source_url": "https://x.com/_AhmedQuraishi/status/2031479118793937266",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.97455,
+          29.22204
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827697",
+        "location": "Kuwait City, Al Asimah Governate",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T21:14:00+00:00",
+        "country": "kuwait",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Kuwaiti Army: We intercepted a wave of aerial targets that penetrated our airspace.",
+        "source_url": "https://x.com/South24_net/status/2031478813134106914",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "kuwait",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.95617,
+          26.54478
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827678",
+        "location": "Hormozgan Province, Iran",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T20:26:00+00:00",
+        "country": "saudi",
+        "event_kind": "explosion",
+        "side": "unknown",
+        "title": "Violent explosions in Kish",
+        "source_url": "https://x.com/ManotoNews/status/2031466625807843730",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "unknown",
+        "attribution_method": "original",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.84147,
+          32.29418
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827641",
+        "location": "Chaharmahal and Bakhtiari Province, Shahr Kord, \u0628\u0632\u0631\u06af\u0631\u0627\u0647 \u0634\u0647\u0631\u06a9\u0631\u062f-\u0647\u0641\u0634\u062c\u0627\u0646-\u0641\u0627\u0631\u0633\u0627\u0646\u060c 7RVQ+R3X, Iran",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T19:37:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Iranian media: Airstrike on Shahrekord airport in western Iran",
+        "source_url": "https://x.com/AlarabyTV/status/2031454432186036474",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.6894,
+          24.11125
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827720",
+        "location": "Abu Dhabi - United Arab Emirates",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T19:19:00+00:00",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "NASA\u2019s FIRMS map shows multiple fires at the Ruwais Refinery in western Abu Dhabi  after Iranian drones struck the site today. In response, Abu Dhabi\u2019s state oil company ADNOC has shut down operations at the refinery. The facility processes up to 837,000 barrels of crude oil per day.",
+        "source_url": "https://twitter.com/egyosint/status/2031449955119108357",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.57257,
+          25.32055
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827643",
+        "location": "Qatar",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T18:52:00+00:00",
+        "country": "qatar",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "The Ministry of Defense of the State of Qatar announces that the armed forces intercepted a missile attack targeting the State of Qatar.",
+        "source_url": "https://x.com/MOD_Qatar/status/2031443048157028515",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "qatar",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7855,
+          32.07471
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827687",
+        "location": "Tel Aviv-Yafo, Tel Aviv District",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T18:23:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "The Israeli army confirmed the assassination of a Hezbollah commander in the Nasr unit on Sunday night and released footage of the airstrike. Defense Minister Yisrael Katz had announced on Monday the death of Hassan Salameh, also known as Abu Hussein Rab",
+        "source_url": "https://x.com/Philipp27960841/status/2031435864887144779",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1",
+        "scrub_note": "Airstrike killing a Hezbollah commander is a single confirmed Israeli strike.",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.96742,
+          31.73914
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827530",
+        "location": "Bet Shemesh,Jerusalem District",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T15:23:00+00:00",
+        "country": "saudi",
+        "event_kind": "launch",
+        "side": "iran",
+        "title": "Medics are responding to reports of missile impacts in the Beit Shemesh area following Iran's latest ballistic missile attack on Israel. Magen David Adom says it has not received any reports of injuries so far",
+        "source_url": "https://x.com/manniefabian/status/2031390476620730763",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.78752,
+          32.07487
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827531",
+        "location": "Tel Aviv-Yafo, Tel Aviv District",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T15:04:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "The Israeli army: In our raids on Lebanon, we destroyed more than 70 missile launchers that were aimed at Israel.",
+        "source_url": "https://x.com/AlarabyTV/status/2031385778652164437",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.69347,
+          24.6446
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827568",
+        "location": "Riyadh, Riyadh Province",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T14:10:00+00:00",
+        "country": "saudi",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "The Saudi Cabinet: We reserve the right to take security measures; and we commend the capabilities of our air defenses.",
+        "source_url": "https://x.com/AlHadath/status/2031372003328823752",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "saudi",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.83662,
+          32.08087
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827503",
+        "location": "Giv'atayim, Tel Aviv District",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T13:13:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "A fire broke out in Bnei Brak, central Israel as a result of Iranian rockets and attempts to intercept them.",
+        "source_url": "https://x.com/qudsn/status/2031357704107647246",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.32097,
+          25.19006
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827504",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T13:00:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "UAE air defenses intercept 8 ballistic missiles and 26 drones. UAE air defenses detected 9 ballistic missiles today (March 10, 2026), destroying 8 and causing 1 to fall into the sea. They also detected 35 drones, intercepting 26 of them.",
+        "source_url": "https://x.com/oloumaldar/status/2031354502381711615",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 8,
+        "attributed_side": "uae",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.71498,
+          24.11669
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827509",
+        "location": "Al Ruwais Industrial City - Abu Dhabi - United Arab Emirates",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T12:05:00+00:00",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "UAE authorities are responding to a fire at a facility in the Ruwais Industrial Complex following a drone attack. Ruwais hosts the country\u2019s largest refinery with capacity exceeding 900,000 bpd.- Bloomberg",
+        "source_url": "https://x.com/leventkemaI/status/2031340599480062035",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.64114,
+          26.26141
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827476",
+        "location": "Middle East",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T10:03:00+00:00",
+        "country": "bahrain",
+        "event_kind": "intercept",
+        "side": "iran",
+        "title": "Bahrain Defense Force: We have intercepted 105 missiles and 176 drones since the beginning of Iran's attacks.",
+        "source_url": "https://x.com/Alhadath_Brk/status/2031309851607871954",
+        "source": "liveuamap",
+        "classification": "kinetic_report",
+        "claimed_count": 281,
+        "attributed_side": "bahrain",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "scrub_note": "Bahrain Defense Force claims 105 missiles + 176 drones intercepted; defender is Bahrain."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.3989,
+          32.42477
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827477",
+        "location": "Dezful,Khuzestan Province",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T10:02:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Several military sites in the city of Quneitra in Ahvaz were bombed",
+        "source_url": "https://x.com/MohamadAhwaze/status/2031309719206289808",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.78735,
+          32.07416
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827456",
+        "location": "Tel Aviv-Yafo, Tel Aviv District",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T09:24:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "israel",
+        "title": "The IDF says it killed several Hezbollah operatives as troops conduct ground operations in southern Lebanon. According to the military, in one incident last night, troops of the 769th &quot;Hiram&quot; Regional Brigade identified a cell of Hezbollah gunmen and directed an airstrike against them. Sep",
+        "source_url": "https://x.com/manniefabian/status/2031300169375879341",
+        "source": "liveuamap",
+        "classification": "kinetic_report",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.97498,
+          31.98953
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827422",
+        "location": "Tel Aviv",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T07:58:00+00:00",
+        "country": "saudi",
+        "event_kind": "intercept",
+        "side": "israel",
+        "title": "Israeli military: Missiles launched from Iran towards Israel; defense systems are working to intercept this threat.",
+        "source_url": "https://x.com/AJABreaking/status/2031278555519127886",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "israel",
+        "attribution_method": "original",
+        "original_side": "israel",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.33316,
+          25.19922
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827409",
+        "location": "Dubai, Dubai",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T05:40:00+00:00",
+        "country": "uae",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "UAE air defenses are currently dealing with missile and drone threats coming from Iran",
+        "source_url": "https://x.com/oloumaldar/status/2031243652803211437",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.84782,
+          28.93532
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22827419",
+        "location": "Bandar Bushehr, Bushehr Province",
+        "date": "2026-03-10",
+        "datetime_utc": "2026-03-10T01:00:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Iranian reports of airstrikes hitting military sites in Bushehr",
+        "source_url": "https://x.com/ariel_oseran/status/2031173223098839251",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    }
+  ]
+}

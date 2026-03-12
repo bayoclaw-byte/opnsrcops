@@ -5,7 +5,7 @@
     "date": "2026-03-12",
     "total_features": 56,
     "total_claimed_kinetic": 174,
-    "source": "merged strikemap + liveuamap (scrubbed v1)"
+    "source": "merged strikemap + liveuamap (scrubbed v1, country-tagged)"
   },
   "features": [
     {
@@ -134,7 +134,7 @@
         "location": "Khuzestan Province, Iran",
         "date": "2026-03-12",
         "datetime_utc": "2026-03-12T14:31:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "unknown",
         "title": "Moments of intense airstrikes targeting sites in the city of Ahvaz in Khuzestan province, southwestern Iran",
@@ -145,7 +145,8 @@
         "attributed_side": "us_israel",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -976,7 +977,7 @@
         "location": "Ahvaz, Khuzestan Province",
         "date": "2026-03-12",
         "datetime_utc": "2026-03-12T10:40:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "unknown",
         "title": "Casualties in airstrikes on residential areas in Ahvaz",
@@ -987,7 +988,8 @@
         "attributed_side": "us_israel",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1312,7 +1314,7 @@
         "location": "Fars Province, Iran",
         "date": "2026-03-12",
         "datetime_utc": "2026-03-12T08:06:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Iranian media: Air base in Shiraz, southern Iran, targeted twice this morning",
@@ -1323,7 +1325,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1452,7 +1455,7 @@
         "location": "Jerusalem",
         "date": "2026-03-12",
         "datetime_utc": "2026-03-12T07:28:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "iran",
         "title": "Iranian missiles being intercepted over Jerusalem",
@@ -1463,7 +1466,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {

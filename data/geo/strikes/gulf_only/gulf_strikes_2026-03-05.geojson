@@ -3,9 +3,10 @@
   "metadata": {
     "generated": "2026-03-12",
     "date": "2026-03-05",
-    "total_features": 25,
-    "total_claimed_kinetic": 177,
-    "source": "merged strikemap + liveuamap (scrubbed v1, country-tagged)"
+    "total_features": 21,
+    "total_claimed_kinetic": 173,
+    "gulf_only": true,
+    "source": "merged strikemap + liveuamap (scrubbed v1, Gulf-only)"
   },
   "features": [
     {
@@ -97,62 +98,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.83259,
-          40.37749
-        ]
-      },
-      "properties": {
-        "event_id": "LUAM-22825559",
-        "location": "Baku, Azerbaijan",
-        "date": "2026-03-05",
-        "datetime_utc": "2026-03-05T13:45:00+00:00",
-        "country": "unknown",
-        "event_kind": "strike",
-        "side": "iran",
-        "title": "Azerbaijan's Ministry of Defense: It has been confirmed that four Iranian drones targeted civilian infrastructure and a high school, and we demand an apology from Iran.",
-        "source_url": "https://twitter.com/skynewsarabia_b/status/2029553927201669327",
-        "source": "liveuamap",
-        "classification": "kinetic_confirmed",
-        "claimed_count": 1,
-        "attributed_side": "iran",
-        "attribution_method": "original",
-        "original_side": "iran",
-        "scrub_version": "v1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          45.45868,
-          39.18603
-        ]
-      },
-      "properties": {
-        "event_id": "LUAM-22825549",
-        "location": "Nakhchivan,Nakhchivan Autonomous Republic",
-        "date": "2026-03-05",
-        "datetime_utc": "2026-03-05T12:24:00+00:00",
-        "country": "iran",
-        "event_kind": "strike",
-        "side": "unknown",
-        "title": "Domestic and international flight operations at Nakhchivan International Airport have been temporarily suspended.",
-        "source_url": "https://t.me/operativmedia/47553",
-        "source": "liveuamap",
-        "classification": "kinetic_confirmed",
-        "claimed_count": 1,
-        "attributed_side": "us_israel",
-        "attribution_method": "geo_rule",
-        "original_side": "unknown",
-        "scrub_version": "v1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           48.62961,
           29.77535
         ]
@@ -173,62 +118,6 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          45.45525,
-          39.18606
-        ]
-      },
-      "properties": {
-        "event_id": "LUAM-22825482",
-        "location": "Nakhchivan,Nakhchivan Autonomous Republic",
-        "date": "2026-03-05",
-        "datetime_utc": "2026-03-05T08:44:00+00:00",
-        "country": "iran",
-        "event_kind": "strike",
-        "side": "iran",
-        "title": "2 civilians injured in Iranian drone attack on Nakhchivan",
-        "source_url": "https://t.me/apa_az/114886",
-        "source": "liveuamap",
-        "classification": "kinetic_confirmed",
-        "claimed_count": 1,
-        "attributed_side": "iran",
-        "attribution_method": "original",
-        "original_side": "iran",
-        "scrub_version": "v1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          45.45937,
-          39.17757
-        ]
-      },
-      "properties": {
-        "event_id": "LUAM-22825471",
-        "location": "Nakhchivan,Nakhchivan Autonomous Republic",
-        "date": "2026-03-05",
-        "datetime_utc": "2026-03-05T08:26:00+00:00",
-        "country": "iran",
-        "event_kind": "strike",
-        "side": "unknown",
-        "title": "Damage to the Nakhchivan airport as result of drone strike",
-        "source_url": "https://t.me/supernova_plus/49136",
-        "source": "liveuamap",
-        "classification": "kinetic_confirmed",
-        "claimed_count": 1,
-        "attributed_side": "us_israel",
-        "attribution_method": "geo_rule",
-        "original_side": "unknown",
         "scrub_version": "v1"
       }
     },

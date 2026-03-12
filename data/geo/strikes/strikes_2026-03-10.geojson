@@ -5,7 +5,7 @@
     "date": "2026-03-10",
     "total_features": 176,
     "total_claimed_kinetic": 467,
-    "source": "merged strikemap + liveuamap (scrubbed v1)"
+    "source": "merged strikemap + liveuamap (scrubbed v1, country-tagged)"
   },
   "features": [
     {
@@ -778,7 +778,7 @@
         "location": "Hormozgan Province, Iran",
         "date": "2026-03-10",
         "datetime_utc": "2026-03-10T20:26:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "explosion",
         "side": "unknown",
         "title": "Violent explosions in Kish",
@@ -789,7 +789,8 @@
         "attributed_side": "unknown",
         "attribution_method": "original",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1170,7 +1171,7 @@
         "location": "Chaharmahal and Bakhtiari Province, Shahr Kord, \u0628\u0632\u0631\u06af\u0631\u0627\u0647 \u0634\u0647\u0631\u06a9\u0631\u062f-\u0647\u0641\u0634\u062c\u0627\u0646-\u0641\u0627\u0631\u0633\u0627\u0646\u060c 7RVQ+R3X, Iran",
         "date": "2026-03-10",
         "datetime_utc": "2026-03-10T19:37:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Iranian media: Airstrike on Shahrekord airport in western Iran",
@@ -1181,7 +1182,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1563,7 +1565,7 @@
         "location": "Tel Aviv-Yafo, Tel Aviv District",
         "date": "2026-03-10",
         "datetime_utc": "2026-03-10T18:23:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "The Israeli army confirmed the assassination of a Hezbollah commander in the Nasr unit on Sunday night and released footage of the airstrike. Defense Minister Yisrael Katz had announced on Monday the death of Hassan Salameh, also known as Abu Hussein Rab",
@@ -1575,7 +1577,8 @@
         "attribution_method": "original",
         "original_side": "israel",
         "scrub_version": "v1",
-        "scrub_note": "Airstrike killing a Hezbollah commander is a single confirmed Israeli strike."
+        "scrub_note": "Airstrike killing a Hezbollah commander is a single confirmed Israeli strike.",
+        "country_method": "coords"
       }
     },
     {
@@ -2629,7 +2632,7 @@
         "location": "Bet Shemesh,Jerusalem District",
         "date": "2026-03-10",
         "datetime_utc": "2026-03-10T15:23:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "launch",
         "side": "iran",
         "title": "Medics are responding to reports of missile impacts in the Beit Shemesh area following Iran's latest ballistic missile attack on Israel. Magen David Adom says it has not received any reports of injuries so far",
@@ -2640,7 +2643,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2741,7 +2745,7 @@
         "location": "Tel Aviv-Yafo, Tel Aviv District",
         "date": "2026-03-10",
         "datetime_utc": "2026-03-10T15:04:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "The Israeli army: In our raids on Lebanon, we destroyed more than 70 missile launchers that were aimed at Israel.",
@@ -2752,7 +2756,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2965,7 +2970,7 @@
         "location": "Giv'atayim, Tel Aviv District",
         "date": "2026-03-10",
         "datetime_utc": "2026-03-10T13:13:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "A fire broke out in Bnei Brak, central Israel as a result of Iranian rockets and attempts to intercept them.",
@@ -2976,7 +2981,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3638,7 +3644,7 @@
         "location": "Dezful,Khuzestan Province",
         "date": "2026-03-10",
         "datetime_utc": "2026-03-10T10:02:00+00:00",
-        "country": "iraq",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "unknown",
         "title": "Several military sites in the city of Quneitra in Ahvaz were bombed",
@@ -3649,7 +3655,8 @@
         "attributed_side": "us_israel",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3974,7 +3981,7 @@
         "location": "Tel Aviv-Yafo, Tel Aviv District",
         "date": "2026-03-10",
         "datetime_utc": "2026-03-10T09:24:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "The IDF says it killed several Hezbollah operatives as troops conduct ground operations in southern Lebanon. According to the military, in one incident last night, troops of the 769th &quot;Hiram&quot; Regional Brigade identified a cell of Hezbollah gunmen and directed an airstrike against them. Sep",
@@ -3985,7 +3992,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4254,7 +4262,7 @@
         "location": "Tel Aviv",
         "date": "2026-03-10",
         "datetime_utc": "2026-03-10T07:58:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "israel",
         "title": "Israeli military: Missiles launched from Iran towards Israel; defense systems are working to intercept this threat.",
@@ -4265,7 +4273,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4898,7 +4907,7 @@
         "location": "Bandar Bushehr, Bushehr Province",
         "date": "2026-03-10",
         "datetime_utc": "2026-03-10T01:00:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Iranian reports of airstrikes hitting military sites in Bushehr",
@@ -4909,7 +4918,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {

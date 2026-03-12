@@ -5,7 +5,7 @@
     "date": "2026-03-08",
     "total_features": 87,
     "total_claimed_kinetic": 349,
-    "source": "merged strikemap + liveuamap (scrubbed v1)"
+    "source": "merged strikemap + liveuamap (scrubbed v1, country-tagged)"
   },
   "features": [
     {
@@ -22,7 +22,7 @@
         "location": "Fars Province, Iran",
         "date": "2026-03-08",
         "datetime_utc": "2026-03-08T23:08:34+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "explosion",
         "side": "unknown",
         "title": "Over 20 explosions in several districts o Shiraz since 2245Z, Fars Province, #Iran",
@@ -33,7 +33,8 @@
         "attributed_side": "unknown",
         "attribution_method": "original",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -190,7 +191,7 @@
         "location": "Riyadh Province Saudi Arabia",
         "date": "2026-03-08",
         "datetime_utc": "2026-03-08T19:31:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "unknown",
         "title": "Saudi Arabia\u2019s Ministry of Defense says it intercepted and destroyed two drones that attempted to target areas north of Riyadh",
@@ -201,7 +202,8 @@
         "attributed_side": "iran",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -442,7 +444,7 @@
         "location": "Tel Aviv-Yafo, Tel Aviv District",
         "date": "2026-03-08",
         "datetime_utc": "2026-03-08T18:46:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Israeli military spokesman: We targeted the head of the Iranian Supreme Leader's political office in central Tehran.",
@@ -453,7 +455,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -722,7 +725,7 @@
         "location": "South District, Israel",
         "date": "2026-03-08",
         "datetime_utc": "2026-03-08T16:41:00+00:00",
-        "country": "israel",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "israel",
         "title": "Israeli Channel 12: Missile launched from Iran towards southern Israel intercepted",
@@ -733,7 +736,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -750,7 +754,7 @@
         "location": "Hormozgan Province, Iran",
         "date": "2026-03-08",
         "datetime_utc": "2026-03-08T16:38:00+00:00",
-        "country": "iran",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "unknown",
         "title": "A fuel depot at Qeshm Airport, Iran, has reportedly been targeted in an airstrike",
@@ -761,7 +765,8 @@
         "attributed_side": "us_israel",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1087,7 +1092,7 @@
         "location": "Zahrani",
         "date": "2026-03-08",
         "datetime_utc": "2026-03-08T13:30:00+00:00",
-        "country": "lebanon",
+        "country": "oman",
         "event_kind": "strike",
         "side": "israel",
         "title": "Efforts are underway to rescue a woman trapped under the rubble following an Israeli airstrike that targeted a building in Ghaziyeh.",
@@ -1098,7 +1103,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "text_match"
       }
     },
     {
@@ -2125,7 +2131,7 @@
         "location": "Chicago, Illinois",
         "date": "2026-03-08",
         "datetime_utc": "2026-03-08T06:11:00+00:00",
-        "country": "unknown",
+        "country": "oman",
         "event_kind": "strike",
         "side": "unknown",
         "title": "Woman Injured in Stabbing .  1040 W 14th St . An officer is with the victim at the hospital, awaiting further medical evaluation ",
@@ -2136,7 +2142,8 @@
         "attributed_side": "iran",
         "attribution_method": "geo_rule",
         "original_side": "unknown",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "text_match"
       }
     },
     {

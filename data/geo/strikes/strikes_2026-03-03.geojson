@@ -5,7 +5,7 @@
     "date": "2026-03-03",
     "total_features": 294,
     "total_claimed_kinetic": 354,
-    "source": "merged strikemap + liveuamap (scrubbed v1)"
+    "source": "merged strikemap + liveuamap (scrubbed v1, country-tagged)"
   },
   "features": [
     {
@@ -22,7 +22,7 @@
         "location": "Kish Island, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T14:11:43Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1\u274c\ud83c\uddee\ud83c\uddf7 \u2014 US-Israeli airstrikes have destroyed a radar installation on Iran's Kish Island in the Persian Gulf.",
@@ -36,7 +36,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -115,7 +116,7 @@
         "location": "Bushehr, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T14:03:08Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "\ud83c\uddf7\ud83c\uddfa\ud83c\uddee\ud83c\uddf7\u2757\ufe0fRosatom announced that the operation of the nuclear power plant in Iran has been halted\n\nThe strikes on Iranian nuclear facilities are getti",
@@ -129,7 +130,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -177,7 +179,7 @@
         "location": "Salalah, Oman",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T11:16:45Z",
-        "country": "",
+        "country": "oman",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddee\ud83c\uddf7\ud83c\uddf4\ud83c\uddf2\u26a1\ufe0f \u2014 WATCH: The moment an Iranian drone impacted Oman's Port of Salalah.",
@@ -191,7 +193,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -239,7 +242,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T00:24:17Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] #NEW \u26a1\ufe0f\ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8 - Footage of the latest IRGC ballistic missile barrage on central Israel seemingly included the use of cluster",
@@ -253,7 +256,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -363,7 +367,7 @@
         "location": "Shiraz, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T03:49:44Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "[AMK_Mapping] Reports of US/Israeli airstrikes on Shiraz, southern Iran.",
@@ -377,7 +381,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -549,7 +554,7 @@
         "location": "Duqm, Oman",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T11:36:44Z",
-        "country": "",
+        "country": "oman",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddf4\ud83c\uddf2\ud83c\uddee\ud83c\uddf7 \u2014 Several fuel tanks were hit by an Iranian drone at the port of Duqm, Oman.",
@@ -563,7 +568,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -580,7 +586,7 @@
         "location": "Al Udeid Air Base, Qatar",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T21:44:08Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\uddf6\ud83c\udde6\u26a1\ufe0f- An Iranian ballistic missile hit Al Udeid Air Base, according to the Qatari Defense Ministry.",
@@ -594,7 +600,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -642,7 +649,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T06:34:19Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Drone alert issued for Jerusalem.",
@@ -656,7 +663,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -766,7 +774,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T16:49:24Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddea\u26a1\ufe0fA loud explosion occurred in Dubai, according to Reuters.",
@@ -780,7 +788,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -983,7 +992,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T16:38:30Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\udde6\ud83c\uddea\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 Huge explosion in Dubai, UAE.",
@@ -997,7 +1006,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1045,7 +1055,7 @@
         "location": "Fujairah, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:17:20Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf7\u2694\ufe0f\ud83c\udde6\ud83c\uddea Iranian drones struck the Fujairah oil field in the UAE causing a major fire.\n\n@CIG_telegram",
@@ -1059,7 +1069,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1107,7 +1118,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:41:08Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1\ufe0f- Loud detonation in Jerusalem from an interception.",
@@ -1121,7 +1132,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1138,7 +1150,7 @@
         "location": "Kuwait",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T23:24:16Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddfc| Satellite images show that Iranian strikes have destroyed at least 3 radomes (radar) at US Arifjan base, Kuwait, on March 2nd.  The same",
@@ -1152,7 +1164,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1169,7 +1182,7 @@
         "location": "Doha, Qatar",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T16:38:16Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddf6\ud83c\udde6\u26a1\ufe0f- Explosions over Doha, Qatar.",
@@ -1183,7 +1196,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1293,7 +1307,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:41:38Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[AMK_Mapping] 4 Iranian ballistic missiles were launched in total. All were intercepted - 2 over Jordan, 1 near Jerusalem, 1 over the southern West Ba",
@@ -1307,7 +1321,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1324,7 +1339,7 @@
         "location": "Riyadh, Saudi Arabia",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T00:35:51Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\uddf8\ud83c\udde6\u26a1\ufe0f- BREAKING: A fire has been reported at the U.S. Embassy in Riyadh, Saudi Arabia, following a large explosion, according to Re",
@@ -1338,7 +1353,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1355,7 +1371,7 @@
         "location": "Kuwait",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T03:27:50Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Explosion in Kuwait",
@@ -1369,7 +1385,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1510,7 +1527,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T19:41:18Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddfa\ud83c\uddf8\ud83c\udde6\ud83c\uddea \u2014 BREAKING: The Iranian drone impact has started a fire in the area of the U.S. Embassy and Consulate in Dubai, UAE.  \u27a1\ufe0f Sirens can be h",
@@ -1524,7 +1541,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1634,7 +1652,7 @@
         "location": "Kuwait",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T17:01:11Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddfc\u26a1\ufe0fExplosions at US facilities in Kuwait - Tasnim Agency",
@@ -1648,7 +1666,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1820,7 +1839,7 @@
         "location": "Kuwait",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T21:19:15Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddf0\ud83c\uddfc\u26a1\ufe0f- Explosions in Kuwait.",
@@ -1834,7 +1853,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1882,7 +1902,7 @@
         "location": "Doha, Qatar",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:05:01Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddee\ud83c\uddf7\ud83c\uddf6\ud83c\udde6\u26a1\ufe0f- Explosions heard in Doha, Qatar.",
@@ -1896,7 +1916,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1913,7 +1934,7 @@
         "location": "Kuwait",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T09:57:50Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddf4\ud83c\uddf2\ud83c\uddf0\ud83c\uddfc\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f- Reports of explosions in Oman and Kuwait.",
@@ -1927,7 +1948,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -1944,7 +1966,7 @@
         "location": "Doha, Qatar",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T08:50:34Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] Two drones struck the U.S. Embassy in Riyadh, the capital of Saudi Arabia, causing a minor fire and limited damage.\n\nIn response, the U.S. S",
@@ -1958,7 +1980,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2006,7 +2029,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T20:35:31Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddfa\ud83c\uddf8\ud83c\udde6\ud83c\uddea \u2014 WATCH: The moment an Iranian Shahed drone targeted the U.S. Embassy and Consulate in Dubai, UAE.",
@@ -2020,7 +2043,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2223,7 +2247,7 @@
         "location": "Netanya, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T01:21:04Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8\u274c\ud83c\uddee\ud83c\uddf7 \u2014 Israeli Prime Minister Benjamin Netanyahu:\nThe reason that we had to act now is because they\u2014after we hit their nuclear sit",
@@ -2237,7 +2261,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2254,7 +2279,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T18:18:24Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddfa\ud83c\uddf8\ud83c\udde6\ud83c\uddea \u2014 Iranian drones are active over Dubai. \n\nReports indicate an explosion was heard.",
@@ -2268,7 +2293,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2285,7 +2311,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T21:04:26Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Breaking | An Iranian missile struck occupied Jerusalem after Israeli occupation defenses failed to intercept it.",
@@ -2299,7 +2325,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2347,7 +2374,7 @@
         "location": "Bushehr, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T22:50:19Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1\u274c\ud83c\uddee\ud83c\uddf7 \u2014 US-Israeli airstrikes in Bushehr, southern Iran.",
@@ -2361,7 +2388,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2378,7 +2406,7 @@
         "location": "Sa'ir, West Bank",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:39:12Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "[QudsNen] Breaking | One Palestinian was just injured in an attack by Israeli settler militias on the town of Sa\u2019ir, north of Hebron.",
@@ -2392,7 +2420,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2409,7 +2438,7 @@
         "location": "Abu Dhabi, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T16:44:59Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\udde6\ud83c\uddea\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 Huge explosions in Abu Dhabi, UAE.",
@@ -2423,7 +2452,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2440,7 +2470,7 @@
         "location": "Ras Tanura, Saudi Arabia",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T12:28:10Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddf8\ud83c\udde6\u26a1\ufe0f \u2014 Satellite imagery shows the damage at the Ras Tanura oil refinery in Saudi Arabia as a result of Iranian drone attacks.",
@@ -2454,7 +2484,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2595,7 +2626,7 @@
         "location": "Netanya, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T02:52:28Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8\u274c\ud83c\uddee\ud83c\uddf7 \u2014 Israeli Prime Minister Benjamin Netanyahu: Iran today just bombed, with these ballistic missiles, these weapons of mass dea",
@@ -2609,7 +2640,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2626,7 +2658,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T17:01:38Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "intercept",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddea\u26a1\ufe0fFootage of intercepting Iranian missiles in the sky over Dubai.",
@@ -2640,7 +2672,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2719,7 +2752,7 @@
         "location": "Bushehr, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T12:11:03Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1- A wave of US and Israeli airstrikes against Tehran and Karaj in northern Iran, Bushehr in southern Iran, and Ahvaz, Kermanshah and Khor",
@@ -2733,7 +2766,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2781,7 +2815,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T06:50:38Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[AMK_Mapping] The IDF states that the alerts issued in Jerusalem and the West Bank were from a false identification. The interceptions which were repo",
@@ -2795,7 +2829,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2812,7 +2847,7 @@
         "location": "Kish Island, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T13:30:13Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1\u274c\ud83c\uddee\ud83c\uddf7 \u2014 US-Israeli airstrikes have destroyed a radar installation on Iran's Kish Island in the Persian Gulf.",
@@ -2826,7 +2861,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2936,7 +2972,7 @@
         "location": "Doha, Qatar",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:57:54Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddf6\ud83c\udde6\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f- Qatar claims to have successfully repelled an attack by Iran targeting its main airport.",
@@ -2950,7 +2986,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -2967,7 +3004,7 @@
         "location": "Tyre, Lebanon",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T21:37:36Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddf8\ud83c\udde6\ud83c\uddfa\ud83c\uddf8According to sources from The Washington Post, as a result of the attack by Iranian suicide drones on the US embassy compound in Saudi Ara",
@@ -2982,7 +3019,8 @@
         "attribution_method": "original",
         "original_side": "israel",
         "scrub_version": "v1",
-        "scrub_note": "Washington Post-sourced claim that Iranian drones struck the US embassy compound."
+        "scrub_note": "Washington Post-sourced claim that Iranian drones struck the US embassy compound.",
+        "country_method": "text_match"
       }
     },
     {
@@ -2999,7 +3037,7 @@
         "location": "Kuwait",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T18:03:39Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8All six dead American military personnel were killed as a result of an Iranian drone strike on a tactical operations center in Shuayba port in",
@@ -3013,7 +3051,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3092,7 +3131,7 @@
         "location": "Manama, Bahrain",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T05:26:02Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Multiple explosions in Manama, Bahrain.",
@@ -3106,7 +3145,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3154,7 +3194,7 @@
         "location": "Bahrain",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T01:51:49Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] More explosions heard in Bahrain.",
@@ -3168,7 +3208,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3247,7 +3288,7 @@
         "location": "Riyadh, Saudi Arabia",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T03:04:01Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\uddf8\ud83c\udde6\u26a1\ufe0f- BREAKING: The U.S. Embassy in Riyadh was struck by two drones resulting in a small fire and minor damage, according to the S",
@@ -3261,7 +3302,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3557,7 +3599,7 @@
         "location": "Maysan Province, Iraq",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:48:28Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf7IDF airstrike on the Iraqi-Iranian border strip in Maysan province.",
@@ -3571,7 +3613,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3588,7 +3631,7 @@
         "location": "Bahrain",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T01:34:54Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf7\ud83c\uddf8\ud83c\udde6\ud83c\udde7\ud83c\udded\u26a1\ufe0f- BREAKING: A drone strike impacted the King Fahd Causeway, the bridge that connects Saudi Arabia and Bahrain.\n\nCredit: F",
@@ -3602,7 +3645,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3619,7 +3663,7 @@
         "location": "Doha, Qatar",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:19:56Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8\ud83c\uddf6\ud83c\udde6Suicide drones attack a US Navy base in Doha, Qatar. Multiple arrivals and explosions.",
@@ -3633,7 +3677,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3650,7 +3695,7 @@
         "location": "Sa'ir, West Bank",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:05:28Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "[QudsNen] Israeli settler militias open fire towards Palestinian civilians during an incursion near the town of Sa'ir in the southern West Bank provin",
@@ -3664,7 +3709,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3681,7 +3727,7 @@
         "location": "UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T16:27:40Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\udde6\ud83c\uddea\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 BREAKING: The UAE is considering taking military action against Iran to stop Iranian missile and drone strikes on the country, according ",
@@ -3695,7 +3741,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3712,7 +3759,7 @@
         "location": "Tyre, Lebanon",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T14:09:21Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "israel",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddf6\ud83c\udde6\u26a1- BREAKING: QATAR CARRIED OUT AIRSTRIKES ON IRAN IN THE PAST 24 HOURS.\n\nSource: Israeli Channel 12.",
@@ -3726,7 +3773,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "text_match"
       }
     },
     {
@@ -3743,7 +3791,7 @@
         "location": "Salalah, Oman",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:02:19Z",
-        "country": "",
+        "country": "oman",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Iranian drones have reportedly targeted the port of Salalah in Oman, resulting in a fire breaking out.",
@@ -3757,7 +3805,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3805,7 +3854,7 @@
         "location": "Kuwait",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T06:22:51Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddfc\u26a1\ufe0f- The U.S. Embassy in Kuwait has closed until further notice.\n\nThis comes a day after the compound was targeted and hit by Iranian",
@@ -3819,7 +3868,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3867,7 +3917,7 @@
         "location": "Doha, Qatar",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T16:50:05Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddf6\ud83c\udde6\u26a1\ufe0fA new series of powerful explosions shook the capital of Qatar and its suburbs, RIA Novosti reports.\n\nAccording to its information, about fo",
@@ -3881,7 +3931,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3898,7 +3949,7 @@
         "location": "Fujairah, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T09:40:03Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddeaAn oil depot in Fujairah is on fire in the UAE.\n\nEarlier, an Iranian drone attacked a power station.",
@@ -3912,7 +3963,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3960,7 +4012,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:22:17Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Iranian ballistic missile launches to central Israel",
@@ -3974,7 +4026,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -3991,7 +4044,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T18:15:35Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "Breaking | At least three missiles have been launched from Lebanon toward Tel Aviv.",
@@ -4005,7 +4058,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4022,7 +4076,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T09:40:17Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1\ufe0fExplosions in Jerusalem - AFP",
@@ -4036,7 +4090,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4053,7 +4108,7 @@
         "location": "Dezful, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T16:12:32Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1\u274c\ud83c\uddee\ud83c\uddf7 \u2014 WATCH: US-Israeli airstrikes have seemingly hit an ammunition warehouse in the city of Dezful, western Iran.",
@@ -4067,7 +4122,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4208,7 +4264,7 @@
         "location": "Fujairah, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:04:06Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Iranian drones have struck oil terminal tanks at the Fujairah port in the UAE, resulting in all port operations being suspended.",
@@ -4222,7 +4278,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4239,7 +4296,7 @@
         "location": "New Askar refugee camp, Nablus, West Bank",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T14:55:00Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "Israeli occupation forces storm the New Askar refugee camp, east of Nablus.",
@@ -4253,7 +4310,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4301,7 +4359,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T20:50:53Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8\ud83c\udde6\ud83c\uddea\u26a1\ufe0f EXCLUSIVE: The moment of drone impact in US Embassy Dubai UAE.",
@@ -4315,7 +4373,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4394,7 +4453,7 @@
         "location": "Manama, Bahrain",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T11:00:33Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\udde7\ud83c\udded\ud83c\uddee\ud83c\uddf7\u26a1- Explosions over Manama, Bahrain. Air defenses are active.",
@@ -4408,7 +4467,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4549,7 +4609,7 @@
         "location": "Palmachim Air Base, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:33:17Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[AMK_Mapping] The explosion heard in Tel Aviv was from the launch of an Arrow-3 interceptor missile from Palmachim airbase",
@@ -4563,7 +4623,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4673,7 +4734,7 @@
         "location": "Abu Dhabi, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T15:52:03Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "intercept",
         "side": "iran",
         "title": "\ud83c\udde6\ud83c\uddea\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 The UAE Ministry of Defence says its air defense systems shot down 11 ballistic missiles and 123 drones today, while one missile fell ins",
@@ -4687,7 +4748,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4735,7 +4797,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T09:08:28Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[IDFofficial] IDF: A short while ago, the IDF identified missiles launched from Iran toward the territory of the State of Israel. \n\nDefensive systems ",
@@ -4749,7 +4811,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4766,7 +4829,7 @@
         "location": "Dhahran, Saudi Arabia",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T12:57:59Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf8\ud83c\udde6\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 NEW: The U.S. Embassy in Riyadh issues a security alert due to the threat of \"imminent\" missile and drone attacks:\nSecurity Alert: Th",
@@ -4780,7 +4843,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4890,7 +4954,7 @@
         "location": "Manama, Bahrain",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:03:02Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Sirens and explosions in Manama, Bahrain.",
@@ -4904,7 +4968,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4952,7 +5017,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T21:33:27Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8\ud83c\uddf6\ud83c\udde6Iran has again struck the Al-Udeid airbase in Qatar.\n\nThe Qatari Ministry of Defense reported that there were no casualties among Qataris,",
@@ -4966,7 +5031,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -4983,7 +5049,7 @@
         "location": "Eilat, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T09:06:21Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Iranian/Houthi drone entering southern Israeli airspace via Eilat.",
@@ -4997,7 +5063,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5076,7 +5143,7 @@
         "location": "Fujairah, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:49:33Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddeaAn Iranian missile hit Fujairah in the United Arab Emirates",
@@ -5090,7 +5157,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5138,7 +5206,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T14:34:09Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1\ufe0f- \"When the highly trained, loyal bodyguards and drivers of senior Iranian officials came to work near Pasteur Street in Tehran \u2014 where ",
@@ -5152,7 +5220,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5169,7 +5238,7 @@
         "location": "Bushehr, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T07:37:22Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "[AMK_Mapping] US/Israeli airstrikes once again targeted the Iranian port city of Bushehr.",
@@ -5183,7 +5252,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5231,7 +5301,7 @@
         "location": "Tyre, Lebanon",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T07:27:59Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "israel",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf7\u2694\ufe0f\ud83c\udde6\ud83c\uddea Iranian drone struck the Fujairah power station in the UAE images from NASA\u2019s FIRMS satellite show a fire at the power stati",
@@ -5245,7 +5315,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "text_match"
       }
     },
     {
@@ -5418,7 +5489,7 @@
         "location": "Riyadh, Saudi Arabia",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T05:55:40Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8\ud83c\uddf8\ud83c\udde6Explosions and fire at the US embassy in Riyadh",
@@ -5432,7 +5503,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5480,7 +5552,7 @@
         "location": "Salalah, Oman",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:20:54Z",
-        "country": "",
+        "country": "oman",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\uddf4\ud83c\uddf2Attack of the \"Shahed\" on Salalah port in Oman.",
@@ -5494,7 +5566,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5511,7 +5584,7 @@
         "location": "Duqm, Oman",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:27:58Z",
-        "country": "",
+        "country": "oman",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddf4\ud83c\uddf2\ud83c\uddee\ud83c\uddf7 \u2014 Several fuel tanks were hit by an Iranian drone at the port of Duqm, Oman.",
@@ -5525,7 +5598,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5635,7 +5709,7 @@
         "location": "Fujairah, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T09:13:38Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddeaAccording to reports from the UAE, a fire broke out at an oil facility in Fujairah as a result of debris from an intercepted Iran",
@@ -5650,7 +5724,8 @@
         "attribution_method": "original",
         "original_side": "iran",
         "scrub_version": "v1",
-        "scrub_note": "Debris from an intercepted Iranian attack set a Fujairah oil facility on fire; attribute to Iran."
+        "scrub_note": "Debris from an intercepted Iranian attack set a Fujairah oil facility on fire; attribute to Iran.",
+        "country_method": "coords"
       }
     },
     {
@@ -5667,7 +5742,7 @@
         "location": "Bahrain",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T06:56:20Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddea\ud83c\udde7\ud83c\udded\u26a1\ufe0f \u2014 Amazon Web Services (AWS), the cloud computing arm of Amazon, reported on Monday that drones directly struck two of its dat",
@@ -5681,7 +5756,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5729,7 +5805,7 @@
         "location": "Shiraz, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T13:51:21Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1\u274c\ud83c\uddee\ud83c\uddf7 \u2014 US-Israeli airstrikes struck Shiraz, western Iran, earlier today.",
@@ -5743,7 +5819,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5760,7 +5837,7 @@
         "location": "Bahrain",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T06:31:10Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddee\ud83c\uddf7\ud83c\udde6\ud83c\uddea\ud83c\udde7\ud83c\udded\u26a1\ufe0f \u2014 Amazon Web Services (AWS), the cloud computing arm of Amazon, reported on Monday that drones directly struck two of its da",
@@ -5774,7 +5851,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5791,7 +5869,7 @@
         "location": "Petah Tikva, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T12:06:51Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1\ufe0f \u2014 Widespread damage in Petah Tikva, central Israel, as a result of Iranian ballistic missile attacks earlier today.",
@@ -5805,7 +5883,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5822,7 +5901,7 @@
         "location": "Duqm, Oman",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T13:12:04Z",
-        "country": "",
+        "country": "oman",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddf4\ud83c\uddf2\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 Scenes from the Iranian drone attacks on Oman's Port of Duqm earlier today.",
@@ -5836,7 +5915,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5884,7 +5964,7 @@
         "location": "Bnei Brak, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T13:26:05Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddee\ud83c\uddf1 \u2014 Missile debris fell on a building in Bnei Brak, central Israel.",
@@ -5898,7 +5978,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -5915,7 +5996,7 @@
         "location": "Beit Furik, West Bank",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T16:16:19Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "Breaking | Israeli occupation forces attacked Palestinians and injured one at the Beit Furik checkpoint, east of Nablus.",
@@ -5929,7 +6010,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6039,7 +6121,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T19:54:05Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\udde6\ud83c\uddea\ud83c\uddee\ud83c\uddf7\u26a1- The US consulate in Dubai was targeted by an Iranian one-way drone.",
@@ -6053,7 +6135,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6132,7 +6215,7 @@
         "location": "Riyadh, Saudi Arabia",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T01:41:02Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] The Iranian missile impact on the U.S. Embassy in the Saudi capital, Riyadh.",
@@ -6146,7 +6229,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6225,7 +6309,7 @@
         "location": "Tyre, Lebanon",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T16:01:19Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "israel",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddf6\ud83c\udde6\u26a1- BREAKING: QATAR CARRIED OUT AIRSTRIKES ON IRAN IN THE PAST 24 HOURS.  Source: Israeli Channel 12.",
@@ -6239,7 +6323,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "text_match"
       }
     },
     {
@@ -6287,7 +6372,7 @@
         "location": "Riyadh, Saudi Arabia",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T00:25:06Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\uddf8\ud83c\udde6\u26a1\ufe0f- BREAKING: A fire has been reported at the U.S. Embassy in Riyadh, Saudi Arabia, following a large explosion, according ",
@@ -6301,7 +6386,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6411,7 +6497,7 @@
         "location": "Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T17:57:08Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "\u26a1\ufe0f\ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8 - The downing and capture of an intact IAF \"HERMES-900\" UAV in Iran, including several \"Mikholit\" ASMs.\n\nThe IRGC has confirmed it's d",
@@ -6425,7 +6511,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6504,7 +6591,7 @@
         "location": "Riyadh, Saudi Arabia",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T00:59:15Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddf8\ud83c\udde6\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 BREAKING: The Saudi Ministry of Defense announced that the U.S. Embassy in Riyadh was struck by two drones, resulting in a",
@@ -6518,7 +6605,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6535,7 +6623,7 @@
         "location": "Riyadh, Saudi Arabia",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T02:47:53Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[AMK_Mapping] The Saudi Ministry of Defence reports that 8 Iranian drones have been shot down so far, near the cities of Riyadh and Al-Kharz.",
@@ -6549,7 +6637,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6721,7 +6810,7 @@
         "location": "Jerusalem, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T09:07:58Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1\ufe0f- Iranian launches detected towards Israel.",
@@ -6735,7 +6824,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -6752,7 +6842,7 @@
         "location": "Bushehr, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T03:22:59Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "[AMK_Mapping] US/Israeli airstrikes have targeted the Iranian port city of Bushehr, southern Iran.",
@@ -6766,7 +6856,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7031,7 +7122,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T06:38:08Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] Drones are flying towards Tel Aviv",
@@ -7045,7 +7136,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7062,7 +7154,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:43:36Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[AMK_Mapping] 1 more missile is flying towards Tel Aviv",
@@ -7076,7 +7168,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7124,7 +7217,7 @@
         "location": "Ariel, West Bank",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:59:46Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] Breaking | Eyewitnesses tell QNN that an Iranian missile directly struck the Israeli settlement of Ariel in the occupied West Bank without i",
@@ -7138,7 +7231,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7155,7 +7249,7 @@
         "location": "Bushehr, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T15:51:02Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "\u26a1\ufe0f\ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8\u274c\ud83c\uddee\ud83c\uddf7 - The IAF-USAF had struck Iran's \"Bushehr\" International Airport, destroying at least 1 Iranian Airliner \"Airbus A319\" Aircraft.",
@@ -7169,7 +7263,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7248,7 +7343,7 @@
         "location": "Tel Aviv, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:57:16Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddee\ud83c\uddf7\ud83c\uddee\ud83c\uddf1\u26a1\ufe0f- Sirens are fading in Tel-Aviv, interception reported.",
@@ -7262,7 +7357,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7279,7 +7375,7 @@
         "location": "Duqm, Oman",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T08:52:32Z",
-        "country": "",
+        "country": "oman",
         "event_kind": "strike",
         "side": "iran",
         "title": "[intelslava] \ud83c\uddee\ud83c\uddf7\ud83c\uddf4\ud83c\uddf2A drone hit a fuel tank at the Omani commercial port of Duqm, causing limited damage that was contained. There were no reports of",
@@ -7293,7 +7389,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7310,7 +7407,7 @@
         "location": "Manama, Bahrain",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T09:48:34Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\udde7\ud83c\udded\ud83c\uddee\ud83c\uddf7\u26a1- Explosions over Manama, Bahrain. Air defenses are active.",
@@ -7324,7 +7421,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7434,7 +7532,7 @@
         "location": "Bahrain",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T01:23:09Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddee\ud83c\uddf7\ud83c\uddf8\ud83c\udde6\ud83c\udde7\ud83c\udded\u26a1\ufe0f- BREAKING: A drone strike impacted the King Fahd Causeway, the bridge that connects Saudi Arabia and Bahrain.\n\nCredit: Faytuk",
@@ -7448,7 +7546,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7465,7 +7564,7 @@
         "location": "Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T16:50:04Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "\ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddee\ud83c\uddf1 \u2014 Islamic Republic of Iran Army announces shooting down six IAF \"Hermes\" drones over the past 24 hours.",
@@ -7479,7 +7578,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7682,7 +7782,7 @@
         "location": "Kuwait",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T23:36:27Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddfc\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 NEW: All six U.S. service members killed so far in the Middle East died in a direct Iranian strike on a temporary operations center a",
@@ -7696,7 +7796,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7713,7 +7814,7 @@
         "location": "Qatar",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T11:39:21Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "intercept",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddf6\ud83c\udde6\u274c\ud83c\uddee\ud83c\uddf7 \u2014 BREAKING: Qatar's Ministry of Defense reports that its Air Force has shot down 2 Iranian Su-24 aircraft.",
@@ -7727,7 +7828,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7806,7 +7908,7 @@
         "location": "Shiraz, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T03:54:38Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "[AMK_Mapping] 6 explosions were reported in Shiraz.",
@@ -7820,7 +7922,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7837,7 +7940,7 @@
         "location": "Kuwait",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T20:06:08Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddfc| Satellite images show that Iranian strikes have destroyed at least 3 radomes (radar) at US Arifjan base, Kuwait, on March 2nd.\n\nThe same",
@@ -7851,7 +7954,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7868,7 +7972,7 @@
         "location": "Tyre, Lebanon",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T03:24:42Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "[tabzlive] \ud83c\uddf8\ud83c\udde6\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 BREAKING: Two new explosions heard in Riyadh's diplomatic quarter, two sources tell Reuters.",
@@ -7883,7 +7987,8 @@
         "attribution_method": "original",
         "original_side": "israel",
         "scrub_version": "v1",
-        "scrub_note": "Two explosions in Riyadh's diplomatic quarter imply an Iranian strike on a Gulf state."
+        "scrub_note": "Two explosions in Riyadh's diplomatic quarter imply an Iranian strike on a Gulf state.",
+        "country_method": "text_match"
       }
     },
     {
@@ -7900,7 +8005,7 @@
         "location": "Camp Arifjan, Kuwait",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T08:43:01Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf7\u2694\ufe0f\ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddfc Satellite images show the destruction of the radars at Camp Arifjan, Kuwait by Iranian missiles and drones.\n\n@CIG_telegr",
@@ -7914,7 +8019,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -7962,7 +8068,7 @@
         "location": "Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T12:32:36Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "IDF: A short while ago, the IDF identified missiles launched from Iran toward the territory of the State of Israel. \n\nDefensive systems are operating ",
@@ -7976,7 +8082,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8024,7 +8131,7 @@
         "location": "Doha, Qatar",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T21:27:21Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddf6\ud83c\udde6\u26a1\ufe0f- Explosions reported in Doha, Qatar.",
@@ -8038,7 +8145,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8086,7 +8194,7 @@
         "location": "Riyadh, Saudi Arabia",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T00:10:12Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \u2014\u2757\ufe0f\ud83c\uddf8\ud83c\udde6/\ud83c\uddfa\ud83c\uddf8/\ud83c\uddee\ud83c\uddf7 BREAKING: Reuters confirms that the American Embassy in Riyadh was directly hit by an Iranian missile / drone\n\n@Middl",
@@ -8100,7 +8208,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8148,7 +8257,7 @@
         "location": "Beersheba, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T13:40:34Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddee\ud83c\uddf1 \u2014 NEW: Iranian ballistic missile launches detected towards southern Israel.",
@@ -8162,7 +8271,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8210,7 +8320,7 @@
         "location": "Qaryout, West Bank",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T12:21:39Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "A heartbroken Palestinian father bids farewell to his two son, Mohammad and Faheem Nuammar, who were shot dead yesterday by Israeli settler militias i",
@@ -8224,7 +8334,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8303,7 +8414,7 @@
         "location": "Persian Gulf",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T11:46:59Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "intercept",
         "side": "iran",
         "title": "\ud83c\uddeb\ud83c\uddf7\ud83c\uddec\ud83c\udde7\ud83c\uddee\ud83c\uddf7France and the United Kingdom, if they decide to intervene in the conflict in Iran, will engage in intercepting missiles to protect the co",
@@ -8317,7 +8428,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8334,7 +8446,7 @@
         "location": "Petah Tivka, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T12:27:11Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "\ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddee\ud83c\uddf1 \u2014 Video from the strike on Petah Tivka.",
@@ -8348,7 +8460,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8396,7 +8509,7 @@
         "location": "Central Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T13:11:36Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "IDF: Home Front Command search and rescue forces, together with numerous emergency teams, are currently operating at the impact sites in central Israe",
@@ -8410,7 +8523,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8520,7 +8634,7 @@
         "location": "Ras Laffan, Qatar",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T11:42:26Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\uddf6\ud83c\udde6\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 QatarEnergy has halted LNG, chemical, and petrochemical output after Iranian drones struck major facilities in Ras Laffan Indu",
@@ -8534,7 +8648,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8551,7 +8666,7 @@
         "location": "Hatzerim Air Base, Israel",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T10:49:07Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \u26a1\ufe0f\ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddee\ud83c\uddf1 \u2014 Missiles hit Tel Aviv, Beit Shemesh, Petah Tivka, Hatzerim Beach and the Palmachim Air Base.",
@@ -8565,7 +8680,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8613,7 +8729,7 @@
         "location": "Shiraz, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T06:45:40Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "[AMK_Mapping] Israeli/US airstrikes on Kangavar and Shiraz, Iran.",
@@ -8627,7 +8743,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8644,7 +8761,7 @@
         "location": "Manama, Bahrain",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T02:02:45Z",
-        "country": "",
+        "country": "bahrain",
         "event_kind": "strike",
         "side": "iran",
         "title": "[tabzlive] \ud83c\udde7\ud83c\udded\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f \u2014 Repeated explosions in Manama, Bahrain.",
@@ -8658,7 +8775,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8706,7 +8824,7 @@
         "location": "Dubai, UAE",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T00:37:31Z",
-        "country": "",
+        "country": "uae",
         "event_kind": "strike",
         "side": "iran",
         "title": "[QudsNen] An Iranian drone impact reported in Dubai, UAE.",
@@ -8720,7 +8838,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8737,7 +8856,7 @@
         "location": "Bushehr, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T16:15:50Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "\ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\u26a1\ufe0fAn Iran Air plane that was destroyed in an airstrike by Israel and the United States in Bushehr.",
@@ -8751,7 +8870,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8799,7 +8919,7 @@
         "location": "Al Udeid Air Base, Qatar",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T00:39:08Z",
-        "country": "",
+        "country": "qatar",
         "event_kind": "strike",
         "side": "iran",
         "title": "[CIG_telegram] \ud83c\uddee\ud83c\uddf7\u274c\ud83c\uddfa\ud83c\uddf8\ud83c\uddf6\ud83c\udde6 \u2014 Numerous impacts against Al Udeid Base, Qatar have resulted in widespread destruction. Satellite imagery shows several ",
@@ -8813,7 +8933,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8861,7 +8982,7 @@
         "location": "Kuwait",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T11:25:40Z",
-        "country": "",
+        "country": "kuwait",
         "event_kind": "strike",
         "side": "iran",
         "title": "[rnintel] \ud83c\uddf0\ud83c\uddfc\ud83c\uddee\ud83c\uddf7\u26a1\ufe0f- Explosions over Kuwait.",
@@ -8875,7 +8996,8 @@
         "attributed_side": "iran",
         "attribution_method": "original",
         "original_side": "iran",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -8923,7 +9045,7 @@
         "location": "Bushehr, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T12:07:31Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "us",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1\u274c\ud83c\uddee\ud83c\uddf7 \u2014 US-Israel airstrikes on Bushehr, southwestern Iran.",
@@ -8937,7 +9059,8 @@
         "attributed_side": "us",
         "attribution_method": "original",
         "original_side": "us",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {
@@ -9016,7 +9139,7 @@
         "location": "Shiraz, Iran",
         "date": "2026-03-03",
         "datetime_utc": "2026-03-03T22:21:05Z",
-        "country": "",
+        "country": "saudi",
         "event_kind": "strike",
         "side": "israel",
         "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1\u274c\ud83c\uddee\ud83c\uddf7 \u2014 US-Israeli airstrikes in Shiraz, southwestern Iran.",
@@ -9030,7 +9153,8 @@
         "attributed_side": "israel",
         "attribution_method": "original",
         "original_side": "israel",
-        "scrub_version": "v1"
+        "scrub_version": "v1",
+        "country_method": "coords"
       }
     },
     {

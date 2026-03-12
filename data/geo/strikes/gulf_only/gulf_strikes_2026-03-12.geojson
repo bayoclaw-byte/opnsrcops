@@ -1,0 +1,186 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": "2026-03-12",
+    "date": "2026-03-12",
+    "total_features": 6,
+    "total_claimed_kinetic": 6,
+    "gulf_only": true,
+    "source": "merged strikemap + liveuamap (scrubbed v1, Gulf-only)"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.76282,
+          31.33342
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828350",
+        "location": "Khuzestan Province, Iran",
+        "date": "2026-03-12",
+        "datetime_utc": "2026-03-12T14:31:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Moments of intense airstrikes targeting sites in the city of Ahvaz in Khuzestan province, southwestern Iran",
+        "source_url": "https://x.com/AlarabyTV/status/2032102222897512574",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.69175,
+          31.31378
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828327",
+        "location": "Ahvaz, Khuzestan Province",
+        "date": "2026-03-12",
+        "datetime_utc": "2026-03-12T10:40:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Casualties in airstrikes on residential areas in Ahvaz",
+        "source_url": "https://x.com/Alhadath_Brk/status/2032044000509607977",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "us_israel",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.58709,
+          29.53915
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828271",
+        "location": "Fars Province, Iran",
+        "date": "2026-03-12",
+        "datetime_utc": "2026-03-12T08:06:00+00:00",
+        "country": "saudi",
+        "event_kind": "strike",
+        "side": "iran",
+        "title": "Iranian media: Air base in Shiraz, southern Iran, targeted twice this morning",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2032005214207619532",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.97566,
+          31.93359
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828217",
+        "location": "Jerusalem",
+        "date": "2026-03-12",
+        "datetime_utc": "2026-03-12T07:28:00+00:00",
+        "country": "saudi",
+        "event_kind": "intercept",
+        "side": "iran",
+        "title": "Iranian missiles being intercepted over Jerusalem",
+        "source_url": "https://x.com/AlArabiya_Brk/status/2031995697118023741",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "original",
+        "original_side": "iran",
+        "scrub_version": "v1",
+        "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.0033,
+          22.4677
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828155",
+        "location": "Eastern Province Saudi Arabia",
+        "date": "2026-03-12",
+        "datetime_utc": "2026-03-12T06:23:00+00:00",
+        "country": "oman",
+        "event_kind": "intercept",
+        "side": "unknown",
+        "title": "Saudi Arabia Ministry of Defense Spokesperson: A drone was intercepted and destroyed in the Empty Quarter, heading towards the Shaybah oil field.",
+        "source_url": "https://x.com/modgovksa/status/2031979471859810473/photo/1",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "saudi",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.60904,
+          26.11468
+        ]
+      },
+      "properties": {
+        "event_id": "LUAM-22828150",
+        "location": "Southern Governorate, Bahrain",
+        "date": "2026-03-12",
+        "datetime_utc": "2026-03-12T03:05:00+00:00",
+        "country": "bahrain",
+        "event_kind": "strike",
+        "side": "unknown",
+        "title": "Bahrain says fuel tanks attacked, requests residents stay home",
+        "source_url": "https://twitter.com/afp/status/2031929588821958930",
+        "source": "liveuamap",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "attributed_side": "iran",
+        "attribution_method": "geo_rule",
+        "original_side": "unknown",
+        "scrub_version": "v1",
+        "scrub_note": "Fuel tanks in Bahrain were attacked; Gulf-state strikes are attributed to Iran."
+      }
+    }
+  ]
+}
