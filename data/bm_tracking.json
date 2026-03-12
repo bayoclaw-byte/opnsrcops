@@ -1,5 +1,5 @@
 {
-  "note": "Daily figures are estimates based on 4-day totals from OSINT reporting. Per-day breakdown unavailable; distribution assumed approximately equal. Update daily_log with confirmed announced figures as available.",
+  "note": "Updated 12 Mar 2026 with authoritative UAE daily totals from Bayo QC. Old estimated daily_log retained for reference.",
   "daily_log": [
     {
       "day": 1,
@@ -86,5 +86,128 @@
     },
     "source": "UAE Ministry of Defense / Grok report 2026-03-03",
     "as_of": "2026-03-03T21:30:00Z"
-  }
+  },
+  "uae_daily": {
+    "note": "Authoritative UAE daily totals from Bayo QC review, 12 Mar 2026. Covers all munitions targeting UAE.",
+    "country": "uae",
+    "daily_log": [
+      {
+        "day": 0,
+        "date": "2026-02-28",
+        "bm": 137,
+        "cm": 0,
+        "drones": 209,
+        "total": 346,
+        "confirmed": true
+      },
+      {
+        "day": 1,
+        "date": "2026-03-01",
+        "bm": 28,
+        "cm": 2,
+        "drones": 332,
+        "total": 362,
+        "confirmed": true
+      },
+      {
+        "day": 2,
+        "date": "2026-03-02",
+        "bm": 9,
+        "cm": 6,
+        "drones": 148,
+        "total": 163,
+        "confirmed": true
+      },
+      {
+        "day": 3,
+        "date": "2026-03-03",
+        "bm": 12,
+        "cm": 0,
+        "drones": 123,
+        "total": 135,
+        "confirmed": true
+      },
+      {
+        "day": 4,
+        "date": "2026-03-04",
+        "bm": 3,
+        "cm": 0,
+        "drones": 129,
+        "total": 132,
+        "confirmed": true
+      },
+      {
+        "day": 5,
+        "date": "2026-03-05",
+        "bm": 7,
+        "cm": 0,
+        "drones": 131,
+        "total": 138,
+        "confirmed": true
+      },
+      {
+        "day": 6,
+        "date": "2026-03-06",
+        "bm": 9,
+        "cm": 0,
+        "drones": 112,
+        "total": 121,
+        "confirmed": true
+      },
+      {
+        "day": 7,
+        "date": "2026-03-07",
+        "bm": 16,
+        "cm": 0,
+        "drones": 121,
+        "total": 137,
+        "confirmed": true
+      },
+      {
+        "day": 8,
+        "date": "2026-03-08",
+        "bm": 17,
+        "cm": 0,
+        "drones": 117,
+        "total": 134,
+        "confirmed": true
+      },
+      {
+        "day": 9,
+        "date": "2026-03-09",
+        "bm": 15,
+        "cm": 0,
+        "drones": 18,
+        "total": 33,
+        "confirmed": true
+      },
+      {
+        "day": 10,
+        "date": "2026-03-10",
+        "bm": 9,
+        "cm": 0,
+        "drones": 35,
+        "total": 44,
+        "confirmed": true
+      },
+      {
+        "day": 11,
+        "date": "2026-03-11",
+        "bm": 6,
+        "cm": 7,
+        "drones": 39,
+        "total": 52,
+        "confirmed": true
+      }
+    ],
+    "totals": {
+      "ballistic_missiles": 268,
+      "cruise_missiles": 15,
+      "drones": 1514,
+      "total_munitions": 1797,
+      "days_tracked": 12
+    },
+    "last_updated": "2026-03-12T17:00:00Z"
+  },
+  "last_updated": "2026-03-12T17:00:00Z"
 }

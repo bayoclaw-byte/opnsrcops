@@ -3,10 +3,9 @@
   "metadata": {
     "generated": "2026-03-12",
     "date": "2026-03-12",
-    "total_features": 6,
-    "total_claimed_kinetic": 6,
-    "gulf_only": true,
-    "source": "merged strikemap + liveuamap (scrubbed v1, Gulf-only)"
+    "total_features": 7,
+    "total_claimed_kinetic": 7,
+    "gulf_only": true
   },
   "features": [
     {
@@ -180,6 +179,37 @@
         "original_side": "unknown",
         "scrub_version": "v1",
         "scrub_note": "Fuel tanks in Bahrain were attacked; Gulf-state strikes are attributed to Iran."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.264789,
+          25.217402
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260312-AE-001",
+        "location": "Drone impact residential building, Dubai",
+        "date": "2026-03-12",
+        "datetime_utc": "2026-03-12T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact residential building, Dubai",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
       }
     }
   ]

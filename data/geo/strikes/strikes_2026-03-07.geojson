@@ -3,8 +3,8 @@
   "metadata": {
     "generated": "2026-03-12",
     "date": "2026-03-07",
-    "total_features": 147,
-    "total_claimed_kinetic": 205,
+    "total_features": 148,
+    "total_claimed_kinetic": 206,
     "source": "merged strikemap + liveuamap (scrubbed v1, country-tagged)"
   },
   "features": [
@@ -4126,6 +4126,37 @@
         "attribution_method": "original",
         "original_side": "iran",
         "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.15068985581217,
+          25.08975313292488
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260307-AE-001",
+        "location": "Drone impact Dubai Marina tower top",
+        "date": "2026-03-07",
+        "datetime_utc": "2026-03-07T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Dubai Marina tower top",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
       }
     }
   ]

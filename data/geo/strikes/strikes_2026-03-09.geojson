@@ -3,8 +3,8 @@
   "metadata": {
     "generated": "2026-03-12",
     "date": "2026-03-09",
-    "total_features": 184,
-    "total_claimed_kinetic": 360,
+    "total_features": 185,
+    "total_claimed_kinetic": 361,
     "source": "merged strikemap + liveuamap (scrubbed v1, country-tagged)"
   },
   "features": [
@@ -5183,6 +5183,37 @@
         "attribution_method": "original",
         "original_side": "unknown",
         "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.556469703881945,
+          24.24850762404898
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260309-AE-001",
+        "location": "Missile impact Al Dhafra Air Base hangar",
+        "date": "2026-03-09",
+        "datetime_utc": "2026-03-09T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile impact Al Dhafra Air Base hangar",
+        "weapon": "missile",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
       }
     }
   ]

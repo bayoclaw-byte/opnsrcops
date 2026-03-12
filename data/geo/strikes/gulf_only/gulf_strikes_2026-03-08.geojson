@@ -3,10 +3,9 @@
   "metadata": {
     "generated": "2026-03-12",
     "date": "2026-03-08",
-    "total_features": 26,
-    "total_claimed_kinetic": 170,
-    "gulf_only": true,
-    "source": "merged strikemap + liveuamap (scrubbed v1, Gulf-only)"
+    "total_features": 31,
+    "total_claimed_kinetic": 175,
+    "gulf_only": true
   },
   "features": [
     {
@@ -744,6 +743,161 @@
         "attribution_method": "geo_rule",
         "original_side": "unknown",
         "scrub_version": "v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.150378875798296,
+          25.090008772901985
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260308-AE-001",
+        "location": "Missile debris damage and fire 23 Marina Tower, Dubai Marina",
+        "date": "2026-03-08",
+        "datetime_utc": "2026-03-08T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile debris damage and fire 23 Marina Tower, Dubai Marina",
+        "weapon": "missile",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.12547963762851,
+          25.080272278902864
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260308-AE-002",
+        "location": "Missile debris damage Dubai Marina",
+        "date": "2026-03-08",
+        "datetime_utc": "2026-03-08T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile debris damage Dubai Marina",
+        "weapon": "missile",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.18557911395112,
+          25.141117785851428
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260308-AE-003",
+        "location": "Missile debris damage Burj Al Arab Hotel, Dubai",
+        "date": "2026-03-08",
+        "datetime_utc": "2026-03-08T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile debris damage Burj Al Arab Hotel, Dubai",
+        "weapon": "missile",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.141217273405374,
+          25.10994828402024
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260308-AE-004",
+        "location": "Drone impact Fairmont The Palm",
+        "date": "2026-03-08",
+        "datetime_utc": "2026-03-08T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Fairmont The Palm",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.36031940522843,
+          25.25982613049442
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260308-AE-005",
+        "location": "Drone impact Dubai International Airport (DXB) perimeter",
+        "date": "2026-03-08",
+        "datetime_utc": "2026-03-08T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Dubai International Airport (DXB) perimeter",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
       }
     }
   ]

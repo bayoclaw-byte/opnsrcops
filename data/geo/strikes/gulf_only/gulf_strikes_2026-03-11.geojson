@@ -3,10 +3,9 @@
   "metadata": {
     "generated": "2026-03-12",
     "date": "2026-03-11",
-    "total_features": 32,
-    "total_claimed_kinetic": 85,
-    "gulf_only": true,
-    "source": "merged strikemap + liveuamap (scrubbed v1, Gulf-only)"
+    "total_features": 39,
+    "total_claimed_kinetic": 92,
+    "gulf_only": true
   },
   "features": [
     {
@@ -920,6 +919,223 @@
         "original_side": "iran",
         "scrub_version": "v1",
         "country_method": "coords"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.15068985581217,
+          25.08975313292488
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260311-AE-001",
+        "location": "Dubai Marina tower 39th floor impact",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Dubai Marina tower 39th floor impact",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.35573178264178,
+          25.184308567455222
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260311-AE-002",
+        "location": "Missile impact Ishwais Oil Terminal, Fujairah",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile impact Ishwais Oil Terminal, Fujairah",
+        "weapon": "missile",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.342250322206546,
+          25.261219646987765
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260311-AE-003",
+        "location": "Drone impact Dubai International Airport (DXB) runway",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Dubai International Airport (DXB) runway",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.53253958799803,
+          24.229914120632866
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260311-AE-004",
+        "location": "Missile impact Al Dhafra Air Base hangar (1 of 2)",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile impact Al Dhafra Air Base hangar (1 of 2)",
+        "weapon": "missile",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.53253958799803,
+          24.229914120632866
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260311-AE-005",
+        "location": "Missile impact Al Dhafra Air Base hangar (2 of 2)",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Missile impact Al Dhafra Air Base hangar (2 of 2)",
+        "weapon": "missile",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.274288,
+          25.197282
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260311-AE-006",
+        "location": "Drone impact Dubai Creek Harbour Tower",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Dubai Creek Harbour Tower",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.68313656310495,
+          24.11709990316432
+        ]
+      },
+      "properties": {
+        "event_id": "GEO-20260311-AE-007",
+        "location": "Drone impact Ruwais Refinery",
+        "date": "2026-03-11",
+        "datetime_utc": "2026-03-11T00:00:00Z",
+        "country": "uae",
+        "event_kind": "strike",
+        "side": "iran",
+        "attributed_side": "iran",
+        "attribution_method": "manual",
+        "original_side": "iran",
+        "classification": "kinetic_confirmed",
+        "claimed_count": 1,
+        "title": "Drone impact Ruwais Refinery",
+        "weapon": "drone",
+        "source_url": "",
+        "source": "manual_entry",
+        "scrub_version": "v1",
+        "country_method": "manual",
+        "scrub_note": "Geolocated strike from Bayo QC review"
       }
     }
   ]
