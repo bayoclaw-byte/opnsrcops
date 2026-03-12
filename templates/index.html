@@ -162,4 +162,52 @@
   </div>
 </section>
 
+<!-- ── New Strikes — Daily GeoJSON Feeds ──────────────────────────────── -->
+<section class="section-wrap" id="strikes-section">
+  <div class="section-header">
+    <h2>New Strikes — Daily GeoJSON Feeds</h2>
+    <span class="badge">13 Layers</span>
+  </div>
+  <div class="panel">
+    <p style="margin:0 0 12px;color:var(--text-dim);font-size:0.78rem;">
+      Scrubbed kinetic events (strikes, intercepts, launches, explosions) from merged strikemap + LiveUAMap sources.
+      Each feature includes <code>classification</code>, <code>claimed_count</code>, <code>attributed_side</code>, and source URL.
+      Pull into ArcGIS via the GeoJSON URLs below.
+    </p>
+    <div style="overflow-x:auto;">
+      <table style="width:100%;">
+        <thead>
+          <tr><th>Day</th><th>Date</th><th>Features</th><th>Claimed Events</th><th>GeoJSON Link</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>2026-03-01</td><td>270</td><td>277</td><td><a href="/geo/strikes/strikes_2026-03-01.geojson" target="_blank">strikes_2026-03-01.geojson</a></td></tr>
+          <tr><td>2</td><td>2026-03-02</td><td>355</td><td>518</td><td><a href="/geo/strikes/strikes_2026-03-02.geojson" target="_blank">strikes_2026-03-02.geojson</a></td></tr>
+          <tr><td>3</td><td>2026-03-03</td><td>294</td><td>354</td><td><a href="/geo/strikes/strikes_2026-03-03.geojson" target="_blank">strikes_2026-03-03.geojson</a></td></tr>
+          <tr><td>4</td><td>2026-03-04</td><td>227</td><td>243</td><td><a href="/geo/strikes/strikes_2026-03-04.geojson" target="_blank">strikes_2026-03-04.geojson</a></td></tr>
+          <tr style="opacity:0.5;"><td>5</td><td>2026-03-05</td><td>9</td><td>9</td><td><a href="/geo/strikes/strikes_2026-03-05.geojson" target="_blank">strikes_2026-03-05.geojson</a> ⚠️ data gap</td></tr>
+          <tr><td>6</td><td>2026-03-06</td><td>105</td><td>116</td><td><a href="/geo/strikes/strikes_2026-03-06.geojson" target="_blank">strikes_2026-03-06.geojson</a></td></tr>
+          <tr><td>7</td><td>2026-03-07</td><td>147</td><td>205</td><td><a href="/geo/strikes/strikes_2026-03-07.geojson" target="_blank">strikes_2026-03-07.geojson</a></td></tr>
+          <tr><td>8</td><td>2026-03-08</td><td>87</td><td>349</td><td><a href="/geo/strikes/strikes_2026-03-08.geojson" target="_blank">strikes_2026-03-08.geojson</a></td></tr>
+          <tr><td>9</td><td>2026-03-09</td><td>184</td><td>360</td><td><a href="/geo/strikes/strikes_2026-03-09.geojson" target="_blank">strikes_2026-03-09.geojson</a></td></tr>
+          <tr><td>10</td><td>2026-03-10</td><td>176</td><td>467</td><td><a href="/geo/strikes/strikes_2026-03-10.geojson" target="_blank">strikes_2026-03-10.geojson</a></td></tr>
+          <tr><td>11</td><td>2026-03-11</td><td>197</td><td>249</td><td><a href="/geo/strikes/strikes_2026-03-11.geojson" target="_blank">strikes_2026-03-11.geojson</a></td></tr>
+          <tr><td>12</td><td>2026-03-12</td><td>56</td><td>174</td><td><a href="/geo/strikes/strikes_2026-03-12.geojson" target="_blank">strikes_2026-03-12.geojson</a> 🔄 partial</td></tr>
+        </tbody>
+        <tfoot>
+          <tr style="font-weight:bold;border-top:2px solid var(--border);">
+            <td colspan="2">MASTER (all days)</td>
+            <td>2,107</td>
+            <td>3,321</td>
+            <td><a href="/geo/strikes/strikes_master.geojson" target="_blank">strikes_master.geojson</a></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <p style="margin:12px 0 0;color:var(--text-dim);font-size:0.7rem;">
+      <strong>Schema:</strong> event_id · location · date · datetime_utc · country · event_kind · side · attributed_side · classification · claimed_count · title · source_url · source<br>
+      <strong>Note:</strong> Mar 5 has a data gap (source transition). Mar 12 partial (live updates).
+    </p>
+  </div>
+</section>
+
 {% endblock %}
