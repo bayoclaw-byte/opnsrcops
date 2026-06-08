@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-08T17:10:04.918699+00:00",
+  "total_events": 2396,
+  "duplicates_dropped": 8,
+  "geolocated_events": 2362,
+  "date_range": {
+    "first": "2026-02-28",
+    "last": "2026-03-12"
+  },
+  "source_record_counts": {
+    "activity_feed": 34,
+    "standardized_v1": 218,
+    "strikemap_master": 2152
+  },
+  "canonical_by_dataset": {
+    "strikemap_master": 2144,
+    "standardized_v1": 218,
+    "activity_feed": 34
+  },
+  "canonical_by_kind": {
+    "strike": 1962,
+    "explosion": 43,
+    "intercept": 219,
+    "launch": 26,
+    "unknown": 62,
+    "mixed": 56,
+    "activity": 22,
+    "maritime": 1,
+    "infrastructure": 2,
+    "military": 2,
+    "escalation": 1
+  },
+  "columns": [
+    "event_id",
+    "source_dataset",
+    "source_id",
+    "event_kind",
+    "category",
+    "title",
+    "summary",
+    "datetime_utc",
+    "date",
+    "countries",
+    "target_country",
+    "target_name",
+    "attacker",
+    "weapon",
+    "severity",
+    "outcome",
+    "side",
+    "lat",
+    "lon",
+    "geo_precision",
+    "casualties_killed",
+    "casualties_injured",
+    "interceptions_claimed",
+    "source",
+    "source_url",
+    "classification",
+    "content_hash",
+    "ingested_at",
+    "raw"
+  ],
+  "artifacts": {
+    "sqlite": "events.db",
+    "geojson": "events.geojson",
+    "csv": "events.csv",
+    "json": "events.json"
+  },
+  "pull_endpoint": "/api/events/canonical"
+}

@@ -11,6 +11,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 AREAS_DIR = os.path.join(DATA_DIR, 'areas')
 GEO_DIR = os.path.join(DATA_DIR, 'geo')
+CANONICAL_DIR = os.path.join(DATA_DIR, 'canonical')
 
 # ── File registry ─────────────────────────────────────────────────────────────
 DATA_FILES = {
@@ -534,6 +535,22 @@ def geo_index():
     <h1>Gulf AOR — Live GeoJSON Layers</h1>
     <p style="color:#8b949e;font-size:.82rem">Border crossings refresh every 30 min via Google Directions API. Airports update on manual data push.</p>
 
+    <h2>CANONICAL EVENT STORE (ALL EVENTS, ONE FEED)</h2>
+    <div class="step">Every collected event — activity feed + standardized strikes/intercepts + StrikeMap kinetic events — normalized into one canonical DB that downstream GIS suites can pull from. Filters: <code>kind</code>, <code>dataset</code>, <code>country</code>, <code>since</code>, <code>until</code>, <code>geo=1</code>, <code>limit</code>.</div>
+    <div style="border:1px solid #30363d;border-radius:6px;padding:16px;margin-bottom:14px">
+      <div style="color:#f0a500;font-weight:700;font-size:.95rem;margin-bottom:6px">Canonical Events — live query feed</div>
+      <div style="margin-bottom:6px"><span style="color:#8b949e;font-size:.8rem">GeoJSON (map layer):</span><br>
+        <code style="color:#58a6ff;font-size:.8rem;word-break:break-all">{BASE_URL}/api/events/canonical?format=geojson</code></div>
+      <div style="margin-bottom:6px"><span style="color:#8b949e;font-size:.8rem">JSON (records):</span><br>
+        <code style="color:#58a6ff;font-size:.8rem;word-break:break-all">{BASE_URL}/api/events/canonical</code></div>
+      <div style="margin-bottom:6px"><span style="color:#8b949e;font-size:.8rem">CSV (table):</span><br>
+        <code style="color:#58a6ff;font-size:.8rem;word-break:break-all">{BASE_URL}/api/events/canonical?format=csv</code></div>
+      <div style="margin-bottom:6px"><span style="color:#8b949e;font-size:.8rem">SQLite DB (full dump) &nbsp;|&nbsp; Manifest:</span><br>
+        <code style="color:#58a6ff;font-size:.8rem;word-break:break-all">{BASE_URL}/api/events/canonical/db</code><br>
+        <code style="color:#58a6ff;font-size:.8rem;word-break:break-all">{BASE_URL}/api/events/canonical/manifest</code></div>
+      <div style="color:#8b949e;font-size:.75rem">Example: <code>{BASE_URL}/api/events/canonical?format=geojson&country=lebanon&kind=strike&since=2026-03-01</code></div>
+    </div>
+
     <h2>LAYERS</h2>
     {blocks}
 
@@ -561,6 +578,145 @@ def geo_index():
     <p style="color:#444;font-size:.75rem;margin-top:32px">gulf.opnsrcops.com | auto-updated</p>
     </body></html>'''
     return html
+
+# ── Canonical event store ─────────────────────────────────────────────────────
+# Every collected (or collectable) event from across the suite — the activity
+# feed, standardized strikes/intercepts, and StrikeMap-derived kinetic events —
+# is normalized into one canonical store by scripts/export_canonical_events.py.
+# These endpoints let future GIS suites pull that canonical DB over HTTP.
+CANONICAL_DB = os.path.join(CANONICAL_DIR, 'events.db')
+CANONICAL_COLUMNS = [
+    'event_id', 'source_dataset', 'source_id', 'event_kind', 'category',
+    'title', 'summary', 'datetime_utc', 'date', 'countries', 'target_country',
+    'target_name', 'attacker', 'weapon', 'severity', 'outcome', 'side',
+    'lat', 'lon', 'geo_precision', 'casualties_killed', 'casualties_injured',
+    'interceptions_claimed', 'source', 'source_url', 'classification',
+    'content_hash', 'ingested_at',
+]
+
+
+def _query_canonical(args):
+    """Query the canonical SQLite store with optional filters. Returns row dicts."""
+    import sqlite3
+    if not os.path.exists(CANONICAL_DB):
+        return None
+    where, params = [], []
+    if args.get('kind'):
+        where.append('event_kind = ?'); params.append(args['kind'])
+    if args.get('dataset'):
+        where.append('source_dataset = ?'); params.append(args['dataset'])
+    if args.get('country'):
+        # countries is a JSON array of slugs; target_country is a display name
+        where.append('(countries LIKE ? OR lower(target_country) = ?)')
+        params.append(f'%"{args["country"].lower()}"%'); params.append(args['country'].lower())
+    if args.get('since'):
+        where.append('date >= ?'); params.append(args['since'])
+    if args.get('until'):
+        where.append('date <= ?'); params.append(args['until'])
+    if args.get('geo') in ('1', 'true', 'yes'):
+        where.append('lat IS NOT NULL AND lon IS NOT NULL')
+
+    sql = f'SELECT {",".join(CANONICAL_COLUMNS)} FROM events'
+    if where:
+        sql += ' WHERE ' + ' AND '.join(where)
+    sql += ' ORDER BY datetime_utc DESC'
+    limit = args.get('limit')
+    if limit and str(limit).isdigit():
+        sql += f' LIMIT {int(limit)}'
+
+    conn = sqlite3.connect(CANONICAL_DB)
+    try:
+        conn.row_factory = sqlite3.Row
+        rows = [dict(r) for r in conn.execute(sql, params).fetchall()]
+    finally:
+        conn.close()
+    for r in rows:
+        try:
+            r['countries'] = json.loads(r['countries']) if r['countries'] else []
+        except (ValueError, TypeError):
+            r['countries'] = []
+    return rows
+
+
+@app.route('/api/events/canonical', methods=['GET'])
+def api_events_canonical():
+    """Pull endpoint for the canonical event store.
+
+    Filters (all optional): kind, dataset, country, since=YYYY-MM-DD,
+    until=YYYY-MM-DD, geo=1 (only geolocated), limit=N.
+    Formats: format=json (default) | geojson | csv.
+    """
+    rows = _query_canonical(request.args)
+    if rows is None:
+        abort(503, 'Canonical store not built yet. '
+                   'Run scripts/export_canonical_events.py.')
+
+    fmt = (request.args.get('format') or 'json').lower()
+
+    if fmt == 'geojson':
+        features = []
+        for r in rows:
+            if r.get('lat') is None or r.get('lon') is None:
+                continue
+            props = {k: v for k, v in r.items() if k not in ('lat', 'lon')}
+            features.append({
+                'type': 'Feature',
+                'geometry': {'type': 'Point', 'coordinates': [r['lon'], r['lat']]},
+                'properties': props,
+            })
+        return app.response_class(
+            json.dumps({'type': 'FeatureCollection', 'features': features}),
+            mimetype='application/geo+json')
+
+    if fmt == 'csv':
+        import csv
+        import io
+        buf = io.StringIO()
+        w = csv.DictWriter(buf, fieldnames=CANONICAL_COLUMNS, extrasaction='ignore')
+        w.writeheader()
+        for r in rows:
+            row = dict(r)
+            row['countries'] = '|'.join(row.get('countries') or [])
+            w.writerow(row)
+        return app.response_class(buf.getvalue(), mimetype='text/csv')
+
+    return jsonify({
+        'count': len(rows),
+        'server_time': datetime.now(timezone.utc).isoformat(),
+        'events': rows,
+    })
+
+
+@app.route('/api/events/canonical/manifest', methods=['GET'])
+def api_events_canonical_manifest():
+    """Metadata about the canonical store: counts, date range, source breakdown."""
+    path = os.path.join(CANONICAL_DIR, 'manifest.json')
+    if not os.path.exists(path):
+        abort(503, 'Canonical store not built yet. '
+                   'Run scripts/export_canonical_events.py.')
+    return jsonify(load_json(path))
+
+
+@app.route('/api/events/canonical/<fmt>', methods=['GET'])
+def api_events_canonical_bulk(fmt):
+    """Bulk download of the pre-generated canonical artifacts (full dataset)."""
+    from flask import send_file
+    files = {
+        'db':      ('events.db',      'application/x-sqlite3'),
+        'sqlite':  ('events.db',      'application/x-sqlite3'),
+        'geojson': ('events.geojson', 'application/geo+json'),
+        'csv':     ('events.csv',     'text/csv'),
+        'json':    ('events.json',    'application/json'),
+    }
+    if fmt not in files:
+        abort(404)
+    fname, mime = files[fmt]
+    path = os.path.join(CANONICAL_DIR, fname)
+    if not os.path.exists(path):
+        abort(503, 'Canonical store not built yet. '
+                   'Run scripts/export_canonical_events.py.')
+    return send_file(path, mimetype=mime, as_attachment=(fmt in ('db', 'sqlite')))
+
 
 # ── Admin API ─────────────────────────────────────────────────────────────────
 
