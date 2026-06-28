@@ -18,6 +18,9 @@ Status values:
 import json, os, sys
 from datetime import datetime, timezone
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from ingest_lib import atomic_write_json
+
 BASE_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AIRPORTS_F = os.path.join(BASE_DIR, 'data', 'airports.json')
 GEO_F      = os.path.join(BASE_DIR, 'data', 'geo', 'airports.geojson')
@@ -60,8 +63,7 @@ def set_airport_status(iata: str, status: str, notes: str = None, airspace: str 
     if not found_j:
         print(f"WARNING: {iata} not found in airports.json")
 
-    with open(AIRPORTS_F, 'w') as f:
-        json.dump(airports, f, indent=2)
+    atomic_write_json(AIRPORTS_F, airports, indent=2)
 
     # ── airports.geojson ─────────────────────────────────────────────────────
     geo     = json.load(open(GEO_F))
@@ -87,8 +89,7 @@ def set_airport_status(iata: str, status: str, notes: str = None, airspace: str 
     if not found_g:
         print(f"WARNING: {iata} not found in airports.geojson")
 
-    with open(GEO_F, 'w') as f:
-        json.dump(geo, f, indent=2)
+    atomic_write_json(GEO_F, geo, indent=2)
 
     return found_j and found_g
 
@@ -153,10 +154,8 @@ def fix_all():
                 gp['status_label'] = meta['label']
             fixed += 1
 
-    with open(AIRPORTS_F, 'w') as f:
-        json.dump(airports, f, indent=2)
-    with open(GEO_F, 'w') as f:
-        json.dump(geo, f, indent=2)
+    atomic_write_json(AIRPORTS_F, airports, indent=2)
+    atomic_write_json(GEO_F, geo, indent=2)
     print(f"Fixed {fixed} airports — all colors realigned.")
 
 

@@ -1,0 +1,30 @@
+[Unit]
+Description=Gulf AOR dashboard — ingestion daemon (set-and-forget feeds)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# --- edit these for your host ---
+User=opnsrcops
+WorkingDirectory=/opt/opnsrcops
+# API keys live here: GOOGLE_MAPS_API_KEY, FR24_API_KEY, INGEST_TICK_SECONDS, ...
+EnvironmentFile=-/opt/opnsrcops/.env
+ExecStart=/opt/opnsrcops/.venv/bin/python scripts/ingest.py --daemon
+# --------------------------------
+
+# The daemon already isolates per-source failures and never exits on its own;
+# this is the backstop for an OOM kill, host reboot, or SIGKILL.
+Restart=always
+RestartSec=5
+StartLimitIntervalSec=0
+
+# SIGTERM is handled gracefully (finish current cycle, then exit).
+KillSignal=SIGTERM
+TimeoutStopSec=30
+
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

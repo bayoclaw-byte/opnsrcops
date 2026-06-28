@@ -1,6 +1,7 @@
 import json
 import os
 import shutil
+import sys
 import requests
 from datetime import datetime, timezone
 from flask import Flask, jsonify, request, render_template, abort, send_from_directory
@@ -8,6 +9,23 @@ from flask import Flask, jsonify, request, render_template, abort, send_from_dir
 app = Flask(__name__)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Shared durable-IO helpers used by the ingestion layer. Importing these makes
+# the web app read data the same crash-safe way the fetchers write it.
+sys.path.insert(0, os.path.join(BASE_DIR, 'scripts'))
+try:
+    from ingest_lib import safe_load_json, atomic_write_json, health_summary
+    from ingest import build_sources
+except Exception:  # pragma: no cover - keep the app bootable even if scripts move
+    def safe_load_json(path, default=None):
+        try:
+            with open(path, 'r') as f:
+                return json.load(f)
+        except Exception:
+            return default
+    atomic_write_json = None
+    health_summary = None
+    build_sources = None
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 AREAS_DIR = os.path.join(DATA_DIR, 'areas')
 GEO_DIR = os.path.join(DATA_DIR, 'geo')
@@ -64,6 +82,10 @@ def load_json(path):
 
 
 def save_json(path, data):
+    if atomic_write_json is not None:
+        atomic_write_json(path, data, indent=2)
+        return
+    # Fallback: atomic replace without the shared helper.
     os.makedirs(os.path.dirname(path), exist_ok=True)
     tmp = path + '.tmp'
     with open(tmp, 'w') as f:
@@ -159,10 +181,43 @@ def page_admin():
     return render_template('admin.html', page='admin')
 
 
+# ── Health / ingestion freshness ───────────────────────────────────────────────
+def _ingest_health():
+    """Return the ingestion freshness report (per-feed staleness)."""
+    if health_summary is not None and build_sources is not None:
+        try:
+            return health_summary(build_sources())
+        except Exception as e:
+            return {'status': 'unknown', 'error': f'{type(e).__name__}: {e}',
+                    'feeds': {}}
+    # Fallback if the ingestion module is unavailable: just expose the raw file.
+    return safe_load_json(os.path.join(DATA_DIR, 'ingest_status.json'),
+                          default={'status': 'unknown', 'feeds': {}})
+
+
+@app.route('/api/health', methods=['GET'])
+def api_health():
+    """Machine-readable health. 200 when ok/stale, 503 when a feed is down/error
+    so external monitors (uptime checks, load balancers) can alarm."""
+    report = _ingest_health()
+    report['server_time'] = datetime.now(timezone.utc).isoformat()
+    http = 200 if report.get('status') in ('ok', 'stale', 'disabled', 'unknown') else 503
+    return jsonify(report), http
+
+
+@app.route('/health', methods=['GET'])
+def health_plain():
+    """Lightweight liveness probe — always 200 if the web process is up."""
+    return jsonify({'ok': True,
+                    'server_time': datetime.now(timezone.utc).isoformat()})
+
+
 # ── API: macro data ───────────────────────────────────────────────────────────
 @app.route('/api/macro', methods=['GET'])
 def api_macro():
-    activity = load_json(DATA_FILES['activity'])
+    # Public read path: degrade gracefully on a missing/corrupt file rather
+    # than 500-ing the whole dashboard.
+    activity = safe_load_json(DATA_FILES['activity'], default=[]) or []
     # Macro feed = events tagged macro OR multi-country
     macro_activity = [
         e for e in activity
@@ -171,11 +226,11 @@ def api_macro():
     return jsonify({
         'activity':         activity,          # all events (landing shows all)
         'macro_activity':   macro_activity,
-        'macro_indicators': load_json(DATA_FILES['macro_indicators']),
-        'bm_tracking':      load_json(DATA_FILES['bm_tracking']),
-        'airports':         load_json(DATA_FILES['airports']),
-        'fr24_meta':        load_json(os.path.join(DATA_DIR, 'fr24_meta.json')) if os.path.exists(os.path.join(DATA_DIR, 'fr24_meta.json')) else {},
-        'state_dept':       load_json(DATA_FILES['state_dept']) if os.path.exists(DATA_FILES['state_dept']) else {},
+        'macro_indicators': safe_load_json(DATA_FILES['macro_indicators'], default=[]) or [],
+        'bm_tracking':      safe_load_json(DATA_FILES['bm_tracking'], default={}) or {},
+        'airports':         safe_load_json(DATA_FILES['airports'], default=[]) or [],
+        'fr24_meta':        safe_load_json(os.path.join(DATA_DIR, 'fr24_meta.json'), default={}) or {},
+        'state_dept':       safe_load_json(DATA_FILES['state_dept'], default={}) or {},
         'server_time':      datetime.now(timezone.utc).isoformat(),
     })
 
@@ -185,19 +240,19 @@ def api_macro():
 def api_area(slug):
     if slug not in AREA_SLUGS:
         abort(404, f'Unknown area: {slug}')
-    area = load_json(AREA_FILES[slug])
+    area = safe_load_json(AREA_FILES[slug], default={}) or {}
 
     # Ensure airports/borders shown on the country page align with the live datasets
     live_key = LIVE_COUNTRY_KEY.get(slug, AREA_DISPLAY.get(slug, slug))
     try:
-        airports_all = load_json(DATA_FILES['airports'])
+        airports_all = safe_load_json(DATA_FILES['airports'], default=[]) or []
         grp = next((g for g in airports_all if g.get('country') == live_key), None)
         area['airports'] = (grp or {}).get('airports', [])
     except Exception:
         pass
 
     try:
-        borders_all = load_json(DATA_FILES['borders'])
+        borders_all = safe_load_json(DATA_FILES['borders'], default=[]) or []
         grp = next((g for g in borders_all if g.get('country') == live_key), None)
         crossings = (grp or {}).get('crossings', [])
         # Convert to the shape expected by the country page renderer
@@ -212,12 +267,12 @@ def api_area(slug):
     except Exception:
         pass
 
-    activity = load_json(DATA_FILES['activity'])
+    activity = safe_load_json(DATA_FILES['activity'], default=[]) or []
     area_activity = [
         e for e in activity
         if slug in e.get('countries', []) or 'macro' in e.get('countries', [])
     ]
-    state = load_json(DATA_FILES['state_dept']) if os.path.exists(DATA_FILES['state_dept']) else {}
+    state = safe_load_json(DATA_FILES['state_dept'], default={}) or {}
     country_name = AREA_DISPLAY.get(slug)
     state_country = (state.get('countries') or {}).get(country_name) if country_name else None
     if state_country and 'country' not in state_country:
@@ -290,18 +345,18 @@ def api_version():
 @app.route('/api/data', methods=['GET'])
 def get_all_data():
     return jsonify({
-        'indicators':  load_json(DATA_FILES['indicators']),
-        'airports':    load_json(DATA_FILES['airports']),
-        'borders':     load_json(DATA_FILES['borders']),
-        'outlook':     load_json(DATA_FILES['outlook']),
-        'bm_tracking': load_json(DATA_FILES['bm_tracking']),
+        'indicators':  safe_load_json(DATA_FILES['indicators'], default=[]) or [],
+        'airports':    safe_load_json(DATA_FILES['airports'], default=[]) or [],
+        'borders':     safe_load_json(DATA_FILES['borders'], default=[]) or [],
+        'outlook':     safe_load_json(DATA_FILES['outlook'], default={}) or {},
+        'bm_tracking': safe_load_json(DATA_FILES['bm_tracking'], default={}) or {},
         'server_time': datetime.now(timezone.utc).isoformat(),
     })
 
 
 @app.route('/api/indicators', methods=['GET'])
 def get_indicators():
-    return jsonify(load_json(DATA_FILES['indicators']))
+    return jsonify(safe_load_json(DATA_FILES['indicators'], default=[]) or [])
 
 
 @app.route('/api/indicators/<int:indicator_id>', methods=['POST'])
@@ -358,7 +413,7 @@ def update_area(slug):
 
 @app.route('/api/bm_tracking', methods=['GET'])
 def get_bm_tracking():
-    return jsonify(load_json(DATA_FILES['bm_tracking']))
+    return jsonify(safe_load_json(DATA_FILES['bm_tracking'], default={}) or {})
 
 
 @app.route('/api/bm_tracking/day', methods=['POST'])
@@ -664,7 +719,7 @@ def admin_border():
                 p['last_updated'] = NOW
                 if notes is not None: p['notes'] = notes
         save_json(geo_path, geo)
-    return jsonify({'ok':True,'name':name,'status':status})
+    return jsonify({'ok':True,'name':crossing,'status':status})
 
 
 @app.route('/api/admin/event', methods=['POST'])
@@ -734,4 +789,8 @@ def reset_defaults():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5050, debug=True)
+    # debug defaults OFF; the Werkzeug reloader/debugger is unsafe for the
+    # always-on tunnel origin. Set FLASK_DEBUG=1 locally to re-enable.
+    debug = os.environ.get('FLASK_DEBUG', '').strip() in ('1', 'true', 'True')
+    port = int(os.environ.get('PORT', '5050'))
+    app.run(host='0.0.0.0', port=port, debug=debug)

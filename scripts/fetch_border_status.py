@@ -9,8 +9,11 @@ Usage:
     GOOGLE_MAPS_API_KEY=<key> python3 scripts/fetch_border_status.py
 """
 
-import json, os, csv, math, time, requests
+import json, os, csv, io, math, time, sys, requests
 from datetime import datetime, timezone
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from ingest_lib import atomic_write_json, atomic_write_text
 
 BASE_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BORDERS_F  = os.path.join(BASE_DIR, 'data', 'borders.json')
@@ -147,10 +150,8 @@ def main():
                 c['traffic_note'] = r['traffic_note']
                 c['last_updated'] = r['last_live_check']
 
-    with open(GEO_F, 'w') as f:
-        json.dump(geo, f, indent=2)
-    with open(BORDERS_F, 'w') as f:
-        json.dump(borders, f, indent=2)
+    atomic_write_json(GEO_F, geo, indent=2)
+    atomic_write_json(BORDERS_F, borders, indent=2)
 
     # Rebuild combined CSV
     airports_geo = json.load(open(AIRPORTS_F))
@@ -171,12 +172,17 @@ def main():
         rows.append({'layer':'strike','name':p2['id'],'full_name':p2['title'],
             'longitude':feat['geometry']['coordinates'][0],'latitude':feat['geometry']['coordinates'][1],
             'status':p2['severity'].upper(),'notes':p2.get('summary','')[:120],'country':p2['countries'],'last_updated':p2['timestamp_utc']})
-    with open(CSV_F, 'w', newline='') as f:
-        w = csv.DictWriter(f, fieldnames=['layer','name','full_name','longitude','latitude','status','notes','country','last_updated'])
-        w.writeheader()
-        w.writerows(rows)
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=['layer','name','full_name','longitude','latitude','status','notes','country','last_updated'])
+    w.writeheader()
+    w.writerows(rows)
+    atomic_write_text(CSV_F, buf.getvalue())
 
     print(f'\nDone. {len(results)} crossings checked. Updated borders.json, GeoJSON, CSV.')
+    by_status = {}
+    for r in results.values():
+        by_status[r['status']] = by_status.get(r['status'], 0) + 1
+    return {'crossings_checked': len(results), 'by_status': by_status}
 
 
 if __name__ == '__main__':

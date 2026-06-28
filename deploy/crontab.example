@@ -1,0 +1,13 @@
+# Cron fallback for hosts without systemd.
+# The orchestrator only runs sources whose interval has elapsed, so a single
+# frequent cron line is safe — call it every 5 min and each feed fires on its
+# own schedule (border=30m, fr24=15m, arcgis/routes=60m).
+#
+# Install:  crontab deploy/crontab.example   (after editing the path + env)
+#
+# Keys can live in the file or be sourced from /opt/opnsrcops/.env.
+
+*/5 * * * * cd /opt/opnsrcops && set -a && . ./.env && set +a && .venv/bin/python scripts/ingest.py --once >> /var/log/opnsrcops-ingest.log 2>&1
+
+# If you can't run the web app under systemd either, a crude keep-alive:
+# * * * * * pgrep -f "gunicorn .*app:app" >/dev/null || (cd /opt/opnsrcops && .venv/bin/gunicorn --bind 127.0.0.1:5050 app:app >> /var/log/opnsrcops-web.log 2>&1 &)

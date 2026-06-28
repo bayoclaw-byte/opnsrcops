@@ -1,0 +1,29 @@
+[Unit]
+Description=Gulf AOR dashboard — web (gunicorn)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# --- edit these for your host ---
+User=opnsrcops
+WorkingDirectory=/opt/opnsrcops
+EnvironmentFile=-/opt/opnsrcops/.env
+# Bind to localhost; the cloudflared/ngrok tunnel fronts it.
+ExecStart=/opt/opnsrcops/.venv/bin/gunicorn \
+    --workers 2 --threads 4 --timeout 30 \
+    --bind 127.0.0.1:5050 \
+    app:app
+# --------------------------------
+
+# Keep it alive no matter what kills it.
+Restart=always
+RestartSec=3
+StartLimitIntervalSec=0
+
+# Light hardening.
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

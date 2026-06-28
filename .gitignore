@@ -3,4 +3,7 @@ __pycache__/
 .venv/
 *.bak
 data/*.json.default
+data/ingest_status.json
+data/.tmp-*
+data/**/.tmp-*
 .env

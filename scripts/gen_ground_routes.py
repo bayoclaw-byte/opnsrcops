@@ -1,6 +1,9 @@
-import os, json, math
+import os, json, math, sys
 from datetime import datetime, timezone
 import requests
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from ingest_lib import atomic_write_json
 
 # Generates GeoJSON LineStrings from Google Directions API using overview_polyline.
 # API key must be provided via env var GOOGLE_MAPS_API_KEY.
@@ -171,11 +174,10 @@ def main():
 
     out_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'geo', 'ground_routes.geojson')
     out_path = os.path.abspath(out_path)
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    with open(out_path, 'w') as f:
-        json.dump(out, f, ensure_ascii=False)
+    atomic_write_json(out_path, out, indent=None, ensure_ascii=False)
 
     print(f"Wrote {out_path} ({len(features)} routes)")
+    return {'routes': len(features)}
 
 
 if __name__ == '__main__':

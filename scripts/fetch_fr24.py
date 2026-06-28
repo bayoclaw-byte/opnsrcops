@@ -4,8 +4,11 @@ fetch_fr24.py — single Gulf-wide bounds query, attribute flights to nearest ai
 Respects FR24 rate limits (one request per run).
 """
 
-import json, os, math, requests, time
+import json, os, math, requests, time, sys
 from datetime import datetime, timezone
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from ingest_lib import atomic_write_json
 
 BASE_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AIRPORTS_F = os.path.join(BASE_DIR, 'data', 'airports.json')
@@ -62,12 +65,12 @@ def main():
             timeout=15,
         )
         if r.status_code != 200:
-            print(f'API error {r.status_code}: {r.text[:200]}')
-            return
+            raise RuntimeError(f'FR24 API error {r.status_code}: {r.text[:200]}')
         flights = r.json().get('data', [])
+    except RuntimeError:
+        raise
     except Exception as e:
-        print(f'Request failed: {e}')
-        return
+        raise RuntimeError(f'FR24 request failed: {e}')
 
     total = len(flights)
     capped = total >= 20
@@ -100,8 +103,7 @@ def main():
             ap['live_callsigns']   = calls[:6]
             ap['live_checked_utc'] = NOW
 
-    with open(AIRPORTS_F, 'w') as f:
-        json.dump(airports, f, indent=2)
+    atomic_write_json(AIRPORTS_F, airports, indent=2)
 
     # Update GeoJSON
     geo = json.load(open(GEO_F))
@@ -112,22 +114,20 @@ def main():
         feat['properties']['live_callsigns']   = ', '.join(calls[:5])
         feat['properties']['live_checked_utc'] = NOW
 
-    with open(GEO_F, 'w') as f:
-        json.dump(geo, f, indent=2)
+    atomic_write_json(GEO_F, geo, indent=2)
 
     print(f'Done. {sum(len(v) for v in by_airport.values())} attributed, {len(unattributed)} unattributed.')
 
     # Store scan meta for dashboard
     meta_path = os.path.join(BASE_DIR, 'data', 'fr24_meta.json')
-    with open(meta_path, 'w') as f:
-        json.dump({
-            'last_scan_utc':   NOW,
-            'total_gulf_flights': total,
-            'capped':          capped,
-            'plan_limit':      20,
-            'rate_limit_rpm':  10,
-            'credits_monthly': 60000,
-        }, f, indent=2)
+    atomic_write_json(meta_path, {
+        'last_scan_utc':   NOW,
+        'total_gulf_flights': total,
+        'capped':          capped,
+        'plan_limit':      20,
+        'rate_limit_rpm':  10,
+        'credits_monthly': 60000,
+    }, indent=2)
 
     # Persist per-airport counts to support 0→>0 reopening detection across runs
     counts_path = os.path.join(BASE_DIR, 'data', 'fr24_airport_counts.json')
@@ -145,18 +145,25 @@ def main():
         if c > 0 and int(prev_counts.get(iata, 0) or 0) == 0
     ]
 
-    with open(counts_path, 'w') as f:
-        json.dump({
-            'last_scan_utc': NOW,
-            'counts': curr_counts,
-            'unattributed': len(unattributed),
-            'total_gulf_flights': total,
-            'reopen_iata': reopen,
-        }, f, indent=2)
+    atomic_write_json(counts_path, {
+        'last_scan_utc': NOW,
+        'counts': curr_counts,
+        'unattributed': len(unattributed),
+        'total_gulf_flights': total,
+        'reopen_iata': reopen,
+    }, indent=2)
 
     if reopen:
         # Machine-parseable marker line for cron/agent
         print('REOPEN_INDICATOR: ' + ','.join(reopen))
+
+    return {
+        'total_gulf_flights': total,
+        'capped': capped,
+        'attributed': sum(len(v) for v in by_airport.values()),
+        'unattributed': len(unattributed),
+        'reopen_iata': reopen,
+    }
 
 
 if __name__ == '__main__':

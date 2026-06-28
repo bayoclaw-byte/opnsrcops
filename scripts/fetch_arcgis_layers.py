@@ -1,6 +1,9 @@
-import json, math, re, sys
+import json, math, os, re, sys
 from pathlib import Path
 import requests
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from ingest_lib import atomic_write_text
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / 'data'
@@ -101,31 +104,43 @@ def main():
     GEO_DIR.mkdir(parents=True, exist_ok=True)
 
     out = {}
+    errors = {}
     for key, base in LAYER_URLS.items():
-        fc = fetch_geojson(base)
-        feats = fc.get('features', [])
-        kept = []
-        dropped = 0
-        seen = set()
-        for f in feats:
-            sig = feature_signature(f.get('properties', {}), f.get('geometry', {}))
-            if sig in seen:
-                dropped += 1
-                continue
-            seen.add(sig)
-            if sig in existing:
-                dropped += 1
-                continue
-            kept.append(f)
-        fc['features'] = kept
-        out[key] = {
-            'total': len(feats),
-            'kept_new': len(kept),
-            'dropped_dupe_or_existing': dropped,
-        }
-        (GEO_DIR / f'{key}_deduped.geojson').write_text(json.dumps(fc))
+        # Per-layer isolation: a single upstream failure must not abort the
+        # other layers or discard their good output.
+        try:
+            fc = fetch_geojson(base)
+            feats = fc.get('features', [])
+            kept = []
+            dropped = 0
+            seen = set()
+            for f in feats:
+                sig = feature_signature(f.get('properties', {}), f.get('geometry', {}))
+                if sig in seen:
+                    dropped += 1
+                    continue
+                seen.add(sig)
+                if sig in existing:
+                    dropped += 1
+                    continue
+                kept.append(f)
+            fc['features'] = kept
+            out[key] = {
+                'total': len(feats),
+                'kept_new': len(kept),
+                'dropped_dupe_or_existing': dropped,
+            }
+            atomic_write_text(str(GEO_DIR / f'{key}_deduped.geojson'), json.dumps(fc))
+        except Exception as e:
+            errors[key] = f'{type(e).__name__}: {e}'
+            print(f'  LAYER FAIL {key}: {errors[key]}', file=sys.stderr)
 
     print(json.dumps(out, indent=2))
+    # If every layer failed, signal failure to the orchestrator; partial
+    # success (some layers fetched) is still recorded as a success with detail.
+    if errors and not out:
+        raise RuntimeError(f'all ArcGIS layers failed: {errors}')
+    return {'layers': out, 'errors': errors}
 
 
 if __name__ == '__main__':
