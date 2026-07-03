@@ -14,7 +14,7 @@ else
 fi
 
 # Install deps if needed
-$PIP install -q flask
+$PIP install -q -r requirements.txt
 
 echo "Starting Iran AOR Dashboard on http://localhost:5050"
 $PYTHON app.py

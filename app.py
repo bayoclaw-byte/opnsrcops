@@ -159,6 +159,48 @@ def page_admin():
     return render_template('admin.html', page='admin')
 
 
+@app.route('/rf')
+def page_rf():
+    return render_template('rf.html', page='rf')
+
+
+# ── RF planner: terrain tile proxy ───────────────────────────────────────────
+# Proxies AWS Terrain Tiles (terrarium-encoded elevation PNGs, public dataset)
+# so the browser can fetch them same-origin, with a local disk cache.
+TERRAIN_CACHE_DIR = os.path.join(DATA_DIR, 'terrain_cache')
+TERRAIN_TILE_URL = 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'
+
+
+@app.route('/api/rf/tile/<int:z>/<int:x>/<int:y>.png')
+def rf_terrain_tile(z, x, y):
+    if not (0 <= z <= 15):
+        abort(404)
+    n = 2 ** z
+    if not (0 <= x < n and 0 <= y < n):
+        abort(404)
+
+    tile_dir = os.path.join(TERRAIN_CACHE_DIR, str(z), str(x))
+    tile_path = os.path.join(tile_dir, f'{y}.png')
+
+    if not os.path.exists(tile_path):
+        try:
+            resp = requests.get(TERRAIN_TILE_URL.format(z=z, x=x, y=y), timeout=20)
+        except Exception:
+            abort(502)
+        if resp.status_code != 200:
+            abort(404 if resp.status_code == 404 else 502)
+        os.makedirs(tile_dir, exist_ok=True)
+        tmp = tile_path + '.tmp'
+        with open(tmp, 'wb') as f:
+            f.write(resp.content)
+        os.replace(tmp, tile_path)
+
+    response = send_from_directory(os.path.join(TERRAIN_CACHE_DIR, str(z), str(x)), f'{y}.png',
+                                   mimetype='image/png')
+    response.headers['Cache-Control'] = 'public, max-age=2592000'
+    return response
+
+
 # ── API: macro data ───────────────────────────────────────────────────────────
 @app.route('/api/macro', methods=['GET'])
 def api_macro():

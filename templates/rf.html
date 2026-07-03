@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block title %}RF LOS Planner — Gulf AOR Dashboard{% endblock %}
+
+{% block head %}
+  <link rel="stylesheet" href="/static/vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="/static/rf.css?v=1" />
+{% endblock %}
+
+{% block content %}
+<div class="rf-wrap">
+
+  <aside class="rf-sidebar">
+    <div class="rf-panel">
+      <h2>📡 RF Line-of-Sight Planner</h2>
+      <p class="rf-hint">
+        Click the map to drop a node. A viewshed is computed from terrain data
+        (SRTM) using 4/3-earth curvature and first-Fresnel-zone clearance —
+        use it to plan Meshtastic / mesh node placement.
+      </p>
+    </div>
+
+    <div class="rf-panel">
+      <h3>RF Parameters</h3>
+      <label class="rf-field">
+        <span>Frequency</span>
+        <select id="rf-freq">
+          <option value="433">433 MHz (EU/AS 433)</option>
+          <option value="868">868 MHz (EU 868)</option>
+          <option value="906.875" selected>915 MHz band (Meshtastic US)</option>
+          <option value="2400">2.4 GHz</option>
+          <option value="5800">5.8 GHz</option>
+        </select>
+      </label>
+      <label class="rf-field">
+        <span>Default antenna height AGL (m)</span>
+        <input id="rf-txh" type="number" min="0.5" max="500" step="0.5" value="6" />
+      </label>
+      <label class="rf-field">
+        <span>Receiver height AGL (m)</span>
+        <input id="rf-rxh" type="number" min="0.5" max="500" step="0.5" value="2" />
+      </label>
+      <label class="rf-field">
+        <span>Viewshed radius (km)</span>
+        <input id="rf-radius" type="number" min="1" max="80" step="1" value="15" />
+      </label>
+      <label class="rf-field rf-check">
+        <input id="rf-dropmode" type="checkbox" checked />
+        <span>Click map to drop nodes</span>
+      </label>
+      <div class="rf-btnrow">
+        <button id="rf-clear" class="rf-btn rf-btn-danger">Clear all nodes</button>
+      </div>
+    </div>
+
+    <div class="rf-panel">
+      <h3>Nodes <span id="rf-node-count" class="rf-count"></span></h3>
+      <div id="rf-node-list" class="rf-node-list">
+        <div class="rf-empty">No nodes yet — click the map to place one.</div>
+      </div>
+    </div>
+
+    <div class="rf-panel">
+      <h3>Legend</h3>
+      <div class="rf-legend">
+        <div><i class="sw sw-green"></i> Clear RF LOS (≥ 60% of 1st Fresnel zone)</div>
+        <div><i class="sw sw-yellow"></i> Marginal (visual LOS, Fresnel intrusion)</div>
+        <div><i class="sw sw-none"></i> Terrain-blocked (no shading)</div>
+        <div><i class="sw sw-link-g"></i> Node-to-node link: clear</div>
+        <div><i class="sw sw-link-y"></i> Link marginal</div>
+        <div><i class="sw sw-link-r"></i> Link blocked</div>
+      </div>
+      <p class="rf-hint">
+        Model: SRTM ~30–90 m terrain, k = 4/3 effective earth radius, single
+        dominant obstruction Fresnel test. Vegetation/buildings not included —
+        validate marginal paths in the field.
+      </p>
+    </div>
+  </aside>
+
+  <div class="rf-main">
+    <div id="rf-map"></div>
+    <div id="rf-status" class="rf-status" hidden></div>
+
+    <section id="rf-profile" class="rf-profile" hidden>
+      <div class="rf-profile-head">
+        <span id="rf-profile-title">Link profile</span>
+        <span id="rf-profile-verdict"></span>
+        <button id="rf-profile-close" class="rf-btn rf-btn-small">✕ close</button>
+      </div>
+      <canvas id="rf-profile-canvas" width="1200" height="260"></canvas>
+    </section>
+  </div>
+
+</div>
+
+<script src="/static/vendor/leaflet/leaflet.js"></script>
+<script src="/static/rf.js?v=1"></script>
+{% endblock %}

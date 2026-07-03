@@ -3,4 +3,5 @@ __pycache__/
 .venv/
 *.bak
 data/*.json.default
+data/terrain_cache/
 .env
