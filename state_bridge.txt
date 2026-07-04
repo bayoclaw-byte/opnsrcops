@@ -4,7 +4,7 @@
    Main PID: 4418 (python)
       Tasks: 3 (limit: 76796)
      Memory: 33.6M (peak: 34.3M)
-        CPU: 46.449s
+        CPU: 46.467s
      CGroup: /system.slice/meshtak-bridge.service
              └─4418 /opt/meshtak-bridge/venv/bin/python /opt/meshtak-bridge/bridge.py
 

@@ -6,7 +6,7 @@
    Main PID: 1794 (mosquitto)
       Tasks: 1 (limit: 76796)
      Memory: 2.0M (peak: 2.8M)
-        CPU: 2min 26.540s
+        CPU: 2min 26.595s
      CGroup: /system.slice/mosquitto.service
              └─1794 /usr/sbin/mosquitto -c /etc/mosquitto/mosquitto.conf
 
