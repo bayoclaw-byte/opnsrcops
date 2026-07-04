@@ -429,6 +429,7 @@ function recomputeNode(node) {
       if (!nodes.includes(node)) return;
       if (node.overlay) map.removeLayer(node.overlay);
       if (node.circle) map.removeLayer(node.circle);
+      node.shed = res;   // kept for KMZ export
       node.overlay = L.imageOverlay(res.url, res.bounds, { opacity: 0.85, interactive: false });
       node.circle = L.circle([node.lat, node.lon], {
         radius: node.radiusKm * 1000, color: '#f0a500', weight: 1,
@@ -597,6 +598,43 @@ function bindSettings() {
   document.getElementById('rf-profile-close').addEventListener('click', () => {
     document.getElementById('rf-profile').hidden = true;
     map.invalidateSize();
+  });
+
+  document.getElementById('rf-export').addEventListener('click', async () => {
+    if (!nodes.length) { alert('No nodes to export yet.'); return; }
+    const payload = {
+      freqMHz: settings.freqMHz,
+      rxH: settings.rxH,
+      nodes: nodes.map(n => ({
+        name: n.name, lat: n.lat, lon: n.lon, h: n.h, radiusKm: n.radiusKm,
+        groundElev: n.groundElev, shed: n.shed || null,
+      })),
+      links: [...links.values()].map(l => ({
+        a: l.profile.a.name, b: l.profile.b.name,
+        aLat: l.profile.a.lat, aLon: l.profile.a.lon,
+        bLat: l.profile.b.lat, bLon: l.profile.b.lon,
+        distKm: l.profile.D / 1000, verdict: l.verdict,
+      })),
+    };
+    setStatus('Building KMZ…');
+    try {
+      const r = await fetch('/api/rf/export.kmz', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      if (!r.ok) throw new Error(`Export failed (${r.status})`);
+      const blob = await r.blob();
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'rf-los-plan.kmz';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    } catch (e) {
+      alert(e.message);
+    } finally {
+      setStatus('');
+    }
   });
 }
 
