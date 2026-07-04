@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block title %}EUD Onboarding — Gulf AOR Dashboard{% endblock %}
+
+{% block head %}
+  <link rel="stylesheet" href="/static/onboard.css?v=1" />
+{% endblock %}
+
+{% block content %}
+<div class="ob-wrap">
+
+  <section class="ob-panel">
+    <h2>🎫 One-Stop EUD Onboarding</h2>
+    <p class="ob-hint">
+      Enter a callsign and generate everything a device needs to join the COP:
+      a TAK enrollment package (client cert + truststore + server config, one import),
+      the Meshtastic channel QR, and the Haven gate WiFi QR. Print the kit card
+      and drop it in the pouch.
+    </p>
+    <div id="ob-config-warn" class="ob-warn" hidden></div>
+
+    <form id="ob-form" autocomplete="off">
+      <label>
+        <span>Callsign / user</span>
+        <input id="ob-callsign" type="text" maxlength="32" placeholder="e.g. ALPHA-1" required
+               pattern="[A-Za-z0-9][A-Za-z0-9 _-]*" />
+      </label>
+      <button type="submit" class="ob-btn" id="ob-generate">Generate enrollment</button>
+    </form>
+    <div id="ob-status" class="ob-status"></div>
+  </section>
+
+  <section id="ob-card" class="ob-card" hidden>
+    <div class="ob-card-head">
+      <h3>Kit card — <span id="ob-card-callsign"></span></h3>
+      <button id="ob-print" class="ob-btn ob-btn-small">🖨 Print kit card</button>
+    </div>
+
+    <div class="ob-qr-row">
+      <div class="ob-qr-block" id="ob-block-tak">
+        <h4>1 · TAK enrollment</h4>
+        <div class="ob-qr" id="ob-qr-tak"></div>
+        <p>Scan (or open) to download the data package, then import it in
+           ATAK / iTAK / WinTAK. One import = certs + server, done.</p>
+        <p class="ob-mono" id="ob-tak-url"></p>
+      </div>
+
+      <div class="ob-qr-block" id="ob-block-mesh" hidden>
+        <h4>2 · Meshtastic channel</h4>
+        <div class="ob-qr" id="ob-qr-mesh"></div>
+        <p>In the Meshtastic app: scan to join the mesh channel.
+           Pair the pouch radio over Bluetooth first.</p>
+      </div>
+
+      <div class="ob-qr-block" id="ob-block-wifi" hidden>
+        <h4>3 · Haven gate WiFi</h4>
+        <div class="ob-qr" id="ob-qr-wifi"></div>
+        <p>Scan with the phone camera to join the gate's AP —
+           this is the full-TAK path over the HaLow mesh.</p>
+      </div>
+    </div>
+
+    <div class="ob-steps">
+      <div class="ob-step-col">
+        <h4>Android (ATAK)</h4>
+        <ol>
+          <li>Scan QR 3 → join gate WiFi (or use LAN).</li>
+          <li>Scan QR 1 → download zip → ATAK ≡ → Import → Local SD → select zip.</li>
+          <li>Server goes green; callsign is pre-set.</li>
+          <li>Install the <b>Meshtastic ATAK plugin</b>; pair the pouch radio (BT), scan QR 2 in the Meshtastic app.</li>
+          <li><b>Leave the plugin's “Relay to/from Server” OFF</b> — the server-side bridge already relays; enabling it duplicates traffic.</li>
+        </ol>
+      </div>
+      <div class="ob-step-col">
+        <h4>iPhone (iTAK)</h4>
+        <ol>
+          <li>Scan QR 3 → join gate WiFi.</li>
+          <li>Open QR 1's link in Safari → share the zip to iTAK → Import.</li>
+          <li>Off-grid fallback: Meshtastic iOS app → scan QR 2 → enable its local TAK server → point iTAK at it (app must stay foregrounded).</li>
+        </ol>
+      </div>
+      <div class="ob-step-col">
+        <h4>PC (WinTAK) / Mac</h4>
+        <ol>
+          <li>Open QR 1's URL in a browser, download the zip.</li>
+          <li>WinTAK: Import → Data Package → select zip.</li>
+          <li>Mac: use iTAK-style config or connect via browser to Marti (admin only).</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script src="/static/vendor/qrcode/qrcode.js"></script>
+<script src="/static/onboard.js?v=1"></script>
+{% endblock %}

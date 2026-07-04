@@ -439,6 +439,192 @@ def rf_tak_push():
                     'uids': [_plan_uid(n.get('name') or 'Node') for n in nodes]})
 
 
+# ── EUD onboarding: one-stop TAK enrollment packages ─────────────────────────
+# Generates an ATAK/iTAK/WinTAK-importable data package per callsign:
+#   MANIFEST/manifest.xml + cert/<slug>.pref + cert/truststore-root.p12
+#   + cert/<slug>.p12  (client cert, minted on demand via TAK's makeCert.sh)
+#
+# Config (environment):
+#   TAK_CONNECT_HOST  host EUDs connect to (falls back to RF_TAK_HOST)
+#   TAK_CONNECT_PORT  streaming port for EUDs, default 8089
+#   TAK_SERVER_NAME   display name in the client, default "TAK Server"
+#   TAK_CERT_DIR      dir containing <name>.p12 + truststore-root.p12
+#                     (TAK docker volume: .../tak_takserver_data/_data/certs/files)
+#   TAK_CERT_PASS     p12 password, default "atakatak"
+#   TAK_MAKECERT      optional command to mint a missing cert; '{name}' is
+#                     replaced with the slug, e.g.:
+#                     "sudo /opt/onboard/makecert.sh {name}"
+#   MESH_CHANNEL_URL  Meshtastic channel-share URL (https://meshtastic.org/e/#…)
+#   HAVEN_WIFI_SSID / HAVEN_WIFI_PSK  gate AP credentials for the WiFi QR
+import secrets
+import shlex
+import subprocess
+import uuid
+
+ONBOARD_DIR = os.path.join(DATA_DIR, 'onboard')
+SLUG_RE = _re.compile(r'^[A-Za-z0-9][A-Za-z0-9_-]{0,31}$')
+
+
+def _onboard_cfg():
+    return {
+        'host': (os.environ.get('TAK_CONNECT_HOST') or os.environ.get('RF_TAK_HOST', '')).strip(),
+        'port': int(os.environ.get('TAK_CONNECT_PORT', '8089')),
+        'server_name': os.environ.get('TAK_SERVER_NAME', 'TAK Server').strip(),
+        'cert_dir': os.environ.get('TAK_CERT_DIR', '').strip(),
+        'cert_pass': os.environ.get('TAK_CERT_PASS', 'atakatak'),
+        'makecert': os.environ.get('TAK_MAKECERT', '').strip(),
+        'mesh_url': os.environ.get('MESH_CHANNEL_URL', '').strip(),
+        'wifi_ssid': os.environ.get('HAVEN_WIFI_SSID', '').strip(),
+        'wifi_psk': os.environ.get('HAVEN_WIFI_PSK', '').strip(),
+    }
+
+
+def _find_truststore(cert_dir):
+    for cand in ('truststore-root.p12', 'truststore-intermediate.p12'):
+        p = os.path.join(cert_dir, cand)
+        if os.path.exists(p):
+            return p
+    import glob
+    hits = sorted(glob.glob(os.path.join(cert_dir, 'truststore*.p12')))
+    return hits[0] if hits else None
+
+
+def _enrollment_pref(cfg, slug, callsign):
+    esc = xml_escape
+    return f"""<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<preferences>
+  <preference version="1" name="cot_streams">
+    <entry key="count" class="class java.lang.Integer">1</entry>
+    <entry key="description0" class="class java.lang.String">{esc(cfg['server_name'])}</entry>
+    <entry key="enabled0" class="class java.lang.Boolean">true</entry>
+    <entry key="connectString0" class="class java.lang.String">{esc(cfg['host'])}:{cfg['port']}:ssl</entry>
+    <entry key="caLocation0" class="class java.lang.String">cert/truststore-root.p12</entry>
+    <entry key="caPassword0" class="class java.lang.String">{esc(cfg['cert_pass'])}</entry>
+    <entry key="certificateLocation0" class="class java.lang.String">cert/{slug}.p12</entry>
+    <entry key="clientPassword0" class="class java.lang.String">{esc(cfg['cert_pass'])}</entry>
+    <entry key="enrollForCertificateWithTrust0" class="class java.lang.Boolean">false</entry>
+  </preference>
+  <preference version="1" name="com.atakmap.app_preferences">
+    <entry key="displayServerConnectionWidget" class="class java.lang.Boolean">true</entry>
+    <entry key="locationCallsign" class="class java.lang.String">{esc(callsign)}</entry>
+    <entry key="caLocation" class="class java.lang.String">cert/truststore-root.p12</entry>
+    <entry key="caPassword" class="class java.lang.String">{esc(cfg['cert_pass'])}</entry>
+    <entry key="certificateLocation" class="class java.lang.String">cert/{slug}.p12</entry>
+    <entry key="clientPassword" class="class java.lang.String">{esc(cfg['cert_pass'])}</entry>
+  </preference>
+</preferences>
+"""
+
+
+def _enrollment_manifest(slug, server_name):
+    uid = str(uuid.uuid4())
+    esc = xml_escape
+    return f"""<MissionPackageManifest version="2">
+  <Configuration>
+    <Parameter name="uid" value="{uid}"/>
+    <Parameter name="name" value="{esc(slug)}-{esc(server_name)}-enrollment"/>
+    <Parameter name="onReceiveDelete" value="true"/>
+  </Configuration>
+  <Contents>
+    <Content ignore="false" zipEntry="cert/{slug}.pref"/>
+    <Content ignore="false" zipEntry="cert/truststore-root.p12"/>
+    <Content ignore="false" zipEntry="cert/{slug}.p12"/>
+  </Contents>
+</MissionPackageManifest>
+"""
+
+
+@app.route('/onboard')
+def page_onboard():
+    return render_template('onboard.html', page='onboard')
+
+
+@app.route('/api/onboard/config')
+def onboard_config():
+    cfg = _onboard_cfg()
+    missing = []
+    if not cfg['host']:
+        missing.append('TAK_CONNECT_HOST')
+    if not cfg['cert_dir']:
+        missing.append('TAK_CERT_DIR')
+    elif not os.path.isdir(cfg['cert_dir']):
+        missing.append('TAK_CERT_DIR (not a directory)')
+    elif not _find_truststore(cfg['cert_dir']):
+        missing.append('truststore-root.p12 not found in TAK_CERT_DIR')
+    return jsonify({
+        'configured': not missing,
+        'missing': missing,
+        'host': cfg['host'] or None,
+        'port': cfg['port'],
+        'server_name': cfg['server_name'],
+        'can_mint': bool(cfg['makecert']),
+        'mesh_url': cfg['mesh_url'] or None,
+        'wifi_ssid': cfg['wifi_ssid'] or None,
+        'wifi_psk': cfg['wifi_psk'] or None,
+    })
+
+
+@app.route('/api/onboard/package', methods=['POST'])
+def onboard_package():
+    cfg = _onboard_cfg()
+    data = request.get_json(force=True, silent=True) or {}
+    callsign = str(data.get('callsign') or '').strip()
+    slug = _re.sub(r'[^A-Za-z0-9_-]+', '-', callsign).strip('-')
+    if not callsign or not SLUG_RE.match(slug):
+        return jsonify({'ok': False, 'error': 'callsign must be 1-32 letters/numbers/dashes'}), 400
+    if not cfg['host'] or not cfg['cert_dir'] or not os.path.isdir(cfg['cert_dir']):
+        return jsonify({'ok': False, 'error': 'onboarding not configured (see /api/onboard/config)'}), 400
+
+    truststore = _find_truststore(cfg['cert_dir'])
+    if not truststore:
+        return jsonify({'ok': False, 'error': f'no truststore*.p12 in {cfg["cert_dir"]}'}), 400
+
+    client_p12 = os.path.join(cfg['cert_dir'], f'{slug}.p12')
+    minted = False
+    if not os.path.exists(client_p12):
+        if not cfg['makecert']:
+            return jsonify({'ok': False,
+                            'error': f'no cert for "{slug}" in TAK_CERT_DIR and TAK_MAKECERT not set — '
+                                     f'run makeCert.sh client {slug} on the TAK host first'}), 400
+        cmd = [a.replace('{name}', slug) for a in shlex.split(cfg['makecert'])]
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+        except (OSError, subprocess.TimeoutExpired) as e:
+            return jsonify({'ok': False, 'error': f'cert mint failed: {e}'}), 502
+        if not os.path.exists(client_p12):
+            tail = (res.stderr or res.stdout or '')[-400:]
+            return jsonify({'ok': False, 'error': f'cert mint ran but {slug}.p12 not found: {tail}'}), 502
+        minted = True
+
+    os.makedirs(ONBOARD_DIR, exist_ok=True)
+    fname = f'{slug}-{secrets.token_hex(4)}.zip'
+    with zipfile.ZipFile(os.path.join(ONBOARD_DIR, fname), 'w', zipfile.ZIP_DEFLATED) as zf:
+        zf.writestr('MANIFEST/manifest.xml', _enrollment_manifest(slug, cfg['server_name']))
+        zf.writestr(f'cert/{slug}.pref', _enrollment_pref(cfg, slug, callsign))
+        zf.write(truststore, 'cert/truststore-root.p12')
+        zf.write(client_p12, f'cert/{slug}.p12')
+
+    return jsonify({
+        'ok': True,
+        'callsign': callsign,
+        'slug': slug,
+        'minted': minted,
+        'file': fname,
+        'url': f'/api/onboard/download/{fname}',
+        'server': f"{cfg['host']}:{cfg['port']}:ssl",
+    })
+
+
+@app.route('/api/onboard/download/<fname>')
+def onboard_download(fname):
+    if not _re.match(r'^[A-Za-z0-9_-]+-[0-9a-f]{8}\.zip$', fname):
+        abort(404)
+    path = os.path.join(ONBOARD_DIR, fname)
+    if not os.path.exists(path):
+        abort(404)
+    return send_file(path, mimetype='application/zip', as_attachment=True, download_name=fname)
+
+
 # ── API: macro data ───────────────────────────────────────────────────────────
 @app.route('/api/macro', methods=['GET'])
 def api_macro():
