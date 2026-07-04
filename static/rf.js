@@ -600,14 +600,13 @@ function bindSettings() {
     map.invalidateSize();
   });
 
-  document.getElementById('rf-export').addEventListener('click', async () => {
-    if (!nodes.length) { alert('No nodes to export yet.'); return; }
-    const payload = {
+  function planPayload(withSheds) {
+    return {
       freqMHz: settings.freqMHz,
       rxH: settings.rxH,
       nodes: nodes.map(n => ({
         name: n.name, lat: n.lat, lon: n.lon, h: n.h, radiusKm: n.radiusKm,
-        groundElev: n.groundElev, shed: n.shed || null,
+        groundElev: n.groundElev, shed: withSheds ? (n.shed || null) : null,
       })),
       links: [...links.values()].map(l => ({
         a: l.profile.a.name, b: l.profile.b.name,
@@ -616,6 +615,44 @@ function bindSettings() {
         distKm: l.profile.D / 1000, verdict: l.verdict,
       })),
     };
+  }
+
+  // TAK push button: enabled only when the server has certs configured
+  const takBtn = document.getElementById('rf-takpush');
+  const takHint = document.getElementById('rf-tak-hint');
+  fetch('/api/rf/tak/status').then(r => r.json()).then(s => {
+    if (s.configured) {
+      takBtn.disabled = false;
+      takBtn.title = `Send planned-node markers to TAK Server ${s.host}:${s.port}`;
+    } else {
+      takBtn.title = 'TAK push not configured on the server';
+      takHint.hidden = false;
+      takHint.textContent = `TAK push disabled — set ${s.missing.join(', ')} in the server environment (client cert via makeCert.sh).`;
+    }
+  }).catch(() => { takBtn.title = 'TAK status check failed'; });
+
+  takBtn.addEventListener('click', async () => {
+    if (!nodes.length) { alert('No nodes to push yet.'); return; }
+    setStatus('Pushing to TAK server…');
+    try {
+      const r = await fetch('/api/rf/tak/push', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(planPayload(false)),
+      });
+      const res = await r.json();
+      if (!r.ok || !res.ok) throw new Error(res.error || `push failed (${r.status})`);
+      alert(`Pushed ${res.pushed} planned marker(s) to TAK.`);
+    } catch (e) {
+      alert(e.message);
+    } finally {
+      setStatus('');
+    }
+  });
+
+  document.getElementById('rf-export').addEventListener('click', async () => {
+    if (!nodes.length) { alert('No nodes to export yet.'); return; }
+    const payload = planPayload(true);
     setStatus('Building KMZ…');
     try {
       const r = await fetch('/api/rf/export.kmz', {

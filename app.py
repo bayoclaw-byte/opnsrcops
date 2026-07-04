@@ -5,7 +5,7 @@ import os
 import shutil
 import zipfile
 import requests
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from xml.sax.saxutils import escape as xml_escape
 from flask import (Flask, jsonify, request, render_template, abort,
                    send_from_directory, send_file)
@@ -300,6 +300,143 @@ def rf_export_kmz():
     mem.seek(0)
     return send_file(mem, mimetype='application/vnd.google-earth.kmz',
                      as_attachment=True, download_name='rf-los-plan.kmz')
+
+
+# ── RF planner: push planned nodes to TAK Server as CoT ──────────────────────
+# Direct TLS to the TAK streaming port with a client cert (same pattern as
+# meshtak-bridge). Planned markers use RFPLAN-* uids — deliberately distinct
+# from the bridge's MESH-* scheme so its loop-prevention filters never match,
+# and stable across pushes so re-pushing updates markers in place.
+#
+# Config (environment):
+#   RF_TAK_HOST   TAK server host/IP (required to enable)
+#   RF_TAK_PORT   streaming port, default 8089
+#   RF_TAK_CERT   client cert PEM (e.g. from: makeCert.sh client rfplanner)
+#   RF_TAK_KEY    client key PEM
+#   RF_TAK_CA     CA chain PEM (server verification; empty = no verify)
+#   RF_TAK_STALE_H  marker stale time in hours, default 168 (7 days)
+import re as _re
+import socket
+
+
+def _tak_cfg():
+    return {
+        'host': os.environ.get('RF_TAK_HOST', '').strip(),
+        'port': int(os.environ.get('RF_TAK_PORT', '8089')),
+        'cert': os.environ.get('RF_TAK_CERT', '').strip(),
+        'key': os.environ.get('RF_TAK_KEY', '').strip(),
+        'ca': os.environ.get('RF_TAK_CA', '').strip(),
+        'stale_h': float(os.environ.get('RF_TAK_STALE_H', '168')),
+    }
+
+
+def _tak_missing(cfg):
+    missing = []
+    if not cfg['host']:
+        missing.append('RF_TAK_HOST')
+    for k in ('cert', 'key'):
+        if not cfg[k]:
+            missing.append(f'RF_TAK_{k.upper()}')
+        elif not os.path.exists(cfg[k]):
+            missing.append(f'RF_TAK_{k.upper()} (file not found)')
+    if cfg['ca'] and not os.path.exists(cfg['ca']):
+        missing.append('RF_TAK_CA (file not found)')
+    return missing
+
+
+def _cot_time(dt):
+    return dt.strftime('%Y-%m-%dT%H:%M:%S.') + f'{dt.microsecond // 1000:03d}Z'
+
+
+def _plan_uid(name):
+    slug = _re.sub(r'[^A-Za-z0-9_-]+', '-', str(name)).strip('-') or 'node'
+    return f'RFPLAN-{slug}'
+
+
+def _plan_event(n, freq, links, stale_h):
+    name = str(n.get('name') or 'Node')
+    uid = _plan_uid(name)
+    lat, lon = float(n['lat']), float(n['lon'])
+    hae = float(n.get('groundElev') or 0) + float(n.get('h') or 0)
+    t = datetime.now(timezone.utc)
+    stale = t + timedelta(hours=stale_h)
+
+    link_bits = []
+    for l in links:
+        pair = (str(l.get('a')), str(l.get('b')))
+        if name not in pair:
+            continue
+        other = pair[1] if pair[0] == name else pair[0]
+        link_bits.append(f"{other} {float(l.get('distKm') or 0):.1f}km {str(l.get('verdict', '?')).upper()}")
+    remarks = (f"PLANNED mesh node — ant {n.get('h')} m AGL, viewshed {n.get('radiusKm')} km, "
+               f"{freq} MHz. " + ('Links: ' + '; '.join(link_bits) if link_bits else 'No links evaluated.')
+               + ' (opnsrcops RF planner)')
+
+    esc = xml_escape
+    return (
+        f'<event version="2.0" uid="{uid}" type="b-m-p-s-m" how="h-g-i-g-o" '
+        f'time="{_cot_time(t)}" start="{_cot_time(t)}" stale="{_cot_time(stale)}">'
+        f'<point lat="{lat:.7f}" lon="{lon:.7f}" hae="{hae:.1f}" ce="10.0" le="9999999.0"/>'
+        f'<detail>'
+        f'<contact callsign="{esc(name)} (planned)"/>'
+        f'<color argb="-256"/>'
+        f'<archive/>'
+        f'<remarks>{esc(remarks)}</remarks>'
+        f'</detail></event>'
+    )
+
+
+@app.route('/api/rf/tak/status')
+def rf_tak_status():
+    cfg = _tak_cfg()
+    missing = _tak_missing(cfg)
+    return jsonify({
+        'configured': not missing,
+        'host': cfg['host'] or None,
+        'port': cfg['port'],
+        'missing': missing,
+    })
+
+
+@app.route('/api/rf/tak/push', methods=['POST'])
+def rf_tak_push():
+    import ssl
+    cfg = _tak_cfg()
+    missing = _tak_missing(cfg)
+    if missing:
+        return jsonify({'ok': False, 'error': f"TAK push not configured: set {', '.join(missing)}"}), 400
+
+    data = request.get_json(force=True, silent=True) or {}
+    nodes = data.get('nodes') or []
+    links = data.get('links') or []
+    freq = data.get('freqMHz') or '?'
+    if not nodes or len(nodes) > 200:
+        return jsonify({'ok': False, 'error': 'no nodes to push'}), 400
+
+    try:
+        events = [_plan_event(n, freq, links, cfg['stale_h']) for n in nodes]
+    except (KeyError, ValueError, TypeError) as e:
+        return jsonify({'ok': False, 'error': f'bad node payload: {e}'}), 400
+
+    ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+    ctx.load_cert_chain(cfg['cert'], cfg['key'])
+    ctx.check_hostname = False
+    if cfg['ca']:
+        ctx.load_verify_locations(cfg['ca'])
+        ctx.verify_mode = ssl.CERT_REQUIRED
+    else:
+        ctx.verify_mode = ssl.CERT_NONE
+
+    try:
+        with socket.create_connection((cfg['host'], cfg['port']), timeout=10) as raw:
+            with ctx.wrap_socket(raw, server_hostname=cfg['host']) as tls:
+                for ev in events:
+                    tls.sendall(ev.encode())
+    except (OSError, ssl.SSLError) as e:
+        return jsonify({'ok': False, 'error': f'TAK connection failed: {e}'}), 502
+
+    return jsonify({'ok': True, 'pushed': len(events),
+                    'uids': [_plan_uid(n.get('name') or 'Node') for n in nodes]})
 
 
 # ── API: macro data ───────────────────────────────────────────────────────────
