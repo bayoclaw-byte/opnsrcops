@@ -1,0 +1,16 @@
+● mosquitto.service - Mosquitto MQTT Broker
+     Loaded: loaded (/usr/lib/systemd/system/mosquitto.service; enabled; preset: enabled)
+     Active: active (running) since Sat 2026-06-27 15:11:44 CDT; 1 week 0 days ago
+       Docs: man:mosquitto.conf(5)
+             man:mosquitto(8)
+   Main PID: 1794 (mosquitto)
+      Tasks: 1 (limit: 76796)
+     Memory: 2.0M (peak: 2.8M)
+        CPU: 2min 26.540s
+     CGroup: /system.slice/mosquitto.service
+             └─1794 /usr/sbin/mosquitto -c /etc/mosquitto/mosquitto.conf
+
+Jun 27 15:11:44 bayo-serv systemd[1]: Starting mosquitto.service - Mosquitto MQTT Broker...
+Jun 27 15:11:44 bayo-serv mosquitto[1794]: 1782591104: Loading config file /etc/mosquitto/conf.d/sentinel.conf
+Jun 27 15:11:44 bayo-serv systemd[1]: Started mosquitto.service - Mosquitto MQTT Broker.
+---
